@@ -1,0 +1,19 @@
+{
+  "generatedBy": "probe_login.mjs",
+  "checkedAt": "2026-11-12T13:08:48.886Z",
+  "results": [
+    {
+      "name": "arcads",
+      "requestedUrl": "https://app.arcads.ai/dashboard",
+      "finalUrl": "https://app.arcads.ai/onboarding/attribution",
+      "redirected": false,
+      "needLogin": false,
+      "textLen": 257,
+      "title": "Arcads",
+      "sample": "1691517500qq@gmail.com | Logout | Where did you first hear about Arcads? | YouTube creator | Google search | X / Twitter | YouTube ad | AI (ChatGPT/Claude/etc) | Friend or colleague | Google ad | Instagram ad | LinkedIn | Po",
+      "gotoError": "",
+      "status": "LOGGED_IN_OR_PUBLIC"
+    }
+  ],
+  "note": "needLogin=true 必须停下来让用户登录；不得自行造登录流程或猜验证码"
+}

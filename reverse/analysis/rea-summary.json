@@ -1,0 +1,50 @@
+{
+ "input_dir": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/rea-input",
+ "input_files": 35,
+ "mode": "per-file",
+ "analyzed_js_files": 34,
+ "files_ok": 33,
+ "files_failed": 1,
+ "failed_files": [
+  "2ixnvjih1wvzt.js"
+ ],
+ "max_heap_mb": 4096,
+ "single_file_budget_s": 900,
+ "rea_exit": 0,
+ "duration_s": 1754.6,
+ "evidence_bytes": 227284044,
+ "tech_hits": {
+  "stripe": 28322,
+  "webpack": 5846,
+  "sse": 2177,
+  "next": 902,
+  "websocket": 110,
+  "react": 58,
+  "turbopack": 48,
+  "redux": 9,
+  "i18n": 6,
+  "three": 4,
+  "sentry": 3,
+  "antd": 3
+ },
+ "semantic_hits": {
+  "project": 2709,
+  "export": 1442,
+  "endpoint": 1257,
+  "request": 600,
+  "credit": 484,
+  "token": 445,
+  "fetch": 419,
+  "model": 260,
+  "response": 205,
+  "upload": 180,
+  "price": 122,
+  "websocket": 110,
+  "canvas": 92,
+  "subscription": 52,
+  "localstorage": 43,
+  "timeline": 13,
+  "authorization": 12
+ },
+ "note": "rea-input 共 35 件（34 业务 JS chunk + 1 CSS）；REA JS 分析器处理 34 个 JS，33 成功、1 失败（2ixnvjih1wvzt.js 在 900s 单文件预算下仍未收敛）。首轮 17/24 → 补全轮 33/34；原 7 个失败包中 6 个转成功，仅剩 1 个。"
+}

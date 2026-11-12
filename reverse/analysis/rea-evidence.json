@@ -1,0 +1,252 @@
+{
+ "mode": "per-file",
+ "input_dir": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/rea-input",
+ "files_total": 34,
+ "files_ok": 33,
+ "files_failed": [
+  {
+   "file": "2ixnvjih1wvzt.js",
+   "bytes": 544540,
+   "status": "failed",
+   "duration_s": 913.6,
+   "exit": 1,
+   "evidence_bytes": 0,
+   "error": "Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target."
+  }
+ ],
+ "total_evidence_bytes": 227284044,
+ "duration_s": 1754.6,
+ "tech_hits": {
+  "stripe": 28322,
+  "webpack": 5846,
+  "sse": 2177,
+  "next": 902,
+  "websocket": 110,
+  "react": 58,
+  "turbopack": 48,
+  "redux": 9,
+  "i18n": 6,
+  "three": 4,
+  "sentry": 3,
+  "antd": 3
+ },
+ "semantic_hits": {
+  "project": 2709,
+  "export": 1442,
+  "endpoint": 1257,
+  "request": 600,
+  "credit": 484,
+  "token": 445,
+  "fetch": 419,
+  "model": 260,
+  "response": 205,
+  "upload": 180,
+  "price": 122,
+  "websocket": 110,
+  "canvas": 92,
+  "subscription": 52,
+  "localstorage": 43,
+  "timeline": 13,
+  "authorization": 12
+ },
+ "evidence_index": [
+  {
+   "file": "0gaw_nbtlfkp7.js",
+   "evidence": "analysis/rea-evidence/0gaw_nbtlfkp7.js.json",
+   "evidence_bytes": 4528858,
+   "source_bytes": 67518
+  },
+  {
+   "file": "0kn7q9qwe55aq.js",
+   "evidence": "analysis/rea-evidence/0kn7q9qwe55aq.js.json",
+   "evidence_bytes": 3761712,
+   "source_bytes": 56392
+  },
+  {
+   "file": "0wn23v4b_tezt.js",
+   "evidence": "analysis/rea-evidence/0wn23v4b_tezt.js.json",
+   "evidence_bytes": 2620563,
+   "source_bytes": 24109
+  },
+  {
+   "file": "143888573.js",
+   "evidence": "analysis/rea-evidence/143888573.js.json",
+   "evidence_bytes": 6904969,
+   "source_bytes": 112339
+  },
+  {
+   "file": "162_iewo-akst.js",
+   "evidence": "analysis/rea-evidence/162_iewo-akst.js.json",
+   "evidence_bytes": 3203350,
+   "source_bytes": 46466
+  },
+  {
+   "file": "19ekwenty1wjj.js",
+   "evidence": "analysis/rea-evidence/19ekwenty1wjj.js.json",
+   "evidence_bytes": 2443615,
+   "source_bytes": 31760
+  },
+  {
+   "file": "1a6qwbp1h7k79.js",
+   "evidence": "analysis/rea-evidence/1a6qwbp1h7k79.js.json",
+   "evidence_bytes": 3951892,
+   "source_bytes": 60961
+  },
+  {
+   "file": "1r5s4-apsz6r7.js",
+   "evidence": "analysis/rea-evidence/1r5s4-apsz6r7.js.json",
+   "evidence_bytes": 2581378,
+   "source_bytes": 29255
+  },
+  {
+   "file": "1s65bzv6465hr.js",
+   "evidence": "analysis/rea-evidence/1s65bzv6465hr.js.json",
+   "evidence_bytes": 2558795,
+   "source_bytes": 27818
+  },
+  {
+   "file": "1tget77wi4xtj.js",
+   "evidence": "analysis/rea-evidence/1tget77wi4xtj.js.json",
+   "evidence_bytes": 3252285,
+   "source_bytes": 42654
+  },
+  {
+   "file": "21fxxjks_usoz.js",
+   "evidence": "analysis/rea-evidence/21fxxjks_usoz.js.json",
+   "evidence_bytes": 3675667,
+   "source_bytes": 37915
+  },
+  {
+   "file": "26dio4keg7x5l.js",
+   "evidence": "analysis/rea-evidence/26dio4keg7x5l.js.json",
+   "evidence_bytes": 4379377,
+   "source_bytes": 68378
+  },
+  {
+   "file": "26mwnd5hm_53p.js",
+   "evidence": "analysis/rea-evidence/26mwnd5hm_53p.js.json",
+   "evidence_bytes": 6925180,
+   "source_bytes": 157483
+  },
+  {
+   "file": "29gqqkjrhea9d.js",
+   "evidence": "analysis/rea-evidence/29gqqkjrhea9d.js.json",
+   "evidence_bytes": 3070894,
+   "source_bytes": 42947
+  },
+  {
+   "file": "2_6mitb_441ob.js",
+   "evidence": "analysis/rea-evidence/2_6mitb_441ob.js.json",
+   "evidence_bytes": 2445509,
+   "source_bytes": 29093
+  },
+  {
+   "file": "2apl0snz0wit5.js",
+   "evidence": "analysis/rea-evidence/2apl0snz0wit5.js.json",
+   "evidence_bytes": 3644524,
+   "source_bytes": 40241
+  },
+  {
+   "file": "2e_l8wsapyxcm.js",
+   "evidence": "analysis/rea-evidence/2e_l8wsapyxcm.js.json",
+   "evidence_bytes": 6428761,
+   "source_bytes": 154864
+  },
+  {
+   "file": "2ub59fy_2i454.js",
+   "evidence": "analysis/rea-evidence/2ub59fy_2i454.js.json",
+   "evidence_bytes": 3481553,
+   "source_bytes": 50894
+  },
+  {
+   "file": "2x669bobi7-9_.js",
+   "evidence": "analysis/rea-evidence/2x669bobi7-9_.js.json",
+   "evidence_bytes": 8219136,
+   "source_bytes": 173415
+  },
+  {
+   "file": "2ymtu4wdqg7vz.js",
+   "evidence": "analysis/rea-evidence/2ymtu4wdqg7vz.js.json",
+   "evidence_bytes": 3639298,
+   "source_bytes": 53253
+  },
+  {
+   "file": "33aagglnpy5gk.js",
+   "evidence": "analysis/rea-evidence/33aagglnpy5gk.js.json",
+   "evidence_bytes": 2584283,
+   "source_bytes": 28764
+  },
+  {
+   "file": "35y1a7r6hhmyj.js",
+   "evidence": "analysis/rea-evidence/35y1a7r6hhmyj.js.json",
+   "evidence_bytes": 2938262,
+   "source_bytes": 40945
+  },
+  {
+   "file": "36uc_rrtepudd.js",
+   "evidence": "analysis/rea-evidence/36uc_rrtepudd.js.json",
+   "evidence_bytes": 7672391,
+   "source_bytes": 169458
+  },
+  {
+   "file": "3bzd7pat927hy.js",
+   "evidence": "analysis/rea-evidence/3bzd7pat927hy.js.json",
+   "evidence_bytes": 15072128,
+   "source_bytes": 415496
+  },
+  {
+   "file": "3i3_h784q36n6.js",
+   "evidence": "analysis/rea-evidence/3i3_h784q36n6.js.json",
+   "evidence_bytes": 2802545,
+   "source_bytes": 27904
+  },
+  {
+   "file": "app_tooltips-modern.2959f864.js",
+   "evidence": "analysis/rea-evidence/app_tooltips-modern.2959f864.js.json",
+   "evidence_bytes": 14742338,
+   "source_bytes": 365972
+  },
+  {
+   "file": "frame-modern.2762eddb.js",
+   "evidence": "analysis/rea-evidence/frame-modern.2762eddb.js.json",
+   "evidence_bytes": 19266297,
+   "source_bytes": 575566
+  },
+  {
+   "file": "main.MTkyOWEyMGMwMQ.js",
+   "evidence": "analysis/rea-evidence/main.MTkyOWEyMGMwMQ.js.json",
+   "evidence_bytes": 17096614,
+   "source_bytes": 501429
+  },
+  {
+   "file": "oaiq.min.js",
+   "evidence": "analysis/rea-evidence/oaiq.min.js.json",
+   "evidence_bytes": 5655579,
+   "source_bytes": 117778
+  },
+  {
+   "file": "sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "evidence": "analysis/rea-evidence/sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js.json",
+   "evidence_bytes": 19022118,
+   "source_bytes": 499262
+  },
+  {
+   "file": "stripe.js",
+   "evidence": "analysis/rea-evidence/stripe.js.json",
+   "evidence_bytes": 20910848,
+   "source_bytes": 1194515
+  },
+  {
+   "file": "ui-web-en-web.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "evidence": "analysis/rea-evidence/ui-web-en-web.6be5dfc02bbd61b83a465667402bfd77489a7a04.js.json",
+   "evidence_bytes": 8003631,
+   "source_bytes": 261495
+  },
+  {
+   "file": "vendor-modern.e5315bcd.js",
+   "evidence": "analysis/rea-evidence/vendor-modern.e5315bcd.js.json",
+   "evidence_bytes": 9799694,
+   "source_bytes": 277617
+  }
+ ]
+}

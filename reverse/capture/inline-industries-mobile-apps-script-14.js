@@ -1,0 +1,1 @@
+window.amplitude.init(google_tag_manager["rm"]["178795652"](521),{fetchRemoteConfig:!0,autocapture:!0});amplitude.setOptOut(google_tag_manager["rm"]["178795652"](532));

@@ -1,0 +1,1592 @@
+# 2ixnvjih1wvzt.js
+- budget=900s heap=4096MiB
+```
+error: JavaScript application analysis failed
+code: cleanup_incomplete
+category: timeout
+message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+retryable: false
+remediation:
+  action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+details:
+  operation: analyze_javascript_application
+  timeout_ms: 900000
+  limit:
+    setting: javascript.analysis_timeout_ms
+    effective_value: 900000
+    unit: ms
+    minimum: 1
+    maximum: 2147483647
+    applies_at: next_operation
+    agent_editable: true
+    scope: rea-runtime
+    rea_restart_required: false
+    parameter: analysis_timeout_ms
+  diagnostics:
+    primary_error:
+      code: cleanup_incomplete
+      category: timeout
+      message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+      retryable: false
+      remediation:
+        action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+      details:
+        operation: analyze_javascript_application
+        timeout_ms: 900000
+        limit:
+          setting: javascript.analysis_timeout_ms
+          effective_value: 900000
+          unit: ms
+          minimum: 1
+          maximum: 2147483647
+          applies_at: next_operation
+          agent_editable: true
+          scope: rea-runtime
+          rea_restart_required: false
+          parameter: analysis_timeout_ms
+        diagnostics:
+          primary_error:
+            code: cleanup_incomplete
+            category: timeout
+            message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+            retryable: false
+            remediation:
+              action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+            details:
+              operation: analyze_javascript_application
+              timeout_ms: 900000
+              limit:
+                setting: javascript.analysis_timeout_ms
+                effective_value: 900000
+                unit: ms
+                minimum: 1
+                maximum: 2147483647
+                applies_at: next_operation
+                agent_editable: true
+                scope: rea-runtime
+                rea_restart_required: false
+                parameter: analysis_timeout_ms
+              diagnostics:
+                reason: "process table could not be inspected: spawn EPERM"
+                worker_pid: 75884
+                execution_failure:
+                  tag: AnalysisTimeoutError
+                  message: "Analysis operation timed out after 900000ms: analyze_javascript_application"
+                  captured_output:
+                    stdout: ""
+                    stderr: ""
+                    truncated: true
+              cleanup: incomplete
+              resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+              execution_failure: provider_timeout
+          cleanup_error:
+            code: cleanup_incomplete
+            category: timeout
+            message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+            retryable: false
+            remediation:
+              action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+            details:
+              operation: analyze_javascript_application
+              timeout_ms: 900000
+              limit:
+                setting: javascript.analysis_timeout_ms
+                effective_value: 900000
+                unit: ms
+                minimum: 1
+                maximum: 2147483647
+                applies_at: next_operation
+                agent_editable: true
+                scope: rea-runtime
+                rea_restart_required: false
+                parameter: analysis_timeout_ms
+              diagnostics:
+                reason: "process table could not be inspected: spawn EPERM"
+                worker_pid: 75884
+                execution_failure:
+                  tag: AnalysisTimeoutError
+                  message: "Analysis operation timed out after 900000ms: analyze_javascript_application"
+                  captured_output:
+                    stdout: ""
+                    stderr: ""
+                    truncated: true
+              cleanup: incomplete
+              resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+              execution_failure: provider_timeout
+        cleanup: incomplete
+        resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+        cleanup_reason: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+        execution_failure: provider_timeout
+        partial_observation:
+          evidence_id: ev_d635d3e490c1ad28caf6832bba47b01bcf58cadc8c6aa055aec83d8da81e22eb
+          subject:
+            name: rea-one-6th0xoro
+            digest:
+              sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+            local_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+            format: directory
+            architecture: null
+          provider:
+            id: rea-javascript-application
+            name: REA JavaScript application analyzer
+            version: "1"
+          analysis_profile: null
+          predicate_type: rea.javascript-application-analysis
+          operation: analyze_javascript_application
+          parameters:
+            input_path: /var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+            format: auto
+            integrity_policy: fail
+            max_semantic_nodes: 8000
+            max_semantic_nodes_per_file: 1200
+            max_heap_mb: 4096
+            analysis_timeout_ms: 900000
+          raw_result: null
+          normalized_result:
+            input_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+            format: directory
+            root_artifact_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+            inventory_manifest_id: agm_69d425a1364129b063a677a43f2da5606144113f750517f49eb21490f6171336
+            inventory_graph_sha256: 41d5e60939d450aed79b963ddfa20cdf9c15de8f73d15ccfb0576c968672ed42
+            integrity_contradictions: []
+            graph:
+              schema: JavaScriptApplicationGraph
+              root_node_ids[1]: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+              nodes[3]:
+                - node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+                  kind: javascript-asset
+                  identity:
+                    strategy: content-digest
+                    stability: global-exact
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  observations[1]:
+                    - label: 2ixnvjih1wvzt.js
+                      source_map_reference: null
+                      properties:
+                        file_occurrence:
+                          container_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                          path: 2ixnvjih1wvzt.js
+                          sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                        path: 2ixnvjih1wvzt.js
+                        bytes: 544540
+                        inventory_artifact_id: art_74ad0fab859918f457fb6c46da17fd68a351f56e6ca1ab993b4592b3b865a44d
+                        unpacked: false
+                        file_kind: javascript
+                        text_status: included
+                        parse_status: skipped
+                        analysis_coverage:
+                          syntax:
+                            status: not-examined
+                            error_count: null
+                          semantics:
+                            unknown_findings: null
+                            uncertainty: []
+                          examination:
+                            status: not-examined
+                            semantic_resource_limits: []
+                            electron_call_paths_limited: false
+                          applicability:
+                            electron: unknown
+                          unexamined_reason: JavaScript analysis did not complete.
+                        json_parse_status: null
+                        json_top_level_keys: []
+                        omitted_json_top_level_keys: 0
+                        vendor_markers: []
+                      evidence:
+                        authority: artifact-bytes
+                        state: observed
+                        confidence: exact
+                        artifact:
+                          available: true
+                          artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                          sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                        location:
+                          available: true
+                          value:
+                            kind: artifact-path
+                            path: 2ixnvjih1wvzt.js
+                        extractor:
+                          name: rea-javascript-artifact-reconstruction
+                          version: "1"
+                          operation: inventory-relevant-file
+                          executable_sha256: null
+                        coverage:
+                          status: complete
+                          truncated: false
+                          omitted_count: 0
+                          limits: []
+                        limitations: []
+                        evidence_ids: []
+                      observation_id: jag_observation_8b0d0706be34eb0693407c86d6ee2e9a2e335c63c44fa3befffbe71aa1f21507
+                      identifier_strategy:
+                        strategy: semantic-content-sha256
+                        stability: observation-exact
+                - node_id: jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+                  kind: unknown
+                  identity:
+                    strategy: artifact-local-key
+                    stability: artifact-version
+                    artifact_sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    namespace: static-parse-scope
+                    key: "analyze-javascript-source:2ixnvjih1wvzt.js"
+                  observations[1]:
+                    - label: 2ixnvjih1wvzt.js parse scope
+                      source_map_reference: null
+                      properties:
+                        analysis_status: interrupted
+                        path: 2ixnvjih1wvzt.js
+                        operation: analyze-javascript-source
+                        limitation: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                        analysis_failure:
+                          code: cleanup_incomplete
+                          category: timeout
+                          message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+                          retryable: false
+                          remediation:
+                            action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+                          details:
+                            operation: analyze_javascript_application
+                            timeout_ms: 900000
+                            limit:
+                              setting: javascript.analysis_timeout_ms
+                              effective_value: 900000
+                              unit: ms
+                              minimum: 1
+                              maximum: 2147483647
+                              applies_at: next_operation
+                              agent_editable: true
+                              scope: rea-runtime
+                              rea_restart_required: false
+                              parameter: analysis_timeout_ms
+                            diagnostics:
+                              reason: "process table could not be inspected: spawn EPERM"
+                              worker_pid: 75884
+                              execution_failure:
+                                tag: AnalysisTimeoutError
+                                message: "Analysis operation timed out after 900000ms: analyze_javascript_application"
+                                captured_output:
+                                  stdout: ""
+                                  stderr: ""
+                                  truncated: true
+                            cleanup: incomplete
+                            resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+                            execution_failure: provider_timeout
+                      evidence:
+                        authority: ast-static-analysis
+                        state: unavailable
+                        confidence: unknown
+                        artifact:
+                          available: true
+                          artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                          sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                        location:
+                          available: true
+                          value:
+                            kind: artifact-path
+                            path: 2ixnvjih1wvzt.js
+                        extractor:
+                          name: rea-javascript-artifact-reconstruction
+                          version: "1"
+                          operation: analyze-javascript-source
+                          executable_sha256: null
+                        coverage:
+                          status: partial
+                          truncated: false
+                          omitted_count: null
+                          limits: []
+                        limitations[1]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                        evidence_ids: []
+                      observation_id: jag_observation_c7a0f87acb81967efc66b426aaf63b443f0954456a3cb0a9fc8690f0fce1af42
+                      identifier_strategy:
+                        strategy: semantic-content-sha256
+                        stability: observation-exact
+                - node_id: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+                  kind: artifact
+                  identity:
+                    strategy: content-digest
+                    stability: global-exact
+                    sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                  observations[1]:
+                    - label: artifact root
+                      source_map_reference: null
+                      properties:
+                        format: directory
+                        bytes: 0
+                        inventory_manifest_id: agm_69d425a1364129b063a677a43f2da5606144113f750517f49eb21490f6171336
+                        inventory_graph_sha256: 41d5e60939d450aed79b963ddfa20cdf9c15de8f73d15ccfb0576c968672ed42
+                        inventory_artifact_id: art_d3253316ba7271e3721e420bb196f78b18f9b1c02f9bced754fa15518b66051d
+                      evidence:
+                        authority: artifact-bytes
+                        state: observed
+                        confidence: exact
+                        artifact:
+                          available: true
+                          artifact_id: art_9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                          sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                        location:
+                          available: true
+                          value:
+                            kind: artifact-path
+                            path: artifact-root
+                        extractor:
+                          name: rea-javascript-artifact-reconstruction
+                          version: "1"
+                          operation: inventory-root
+                          executable_sha256: null
+                        coverage:
+                          status: complete
+                          truncated: false
+                          omitted_count: 0
+                          limits: []
+                        limitations[1]: artifact-root is a path-independent alias; the application result retains the canonical local input path.
+                        evidence_ids: []
+                      observation_id: jag_observation_9835800653420694fd317da1115ea02264d4a24ddb1cef005fa531e58c9d7115
+                      identifier_strategy:
+                        strategy: semantic-content-sha256
+                        stability: observation-exact
+              edges[2]:
+                - source_node_id: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+                  target_node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+                  relation: contains
+                  properties:
+                    path: 2ixnvjih1wvzt.js
+                  evidence:
+                    authority: artifact-bytes
+                    state: observed
+                    confidence: exact
+                    artifact:
+                      available: true
+                      artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                      sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                    extractor:
+                      name: rea-javascript-artifact-reconstruction
+                      version: "1"
+                      operation: inventory-file
+                      executable_sha256: null
+                    coverage:
+                      status: complete
+                      truncated: false
+                      omitted_count: 0
+                      limits: []
+                    limitations: []
+                    evidence_ids: []
+                  edge_id: jag_edge_7bf5dc77ca1dc228a920bb46fb7da26046f1b91f86a9c7c56380af8a04f7416c
+                  identifier_strategy:
+                    strategy: semantic-content-sha256
+                    stability: relationship-exact
+                - source_node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+                  target_node_id: jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+                  relation: contains
+                  properties:
+                    scope: unavailable-static-analysis
+                  evidence:
+                    authority: artifact-bytes
+                    state: observed
+                    confidence: exact
+                    artifact:
+                      available: true
+                      artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                      sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                    extractor:
+                      name: rea-javascript-artifact-reconstruction
+                      version: "1"
+                      operation: associate-unavailable-parse-scope
+                      executable_sha256: null
+                    coverage:
+                      status: complete
+                      truncated: false
+                      omitted_count: 0
+                      limits: []
+                    limitations: []
+                    evidence_ids: []
+                  edge_id: jag_edge_a6386e3a58e1691a9be029891704c39393475370a661a9216c2bf770e03062b9
+                  identifier_strategy:
+                    strategy: semantic-content-sha256
+                    stability: relationship-exact
+              coverage:
+                status: partial
+                truncated: false
+                omitted_count: null
+                limits: []
+              limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+              graph_id: jag_09ecb3dea68854ca7171214ea2dfae553cb67b893dd03d18e5e5a209ef5f3faf
+            summary:
+              browser_windows: 0
+              explicit_web_preferences: 0
+              preload_entrypoints: 0
+              context_bridge_apis: 0
+              exposed_api_members: 0
+              ipc:
+                operations: 0
+                literal_channels: 0
+                dynamic_channel_operations: 0
+                renderer_transmissions: 0
+                renderer_listeners: 0
+                main_handlers: 0
+                paired_renderer_transmissions: 0
+                ambiguous_renderer_transmissions: 0
+                unpaired_literal_renderer_transmissions: 0
+              sender_validation_observations: 0
+              utility_processes: 0
+              resolved_utility_entrypoints: 0
+              native_addon_bindings: 0
+              resolved_native_addon_bindings: 0
+            statistics:
+              relevant_files: 1
+              nested_asar_containers: 0
+              text_bytes_read: 544540
+              invalid_utf8_files: 0
+              parsed_javascript_files: 0
+              skipped_javascript_files: 1
+              visited_ast_nodes: 0
+              findings: 0
+              modules: 0
+              parse_failures: 0
+            limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+            semantic_graph:
+              schema: JavaScriptSemanticRelationGraph
+              root_artifact_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+              application_graph_id: jag_09ecb3dea68854ca7171214ea2dfae553cb67b893dd03d18e5e5a209ef5f3faf
+              root_node_ids[1]: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+              evidence_contexts[2]:
+                - authority: unknown
+                  state: unknown
+                  confidence: unknown
+                  artifact:
+                    available: true
+                    artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  extractor:
+                    name: rea-javascript-semantic-analysis
+                    version: "1"
+                    operation: analyze_javascript_application
+                    executable_sha256: null
+                  coverage:
+                    status: partial
+                    truncated: false
+                    omitted_count: null
+                    limits: []
+                  limitations[1]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  evidence_ids: []
+                  context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                - authority: ast-static-analysis
+                  state: observed
+                  confidence: exact
+                  artifact:
+                    available: true
+                    artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  extractor:
+                    name: rea-javascript-semantic-analysis
+                    version: "1"
+                    operation: analyze_javascript_application
+                    executable_sha256: null
+                  coverage:
+                    status: complete
+                    truncated: false
+                    omitted_count: 0
+                    limits: []
+                  limitations: []
+                  evidence_ids: []
+                  context_id: jsrg_evidence_f9d7a53066bd8c834d3123caf7838a04484785e8d6dcdeecc41b6206e5e30f12
+              nodes[1]:
+                - kind: module
+                  identity:
+                    artifact_sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    module_path: 2ixnvjih1wvzt.js
+                    source_range: null
+                    role_key: module
+                  function_node_id: null
+                  application_node_ids[2]: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24,jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+                  label: 2ixnvjih1wvzt.js
+                  properties:
+                  evidence:
+                    context_id: jsrg_evidence_f9d7a53066bd8c834d3123caf7838a04484785e8d6dcdeecc41b6206e5e30f12
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+              relations: []
+              fingerprints: []
+              unknowns[12]:
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: call-flow
+                  relation_kinds[3]: argument-to-parameter,calls,returns-to-call
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_0b7d6dc03fa4504f57ba724916b0d9cf624e21f1f470fb94f4f1e0f400c37842
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: child-process
+                  relation_kinds[7]: connects-stdio,forwards-signal,listens-error,listens-exit,spawns,supplies-argv,supplies-env
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_3aa4beb79609b45480f28042a600bb262eddb265f4b90c033d8defdb5cd54f55
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: event
+                  relation_kinds[3]: dispatches-candidate,registers-listener,removes-listener
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_42c48ff881b948452aeb330e41c6d0f6f508f2cafd1e3f24d0e83ff3355b3e7d
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: closure
+                  relation_kinds[1]: captures
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_6c17e5e5e1facd75501f80c110a5e156a4c85c02e84b79e4d07ac3fc7690cfe6
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: object-flow
+                  relation_kinds[4]: destructures,reads-property,spreads,writes-property
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_961515e2e049191bdad370240bf041bbea738a65aec20aacf471e56920895f67
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: resource-lifecycle
+                  relation_kinds[2]: acquires,releases
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_9f734fd4c9a529cee0e066db6da3dd756794e9c07eb5b0a844c6aa35133ba97e
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: request
+                  relation_kinds[3]: constructs-request,consumed-by,supplies-request-field
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_b428af0b8d7db71e5b32d8352789aa47e380737d8dea6be305fdd5a5af68ec3c
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: promise-ownership
+                  relation_kinds[7]: aggregates,awaits,chains,creates-promise,detaches-task,owns,returns-task
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_b954a6181efc8c575b4374381462d5e2ae937d3c6f1ac3c0847134b919a87b63
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: timer
+                  relation_kinds[2]: cancels-timer,schedules-timer
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_d794f7afeafa055c10759ce18be81f9f86572d92402f1ff9e901ea52186ef9a5
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: configuration
+                  relation_kinds[5]: defaults,overrides,reads-argv,reads-config,reads-environment
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_dc137e6be3cdb3eb1276e289c858b70b97266f90faec1cfb06382b927125df3a
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: data-flow
+                  relation_kinds[4]: aliases,defines,reads,writes
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_eb92a1e51d6d8604530a759ed2239a76796d04ac69e46dcd8e29e43b0c49de1e
+                - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+                  family: boundary
+                  relation_kinds[3]: coerces,parses,validates
+                  reason: incomplete-module
+                  detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  candidate_node_ids: []
+                  evidence:
+                    context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+                    location:
+                      available: true
+                      value:
+                        kind: artifact-path
+                        path: 2ixnvjih1wvzt.js
+                  unknown_id: jsrg_unknown_eba862f3985117076ac9a21bc6b1ca9bb63197849b0221a3cb272e93810dec83
+              coverage:
+                status: partial
+                truncated: false
+                omitted_nodes: null
+                omitted_relations: null
+                limits: []
+                families[12]:
+                  - family: boundary
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_eba862f3985117076ac9a21bc6b1ca9bb63197849b0221a3cb272e93810dec83
+                  - family: call-flow
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_0b7d6dc03fa4504f57ba724916b0d9cf624e21f1f470fb94f4f1e0f400c37842
+                  - family: child-process
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_3aa4beb79609b45480f28042a600bb262eddb265f4b90c033d8defdb5cd54f55
+                  - family: closure
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_6c17e5e5e1facd75501f80c110a5e156a4c85c02e84b79e4d07ac3fc7690cfe6
+                  - family: configuration
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_dc137e6be3cdb3eb1276e289c858b70b97266f90faec1cfb06382b927125df3a
+                  - family: data-flow
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_eb92a1e51d6d8604530a759ed2239a76796d04ac69e46dcd8e29e43b0c49de1e
+                  - family: event
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_42c48ff881b948452aeb330e41c6d0f6f508f2cafd1e3f24d0e83ff3355b3e7d
+                  - family: object-flow
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_961515e2e049191bdad370240bf041bbea738a65aec20aacf471e56920895f67
+                  - family: promise-ownership
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_b954a6181efc8c575b4374381462d5e2ae937d3c6f1ac3c0847134b919a87b63
+                  - family: request
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_b428af0b8d7db71e5b32d8352789aa47e380737d8dea6be305fdd5a5af68ec3c
+                  - family: resource-lifecycle
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_9f734fd4c9a529cee0e066db6da3dd756794e9c07eb5b0a844c6aa35133ba97e
+                  - family: timer
+                    status: partial
+                    retained_relations: 0
+                    omitted_relations: null
+                    unknown_ids[1]: jsrg_unknown_d794f7afeafa055c10759ce18be81f9f86572d92402f1ff9e901ea52186ef9a5
+              limitations[11]: Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.,"Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.","Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.","Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.,Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.,"Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.","Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.,The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.,"Timer extraction covers global or node:timers scheduling and exact local-handle cancellation."
+              graph_id: jsrg_d13df7399fb7ca2adfa9a427f7f7c437fb010a8a63940e501843ba2017b6b6ee
+            route_inventory:
+              inventory_id: "jsri:a5628b97d4e1b34584ebcc32b460586f20a63680d144db8cfef033b5bcb1705b"
+              source_manifest_sha256: b89e0ea8cdc8506fcf318bca75b8befcf800595c6686e3073b7735fd6104251f
+              sources[1]{id,key,path,url,sha256,container_sha256,status,reported_route_capacity,reason,base_path}:
+                "jss:63d23cff93356b7bf96314916d9069e3",2ixnvjih1wvzt.js,2ixnvjih1wvzt.js,null,9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692,9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca,unavailable,null,"2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",null
+              routes: []
+              occurrences: []
+              unknowns[1]{id,source_id,kind,source_range,reason}:
+                "jsg:8e6d2400ec1d0ccc2316d5f4e5d4da2c","jss:63d23cff93356b7bf96314916d9069e3",source-unavailable,null,"2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+              coverage:
+                scope: provided-code-sources
+                source_parsing: partial
+                candidate_enumeration: partial
+                application_routes: unknown
+              statistics:
+                sources_seen: 1
+                sources_retained: 1
+                route_patterns: 0
+                occurrences: 0
+                unanchored_literals_excluded: 0
+              capacity: null
+              limitations[4]: "Routes are static candidates from the provided code sources. Reachability, permissions, server-only routes and the complete application route set are unverified.",Pattern IDs are exact path identities within this inventory. Occurrence and source IDs retain source/content identity and precise syntax ranges; metadata-only discoveries have no AST range.,System classification is a path-name heuristic. Asset URL prefixes can differ from routing bases; inferred prefixes retain the original unprefixed path.,Unbound path strings require a top-level segment supported by structural routes or navigation candidates. Unknown or missing source facts do not establish route absence.
+          confidence: derived
+          authority: shipped-artifact
+          environment: null
+          limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+          relationship_coverage: null
+          locations[1]{kind,path}:
+            artifact-path,artifact-root
+          evidence_links: []
+    cleanup_error:
+      code: cleanup_incomplete
+      category: execution_failure
+      message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+      retryable: false
+      remediation:
+        action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+      details:
+        provider_id: rea-javascript-application
+        operation: analyze_javascript_application
+        cleanup: incomplete
+        resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+        diagnostics:
+          reason: Provider javascript-static-analysis adapter failed during analyze_javascript_application
+        execution_failure: execution_failure
+  cleanup: incomplete
+  resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+  cleanup_reason: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+  execution_failure: provider_timeout
+  partial_observation:
+    evidence_id: ev_d635d3e490c1ad28caf6832bba47b01bcf58cadc8c6aa055aec83d8da81e22eb
+    subject:
+      name: rea-one-6th0xoro
+      digest:
+        sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+      local_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+      format: directory
+      architecture: null
+    provider:
+      id: rea-javascript-application
+      name: REA JavaScript application analyzer
+      version: "1"
+    analysis_profile: null
+    predicate_type: rea.javascript-application-analysis
+    operation: analyze_javascript_application
+    parameters:
+      input_path: /var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+      format: auto
+      integrity_policy: fail
+      max_semantic_nodes: 8000
+      max_semantic_nodes_per_file: 1200
+      max_heap_mb: 4096
+      analysis_timeout_ms: 900000
+    raw_result: null
+    normalized_result:
+      input_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro
+      format: directory
+      root_artifact_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+      inventory_manifest_id: agm_69d425a1364129b063a677a43f2da5606144113f750517f49eb21490f6171336
+      inventory_graph_sha256: 41d5e60939d450aed79b963ddfa20cdf9c15de8f73d15ccfb0576c968672ed42
+      integrity_contradictions: []
+      graph:
+        schema: JavaScriptApplicationGraph
+        root_node_ids[1]: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+        nodes[3]:
+          - node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+            kind: javascript-asset
+            identity:
+              strategy: content-digest
+              stability: global-exact
+              sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+            observations[1]:
+              - label: 2ixnvjih1wvzt.js
+                source_map_reference: null
+                properties:
+                  file_occurrence:
+                    container_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                    path: 2ixnvjih1wvzt.js
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  path: 2ixnvjih1wvzt.js
+                  bytes: 544540
+                  inventory_artifact_id: art_74ad0fab859918f457fb6c46da17fd68a351f56e6ca1ab993b4592b3b865a44d
+                  unpacked: false
+                  file_kind: javascript
+                  text_status: included
+                  parse_status: skipped
+                  analysis_coverage:
+                    syntax:
+                      status: not-examined
+                      error_count: null
+                    semantics:
+                      unknown_findings: null
+                      uncertainty: []
+                    examination:
+                      status: not-examined
+                      semantic_resource_limits: []
+                      electron_call_paths_limited: false
+                    applicability:
+                      electron: unknown
+                    unexamined_reason: JavaScript analysis did not complete.
+                  json_parse_status: null
+                  json_top_level_keys: []
+                  omitted_json_top_level_keys: 0
+                  vendor_markers: []
+                evidence:
+                  authority: artifact-bytes
+                  state: observed
+                  confidence: exact
+                  artifact:
+                    available: true
+                    artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  location:
+                    available: true
+                    value:
+                      kind: artifact-path
+                      path: 2ixnvjih1wvzt.js
+                  extractor:
+                    name: rea-javascript-artifact-reconstruction
+                    version: "1"
+                    operation: inventory-relevant-file
+                    executable_sha256: null
+                  coverage:
+                    status: complete
+                    truncated: false
+                    omitted_count: 0
+                    limits: []
+                  limitations: []
+                  evidence_ids: []
+                observation_id: jag_observation_8b0d0706be34eb0693407c86d6ee2e9a2e335c63c44fa3befffbe71aa1f21507
+                identifier_strategy:
+                  strategy: semantic-content-sha256
+                  stability: observation-exact
+          - node_id: jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+            kind: unknown
+            identity:
+              strategy: artifact-local-key
+              stability: artifact-version
+              artifact_sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              namespace: static-parse-scope
+              key: "analyze-javascript-source:2ixnvjih1wvzt.js"
+            observations[1]:
+              - label: 2ixnvjih1wvzt.js parse scope
+                source_map_reference: null
+                properties:
+                  analysis_status: interrupted
+                  path: 2ixnvjih1wvzt.js
+                  operation: analyze-javascript-source
+                  limitation: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  analysis_failure:
+                    code: cleanup_incomplete
+                    category: timeout
+                    message: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+                    retryable: false
+                    remediation:
+                      action: Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.
+                    details:
+                      operation: analyze_javascript_application
+                      timeout_ms: 900000
+                      limit:
+                        setting: javascript.analysis_timeout_ms
+                        effective_value: 900000
+                        unit: ms
+                        minimum: 1
+                        maximum: 2147483647
+                        applies_at: next_operation
+                        agent_editable: true
+                        scope: rea-runtime
+                        rea_restart_required: false
+                        parameter: analysis_timeout_ms
+                      diagnostics:
+                        reason: "process table could not be inspected: spawn EPERM"
+                        worker_pid: 75884
+                        execution_failure:
+                          tag: AnalysisTimeoutError
+                          message: "Analysis operation timed out after 900000ms: analyze_javascript_application"
+                          captured_output:
+                            stdout: ""
+                            stderr: ""
+                            truncated: true
+                      cleanup: incomplete
+                      resources[2]: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11,/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+                      execution_failure: provider_timeout
+                evidence:
+                  authority: ast-static-analysis
+                  state: unavailable
+                  confidence: unknown
+                  artifact:
+                    available: true
+                    artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                    sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                  location:
+                    available: true
+                    value:
+                      kind: artifact-path
+                      path: 2ixnvjih1wvzt.js
+                  extractor:
+                    name: rea-javascript-artifact-reconstruction
+                    version: "1"
+                    operation: analyze-javascript-source
+                    executable_sha256: null
+                  coverage:
+                    status: partial
+                    truncated: false
+                    omitted_count: null
+                    limits: []
+                  limitations[1]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+                  evidence_ids: []
+                observation_id: jag_observation_c7a0f87acb81967efc66b426aaf63b443f0954456a3cb0a9fc8690f0fce1af42
+                identifier_strategy:
+                  strategy: semantic-content-sha256
+                  stability: observation-exact
+          - node_id: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+            kind: artifact
+            identity:
+              strategy: content-digest
+              stability: global-exact
+              sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+            observations[1]:
+              - label: artifact root
+                source_map_reference: null
+                properties:
+                  format: directory
+                  bytes: 0
+                  inventory_manifest_id: agm_69d425a1364129b063a677a43f2da5606144113f750517f49eb21490f6171336
+                  inventory_graph_sha256: 41d5e60939d450aed79b963ddfa20cdf9c15de8f73d15ccfb0576c968672ed42
+                  inventory_artifact_id: art_d3253316ba7271e3721e420bb196f78b18f9b1c02f9bced754fa15518b66051d
+                evidence:
+                  authority: artifact-bytes
+                  state: observed
+                  confidence: exact
+                  artifact:
+                    available: true
+                    artifact_id: art_9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                    sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+                  location:
+                    available: true
+                    value:
+                      kind: artifact-path
+                      path: artifact-root
+                  extractor:
+                    name: rea-javascript-artifact-reconstruction
+                    version: "1"
+                    operation: inventory-root
+                    executable_sha256: null
+                  coverage:
+                    status: complete
+                    truncated: false
+                    omitted_count: 0
+                    limits: []
+                  limitations[1]: artifact-root is a path-independent alias; the application result retains the canonical local input path.
+                  evidence_ids: []
+                observation_id: jag_observation_9835800653420694fd317da1115ea02264d4a24ddb1cef005fa531e58c9d7115
+                identifier_strategy:
+                  strategy: semantic-content-sha256
+                  stability: observation-exact
+        edges[2]:
+          - source_node_id: jag_node_a697402175542e38f4747b94492b78a5d1fe6e3b0b0a5550ed8d1e07a3e8ee59
+            target_node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+            relation: contains
+            properties:
+              path: 2ixnvjih1wvzt.js
+            evidence:
+              authority: artifact-bytes
+              state: observed
+              confidence: exact
+              artifact:
+                available: true
+                artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+              extractor:
+                name: rea-javascript-artifact-reconstruction
+                version: "1"
+                operation: inventory-file
+                executable_sha256: null
+              coverage:
+                status: complete
+                truncated: false
+                omitted_count: 0
+                limits: []
+              limitations: []
+              evidence_ids: []
+            edge_id: jag_edge_7bf5dc77ca1dc228a920bb46fb7da26046f1b91f86a9c7c56380af8a04f7416c
+            identifier_strategy:
+              strategy: semantic-content-sha256
+              stability: relationship-exact
+          - source_node_id: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24
+            target_node_id: jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+            relation: contains
+            properties:
+              scope: unavailable-static-analysis
+            evidence:
+              authority: artifact-bytes
+              state: observed
+              confidence: exact
+              artifact:
+                available: true
+                artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+                sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+              extractor:
+                name: rea-javascript-artifact-reconstruction
+                version: "1"
+                operation: associate-unavailable-parse-scope
+                executable_sha256: null
+              coverage:
+                status: complete
+                truncated: false
+                omitted_count: 0
+                limits: []
+              limitations: []
+              evidence_ids: []
+            edge_id: jag_edge_a6386e3a58e1691a9be029891704c39393475370a661a9216c2bf770e03062b9
+            identifier_strategy:
+              strategy: semantic-content-sha256
+              stability: relationship-exact
+        coverage:
+          status: partial
+          truncated: false
+          omitted_count: null
+          limits: []
+        limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+        graph_id: jag_09ecb3dea68854ca7171214ea2dfae553cb67b893dd03d18e5e5a209ef5f3faf
+      summary:
+        browser_windows: 0
+        explicit_web_preferences: 0
+        preload_entrypoints: 0
+        context_bridge_apis: 0
+        exposed_api_members: 0
+        ipc:
+          operations: 0
+          literal_channels: 0
+          dynamic_channel_operations: 0
+          renderer_transmissions: 0
+          renderer_listeners: 0
+          main_handlers: 0
+          paired_renderer_transmissions: 0
+          ambiguous_renderer_transmissions: 0
+          unpaired_literal_renderer_transmissions: 0
+        sender_validation_observations: 0
+        utility_processes: 0
+        resolved_utility_entrypoints: 0
+        native_addon_bindings: 0
+        resolved_native_addon_bindings: 0
+      statistics:
+        relevant_files: 1
+        nested_asar_containers: 0
+        text_bytes_read: 544540
+        invalid_utf8_files: 0
+        parsed_javascript_files: 0
+        skipped_javascript_files: 1
+        visited_ast_nodes: 0
+        findings: 0
+        modules: 0
+        parse_failures: 0
+      limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+      semantic_graph:
+        schema: JavaScriptSemanticRelationGraph
+        root_artifact_sha256: 9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca
+        application_graph_id: jag_09ecb3dea68854ca7171214ea2dfae553cb67b893dd03d18e5e5a209ef5f3faf
+        root_node_ids[1]: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+        evidence_contexts[2]:
+          - authority: unknown
+            state: unknown
+            confidence: unknown
+            artifact:
+              available: true
+              artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+            extractor:
+              name: rea-javascript-semantic-analysis
+              version: "1"
+              operation: analyze_javascript_application
+              executable_sha256: null
+            coverage:
+              status: partial
+              truncated: false
+              omitted_count: null
+              limits: []
+            limitations[1]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            evidence_ids: []
+            context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+          - authority: ast-static-analysis
+            state: observed
+            confidence: exact
+            artifact:
+              available: true
+              artifact_id: art_9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+            extractor:
+              name: rea-javascript-semantic-analysis
+              version: "1"
+              operation: analyze_javascript_application
+              executable_sha256: null
+            coverage:
+              status: complete
+              truncated: false
+              omitted_count: 0
+              limits: []
+            limitations: []
+            evidence_ids: []
+            context_id: jsrg_evidence_f9d7a53066bd8c834d3123caf7838a04484785e8d6dcdeecc41b6206e5e30f12
+        nodes[1]:
+          - kind: module
+            identity:
+              artifact_sha256: 9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692
+              module_path: 2ixnvjih1wvzt.js
+              source_range: null
+              role_key: module
+            function_node_id: null
+            application_node_ids[2]: jag_node_709a58feca621bd3820bff0a97252dd7db237f7a133b6b20490cab846119ba24,jag_node_a359be54b40486542631b3f19151568d1301869117d83cabd3495c3f65d08353
+            label: 2ixnvjih1wvzt.js
+            properties:
+            evidence:
+              context_id: jsrg_evidence_f9d7a53066bd8c834d3123caf7838a04484785e8d6dcdeecc41b6206e5e30f12
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+        relations: []
+        fingerprints: []
+        unknowns[12]:
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: call-flow
+            relation_kinds[3]: argument-to-parameter,calls,returns-to-call
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_0b7d6dc03fa4504f57ba724916b0d9cf624e21f1f470fb94f4f1e0f400c37842
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: child-process
+            relation_kinds[7]: connects-stdio,forwards-signal,listens-error,listens-exit,spawns,supplies-argv,supplies-env
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_3aa4beb79609b45480f28042a600bb262eddb265f4b90c033d8defdb5cd54f55
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: event
+            relation_kinds[3]: dispatches-candidate,registers-listener,removes-listener
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_42c48ff881b948452aeb330e41c6d0f6f508f2cafd1e3f24d0e83ff3355b3e7d
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: closure
+            relation_kinds[1]: captures
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_6c17e5e5e1facd75501f80c110a5e156a4c85c02e84b79e4d07ac3fc7690cfe6
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: object-flow
+            relation_kinds[4]: destructures,reads-property,spreads,writes-property
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_961515e2e049191bdad370240bf041bbea738a65aec20aacf471e56920895f67
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: resource-lifecycle
+            relation_kinds[2]: acquires,releases
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_9f734fd4c9a529cee0e066db6da3dd756794e9c07eb5b0a844c6aa35133ba97e
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: request
+            relation_kinds[3]: constructs-request,consumed-by,supplies-request-field
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_b428af0b8d7db71e5b32d8352789aa47e380737d8dea6be305fdd5a5af68ec3c
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: promise-ownership
+            relation_kinds[7]: aggregates,awaits,chains,creates-promise,detaches-task,owns,returns-task
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_b954a6181efc8c575b4374381462d5e2ae937d3c6f1ac3c0847134b919a87b63
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: timer
+            relation_kinds[2]: cancels-timer,schedules-timer
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_d794f7afeafa055c10759ce18be81f9f86572d92402f1ff9e901ea52186ef9a5
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: configuration
+            relation_kinds[5]: defaults,overrides,reads-argv,reads-config,reads-environment
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_dc137e6be3cdb3eb1276e289c858b70b97266f90faec1cfb06382b927125df3a
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: data-flow
+            relation_kinds[4]: aliases,defines,reads,writes
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_eb92a1e51d6d8604530a759ed2239a76796d04ac69e46dcd8e29e43b0c49de1e
+          - node_id: jsrg_node_245c7a2e3ddd41bac60bff906f5388e6076b84ccee8574546989aa171d05e6f9
+            family: boundary
+            relation_kinds[3]: coerces,parses,validates
+            reason: incomplete-module
+            detail: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+            candidate_node_ids: []
+            evidence:
+              context_id: jsrg_evidence_a450922d768a8d0278e9851ffe79d94f6e9eafa22bd4a1db2e10139c604acad3
+              location:
+                available: true
+                value:
+                  kind: artifact-path
+                  path: 2ixnvjih1wvzt.js
+            unknown_id: jsrg_unknown_eba862f3985117076ac9a21bc6b1ca9bb63197849b0221a3cb272e93810dec83
+        coverage:
+          status: partial
+          truncated: false
+          omitted_nodes: null
+          omitted_relations: null
+          limits: []
+          families[12]:
+            - family: boundary
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_eba862f3985117076ac9a21bc6b1ca9bb63197849b0221a3cb272e93810dec83
+            - family: call-flow
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_0b7d6dc03fa4504f57ba724916b0d9cf624e21f1f470fb94f4f1e0f400c37842
+            - family: child-process
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_3aa4beb79609b45480f28042a600bb262eddb265f4b90c033d8defdb5cd54f55
+            - family: closure
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_6c17e5e5e1facd75501f80c110a5e156a4c85c02e84b79e4d07ac3fc7690cfe6
+            - family: configuration
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_dc137e6be3cdb3eb1276e289c858b70b97266f90faec1cfb06382b927125df3a
+            - family: data-flow
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_eb92a1e51d6d8604530a759ed2239a76796d04ac69e46dcd8e29e43b0c49de1e
+            - family: event
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_42c48ff881b948452aeb330e41c6d0f6f508f2cafd1e3f24d0e83ff3355b3e7d
+            - family: object-flow
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_961515e2e049191bdad370240bf041bbea738a65aec20aacf471e56920895f67
+            - family: promise-ownership
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_b954a6181efc8c575b4374381462d5e2ae937d3c6f1ac3c0847134b919a87b63
+            - family: request
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_b428af0b8d7db71e5b32d8352789aa47e380737d8dea6be305fdd5a5af68ec3c
+            - family: resource-lifecycle
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_9f734fd4c9a529cee0e066db6da3dd756794e9c07eb5b0a844c6aa35133ba97e
+            - family: timer
+              status: partial
+              retained_relations: 0
+              omitted_relations: null
+              unknown_ids[1]: jsrg_unknown_d794f7afeafa055c10759ce18be81f9f86572d92402f1ff9e901ea52186ef9a5
+        limitations[11]: Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.,"Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.","Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.","Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.,Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.,"Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.","Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.,The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.,"Timer extraction covers global or node:timers scheduling and exact local-handle cancellation."
+        graph_id: jsrg_d13df7399fb7ca2adfa9a427f7f7c437fb010a8a63940e501843ba2017b6b6ee
+      route_inventory:
+        inventory_id: "jsri:a5628b97d4e1b34584ebcc32b460586f20a63680d144db8cfef033b5bcb1705b"
+        source_manifest_sha256: b89e0ea8cdc8506fcf318bca75b8befcf800595c6686e3073b7735fd6104251f
+        sources[1]{id,key,path,url,sha256,container_sha256,status,reported_route_capacity,reason,base_path}:
+          "jss:63d23cff93356b7bf96314916d9069e3",2ixnvjih1wvzt.js,2ixnvjih1wvzt.js,null,9c2b6d117df0567f60f4ea5c4f4b83884e4673b1295ad11b2e34ec12056ad692,9897cddf4a96539ca67e0109a142e66e6a290aac6b29ad5851b20e50b04661ca,unavailable,null,"2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",null
+        routes: []
+        occurrences: []
+        unknowns[1]{id,source_id,kind,source_range,reason}:
+          "jsg:8e6d2400ec1d0ccc2316d5f4e5d4da2c","jss:63d23cff93356b7bf96314916d9069e3",source-unavailable,null,"2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application"
+        coverage:
+          scope: provided-code-sources
+          source_parsing: partial
+          candidate_enumeration: partial
+          application_routes: unknown
+        statistics:
+          sources_seen: 1
+          sources_retained: 1
+          route_patterns: 0
+          occurrences: 0
+          unanchored_literals_excluded: 0
+        capacity: null
+        limitations[4]: "Routes are static candidates from the provided code sources. Reachability, permissions, server-only routes and the complete application route set are unverified.",Pattern IDs are exact path identities within this inventory. Occurrence and source IDs retain source/content identity and precise syntax ranges; metadata-only discoveries have no AST range.,System classification is a path-name heuristic. Asset URL prefixes can differ from routing bases; inferred prefixes retain the original unprefixed path.,Unbound path strings require a top-level segment supported by structural routes or navigation candidates. Unknown or missing source facts do not establish route absence.
+    confidence: derived
+    authority: shipped-artifact
+    environment: null
+    limitations[7]: "2ixnvjih1wvzt.js: Provider javascript-static-analysis adapter failed during analyze_javascript_application",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,"Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+    relationship_coverage: null
+    locations[1]{kind,path}:
+      artifact-path,artifact-root
+    evidence_links: []
+file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:179
+				throw new ArtifactResourceRetryFailure(failures.map(({ owner }) => ({
+				      ^
+
+ArtifactReaderFailure: Artifact cleanup remains incomplete: rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11, /var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD
+    at #drainAndRetry (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:179:11)
+    at async #finishClose (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:133:21)
+    at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7 {
+  reason: 'unavailable',
+  details: undefined,
+  cancellation: undefined,
+  cleanup: {
+    reason: 'Provider javascript-static-analysis adapter failed during analyze_javascript_application',
+    resources: [
+      'rea-javascript-analysis-860840e1-3528-42e2-9620-5fd04f95becf-9dff1b40-7fbc-48f8-ba6d-a2a323e5fd11',
+      '/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-javascript-analysis-XtrctD'
+    ]
+  },
+  cleanupLeases: [ AnalysisCleanupLease { cleanup: [Function (anonymous)] } ],
+  partialObservation: undefined,
+  boundary: undefined,
+  admission: undefined,
+  failedOwners: [
+    {
+      kind: 'javascript-source-analysis',
+      analysis: ScopeJavaScriptSourceAnalysis {
+        scope: ArtifactResourceScope {},
+        worker: JavaScriptAnalysisWorker {
+          limits: { heapMb: 4096, timeoutMs: 900000 },
+          launcher: [AsyncFunction: spawnOwnedProviderProcess]
+        }
+      },
+      resource: 'JavaScript source analyzer for /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-6th0xoro'
+    }
+  ],
+  [cause]: AggregateError: One or more artifact resources remain owned
+      at #drainAndRetry (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:183:13)
+      at async #finishClose (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:133:21)
+      at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7 {
+    [errors]: [
+      ProviderCleanupError: Provider javascript-static-analysis adapter failed during analyze_javascript_application
+          at #cleanupError (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2598:12)
+          at JavaScriptAnalysisWorker.close (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2233:39)
+          ... 5 lines matching cause stack trace ...
+          at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7 {
+        limit: undefined,
+        diagnostics: {
+          reason: 'process table could not be inspected: spawn EPERM',
+          worker_pid: 75884,
+          execution_failure: {
+            tag: 'AnalysisTimeoutError',
+            message: 'Analysis operation timed out after 900000ms: analyze_javascript_application',
+            captured_output: [Object]
+          }
+        },
+        capturedOutput: undefined,
+        cleanup: undefined,
+        cleanupIncomplete: true,
+        userMessage: 'Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.',
+        userCategory: undefined,
+        executionFailure: undefined,
+        partialObservation: undefined,
+        cleanupReport: undefined,
+        providerId: 'javascript-static-analysis',
+        operation: 'analyze_javascript_application',
+        _tag: 'ProviderAdapterError',
+        remediationAction: undefined,
+        [cause]: Error: process table could not be inspected: spawn EPERM
+            at #cleanupError (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2613:13)
+            at JavaScriptAnalysisWorker.close (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2233:39)
+            at async ScopeJavaScriptSourceAnalysis.close (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2729:6)
+            at async cleanup (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:215:6)
+            at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/AnalysisCleanupLease-DZIxbgES.js:41:6
+            at async #drainAndRetry (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:166:7)
+            at async #finishClose (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:133:21)
+            at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7 {
+          [cause]: AnalysisTimeoutError: Analysis operation timed out after 900000ms: analyze_javascript_application
+              at #interruptionFailure (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2485:50)
+              at #failure (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2571:79)
+              at JavaScriptAnalysisWorker.analyze (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2169:33)
+              at async analyzeAndAdoptJavaScriptArtifactFiles (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:463:21)
+              at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:9506:16
+              at async ArtifactResourceScope.run (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:53:14)
+              at async analyzeJavaScriptApplicationValidated (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:9738:21)
+              at async runCliJavaScriptApplicationAnalysis (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/cli.js:31944:19)
+              at async logCliCommand (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/cliResultOutput-B3eEc4WS.js:67:19)
+              at async withCommandCancellation (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/cli.js:3125:12) {
+            limit: [Object],
+            diagnostics: undefined,
+            capturedOutput: [Object],
+            cleanup: undefined,
+            cleanupIncomplete: false,
+            userMessage: 'JavaScript source analysis reached its 900000ms per-source server/provider deadline (analysis_timeout_ms), not the MCP client deadline.',
+            userCategory: undefined,
+            executionFailure: undefined,
+            partialObservation: undefined,
+            cleanupReport: undefined,
+            operation: 'analyze_javascript_application',
+            timeoutMs: 900000,
+            _tag: 'AnalysisTimeoutError',
+            remediationAction: 'Reuse accessible partial_observation Evidence to avoid recomputation; reading it is not a prerequisite for a corrected retry. Increase analysis_timeout_ms through MCP, or use rea analyze-javascript-application <input_path> --analysis-timeout-ms <milliseconds> on the CLI. Alternatively, reduce semantic limits or select exact inventoried source_paths (CLI: --source-path on that command). Omit source_paths to analyze all sources; an empty array is invalid. detail: summary reduces response size, not analysis work. Allow execution, cleanup and delivery headroom in the MCP client tool deadline; increasing that client deadline alone does not change this server budget. Resolve any reported incomplete cleanup before retrying.'
+          }
+        }
+      }
+    ]
+  }
+}
+
+Node.js v22.22.2
+```
+REA_EXIT=1
+DURATION_S=913.6

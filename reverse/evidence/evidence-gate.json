@@ -1,0 +1,158 @@
+{
+  "generatedBy": "check_evidence.py",
+  "checkedAt": "2026-11-12T23:16:14",
+  "root": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse",
+  "stage": "all",
+  "strict": true,
+  "gate": "PASS",
+  "summary": {
+    "total": 18,
+    "pass": 18,
+    "warn": 0,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "id": "verification.exists",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/verification.json",
+      "want": "analysis/verification.json 存在"
+    },
+    {
+      "id": "hash_mismatches",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": 0,
+      "want": "hash_mismatches == 0"
+    },
+    {
+      "id": "query_collisions",
+      "state": "PASS",
+      "level": "WARN",
+      "got": 0,
+      "want": "query_collisions == 0"
+    },
+    {
+      "id": "download_errors_classified",
+      "state": "PASS",
+      "level": "WARN",
+      "got": {
+        "errors": 317,
+        "notes": true
+      },
+      "want": "download_errors 为 0 或在 notes 里逐类说明"
+    },
+    {
+      "id": "manifest_assets",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": 1986,
+      "want": "manifest_assets > 0"
+    },
+    {
+      "id": "api_spec.endpoints",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": 188,
+      "want": "docs/api-spec.json 至少 1 个端点"
+    },
+    {
+      "id": "rendered_dom",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": {
+        "pages": 137,
+        "rendered": 100
+      },
+      "want": "至少 1 个 hydration 后渲染态 page-*.html（nodes >= 200）"
+    },
+    {
+      "id": "route_redirect_disclosure",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": {
+        "routes": 132,
+        "redirected": 88,
+        "ratio": 0.667,
+        "verdict": "partial_convergence",
+        "topFinalPath": "/onboarding/attribution"
+      },
+      "want": "analysis/route-redirects.json 已逐路由披露 requestedUrl -> finalUrl"
+    },
+    {
+      "id": "artifact.接口文档",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/docs/接口文档.md",
+      "want": "docs/接口文档.md 存在"
+    },
+    {
+      "id": "artifact.脱敏报告",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/sanitization-report.json",
+      "want": "analysis/sanitization-report.json 存在"
+    },
+    {
+      "id": "artifact.交付索引",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/INDEX.md",
+      "want": "INDEX.md 存在"
+    },
+    {
+      "id": "artifact.抓包契约",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/api-contracts.json",
+      "want": "analysis/api-contracts.json 或 api-contracts.json 或 docs/api-spec.json 存在"
+    },
+    {
+      "id": "bundle.view",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/bundle",
+      "want": "bundle/ 分类视图存在"
+    },
+    {
+      "id": "rea.evidence_bytes",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": 281894360,
+      "want": "文件或目录形态的 REA 证据包 >= 100 KiB"
+    },
+    {
+      "id": "rea.input_count_match",
+      "state": "PASS",
+      "level": "BLOCKER",
+      "got": {
+        "declared": 35,
+        "onDisk": 35
+      },
+      "want": "rea-summary.json 的 input_files 与 rea-input/ 实数一致"
+    },
+    {
+      "id": "rea.摘要",
+      "state": "PASS",
+      "level": "WARN",
+      "got": true,
+      "want": "analysis/REA-摘要.md 或 REA-*逆向分析报告*.md 存在"
+    },
+    {
+      "id": "rea.rea-input.json",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/rea-input.json",
+      "want": "analysis/rea-input.json 存在"
+    },
+    {
+      "id": "rea.REA-cli-output.md",
+      "state": "PASS",
+      "level": "WARN",
+      "got": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/REA-cli-output.md",
+      "want": "analysis/REA-cli-output.md 存在"
+    }
+  ],
+  "note": "hash_mismatches != 0 时先查 query_collisions；REA 命中字段只证明存在，取值范围仍属 unknown"
+}

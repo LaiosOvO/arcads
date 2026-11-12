@@ -1,0 +1,10 @@
+app 路由 98 条，开始公开 RSC 探针
+RSC flight 200：74/98
+flight 引用 CSS 11 个，检查/补下载
+写入 analysis/public-rsc-probe.json
+  login                              13583B segs=['login', '__PAGE__', '$'] css=3
+  dashboard                          28569B segs=['(shell)', 'dashboard', '__PAGE__', '$L6', '$L7'] css=7
+  dashboard-addProduct               25979B segs=['(shell)', 'dashboard', 'addProduct', '__PAGE__', '$L6'] css=6
+  dashboard-folder                   23850B segs=['(shell)', 'dashboard', 'folder', '__PAGE__', '$L6'] css=6
+  dashboard-paywall                  25976B segs=['(shell)', 'dashboard', 'paywall', '__PAGE__', '$L6'] css=6
+  dashboard-product                  23851B segs=['(shell)', 'dashboard', 'product', '__PAGE__', '$L6'] css=6

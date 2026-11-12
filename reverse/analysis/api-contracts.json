@@ -1,0 +1,542 @@
+[
+  {
+    "method": "GET",
+    "path": "/cu6vrvqykjig",
+    "example_url": "https://tss.arcads.ai/cu6vrvqykjig?d348954e=L2cvY29sbGVjdD92PTImdGlkPUctTEtaMkoyVFk0SCZndG09NDVqZTZiYTF2OTIyNDczNzIyMHo4OTE3ODc5NTY1MnphMjBremI5MTc4Nzk1NjUyemQ5MTc4Nzk1NjUyeGYzJl9wPTE3OTQ0NzIzODE5MzAmZ2NzPUcxMTEmZ2NkPTEzdjN2M3YzdjVsMSZucGE9MCZkbWE9MCZ0Y2ZkPTEwMDAwJmVjaWQ9MTI1MDk3NTA5MyZfZXU9QUFBQUFHUSZjaWQ9MTcxOTY3MzEuMTc5NDQ2Nzg1NyZlY19tb2RlPWMmZnJtPTAmcHNjZGw9bm9hcGkmcmNiPTE3JnNyPTE1MTJ4OTgyJnVhYT1hcm0mdWFiPTY0JnVhZnZsPU5vdCUyNTNBQS1CcmFuZCUzQjguMC4wLjAlN0NDaHJvbWl1bSUzQjE1Ni4wLjgwNzguNzQlN0NHb29nbGUlMjUyMENocm9tZSUzQjE1Ni4wLjgwNzguNzQmdWFtPSZ1YW1iPTAmdWFwPW1hY09TJnVhcHY9MjYuMi4wJnVhdz0wJnVsPXpoLWNuJnVyPVVTJnNzdC5ybmQ9OTEzNjMyMzAyLjE3OTQ0NzIzODUmc3N0LmdjaD0wJnNzdC50ZnQ9MTc5NDQ3MjM4MTkzMCZzc3QubHBjPTI0ODQxNzc1MSZzc3QubmF2dD1uJnNzdC51ZGU9MCZzc3Quc3dfZXhwPTEmZ2FmPTImX3M9MSZ0YWdfZXhwPTExNTkzODQ2Nn4xMTU5Mzg0Njh%2BMTE4ODk3OTIwfjExODg5NzkzMH4xMTk4NjA0NDJ%2BMTIwMjEzMTE2fjEyMDM4NTQyMn4xMjA0MTI1Mjh%2BMTIwNDIwNDE2fjEyMDQ2OTE0NX4xMjA0NjkxNTN%2BMTIxMjQ2MDI2fjEyMTI0NjAzNH4xMjMzMjkxMjN%2BMTI0MTcwODgzJnNpZD0xNzk0NDY3ODU3JnNjdD0xJnNlZz0xJmRsPWh0dHBzJTNBJTJGJTJGd3d3LmFyY2Fkcy5haSUyRiZkdD1BcmNhZHMlMjAtJTIwQ3JlYXRlJTIwd2lubmluZyUyMGFkcyVDMiVBMHdpdGglQzIlQTBBSSZfdHU9REEmZW49cGFnZV92aWV3JmdhcC5zc3RkPTUmZXAuY3VzdG9tX2V2ZW50X2lkPTE3OTQ0NzI4Nzc3MTFfMTc5NDQ3MzI0MjU1MDMmZXAubWFya2V0aW5nX2NvbnNlbnQ9JTVCJTIyYyUzQWxpbmtlZGluLVFBUEhuelpNJTIyJTJDJTIyYyUzQWh1YnNwb3RhLVphTWhpUFVSJTIyJTJDJTIyYyUzQWdvb2dsZWFuYS1ZUmlrTFJhVCUyMiUyQyUyMmMlM0FjaGF0Z3B0LWJXTDdUYXpVJTIyJTJDJTIyYyUzQWZhY2Vib29rYy1LVFdmYXdXYyUyMiUyQyUyMmMlM0Fnb29nbGVhZHMtZVQzclp4RVklMjIlMkMlMjJjJTNBdGlrdG9rYW4tUjRoazJQbXolMjIlNUQmZXAuY29udGFpbmVyX3ZlcnNpb249MTA2JmVwLmlzX2ZiY19zdG9yZT1mYWxzZSZlcC5hbXBsX2Rldl9pZD03YmIwNDdkOS1lYTAyLTQ2ODktYjRjMi0xYjYxMTNmMjA4YjImZXAuaXNfbGlfZmF0X2lkX3N0b3JlPWZhbHNlJmVwLmlzX2djbF9hd19zdG9yZT1mYWxzZSZlcC5pc19nZ19pZHNfcHJlc2VudF9jb25zZW50ZWQ9ZmFsc2UmZXAudXNlcl9kYXRhLl90YWdfbW9kZT1DT0RFJnRmZD0xMDc0OSZyaWNoc3N0c3Nl",
+    "hosts": [
+      "tss.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 375
+  },
+  {
+    "method": "GET",
+    "path": "/onboarding",
+    "example_url": "https://app.arcads.ai/onboarding?_rsc=Yaku0SukotyQAzL7",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 70
+  },
+  {
+    "method": "GET",
+    "path": "/api/auth/session",
+    "example_url": "https://app.arcads.ai/api/auth/session",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 35
+  },
+  {
+    "method": "GET",
+    "path": "/",
+    "example_url": "https://app.arcads.ai/?_rsc=dRTc6iK45dP5RhSI",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 21
+  },
+  {
+    "method": "GET",
+    "path": "/onboarding/paywall",
+    "example_url": "https://app.arcads.ai/onboarding/paywall?_rsc=uRYPb_GKPkqeS7QM",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 12
+  },
+  {
+    "method": "POST",
+    "path": "/cu6vrvqykjig",
+    "example_url": "https://tss.arcads.ai/cu6vrvqykjig?d348954e=L2cvY29sbGVjdD92PTImdGlkPUctTEtaMkoyVFk0SCZndG09NDVqZTZiYTF2OTIyNDczNzIyMHo4OTE3ODc5NTY1MnphMjBremI5MTc4Nzk1NjUyemQ5MTc4Nzk1NjUyeGYzJl9wPTE3OTQ0NzI5MTQ2NTQmZ2NzPUcxMTEmZ2NkPTEzdjN2M3YzdjVsMSZucGE9MCZkbWE9MCZ0Y2ZkPTEwMDAwJmVjaWQ9MTI1MDk3NTA5MyZfZXU9QUFBQUFHUSZjaWQ9MTcxOTY3MzEuMTc5NDQ2Nzg1NyZlY19tb2RlPWMmZnJtPTAmcHNjZGw9bm9hcGkmcmNiPTE0JnNyPTE1MTJ4OTgyJnVhYT1hcm0mdWFiPTY0JnVhZnZsPU5vdCUyNTNBQS1CcmFuZCUzQjguMC4wLjAlN0NDaHJvbWl1bSUzQjE1Ni4wLjgwNzguNzQlN0NHb29nbGUlMjUyMENocm9tZSUzQjE1Ni4wLjgwNzguNzQmdWFtPSZ1YW1iPTAmdWFwPW1hY09TJnVhcHY9MjYuMi4wJnVhdz0wJnVsPXpoLWNuJnVyPVVTJnNzdC5ybmQ9MTM0MjAzNjU0OC4xNzk0NDcyOTE1JnNzdC5nY2g9MCZzc3QudGZ0PTE3OTQ0NzI5MTQ2NTQmc3N0LmxwYz0xMzQ0ODgwNyZzc3QubmF2dD1uJnNzdC51ZGU9MCZzc3Quc3dfZXhwPTEmZ2FmPTImX3M9NSZ0YWdfZXhwPTExNTYxNjk4Nn4xMTU5Mzg0NjV%2BMTE1OTM4NDY4fjExODg5NzkyMH4xMTg4OTc5MzB%2BMTIwMjEzMTE2fjEyMDM4NTQyM34xMjA0MTI1Mjh%2BMTIwNDIwNDE2fjEyMDQ2OTE0NX4xMjA0NjkxNTN%2BMTIxMjQ2MDI2fjEyMTI0NjAzNH4xMjMzMjkxMjV%2BMTI0MTcwODgxJnVpZD00MDhmMjhjMy0zMDc1LTRiNjEtYTUyMi0wM2ZmMTgwMGViNDMmc2lkPTE3OTQ0Njc4NTcmc2N0PTEmc2VnPTEmZGw9aHR0cHMlM0ElMkYlMkZhcHAuYXJjYWRzLmFpJTJGb25ib2FyZGluZyZkdD0mX3R1PURBJmVuPXNpZ251cF9mb3JtX3Zpc2l0JmdhcC5zc3RkPTUmZXAuY3VzdG9tX2V2ZW50X2lkPTE3OTQ0NzMwNzkzOTFfMTc5NDQ3MzI0MzE4Nzc1NyZlcC5tYXJrZXRpbmdfY29uc2VudD0lNUIlMjJjJTNBbGlua2VkaW4tUUFQSG56Wk0lMjIlMkMlMjJjJTNBaHVic3BvdGEtWmFNaGlQVVIlMjIlMkMlMjJjJTNBZ29vZ2xlYW5hLVlSaWtMUmFUJTIyJTJDJTIyYyUzQWNoYXRncHQtYldMN1RhelUlMjIlMkMlMjJjJTNBZmFjZWJvb2tjLUtUV2Zhd1djJTIyJTJDJTIyYyUzQWdvb2dsZWFkcy1lVDNyWnhFWSUyMiUyQyUyMmMlM0F0aWt0b2thbi1SNGhrMlBteiUyMiU1RCZlcC5jb250YWluZXJfdmVyc2lvbj0xMDYmZXAuaXNfZmJjX3N0b3JlPWZhbHNlJmVwLmFtcGxfZGV2X2lkPSUyMjdiYjA0N2Q5LWVhMDItNDY4OS1iNGMyLTFiNjExM2YyMDhiMiUyMiZlcC5pc19saV9mYXRfaWRfc3RvcmU9ZmFsc2UmZXAuaXNfZ2NsX2F3X3N0b3JlPWZhbHNlJmVwLmlzX2dnX2lkc19wcmVzZW50X2NvbnNlbnRlZD1mYWxzZSZlcC51c2VyX2RhdGEuZW1haWw9MTY5MTUxNzUwMHFxJTQwZ21haWwuY29tJmVwLnVzZXJfZGF0YS5fdGFnX21vZGU9Q09ERSZlcC51c2VyX2RhdGEuX3RhZ19tZXRhZGF0YS5lbWFpbC5tb2RlPWMmdGZkPTU5NDgmeC1ndG0tYXM9MQ%3D%3D",
+    "hosts": [
+      "tss.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 7
+  },
+  {
+    "method": "GET",
+    "path": "/ab-tests/features",
+    "example_url": "https://api.arcads.ai/ab-tests/features?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/auth/renew-token",
+    "example_url": "https://api.arcads.ai/auth/renew-token",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/config/private",
+    "example_url": "https://api.arcads.ai/config/private",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/onboarding/attribution",
+    "example_url": "https://app.arcads.ai/onboarding/attribution?_rsc=OKaDsovDyp9s6Vqf",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/payment/local/USD",
+    "example_url": "https://api.arcads.ai/payment/local/USD?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/pricing/catalog-version",
+    "example_url": "https://api.arcads.ai/pricing/catalog-version?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "POST",
+    "path": "/tracking/browser-opt-out",
+    "example_url": "https://api.arcads.ai/tracking/browser-opt-out",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": "{\"browserOptOut\":true}",
+    "body_variants": [
+      {
+        "sha1": "31428aff5c4a7c4efa06e0195a9fb79066087084",
+        "len": 22,
+        "body": "{\"browserOptOut\":true}"
+      }
+    ],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/users/me",
+    "example_url": "https://api.arcads.ai/users/me",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "GET",
+    "path": "/workspaces",
+    "example_url": "https://api.arcads.ai/workspaces?page=1&pageSize=20",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 4
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+    "example_url": "https://lj.arcads.ai/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+    "hosts": [
+      "lj.arcads.ai"
+    ],
+    "sample_body": "{\"datetime\":\"2026-11-12T08:33:13.490Z\",\"os\":\"MacOS\",\"os_type\":\"MacIntel\",\"os_version\":\"10.15\",\"client_user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"device_brand\":\"Apple\",\"device_model\":\"Mac\",\"device_type\":\"Desktop\",\"browser\":\"Chrome\",\"browser_version\":\"156.0\",\"language\":\"zh-CN\",\"entry_page\":\"/\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"screen_resolution\":\"1512x982\",\"timezone\":\"Asia/Shanghai\",\"bot_signals\":{\"is_crawler\":false,\"webdriver\":false,\"automation_globals\":false,\"languages_count\":2,\"plugins_count\":5,\"chrome_object_missing\":false,\"outer_width\":1512,\"outer_height\":903,\"hardware_concurrency\":10,\"device_memory\":32,\"visibility_state\":\"visible\",\"webgl_renderer\":\"ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)\",\"flags\":[]},\"click_id\":\"9d1144a9-a11c-4f2f-91eb-eb114cc19faf\",\"fbp\":\"fb.1.1794467862944.1842103497\"}",
+    "body_variants": [
+      {
+        "sha1": "fbe9b3449df226517637dd819f3de157dcb0e1c2",
+        "len": 955,
+        "body": "{\"datetime\":\"2026-11-12T08:33:13.490Z\",\"os\":\"MacOS\",\"os_type\":\"MacIntel\",\"os_version\":\"10.15\",\"client_user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"device_brand\":\"Apple\",\"device_model\":\"Mac\",\"device_type\":\"Desktop\",\"browser\":\"Chrome\",\"browser_version\":\"156.0\",\"language\":\"zh-CN\",\"entry_page\":\"/\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"screen_resolution\":\"1512x982\",\"timezone\":\"Asia/Shanghai\",\"bot_signals\":{\"is_crawler\":false,\"webdriver\":false,\"automation_globals\":false,\"languages_coun"
+      },
+      {
+        "sha1": "7e99df623f67133920695f9bfb0c860cf40604d3",
+        "len": 955,
+        "body": "{\"datetime\":\"2026-11-12T13:12:48.111Z\",\"os\":\"MacOS\",\"os_type\":\"MacIntel\",\"os_version\":\"10.15\",\"client_user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"device_brand\":\"Apple\",\"device_model\":\"Mac\",\"device_type\":\"Desktop\",\"browser\":\"Chrome\",\"browser_version\":\"156.0\",\"language\":\"zh-CN\",\"entry_page\":\"/\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"screen_resolution\":\"1512x982\",\"timezone\":\"Asia/Shanghai\",\"bot_signals\":{\"is_crawler\":false,\"webdriver\":false,\"automation_globals\":false,\"languages_coun"
+      }
+    ],
+    "hits": 2
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+    "example_url": "https://lj.arcads.ai/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+    "hosts": [
+      "lj.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 2
+  },
+  {
+    "method": "GET",
+    "path": "/payment/free-trial",
+    "example_url": "https://api.arcads.ai/payment/free-trial?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 2
+  },
+  {
+    "method": "GET",
+    "path": "/workspaces/members",
+    "example_url": "https://api.arcads.ai/workspaces/members?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=50&page=1",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 2
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/workspaces/members",
+    "example_url": "https://api.arcads.ai/workspaces/members?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=50&page=1",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 2
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/ab-tests/features",
+    "example_url": "https://api.arcads.ai/ab-tests/features?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/auth/renew-token",
+    "example_url": "https://api.arcads.ai/auth/renew-token",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/config/private",
+    "example_url": "https://api.arcads.ai/config/private",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/credit-codes/creator",
+    "example_url": "https://api.arcads.ai/credit-codes/creator?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/credit-codes/me",
+    "example_url": "https://api.arcads.ai/credit-codes/me?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/dashboard/settings/general",
+    "example_url": "https://app.arcads.ai/dashboard/settings/general?_rsc=bXQEYcssFI85msPn",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/dropbox/connection-status",
+    "example_url": "https://api.arcads.ai/dropbox/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/flow",
+    "example_url": "https://app.arcads.ai/flow?_rsc=75DDkRJG6J6t92ga",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/fonts/Redaction20-Italic.otf",
+    "example_url": "https://app.arcads.ai/fonts/Redaction20-Italic.otf",
+    "hosts": [
+      "app.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/google-drive/connection-status",
+    "example_url": "https://api.arcads.ai/google-drive/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/integrations/catalog",
+    "example_url": "https://api.arcads.ai/integrations/catalog?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/media/cloudfront-cookies",
+    "example_url": "https://api.arcads.ai/media/cloudfront-cookies",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/meta-ads/connection-status",
+    "example_url": "https://api.arcads.ai/meta-ads/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/notion/connection-status",
+    "example_url": "https://api.arcads.ai/notion/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/offers/arcads10",
+    "example_url": "https://api.arcads.ai/offers/arcads10?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/pricing/catalog",
+    "example_url": "https://api.arcads.ai/pricing/catalog?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&surface=dashboard",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/slack/connection-status",
+    "example_url": "https://api.arcads.ai/slack/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/tiktok-ads/connection-status",
+    "example_url": "https://api.arcads.ai/tiktok-ads/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/tiktok/connection-status",
+    "example_url": "https://api.arcads.ai/tiktok/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/workflows/use/editor-state",
+    "example_url": "https://api.arcads.ai/workflows/use/editor-state?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/workflows/use/editor-state",
+    "example_url": "https://api.arcads.ai/workflows/use/editor-state?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "PUT",
+    "path": "/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+    "example_url": "https://api.arcads.ai/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": "------WebKitFormBoundary2AMX3dnQQyPjMoiS\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\n景智 路's workspace\r\n------WebKitFormBoundary2AMX3dnQQyPjMoiS--\r\n",
+    "body_variants": [
+      {
+        "sha1": "fea076f8f8abc1ce0187fe802303effc308fd795",
+        "len": 151,
+        "body": "------WebKitFormBoundary2AMX3dnQQyPjMoiS\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\n景智 路's workspace\r\n------WebKitFormBoundary2AMX3dnQQyPjMoiS--\r\n"
+      }
+    ],
+    "hits": 1
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+    "example_url": "https://api.arcads.ai/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/workspaces/api-credentials",
+    "example_url": "https://api.arcads.ai/workspaces/api-credentials?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "OPTIONS",
+    "path": "/workspaces/credit-consumption-history",
+    "example_url": "https://api.arcads.ai/workspaces/credit-consumption-history?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=20&page=1",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/workspaces/credit-consumption-history",
+    "example_url": "https://api.arcads.ai/workspaces/credit-consumption-history?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=20&page=1",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  },
+  {
+    "method": "GET",
+    "path": "/x-twitter/connection-status",
+    "example_url": "https://api.arcads.ai/x-twitter/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+    "hosts": [
+      "api.arcads.ai"
+    ],
+    "sample_body": null,
+    "body_variants": [],
+    "hits": 1
+  }
+]

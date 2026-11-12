@@ -1,0 +1,35 @@
+SPACE=96 OUT=/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/capture-interactive
+ROUTE onboarding-attribution err=null href=https://app.arcads.ai/onboarding/attribution events=796 bodies=75/0
+  CLICK #0 "TikTok" ok events=49
+  CLICK #1 "Google ad" ok events=76
+  CLICK #2 "Facebook ad" ok events=47
+  CLICK #3 "AI (ChatGPT/Claude/etc)" ok events=44
+  CLICK #4 "Friend or colleague" ok events=26
+  FLUSH {"before":"visible","dispatched":["visibilitychange","pagehide"],"visibilityState":"hidden"} settleEvents=33 bodies=2/0
+ROUTE onboarding-intent err=null href=https://app.arcads.ai/onboarding events=697 bodies=77/0
+  CLICK #0 "AI (ChatGPT/Claude/etc)" ok events=253
+  CLICK #1 "X / Twitter" ok events=29
+  CLICK #2 "Google search" ok events=38
+  CLICK #3 "TikTok" ok events=54
+  CLICK #4 "Podcast" ok events=35
+  FLUSH {"before":"visible","dispatched":["visibilitychange","pagehide"],"visibilityState":"hidden"} settleEvents=31 bodies=2/0
+ROUTE onboarding-paywall err=null href=https://app.arcads.ai/onboarding events=890 bodies=96/0
+  CLICK #0 "Google search" ok events=140
+  CLICK #1 "X / Twitter" ok events=124
+  CLICK #2 "LinkedIn" ok events=54
+  CLICK #3 "Instagram creator" ok events=47
+  CLICK #4 "TikTok" ok events=29
+  FLUSH {"before":"visible","dispatched":["visibilitychange","pagehide"],"visibilityState":"hidden"} settleEvents=33 bodies=2/0
+ROUTE flow-library err=null href=https://app.arcads.ai/flow/library events=894 bodies=65/0
+  FLUSH {"before":"visible","dispatched":["visibilitychange","pagehide"],"visibilityState":"hidden"} settleEvents=772 bodies=2/0
+ROUTE public-home err=null href=https://www.arcads.ai/ events=1705 bodies=12/0
+  CLICK #0 "Go to slide 1" ok events=376
+  CLICK #1 "Go to slide 2" ok events=40
+  CLICK #2 "Go to slide 3" ok events=20
+  CLICK #3 "Go to slide 1" ok events=25
+  CLICK #4 "Go to slide 2" ok events=75
+  FLUSH {"before":"visible","dispatched":["visibilitychange","pagehide"],"visibilityState":"hidden"} settleEvents=563 bodies=0/0
+TOTAL events=7995 requests=997 responses=940 withPostData=128
+RELAY_HITS=0
+DONE interactive capture
+

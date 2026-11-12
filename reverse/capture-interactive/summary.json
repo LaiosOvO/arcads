@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-11-12T13:13:13.005Z",
+  "spaceName": "login-probe",
+  "cfg": {
+    "routes": [
+      "onboarding-attribution",
+      "onboarding-intent",
+      "onboarding-paywall",
+      "flow-library",
+      "public-home"
+    ],
+    "settleMs": 9000,
+    "clickBudget": 5
+  },
+  "events": 7995,
+  "requests": 997,
+  "responses": 940,
+  "requestsWithPostData": 128,
+  "relayRequests": 0,
+  "relaySample": [],
+  "responseBodyRecords": 364,
+  "responseBodiesOk": 364,
+  "note": "独立增量取证；未覆盖 capture/ 既有全量证据。抓不到即 unknown，不伪造。"
+}

@@ -1,0 +1,18 @@
+event: message
+data: {"send_pixel":["https://analytics.google.com/g/s/collect?dma=0&npa=0&gcs=G111&gcd=13v3v3v3v5l1&gtm=45j91e6ba1v9224737220z89178795652z99200458750za20kzb9178795652zd9178795652xf3&tag_exp=115616986~115938465~115938468~117215455~117215455~117549813~117549813~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~121410726~121410726~123329125~123785232~124170883&_is_sw=0&_tu=DA&gap.sstd=5&_gsid=LKZ2J2TY4Hn2RfHrwZ1uj7a3L5vUrmwA"],"options":{}}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=Ox1dvCFnn8ds2ARbfqD3NWOhNVlsKPeOqIAvTv%2BS4uG1d4CY%2FUgyCj2%2BgZDPhosA4Fw9pYCskp9buPvphDsvM%2FIK6F7paRQWU%2FnukKcPogkiO2oBDMAIonCFlWUXnuAGYIe9SdurZSm%2FqCAMdxSk%2FNwTxwQucavD%2BPuq6UE4ommyqxrjK%2FGZHiJ5%2FO07kYOgICI%2FlIb%2BPkaBSgcFothX&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=oHtZunQxLj8x1YGtCZ3wkes6B6hhkM13JiJV%2B0BfcwPwQ0h7Ap%2BPHkerBmJyXktkR2Yn5pEWPnGDvwgYv4BjsR1duap4x%2BndZjq2AJnWbADXrIkE8BARMUGVhkiZBCzMbqdSZBP1hy%2BeL%2BrZQaWKLHDTyeWz229SrFXfZGQqXqNblUuTW8uUZPHrO6LtRduC6pQIDdSx9L0%2FEWBSLWerzPrskQsGCzy4LQ3HVLNwu5jO7eS3xD2RYCLOdVoh5Y2lxTAy4GyV0nxDp9OoNUu6RvYihiebGhZXMAH%2Bz6HXfU8Q%2FIesit6WR%2FfKNH3GBrwwgSDw2M0zhlcizeOb2WRFf8UTdLGccnbOq72HlkiEnBfYOADgEmK1mFxYzj6%2BlPZb8QoDgxmtDkakrjHkbLgFTCCSUJr7qeRei9UVVO9DrkopzlwpIGFfX6ePrVxpLiw%2FXnUUadyHV0QUmF9aMt8i6QuYbknYkoD552dXOp5GPGq9yMfF605ew7d%2FxTRobOHfmAQqVqUHK2g7hlqHUCfXw8TiCx7zuzpSRw4zjmC%2Fk0IhER21sx1hMSZmiRsXkgjDSF2jJ%2BYhJ3PpVfxYrei1zpzhty2oDdCXzgLn04GB1iPfdUs01w99LvrWG1YD0Eu3ofjQV31Mvoq5CracR3Q50hfvWdtU8S1VCcstrpRl1v7LdKg%3D&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=yxn1%2BqKiW4siRMmo9MVr23EmKG7rrTdSaDu7L2Mkn1NHIouCOl0IC3jYrkRFWgvwGRD9E1kKpfrBSxEmkc9NqY10FLoKEpQjMQDsnUbRk4liQJ4QpOd4gMYeYvN9x0l%2FoyZzp1g9iy%2Fwjxhjz1OQjP1TkJPNfGrybQcegsNmz4iSzuFgp2lqVakUYJNI&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["https://www.facebook.com/tr/?ev=PageView&id=1398006371104010&eid=1794489139090.1674943613&fbp=fb.1.1794467862944.1842103497"]}
+
+event: message
+data: {"response":{"status_code":200,"body":""}}
+

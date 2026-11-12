@@ -1,0 +1,1115 @@
+{
+ "input_dir": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/rea-input",
+ "selection_rule": "关键词来自 analysis/api-contracts.json 的路径段与请求体字段；排除 vendor/SDK、超大文件、base64 密集文件、内容重复文件",
+ "keywords": [
+  "77a46767-0e96-4b87-b393-267643c7adc2",
+  "Redaction20-Italic.otf",
+  "a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+  "ab-tests",
+  "api-credentials",
+  "arcads10",
+  "attribution",
+  "auth",
+  "browser-opt-out",
+  "catalog",
+  "catalog-version",
+  "check",
+  "cloudfront-cookies",
+  "config",
+  "connection-status",
+  "creator",
+  "credit-codes",
+  "credit-consumption-history",
+  "cu6vrvqykjig",
+  "dashboard",
+  "dropbox",
+  "editor-state",
+  "features",
+  "flow",
+  "fonts",
+  "free-trial",
+  "general",
+  "google-drive",
+  "integrations",
+  "local",
+  "media",
+  "members",
+  "meta-ads",
+  "notion",
+  "offers",
+  "onboarding",
+  "payment",
+  "paywall",
+  "pricing",
+  "private",
+  "renew-token",
+  "session",
+  "settings",
+  "slack",
+  "tiktok",
+  "tiktok-ads",
+  "tracking",
+  "users",
+  "workflows",
+  "workspaces",
+  "x-twitter"
+ ],
+ "keyword_source": {
+  "contracts": 47,
+  "body_fields": 0
+ },
+ "file_count": 28,
+ "total_bytes": 5953389,
+ "files": [
+  {
+   "rea_input": "2ixnvjih1wvzt.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2ixnvjih1wvzt.js",
+   "bytes": 544540,
+   "hits": [
+    "ab-tests",
+    "arcads10",
+    "attribution",
+    "auth",
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "credit-codes",
+    "dashboard",
+    "flow",
+    "fonts"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "vendor-modern.e5315bcd.js",
+   "source": "mirror/js.intercomcdn.com/vendor-modern.e5315bcd.js",
+   "bytes": 277617,
+   "hits": [
+    "attribution",
+    "auth",
+    "check",
+    "config",
+    "creator",
+    "dashboard",
+    "features",
+    "flow",
+    "integrations",
+    "local",
+    "media",
+    "onboarding"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "2co967gropf_4.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2co967gropf_4.js",
+   "bytes": 93389,
+   "hits": [
+    "auth",
+    "catalog",
+    "check",
+    "config",
+    "dashboard",
+    "dropbox",
+    "features",
+    "flow",
+    "google-drive",
+    "integrations",
+    "local",
+    "media"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "cu6vrvqykjig__q883e60b7.js",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig__q883e60b7.js",
+   "bytes": 605169,
+   "hits": [
+    "a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+    "attribution",
+    "auth",
+    "check",
+    "config",
+    "features",
+    "flow",
+    "local",
+    "media",
+    "offers",
+    "onboarding",
+    "payment"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "26mwnd5hm_53p.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26mwnd5hm_53p.js",
+   "bytes": 157483,
+   "hits": [
+    "arcads10",
+    "catalog",
+    "dashboard",
+    "features",
+    "flow",
+    "general",
+    "integrations",
+    "local",
+    "media",
+    "members",
+    "offers",
+    "onboarding"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "2ub59fy_2i454.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2ub59fy_2i454.js",
+   "bytes": 50894,
+   "hits": [
+    "auth",
+    "catalog",
+    "config",
+    "dropbox",
+    "features",
+    "flow",
+    "google-drive",
+    "integrations",
+    "local",
+    "media",
+    "meta-ads",
+    "notion"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "2_6mitb_441ob.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2_6mitb_441ob.js",
+   "bytes": 29093,
+   "hits": [
+    "ab-tests",
+    "attribution",
+    "auth",
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "dashboard",
+    "features",
+    "onboarding",
+    "paywall",
+    "pricing"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "frame-modern.2762eddb.js",
+   "source": "mirror/js.intercomcdn.com/frame-modern.2762eddb.js",
+   "bytes": 575566,
+   "hits": [
+    "attribution",
+    "auth",
+    "check",
+    "config",
+    "features",
+    "flow",
+    "fonts",
+    "local",
+    "media",
+    "onboarding",
+    "private",
+    "session"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "bytes": 499262,
+   "hits": [
+    "auth",
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "features",
+    "flow",
+    "general",
+    "integrations",
+    "local",
+    "media",
+    "payment"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "2ymtu4wdqg7vz.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2ymtu4wdqg7vz.js",
+   "bytes": 53253,
+   "hits": [
+    "ab-tests",
+    "api-credentials",
+    "arcads10",
+    "catalog",
+    "check",
+    "credit-consumption-history",
+    "features",
+    "flow",
+    "media",
+    "members",
+    "offers",
+    "paywall"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "1tget77wi4xtj.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1tget77wi4xtj.js",
+   "bytes": 42654,
+   "hits": [
+    "catalog",
+    "check",
+    "connection-status",
+    "creator",
+    "dashboard",
+    "features",
+    "onboarding",
+    "payment",
+    "paywall",
+    "pricing",
+    "session",
+    "settings"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "21fxxjks_usoz.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/21fxxjks_usoz.js",
+   "bytes": 37915,
+   "hits": [
+    "attribution",
+    "auth",
+    "browser-opt-out",
+    "check",
+    "config",
+    "dashboard",
+    "flow",
+    "local",
+    "media",
+    "onboarding",
+    "payment",
+    "paywall"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "3i9m1a9dnoj6h.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3i9m1a9dnoj6h.js",
+   "bytes": 146890,
+   "hits": [
+    "arcads10",
+    "catalog",
+    "check",
+    "config",
+    "flow",
+    "integrations",
+    "local",
+    "media",
+    "onboarding",
+    "paywall",
+    "pricing",
+    "settings"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "0gaw_nbtlfkp7.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0gaw_nbtlfkp7.js",
+   "bytes": 67518,
+   "hits": [
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "dashboard",
+    "flow",
+    "media",
+    "offers",
+    "onboarding",
+    "payment",
+    "paywall",
+    "session"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "0kn7q9qwe55aq.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0kn7q9qwe55aq.js",
+   "bytes": 56392,
+   "hits": [
+    "arcads10",
+    "catalog",
+    "check",
+    "creator",
+    "credit-codes",
+    "dashboard",
+    "flow",
+    "free-trial",
+    "local",
+    "payment",
+    "paywall",
+    "pricing"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "19ekwenty1wjj.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/19ekwenty1wjj.js",
+   "bytes": 31760,
+   "hits": [
+    "ab-tests",
+    "api-credentials",
+    "arcads10",
+    "catalog",
+    "check",
+    "credit-consumption-history",
+    "features",
+    "media",
+    "members",
+    "offers",
+    "paywall",
+    "tracking"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "33aagglnpy5gk.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/33aagglnpy5gk.js",
+   "bytes": 28764,
+   "hits": [
+    "attribution",
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "credit-codes",
+    "flow",
+    "free-trial",
+    "local",
+    "onboarding",
+    "payment",
+    "paywall"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "app-modern.c64a8aee.js",
+   "source": "mirror/js.intercomcdn.com/app-modern.c64a8aee.js",
+   "bytes": 813966,
+   "hits": [
+    "attribution",
+    "auth",
+    "check",
+    "config",
+    "features",
+    "flow",
+    "integrations",
+    "local",
+    "media",
+    "onboarding",
+    "session",
+    "settings"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "26_k-yfcpl30z.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26_k-yfcpl30z.js",
+   "bytes": 80168,
+   "hits": [
+    "ab-tests",
+    "catalog",
+    "check",
+    "config",
+    "creator",
+    "features",
+    "flow",
+    "offers",
+    "onboarding",
+    "payment",
+    "paywall",
+    "pricing"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "1n-bfwc4a_odi.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1n-bfwc4a_odi.js",
+   "bytes": 42504,
+   "hits": [
+    "catalog",
+    "config",
+    "connection-status",
+    "creator",
+    "dropbox",
+    "features",
+    "integrations",
+    "media",
+    "meta-ads",
+    "notion",
+    "slack",
+    "tiktok"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "1jyez9medrhuk.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1jyez9medrhuk.js",
+   "bytes": 16057,
+   "hits": [
+    "ab-tests",
+    "catalog",
+    "check",
+    "cloudfront-cookies",
+    "creator",
+    "credit-codes",
+    "flow",
+    "media",
+    "onboarding",
+    "paywall",
+    "pricing",
+    "users"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "3bzd7pat927hy.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3bzd7pat927hy.js",
+   "bytes": 415496,
+   "hits": [
+    "check",
+    "config",
+    "dashboard",
+    "dropbox",
+    "flow",
+    "google-drive",
+    "integrations",
+    "local",
+    "media",
+    "settings",
+    "tracking",
+    "workflows"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "2808_cp2wi22u.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2808_cp2wi22u.js",
+   "bytes": 215118,
+   "hits": [
+    "arcads10",
+    "auth",
+    "catalog",
+    "check",
+    "config",
+    "features",
+    "flow",
+    "local",
+    "media",
+    "offers",
+    "pricing",
+    "tracking"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "36uc_rrtepudd.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/36uc_rrtepudd.js",
+   "bytes": 169458,
+   "hits": [
+    "arcads10",
+    "attribution",
+    "auth",
+    "check",
+    "config",
+    "creator",
+    "flow",
+    "free-trial",
+    "local",
+    "session",
+    "tracking",
+    "users"
+   ],
+   "reason": "contract-keyword hits"
+  },
+  {
+   "rea_input": "1__jl4_qvu1x8.css",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1__jl4_qvu1x8.css",
+   "bytes": 244025,
+   "reason": "style-system"
+  },
+  {
+   "rea_input": "arcads-staging.webflow.shared.10aa27509.min.css",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/css/arcads-staging.webflow.shared.10aa27509.min.css",
+   "bytes": 159683,
+   "reason": "style-system"
+  },
+  {
+   "rea_input": "page-home.html",
+   "source": "capture/page-home.html",
+   "bytes": 269166,
+   "reason": "ssr-page"
+  },
+  {
+   "rea_input": "page-features-ai-video-generator.html",
+   "source": "capture/page-features-ai-video-generator.html",
+   "bytes": 229589,
+   "reason": "ssr-page"
+  }
+ ],
+ "excluded_count": 414,
+ "truncated_by_limit": 326,
+ "excluded": [
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0-o851mvv5qyx.js",
+   "bytes": 22390,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/044ihbby9c6m3.js",
+   "bytes": 18216,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/049dgc7a9xaqg.js",
+   "bytes": 9655,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "users"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/04_muapaopp-d.js",
+   "bytes": 2806,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "workspaces"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0547r-urxp127.js",
+   "bytes": 1315,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/067c1d-3i828d.js",
+   "bytes": 4471,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/06ffjb_swkeyo.js",
+   "bytes": 585,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/06l1-cqc5kvbh.js",
+   "bytes": 24545,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/06vtmkum4tf_u.js",
+   "bytes": 23146,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/07f9eqq0com1k.js",
+   "bytes": 22215,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "private"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/08xdezvmkbz2q.js",
+   "bytes": 179068,
+   "reason": "base64-heavy(OOM)"
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0g_ime0vik4n-.js",
+   "bytes": 24472,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0kjk8r985ngey.js",
+   "bytes": 585,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0lzm3k2-tgoa5.js",
+   "bytes": 2426,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0pg0hs7ehav_0.js",
+   "bytes": 6472,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0r3_s7pg-in-o.js",
+   "bytes": 12042,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/0rvas0wpz26hx.js",
+   "bytes": 25512,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "media"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1-7-nw4l-sjw2.js",
+   "bytes": 23688,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/165sesg6ao_e6.js",
+   "bytes": 2711,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1amp39bz58-zt.js",
+   "bytes": 56680,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "media"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1cvznumt_gh6h.js",
+   "bytes": 3008,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1k4y2xkzz9hwy.js",
+   "bytes": 3185,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1k6mmq3u6qwk8.js",
+   "bytes": 1125,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1o7_15wheodac.js",
+   "bytes": 15241,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1pby232f9uy4q.js",
+   "bytes": 3415,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1qgwc5coqnqop.js",
+   "bytes": 36192,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "media"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1z2vcxw_oipwr.js",
+   "bytes": 1597,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/1zx-lj1zfv0os.js",
+   "bytes": 7868,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/21i40q3slqjxz.js",
+   "bytes": 28031,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "media"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/229xzl0-y5ei2.js",
+   "bytes": 2828,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/22sduxt8lxs8w.js",
+   "bytes": 2899,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/237k2w3s6bdr9.js",
+   "bytes": 122707,
+   "reason": "base64-heavy(OOM)"
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/26blki17oi8do.js",
+   "bytes": 2925,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/26wgme4tditsd.js",
+   "bytes": 1422,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/26ybwzw3yncs3.js",
+   "bytes": 3162,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2_rj07dt2qgj0.js",
+   "bytes": 485,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2a667dmql8pug.js",
+   "bytes": 2108,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2azmkpwh1f59-.js",
+   "bytes": 5309,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2drowvzmym_cz.js",
+   "bytes": 19853,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2dv3_04cp7kcp.js",
+   "bytes": 3217,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "tracking"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2exy2dxxnkmd_.js",
+   "bytes": 21469,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2jsz0mpm_94un.js",
+   "bytes": 797,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2kxdsbonkp3fd.js",
+   "bytes": 26225,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2ltlko2xcss4z.js",
+   "bytes": 732,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2w6pbe3f-olra.js",
+   "bytes": 6637,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "check"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2wa34e9x8h2os.js",
+   "bytes": 3390,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/2ygriqijpaoko.js",
+   "bytes": 20753,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/32p1s2ysbeob5.js",
+   "bytes": 12527,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/33cicrcn8r0ma.js",
+   "bytes": 7180,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/36bheo01a9c8w.js",
+   "bytes": 552,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3e46utj2n5dct.js",
+   "bytes": 4477,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3hg2tn4u5n213.js",
+   "bytes": 4386,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3hx-9lf0790fy.js",
+   "bytes": 626,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3iqyo2ycd-9ka.js",
+   "bytes": 2982,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3mwizcwy7k06v.js",
+   "bytes": 12807,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3qkuabvmhxf9b.js",
+   "bytes": 4284,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3sp6u57ae7q22.js",
+   "bytes": 8314,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "session"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3vdtf3en-cmw7.js",
+   "bytes": 24006,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3xfrmrftznk-r.js",
+   "bytes": 2400,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3y69irr4ti4nx.js",
+   "bytes": 2918,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/3z6to9lr0p4mt.js",
+   "bytes": 585,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/40_au0uhf5hvo.js",
+   "bytes": 3033,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/app.arcads.ai/_next/static/chunks/turbopack-0q3hlxfannt-z.js",
+   "bytes": 11315,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "config"
+   ]
+  },
+  {
+   "file": "mirror/cdn.amplitude.com/script/44e5a6f3152249aae19ed3e4cad65ea.async.js",
+   "bytes": 2250,
+   "reason": "vendor/sdk"
+  },
+  {
+   "file": "mirror/cdn.amplitude.com/script/44e5a6f3152249aae19ed3e4cad65ea.js",
+   "bytes": 194257,
+   "reason": "vendor/sdk"
+  },
+  {
+   "file": "mirror/cdn.amplitude.com/script/b2e63b5453c36ec48b28059c3ab6a699.async.js",
+   "bytes": 2251,
+   "reason": "vendor/sdk"
+  },
+  {
+   "file": "mirror/cdn.amplitude.com/script/b2e63b5453c36ec48b28059c3ab6a699.js",
+   "bytes": 194259,
+   "reason": "vendor/sdk"
+  },
+  {
+   "file": "mirror/cdn.jsdelivr.net/npm/_finsweet/attributes-animation_1/animation.esm.js",
+   "bytes": 11724,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.721dc7d3.f1b753c58f7e8dc5.js",
+   "bytes": 1838,
+   "reason": "below-min-hits:0/2",
+   "hits": []
+  },
+  {
+   "file": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.758b0dfb.ebfb28336c25fb57.js",
+   "bytes": 4894,
+   "reason": "below-min-hits:1/2",
+   "hits": [
+    "flow"
+   ]
+  },
+  {
+   "file": "mirror/challenges.cloudflare.com/turnstile/v0/g/7c7fee70a876/api.js",
+   "bytes": 86960,
+   "reason": "duplicate-of:mirror/challenges.cloudflare.com/turnstile/v0/api.js"
+  },
+  {
+   "file": "mirror/data.arcads.ai/script__q1e214b03.js",
+   "bytes": 50011,
+   "reason": "duplicate-of:mirror/data.arcads.ai/script__q013a6651.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794468000000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794470400000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794470700000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794472200000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794472500000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794472800000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794473100000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  },
+  {
+   "file": "mirror/js-eu1.hs-analytics.net/analytics/1794473400000/143888573.js",
+   "bytes": 112339,
+   "reason": "duplicate-of:mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js"
+  }
+ ]
+}

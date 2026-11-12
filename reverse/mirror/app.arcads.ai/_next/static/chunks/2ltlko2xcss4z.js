@@ -1,0 +1,4 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="80b33604-1b69-ee40-db49-0e91bfa245f4")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,635794,o=>{"use strict";let l=(0,o.i(718978).create)(o=>({conflictedWorkflowId:null,setConflicted:l=>o(o=>o.conflictedWorkflowId===l?o:{conflictedWorkflowId:l}),clearConflict:l=>o(o=>o.conflictedWorkflowId===l?{conflictedWorkflowId:null}:o)}));o.s(["useWorkflowConflictStore",0,l])}]);
+
+//# debugId=80b33604-1b69-ee40-db49-0e91bfa245f4

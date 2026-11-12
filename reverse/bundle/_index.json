@@ -1,0 +1,2709 @@
+{
+ "counts": {
+  "other": 57,
+  "html": 59,
+  "js": 92,
+  "img": 189,
+  "media": 27,
+  "json": 12,
+  "css": 6,
+  "font": 7
+ },
+ "total_bytes": 178660068,
+ "files": [
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics-ipv6.tiktokw.us__ipv6__enrich_ipv6__index.html__b37f85b44",
+   "source": "mirror/analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6/index.html__b37f85b44",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics-ipv6.tiktokw.us__ipv6__enrich_ipv6__index.html__b674ab654",
+   "source": "mirror/analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6/index.html__b674ab654",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/analytics.google.com__g__s__collect__index__q5a78ca7e.html",
+   "source": "mirror/analytics.google.com/g/s/collect/index__q5a78ca7e.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/analytics.google.com__g__s__collect__index__q772ac3aa.html",
+   "source": "mirror/analytics.google.com/g/s/collect/index__q772ac3aa.html",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__monitor__index.html__b1d4acc3c",
+   "source": "mirror/analytics.tiktok.com/api/v2/monitor/index.html__b1d4acc3c",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b097bedd6",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b097bedd6",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b305c64d1",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b305c64d1",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b5d75543c",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b5d75543c",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b6acb1db2",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b6acb1db2",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b6aef04d2",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b6aef04d2",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__b7300325d",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__b7300325d",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__bcf2b413b",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__bcf2b413b",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__be1870bb0",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__be1870bb0",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__act__index.html__bfb3027ed",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/act/index.html__bfb3027ed",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b0dc212cf",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b0dc212cf",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b16d197b2",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b16d197b2",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b3925355c",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b3925355c",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b49d96ced",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b49d96ced",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b5ec8ef99",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b5ec8ef99",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b66c37e32",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b66c37e32",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b691b1963",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b691b1963",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b7197124a",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b7197124a",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b73c95e03",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b73c95e03",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b75699fc1",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b75699fc1",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b7abe0caa",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b7abe0caa",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__b82251e67",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__b82251e67",
+   "bytes": 0
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/analytics.tiktok.com__api__v2__pixel__index.html__bdc821293",
+   "source": "mirror/analytics.tiktok.com/api/v2/pixel/index.html__bdc821293",
+   "bytes": 0
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/analytics.tiktok.com__i18n__pixel__events__q4775fb5e.js",
+   "source": "mirror/analytics.tiktok.com/i18n/pixel/events__q4775fb5e.js",
+   "bytes": 8955
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/analytics.tiktok.com__i18n__pixel__static__identify_9caef9b0.js",
+   "source": "mirror/analytics.tiktok.com/i18n/pixel/static/identify_9caef9b0.js",
+   "bytes": 139650
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/analytics.tiktok.com__i18n__pixel__static__main.MTkyOWEyMGMwMQ.js",
+   "source": "mirror/analytics.tiktok.com/i18n/pixel/static/main.MTkyOWEyMGMwMQ.js",
+   "bytes": 501429
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__ads-1-bis.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/ads-1-bis.webp",
+   "bytes": 82148
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__ads-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/ads-2.webp",
+   "bytes": 93164
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__ads-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/ads-3.webp",
+   "bytes": 40818
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__cta-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/cta-2.webp",
+   "bytes": 86680
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__cta-mobile.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/cta-mobile.webp",
+   "bytes": 75674
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__editing-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/editing-1.webp",
+   "bytes": 26944
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__editing-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/editing-2.webp",
+   "bytes": 28746
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__editing-mobile.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/editing-mobile.webp",
+   "bytes": 26498
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__emotion-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/emotion-1.webp",
+   "bytes": 34982
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__emotion-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/emotion-2.webp",
+   "bytes": 28530
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__emotion-mobile-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/emotion-mobile-1.webp",
+   "bytes": 20904
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__emotion-mobile-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/emotion-mobile-2.webp",
+   "bytes": 34734
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__emotion-mobile-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/emotion-mobile-3.webp",
+   "bytes": 33166
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__england.png",
+   "source": "mirror/andreatuysuzian.com/arcards/image/england.png",
+   "bytes": 1074
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__france.png",
+   "source": "mirror/andreatuysuzian.com/arcards/image/france.png",
+   "bytes": 885
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__german.png",
+   "source": "mirror/andreatuysuzian.com/arcards/image/german.png",
+   "bytes": 952
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam-1.webp",
+   "bytes": 51862
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam-2.webp",
+   "bytes": 29406
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam-3.webp",
+   "bytes": 33888
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam-4.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam-4.webp",
+   "bytes": 27758
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam-5.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam-5.webp",
+   "bytes": 27172
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__glam.jpg",
+   "source": "mirror/andreatuysuzian.com/arcards/image/glam.jpg",
+   "bytes": 73842
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__italia.png",
+   "source": "mirror/andreatuysuzian.com/arcards/image/italia.png",
+   "bytes": 884
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-england.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-england.webp",
+   "bytes": 31596
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-french.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-french.webp",
+   "bytes": 31762
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-german.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-german.webp",
+   "bytes": 36080
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-italian.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-italian.webp",
+   "bytes": 32334
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-mobile-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-mobile-1.webp",
+   "bytes": 71278
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-mobile-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-mobile-2.webp",
+   "bytes": 68696
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-mobile-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-mobile-3.webp",
+   "bytes": 73568
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-mobile-4.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-mobile-4.webp",
+   "bytes": 70034
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-mobile-5.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-mobile-5.webp",
+   "bytes": 71838
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__langue-spain.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/langue-spain.webp",
+   "bytes": 32316
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__marketing.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/marketing.webp",
+   "bytes": 35850
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellow-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellow-1.webp",
+   "bytes": 30778
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellow-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellow-2.webp",
+   "bytes": 31800
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellow-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellow-3.webp",
+   "bytes": 35836
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellow-4.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellow-4.webp",
+   "bytes": 21566
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellow-5.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellow-5.webp",
+   "bytes": 29684
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__mellowflow.jpg",
+   "source": "mirror/andreatuysuzian.com/arcards/image/mellowflow.jpg",
+   "bytes": 25104
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__own-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/own-1.webp",
+   "bytes": 24180
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__own-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/own-2.webp",
+   "bytes": 51288
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__own-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/own-3.webp",
+   "bytes": 38962
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__own-mobile-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/own-mobile-1.webp",
+   "bytes": 23290
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__own-mobile-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/own-mobile-2.webp",
+   "bytes": 24066
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__seed.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/seed.webp",
+   "bytes": 57650
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__spain.png",
+   "source": "mirror/andreatuysuzian.com/arcards/image/spain.png",
+   "bytes": 1266
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-1.webp",
+   "bytes": 22920
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-2.webp",
+   "bytes": 29082
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-3.webp",
+   "bytes": 80472
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-4.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-4.webp",
+   "bytes": 27126
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-5.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-5.webp",
+   "bytes": 21284
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-mobile-1.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-mobile-1.webp",
+   "bytes": 21852
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-mobile-2.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-mobile-2.webp",
+   "bytes": 56050
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__image__view-mobile-3.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/image/view-mobile-3.webp",
+   "bytes": 27110
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__ai-video__1.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/ai-video/1.webm",
+   "bytes": 2125699
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__ai-video__2.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/ai-video/2.webm",
+   "bytes": 2870950
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__create-your-own-ai__1.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/create-your-own-ai/1.webm",
+   "bytes": 698338
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__create-your-own-ai__2.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/create-your-own-ai/2.webm",
+   "bytes": 1803589
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__create-your-own-ai__3.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/create-your-own-ai/3.webm",
+   "bytes": 3644208
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/andreatuysuzian.com__arcards__videos__frame-scene.webp",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/frame-scene.webp",
+   "bytes": 80896
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__1.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/1.webm",
+   "bytes": 8074575
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__2.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/2.webm",
+   "bytes": 4587623
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__3.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/3.webm",
+   "bytes": 4708694
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__4.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/4.webm",
+   "bytes": 2227749
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__5.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/5.webm",
+   "bytes": 4564261
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__header__6.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/header/6.webm",
+   "bytes": 4976360
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__language__englishuk.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/language/englishuk.webm",
+   "bytes": 8477885
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__language__espagnol.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/language/espagnol.webm",
+   "bytes": 7690857
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__language__french.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/language/french.webm",
+   "bytes": 7551433
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__language__german.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/language/german.webm",
+   "bytes": 7522926
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__language__italian.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/language/italian.webm",
+   "bytes": 6910423
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__scene.mp4",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/scene.mp4",
+   "bytes": 7370261
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__scene.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/scene.webm",
+   "bytes": 2725013
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__using-ai__1.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/using-ai/1.webm",
+   "bytes": 1906406
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__using-ai__2.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/using-ai/2.webm",
+   "bytes": 2012948
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__views__1.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/views/1.webm",
+   "bytes": 1362317
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__views__2.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/views/2.webm",
+   "bytes": 3689111
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/andreatuysuzian.com__arcards__videos__views__3.webm",
+   "source": "mirror/andreatuysuzian.com/arcards/videos/views/3.webm",
+   "bytes": 1509243
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__ab-tests__features__index__qa2687951.html",
+   "source": "mirror/api.arcads.ai/ab-tests/features/index__qa2687951.html",
+   "bytes": 453
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api.arcads.ai__auth__google-login__index.html__b1dce27f8",
+   "source": "mirror/api.arcads.ai/auth/google-login/index.html__b1dce27f8",
+   "bytes": 440
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__auth__renew-token__index.html",
+   "source": "mirror/api.arcads.ai/auth/renew-token/index.html",
+   "bytes": 416
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__config__private__index.html",
+   "source": "mirror/api.arcads.ai/config/private/index.html",
+   "bytes": 6542
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__payment__local__USD__index__qa2687951.html",
+   "source": "mirror/api.arcads.ai/payment/local/USD/index__qa2687951.html",
+   "bytes": 1497
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__pricing__catalog-version__index__qa2687951.html",
+   "source": "mirror/api.arcads.ai/pricing/catalog-version/index__qa2687951.html",
+   "bytes": 332
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api.arcads.ai__tracking__browser-opt-out__index.html__bb1f9e098",
+   "source": "mirror/api.arcads.ai/tracking/browser-opt-out/index.html__bb1f9e098",
+   "bytes": 16
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__users__me__index.html",
+   "source": "mirror/api.arcads.ai/users/me/index.html",
+   "bytes": 702
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/api.arcads.ai__workspaces__index__q8a7838b2.html",
+   "source": "mirror/api.arcads.ai/workspaces/index__q8a7838b2.html",
+   "bytes": 1390
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b0700aa60",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b0700aa60",
+   "bytes": 92
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b1c78241c",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b1c78241c",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b6104728e",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b6104728e",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b67293da1",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b67293da1",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b8901f89f",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b8901f89f",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__b9f0565b0",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__b9f0565b0",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__ba4193e5b",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__ba4193e5b",
+   "bytes": 93
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/api2.amplitude.com__2__httpapi__index.html__beed46c84",
+   "source": "mirror/api2.amplitude.com/2/httpapi/index.html__beed46c84",
+   "bytes": 93
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0-2ymy8ig50nu.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0-2ymy8ig50nu.js",
+   "bytes": 18084
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0-vs0x9yf1aeh.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0-vs0x9yf1aeh.js",
+   "bytes": 56739
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__01qmn641ak4g0.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/01qmn641ak4g0.js",
+   "bytes": 94552
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__01u4lhv69a7gd.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/01u4lhv69a7gd.js",
+   "bytes": 40689
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__02q60z5bztsj3.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/02q60z5bztsj3.js",
+   "bytes": 22032
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__03ceqezdhtb5t.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/03ceqezdhtb5t.js",
+   "bytes": 35105
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__04dc9pb600fsl.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/04dc9pb600fsl.js",
+   "bytes": 39368
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__067c1d-3i828d.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/067c1d-3i828d.js",
+   "bytes": 4471
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0bi35wm2b7iw3.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0bi35wm2b7iw3.js",
+   "bytes": 76376
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0hhf-o6g7pzva.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0hhf-o6g7pzva.js",
+   "bytes": 21526
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0lnnzrynaox35.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0lnnzrynaox35.js",
+   "bytes": 8049
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__0rvas0wpz26hx.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0rvas0wpz26hx.js",
+   "bytes": 25512
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/app.arcads.ai___next__static__chunks__0x-g3vn-cmqj2.css",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/0x-g3vn-cmqj2.css",
+   "bytes": 8978
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__13nlc7181pf-n.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/13nlc7181pf-n.js",
+   "bytes": 45450
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__140t4emd2v7s4.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/140t4emd2v7s4.js",
+   "bytes": 133219
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__165sesg6ao_e6.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/165sesg6ao_e6.js",
+   "bytes": 2711
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__18qaa525pft_y.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/18qaa525pft_y.js",
+   "bytes": 13131
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__19ekwenty1wjj.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/19ekwenty1wjj.js",
+   "bytes": 31760
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/app.arcads.ai___next__static__chunks__1__jl4_qvu1x8.css",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1__jl4_qvu1x8.css",
+   "bytes": 244025
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1amp39bz58-zt.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1amp39bz58-zt.js",
+   "bytes": 56680
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1g1wgh-1l8qz4.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1g1wgh-1l8qz4.js",
+   "bytes": 43960
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1jwyr0ras-oe7.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1jwyr0ras-oe7.js",
+   "bytes": 34829
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1k6mmq3u6qwk8.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1k6mmq3u6qwk8.js",
+   "bytes": 1125
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1qgwc5coqnqop.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1qgwc5coqnqop.js",
+   "bytes": 36192
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1rhygfuvko531.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1rhygfuvko531.js",
+   "bytes": 29813
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__1x-441jk0auvp.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/1x-441jk0auvp.js",
+   "bytes": 51035
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__21fxxjks_usoz.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/21fxxjks_usoz.js",
+   "bytes": 37915
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__22aoy8cmmxe2j.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/22aoy8cmmxe2j.js",
+   "bytes": 45095
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__26__bld7gbyae.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26__bld7gbyae.js",
+   "bytes": 70622
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__26blki17oi8do.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26blki17oi8do.js",
+   "bytes": 2925
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__26dio4keg7x5l.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26dio4keg7x5l.js",
+   "bytes": 68378
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__26wgme4tditsd.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/26wgme4tditsd.js",
+   "bytes": 1422
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__28zq6w00xsp6t.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/28zq6w00xsp6t.js",
+   "bytes": 31789
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2_6mitb_441ob.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2_6mitb_441ob.js",
+   "bytes": 29093
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2_qdbbpf06pb1.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2_qdbbpf06pb1.js",
+   "bytes": 21827
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/app.arcads.ai___next__static__chunks__2_zw2lryz8mwu.css",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2_zw2lryz8mwu.css",
+   "bytes": 1574
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2bszo13wi4a30.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2bszo13wi4a30.js",
+   "bytes": 18337
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2d7z2soyc9g6e.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2d7z2soyc9g6e.js",
+   "bytes": 156031
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2e_l8wsapyxcm.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2e_l8wsapyxcm.js",
+   "bytes": 154864
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2ixnvjih1wvzt.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2ixnvjih1wvzt.js",
+   "bytes": 544540
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2jfel8g1ya0_b.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2jfel8g1ya0_b.js",
+   "bytes": 26457
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2jlzajy9j5_i9.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2jlzajy9j5_i9.js",
+   "bytes": 46841
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2jsz0mpm_94un.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2jsz0mpm_94un.js",
+   "bytes": 797
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2m6cm4wqzuqb7.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2m6cm4wqzuqb7.js",
+   "bytes": 31710
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__2zy92r4m_jcv4.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/2zy92r4m_jcv4.js",
+   "bytes": 34007
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3-6wd9n5d9_qh.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3-6wd9n5d9_qh.js",
+   "bytes": 26622
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__35y1a7r6hhmyj.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/35y1a7r6hhmyj.js",
+   "bytes": 40945
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__36uc_rrtepudd.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/36uc_rrtepudd.js",
+   "bytes": 169458
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3_zim07jj2jpa.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3_zim07jj2jpa.js",
+   "bytes": 112568
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3e705n8uqfetp.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3e705n8uqfetp.js",
+   "bytes": 28844
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/app.arcads.ai___next__static__chunks__3io_l8-g3wt-h.css",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3io_l8-g3wt-h.css",
+   "bytes": 744
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3joc1yl7us7f6.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3joc1yl7us7f6.js",
+   "bytes": 30850
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3lc32jc4jp23f.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3lc32jc4jp23f.js",
+   "bytes": 50667
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3pkkkio9y67ig.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3pkkkio9y67ig.js",
+   "bytes": 52922
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3qh68bbal-rqj.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3qh68bbal-rqj.js",
+   "bytes": 106646
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3qwsyarphz1_n.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3qwsyarphz1_n.js",
+   "bytes": 103634
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3sp6u57ae7q22.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3sp6u57ae7q22.js",
+   "bytes": 8314
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3v69xc6po1-v6.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3v69xc6po1-v6.js",
+   "bytes": 25215
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__3xfrmrftznk-r.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/3xfrmrftznk-r.js",
+   "bytes": 2400
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__40xu--05kqiqm.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/40xu--05kqiqm.js",
+   "bytes": 20742
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/app.arcads.ai___next__static__chunks__turbopack-0q3hlxfannt-z.js",
+   "source": "mirror/app.arcads.ai/_next/static/chunks/turbopack-0q3hlxfannt-z.js",
+   "bytes": 11315
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/app.arcads.ai__api__auth__session__index.html",
+   "source": "mirror/app.arcads.ai/api/auth/session/index.html",
+   "bytes": 1393
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/app.arcads.ai__api__relay__e__index.html__b22cfa903",
+   "source": "mirror/app.arcads.ai/api/relay/e/index.html__b22cfa903",
+   "bytes": 92
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/app.arcads.ai__api__relay__e__index.html__b26233bc4",
+   "source": "mirror/app.arcads.ai/api/relay/e/index.html__b26233bc4",
+   "bytes": 92
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/app.arcads.ai__icon.png",
+   "source": "mirror/app.arcads.ai/icon.png",
+   "bytes": 806
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/app.arcads.ai__icon__q1712fbc4.png",
+   "source": "mirror/app.arcads.ai/icon__q1712fbc4.png",
+   "bytes": 806
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/app.arcads.ai__icons__apple.svg",
+   "source": "mirror/app.arcads.ai/icons/apple.svg",
+   "bytes": 437
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/app.arcads.ai__icons__google.svg",
+   "source": "mirror/app.arcads.ai/icons/google.svg",
+   "bytes": 742
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/app.arcads.ai__login__index.html",
+   "source": "mirror/app.arcads.ai/login/index.html",
+   "bytes": 24790
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/arcads.pages.dev__index.css",
+   "source": "mirror/arcads.pages.dev/index.css",
+   "bytes": 22556
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/arcads.pages.dev__index.js",
+   "source": "mirror/arcads.pages.dev/index.js",
+   "bytes": 328238
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/bzrcdn.openai.com__pixel-config__v1__63KWrdSGxuziTXF3Coczky.json",
+   "source": "mirror/bzrcdn.openai.com/pixel-config/v1/63KWrdSGxuziTXF3Coczky.json",
+   "bytes": 44
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/bzrcdn.openai.com__sdk__oaiq.min.js",
+   "source": "mirror/bzrcdn.openai.com/sdk/oaiq.min.js",
+   "bytes": 117778
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/cdn.amplitude.com__libs__analytics-browser-2.42.4-min.js.gz",
+   "source": "mirror/cdn.amplitude.com/libs/analytics-browser-2.42.4-min.js.gz",
+   "bytes": 223343
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/cdn.amplitude.com__libs__plugin-session-replay-browser-1.32.1-min.js.gz",
+   "source": "mirror/cdn.amplitude.com/libs/plugin-session-replay-browser-1.32.1-min.js.gz",
+   "bytes": 480513
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.amplitude.com__script__44e5a6f3152249aae19ed3e4cad65ea.async.js",
+   "source": "mirror/cdn.amplitude.com/script/44e5a6f3152249aae19ed3e4cad65ea.async.js",
+   "bytes": 2250
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.amplitude.com__script__44e5a6f3152249aae19ed3e4cad65ea.js",
+   "source": "mirror/cdn.amplitude.com/script/44e5a6f3152249aae19ed3e4cad65ea.js",
+   "bytes": 194257
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.amplitude.com__script__b2e63b5453c36ec48b28059c3ab6a699.async.js",
+   "source": "mirror/cdn.amplitude.com/script/b2e63b5453c36ec48b28059c3ab6a699.async.js",
+   "bytes": 2251
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.amplitude.com__script__b2e63b5453c36ec48b28059c3ab6a699.js",
+   "source": "mirror/cdn.amplitude.com/script/b2e63b5453c36ec48b28059c3ab6a699.js",
+   "bytes": 194259
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__685009053c6cf4f7cc4f108d_Redaction20-Italic.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/685009053c6cf4f7cc4f108d_Redaction20-Italic.otf",
+   "bytes": 65212
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__6850090559c534c82b448bce_So%CC%88hne-Leicht.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6850090559c534c82b448bce_So%CC%88hne-Leicht.otf",
+   "bytes": 191884
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__6850090559c534c82b448bce_So_hne-Leicht.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6850090559c534c82b448bce_So_hne-Leicht.otf",
+   "bytes": 191884
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__685009058b88cd707a030938_So%CC%88hne-Kra%CC%88ftig.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/685009058b88cd707a030938_So%CC%88hne-Kra%CC%88ftig.otf",
+   "bytes": 186004
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__685009058b88cd707a030938_So_hne-Kra_ftig.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/685009058b88cd707a030938_So_hne-Kra_ftig.otf",
+   "bytes": 186004
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__68500905e22d7b56f59c3b69_So%CC%88hne-Buch.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68500905e22d7b56f59c3b69_So%CC%88hne-Buch.otf",
+   "bytes": 191552
+  },
+  {
+   "kind": "font",
+   "file": "bundle/font/cdn.prod.website-files.com__685001cf708232477ed43d3f__68500905e22d7b56f59c3b69_So_hne-Buch.otf",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68500905e22d7b56f59c3b69_So_hne-Buch.otf",
+   "bytes": 191552
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6851eaba1ac78cd8efc7ad67_Portrait_UCG_Apr_2_2025_1.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6851eaba1ac78cd8efc7ad67_Portrait_UCG_Apr_2_2025_1.avif",
+   "bytes": 12927
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6851eaba37917ae43ec0d600_ChatGPT_Image_Apr_2_2025_UCG_Actor_Portrait__2__1.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6851eaba37917ae43ec0d600_ChatGPT_Image_Apr_2_2025_UCG_Actor_Portrait__2__1.avif",
+   "bytes": 32005
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6851eabaa6d86378aa5d8617_Image_ChatGPT_Avr_1_2025_Influenceur_UGC.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6851eabaa6d86378aa5d8617_Image_ChatGPT_Avr_1_2025_Influenceur_UGC.avif",
+   "bytes": 9814
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6851eabacbe3481f07f12099_Image_ChatGPT_Apr_2_2025_UCG_Actor_Podcast__2__1.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6851eabacbe3481f07f12099_Image_ChatGPT_Apr_2_2025_UCG_Actor_Podcast__2__1.avif",
+   "bytes": 18026
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68930995f165ad9969fa1efd_sparkles-2.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68930995f165ad9969fa1efd_sparkles-2.png",
+   "bytes": 455
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b04beb52715602ea76c32_learna.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b04beb52715602ea76c32_learna.avif",
+   "bytes": 525
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b33a465747312beebe20f_image-cards.avif",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b33a465747312beebe20f_image-cards.avif",
+   "bytes": 30115
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b51401f25fa51271c26c7_healdway.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b51401f25fa51271c26c7_healdway.png",
+   "bytes": 3737
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b5140903006c3cea68b6b_clickfunnel.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b5140903006c3cea68b6b_clickfunnel.png",
+   "bytes": 5843
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b5140a6d7b2ab2af25802_quiet.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b5140a6d7b2ab2af25802_quiet.png",
+   "bytes": 3572
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b5140b78e349f0c5d0770_cleanfox.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b5140b78e349f0c5d0770_cleanfox.png",
+   "bytes": 5410
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b5140cf0eceb0f779f0ba_asana.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b5140cf0eceb0f779f0ba_asana.png",
+   "bytes": 3405
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689b5140fc7e2b22c9c78c12_bendingspoon.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689b5140fc7e2b22c9c78c12_bendingspoon.png",
+   "bytes": 9531
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c222986fefb439278a_imgLanguage5-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c222986fefb439278a_imgLanguage5-p-500.png",
+   "bytes": 2360
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c222986fefb439278a_imgLanguage5-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c222986fefb439278a_imgLanguage5-p-800.png",
+   "bytes": 4409
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c222986fefb439278a_imgLanguage5.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c222986fefb439278a_imgLanguage5.png",
+   "bytes": 11620
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c23199c0ee723926d4_imgLanguage3-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c23199c0ee723926d4_imgLanguage3-p-500.png",
+   "bytes": 2147
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c23199c0ee723926d4_imgLanguage3-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c23199c0ee723926d4_imgLanguage3-p-800.png",
+   "bytes": 3950
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c23199c0ee723926d4_imgLanguage3.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c23199c0ee723926d4_imgLanguage3.png",
+   "bytes": 9034
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c28a901203ca7d39a0_imgLanguage2-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c28a901203ca7d39a0_imgLanguage2-p-500.png",
+   "bytes": 3633
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c28a901203ca7d39a0_imgLanguage2-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c28a901203ca7d39a0_imgLanguage2-p-800.png",
+   "bytes": 8048
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c28a901203ca7d39a0_imgLanguage2.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c28a901203ca7d39a0_imgLanguage2.png",
+   "bytes": 16401
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2e71ca1e4e53a9cb7_imgLanguage4-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2e71ca1e4e53a9cb7_imgLanguage4-p-500.png",
+   "bytes": 1765
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2e71ca1e4e53a9cb7_imgLanguage4-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2e71ca1e4e53a9cb7_imgLanguage4-p-800.png",
+   "bytes": 3147
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2e71ca1e4e53a9cb7_imgLanguage4.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2e71ca1e4e53a9cb7_imgLanguage4.png",
+   "bytes": 7999
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2f681f79ab6753237_imgLanguage1-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2f681f79ab6753237_imgLanguage1-p-500.png",
+   "bytes": 3924
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2f681f79ab6753237_imgLanguage1-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2f681f79ab6753237_imgLanguage1-p-800.png",
+   "bytes": 7008
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689c99c2f681f79ab6753237_imgLanguage1.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689c99c2f681f79ab6753237_imgLanguage1.png",
+   "bytes": 12621
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews-p-1080.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews-p-1080.png",
+   "bytes": 28234
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews-p-1600.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews-p-1600.png",
+   "bytes": 57049
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews-p-2000.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews-p-2000.png",
+   "bytes": 80574
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews-p-500.png",
+   "bytes": 9656
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews-p-800.png",
+   "bytes": 18030
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9c510b6d7e7b56d95e18_1bviews.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9c510b6d7e7b56d95e18_1bviews.png",
+   "bytes": 115191
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite-p-1080.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite-p-1080.png",
+   "bytes": 31571
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite-p-1600.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite-p-1600.png",
+   "bytes": 61735
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite-p-2000.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite-p-2000.png",
+   "bytes": 87580
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite-p-500.png",
+   "bytes": 11583
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite-p-800.png",
+   "bytes": 20668
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689d9d888a99e8af4548dbbf_1bviewsWhite.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689d9d888a99e8af4548dbbf_1bviewsWhite.png",
+   "bytes": 134290
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689da6633e978ad5443d5b70_3.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689da6633e978ad5443d5b70_3.jpg",
+   "bytes": 8811
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689da6639ed7b4d0b2b42a29_2.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689da6639ed7b4d0b2b42a29_2.jpg",
+   "bytes": 9856
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689da663aeed49380e3c7142_1.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689da663aeed49380e3c7142_1.jpg",
+   "bytes": 7914
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689db26b4ed92e799f576c0a_muted-off.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689db26b4ed92e799f576c0a_muted-off.png",
+   "bytes": 817
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__689db26bdf79382f116a8747_muted-on.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/689db26bdf79382f116a8747_muted-on.png",
+   "bytes": 978
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfc71f37f8ab3620fe4_videoframe_0%20(5).webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfc71f37f8ab3620fe4_videoframe_0%20(5).webp",
+   "bytes": 48834
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfc71f37f8ab3620fe4_videoframe_0__5_.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfc71f37f8ab3620fe4_videoframe_0__5_.webp",
+   "bytes": 48834
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfd117bb751fd375e56_videoframe_0%20(2).webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfd117bb751fd375e56_videoframe_0%20(2).webp",
+   "bytes": 79862
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfd117bb751fd375e56_videoframe_0__2_.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfd117bb751fd375e56_videoframe_0__2_.webp",
+   "bytes": 79862
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfda7a0ef978dc65545_videoframe_0%20(4).webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda7a0ef978dc65545_videoframe_0%20(4).webp",
+   "bytes": 53288
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfda7a0ef978dc65545_videoframe_0__4_.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda7a0ef978dc65545_videoframe_0__4_.webp",
+   "bytes": 53288
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfda9eb08d6b048a16e_videoframe_0%20(1).webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda9eb08d6b048a16e_videoframe_0%20(1).webp",
+   "bytes": 52320
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfda9eb08d6b048a16e_videoframe_0__1_.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda9eb08d6b048a16e_videoframe_0__1_.webp",
+   "bytes": 52320
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfdc97089a5a04d02bb_videoframe_0%20(3).webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfdc97089a5a04d02bb_videoframe_0%20(3).webp",
+   "bytes": 43134
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c7dcfdc97089a5a04d02bb_videoframe_0__3_.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfdc97089a5a04d02bb_videoframe_0__3_.webp",
+   "bytes": 43134
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c82776437a46cd86f0fc6b_05656b027dc25021efbedd52323414c2_6.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c82776437a46cd86f0fc6b_05656b027dc25021efbedd52323414c2_6.webp",
+   "bytes": 16336
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c8277691458a9a524d6e68_7b114edeb5fb724a9d3954af8be77067_4.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c8277691458a9a524d6e68_7b114edeb5fb724a9d3954af8be77067_4.webp",
+   "bytes": 14664
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c827787a0e90c7876f80cd_caa34e78b57df4b0fd61ccd7e4915fe9_7.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c827787a0e90c7876f80cd_caa34e78b57df4b0fd61ccd7e4915fe9_7.webp",
+   "bytes": 8514
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c8277bb3bfa0054f63000e_52178d1d4abc2254aa487d2a3a9dd932_3.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c8277bb3bfa0054f63000e_52178d1d4abc2254aa487d2a3a9dd932_3.webp",
+   "bytes": 14384
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c827bc172c5f771dad5357_445286cca6c051e7a6202289618df730_1%20copie.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c827bc172c5f771dad5357_445286cca6c051e7a6202289618df730_1%20copie.webp",
+   "bytes": 15736
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c827bc172c5f771dad5357_445286cca6c051e7a6202289618df730_1_copie.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c827bc172c5f771dad5357_445286cca6c051e7a6202289618df730_1_copie.webp",
+   "bytes": 15736
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c82db70b127fb633ecdf61_Frame%202087325049.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c82db70b127fb633ecdf61_Frame%202087325049.webp",
+   "bytes": 1288
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c82db70b127fb633ecdf61_Frame_2087325049.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c82db70b127fb633ecdf61_Frame_2087325049.webp",
+   "bytes": 1288
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c82db75be0d592d58004ec_Frame%202087325051.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c82db75be0d592d58004ec_Frame%202087325051.webp",
+   "bytes": 1990
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68c82db75be0d592d58004ec_Frame_2087325051.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68c82db75be0d592d58004ec_Frame_2087325051.webp",
+   "bytes": 1990
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0-p-500.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0-p-500.webp",
+   "bytes": 18764
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0-p-800.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0-p-800.webp",
+   "bytes": 34372
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68da563ea5e493b26164233f_89390cabe8513c0347edea93f13c221e_videoframe_0.webp",
+   "bytes": 34522
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68ecc551c7223f61e756cc6e_pp-1.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68ecc551c7223f61e756cc6e_pp-1.jpg",
+   "bytes": 14740
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68ecc56a0e65e125605bdb46_pp-2.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68ecc56a0e65e125605bdb46_pp-2.jpg",
+   "bytes": 13302
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68ee7e070337dcb0227d51f9_image.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68ee7e070337dcb0227d51f9_image.webp",
+   "bytes": 13432
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__68efa8160baa4b79fde9574d_webclip.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/68efa8160baa4b79fde9574d_webclip.jpg",
+   "bytes": 7362
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690d3cf1d1d846c515a2c5fd_OG.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690d3cf1d1d846c515a2c5fd_OG.png",
+   "bytes": 9896
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-1080.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-1080.webp",
+   "bytes": 17986
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-1600.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-1600.webp",
+   "bytes": 27578
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-500.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-500.webp",
+   "bytes": 7656
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-800.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05-p-800.webp",
+   "bytes": 12986
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot%202025-11-07%20at%2015.18.05.webp",
+   "bytes": 29534
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec142067245d7c3d58_CleanShot_2025-11-07_at_15.18.05.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec142067245d7c3d58_CleanShot_2025-11-07_at_15.18.05.webp",
+   "bytes": 29534
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-1080.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-1080.webp",
+   "bytes": 23724
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-1600.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-1600.webp",
+   "bytes": 35700
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-500.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-500.webp",
+   "bytes": 10278
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-800.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03-p-800.webp",
+   "bytes": 17050
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot%202025-11-07%20at%2015.16.03.webp",
+   "bytes": 39092
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffec86182f7a6dac1388_CleanShot_2025-11-07_at_15.16.03.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffec86182f7a6dac1388_CleanShot_2025-11-07_at_15.16.03.webp",
+   "bytes": 39092
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-1080.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-1080.webp",
+   "bytes": 16462
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-1600.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-1600.webp",
+   "bytes": 25212
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-500.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-500.webp",
+   "bytes": 7056
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-800.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12-p-800.webp",
+   "bytes": 11630
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot%202025-11-07%20at%2015.17.12.webp",
+   "bytes": 27372
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__690dffecbb596831f8eabbc6_CleanShot_2025-11-07_at_15.17.12.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/690dffecbb596831f8eabbc6_CleanShot_2025-11-07_at_15.17.12.webp",
+   "bytes": 27372
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69369fb877e4091a41b93463_favicon.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69369fb877e4091a41b93463_favicon.png",
+   "bytes": 806
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__695b8c83080b47f3251de323_favicon-2.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/695b8c83080b47f3251de323_favicon-2.png",
+   "bytes": 493
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__697b5a4a1ff5a67a95f0f733_google%201.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/697b5a4a1ff5a67a95f0f733_google%201.png",
+   "bytes": 1376
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__697b5a4a1ff5a67a95f0f733_google_1.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/697b5a4a1ff5a67a95f0f733_google_1.png",
+   "bytes": 1376
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69bd171f51aedb6154a42f06_bbe705962491c316c7fbbcb4bdf4b550_server-databases-connect%201.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69bd171f51aedb6154a42f06_bbe705962491c316c7fbbcb4bdf4b550_server-databases-connect%201.png",
+   "bytes": 1197
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69bd171f51aedb6154a42f06_bbe705962491c316c7fbbcb4bdf4b550_server-databases-connect_1.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69bd171f51aedb6154a42f06_bbe705962491c316c7fbbcb4bdf4b550_server-databases-connect_1.png",
+   "bytes": 1197
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69c114820e030cd21a252e86_arrow-top.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69c114820e030cd21a252e86_arrow-top.png",
+   "bytes": 203
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69d51276c6041349788c7f1a_videoframe_0-p-1080.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69d51276c6041349788c7f1a_videoframe_0-p-1080.png",
+   "bytes": 4007
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69d51276c6041349788c7f1a_videoframe_0-p-1600.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69d51276c6041349788c7f1a_videoframe_0-p-1600.png",
+   "bytes": 7576
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69d51276c6041349788c7f1a_videoframe_0-p-500.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69d51276c6041349788c7f1a_videoframe_0-p-500.png",
+   "bytes": 1542
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69d51276c6041349788c7f1a_videoframe_0-p-800.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69d51276c6041349788c7f1a_videoframe_0-p-800.png",
+   "bytes": 2315
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__69d51276c6041349788c7f1a_videoframe_0.png",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/69d51276c6041349788c7f1a_videoframe_0.png",
+   "bytes": 49589
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a16daa6861fde522e0c73ec_frame-scene-p-1080.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a16daa6861fde522e0c73ec_frame-scene-p-1080.webp",
+   "bytes": 38182
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a16daa6861fde522e0c73ec_frame-scene-p-1600.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a16daa6861fde522e0c73ec_frame-scene-p-1600.webp",
+   "bytes": 66236
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a16daa6861fde522e0c73ec_frame-scene-p-500.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a16daa6861fde522e0c73ec_frame-scene-p-500.webp",
+   "bytes": 14014
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a16daa6861fde522e0c73ec_frame-scene-p-800.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a16daa6861fde522e0c73ec_frame-scene-p-800.webp",
+   "bytes": 26058
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a16daa6861fde522e0c73ec_frame-scene.webp",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a16daa6861fde522e0c73ec_frame-scene.webp",
+   "bytes": 80896
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_mp4.mp4",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_mp4.mp4",
+   "bytes": 14414845
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_poster.0000000.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_poster.0000000.jpg",
+   "bytes": 56727
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/cdn.prod.website-files.com__685001cf708232477ed43d3f__6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_webm.webm",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/6a79ef4ae89500338c823f62_Seedance_2.5_-_V3B_30MB_webm.webm",
+   "bytes": 15409921
+  },
+  {
+   "kind": "css",
+   "file": "bundle/css/cdn.prod.website-files.com__685001cf708232477ed43d3f__css__arcads-staging.webflow.shared.10aa27509.min.css",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/css/arcads-staging.webflow.shared.10aa27509.min.css",
+   "bytes": 159683
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.prod.website-files.com__685001cf708232477ed43d3f__js__webflow.721dc7d3.f1b753c58f7e8dc5.js",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.721dc7d3.f1b753c58f7e8dc5.js",
+   "bytes": 1838
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.prod.website-files.com__685001cf708232477ed43d3f__js__webflow.758b0dfb.ebfb28336c25fb57.js",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.758b0dfb.ebfb28336c25fb57.js",
+   "bytes": 4894
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.prod.website-files.com__685001cf708232477ed43d3f__js__webflow.schunk.36b8fb49256177c8.js",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.schunk.36b8fb49256177c8.js",
+   "bytes": 41429
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdn.prod.website-files.com__685001cf708232477ed43d3f__js__webflow.schunk.cb3856d7cc3b7d3a.js",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f/js/webflow.schunk.cb3856d7cc3b7d3a.js",
+   "bytes": 144063
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/cdn.prod.website-files.com__685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_mp4.mp4",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_mp4.mp4",
+   "bytes": 14414845
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/cdn.prod.website-files.com__685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_poster.0000000.jpg",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_poster.0000000.jpg",
+   "bytes": 56727
+  },
+  {
+   "kind": "media",
+   "file": "bundle/media/cdn.prod.website-files.com__685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_webm.webm",
+   "source": "mirror/cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_webm.webm",
+   "bytes": 15409921
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/cdnjs.cloudflare.com__ajax__libs__gsap__3.10.4__CustomEase.min.js",
+   "source": "mirror/cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/CustomEase.min.js",
+   "bytes": 7108
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b488773f4",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b488773f4",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b4d9c277e",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b4d9c277e",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b513713da",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b513713da",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b73ccd869",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b73ccd869",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b8ab9f5e2",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b8ab9f5e2",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__b8cf8184c",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__b8cf8184c",
+   "bytes": 48
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/comet-serve.com__e__t__index__q09c10398.html__bec6733ff",
+   "source": "mirror/comet-serve.com/e/t/index__q09c10398.html__bec6733ff",
+   "bytes": 48
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/d3e54v103j8qbb.cloudfront.net__js__jquery-3.5.1.min.dc5e7f18c8__q4ad64033.js",
+   "source": "mirror/d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8__q4ad64033.js",
+   "bytes": 89476
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/data.arcads.ai__script__q013a6651.js",
+   "source": "mirror/data.arcads.ai/script__q013a6651.js",
+   "bytes": 50011
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/data.arcads.ai__script__q1e214b03.js",
+   "source": "mirror/data.arcads.ai/script__q1e214b03.js",
+   "bytes": 50011
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/flag.lab.amplitude.com__sdk__v2__flags__index__qf94c1014.html",
+   "source": "mirror/flag.lab.amplitude.com/sdk/v2/flags/index__qf94c1014.html",
+   "bytes": 2413
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q0bc61d82.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q0bc61d82.html",
+   "bytes": 6693
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q117b88f2.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q117b88f2.html",
+   "bytes": 6729
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q41138de1.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q41138de1.html",
+   "bytes": 6731
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q53bcb75b.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q53bcb75b.html",
+   "bytes": 6720
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q56c8a303.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q56c8a303.html",
+   "bytes": 6676
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q7af4cb06.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q7af4cb06.html",
+   "bytes": 6663
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q87d46f37.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q87d46f37.html",
+   "bytes": 6674
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q8e7d86cc.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q8e7d86cc.html",
+   "bytes": 6650
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__q91ab581e.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__q91ab581e.html",
+   "bytes": 6637
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qb54ecd43.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qb54ecd43.html",
+   "bytes": 6679
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qba07b99b.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qba07b99b.html",
+   "bytes": 6662
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qbe0a1056.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qbe0a1056.html",
+   "bytes": 6691
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qc4434824.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qc4434824.html",
+   "bytes": 6718
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qc5e8f88c.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qc5e8f88c.html",
+   "bytes": 6649
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qd22950e7.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qd22950e7.html",
+   "bytes": 6681
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/googleads.g.doubleclick.net__pagead__viewthroughconversion__16604571238__index__qe5c813c5.html",
+   "source": "mirror/googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/index__qe5c813c5.html",
+   "bytes": 6639
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/i.ytimg.com__vi__CRzLW2VO_rE__hqdefault.jpg",
+   "source": "mirror/i.ytimg.com/vi/CRzLW2VO_rE/hqdefault.jpg",
+   "bytes": 8760
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/i.ytimg.com__vi__Kj-dClM7RgA__hqdefault.jpg",
+   "source": "mirror/i.ytimg.com/vi/Kj-dClM7RgA/hqdefault.jpg",
+   "bytes": 11598
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/i.ytimg.com__vi__fdT0HgYoSwk__hqdefault.jpg",
+   "source": "mirror/i.ytimg.com/vi/fdT0HgYoSwk/hqdefault.jpg",
+   "bytes": 10047
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js-eu1.hs-analytics.net__analytics__1794467700000__143888573.js",
+   "source": "mirror/js-eu1.hs-analytics.net/analytics/1794467700000/143888573.js",
+   "bytes": 112339
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js-eu1.hs-analytics.net__analytics__1794468000000__143888573.js",
+   "source": "mirror/js-eu1.hs-analytics.net/analytics/1794468000000/143888573.js",
+   "bytes": 112339
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js-eu1.hs-banner.com__v2__143888573__banner.js",
+   "source": "mirror/js-eu1.hs-banner.com/v2/143888573/banner.js",
+   "bytes": 68938
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js-eu1.hs-scripts.com__143888573.js",
+   "source": "mirror/js-eu1.hs-scripts.com/143888573.js",
+   "bytes": 1158
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js.intercomcdn.com__frame-modern.2762eddb.js",
+   "source": "mirror/js.intercomcdn.com/frame-modern.2762eddb.js",
+   "bytes": 575566
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js.intercomcdn.com__vendor-modern.e5315bcd.js",
+   "source": "mirror/js.intercomcdn.com/vendor-modern.e5315bcd.js",
+   "bytes": 277617
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js.jam.dev__capture.js",
+   "source": "mirror/js.jam.dev/capture.js",
+   "bytes": 110827
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js.jam.dev__recorder.js",
+   "source": "mirror/js.jam.dev/recorder.js",
+   "bytes": 147148
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/js.stripe.com__basil__stripe.js",
+   "source": "mirror/js.stripe.com/basil/stripe.js",
+   "bytes": 1194515
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/js.stripe.com__v3__m-outer-3437aaddcdf6922d623e172c2d6f9278.html",
+   "source": "mirror/js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9278.html",
+   "bytes": 200
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/lj.arcads.ai__package__latest__a2378073-dfcc-4ce0-b9cf-cc4866dac6e2__index.html",
+   "source": "mirror/lj.arcads.ai/package/latest/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2/index.html",
+   "bytes": 162955
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/load.tss.arcads.ai__cu6vrvqykjig__dkjmj__index__q02d4f170.html",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig/dkjmj/index__q02d4f170.html",
+   "bytes": 493394
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/load.tss.arcads.ai__cu6vrvqykjig__dkjmj__index__q50c39a29.html",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig/dkjmj/index__q50c39a29.html",
+   "bytes": 599350
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/load.tss.arcads.ai__cu6vrvqykjig__dkjmj__index__qbb43034c.html",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig/dkjmj/index__qbb43034c.html",
+   "bytes": 599350
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/load.tss.arcads.ai__cu6vrvqykjig__dkjmj__index__qf3eec58c.html",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig/dkjmj/index__qf3eec58c.html",
+   "bytes": 493394
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/load.tss.arcads.ai__cu6vrvqykjig__q883e60b7.js",
+   "source": "mirror/load.tss.arcads.ai/cu6vrvqykjig__q883e60b7.js",
+   "bytes": 605169
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/load.tss.arcads.ai__ns__q70fee40e.html",
+   "source": "mirror/load.tss.arcads.ai/ns__q70fee40e.html",
+   "bytes": 463
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b01de4e07",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b01de4e07",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b0f376bbf",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b0f376bbf",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b18fd22b7",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b18fd22b7",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b2bbc4d68",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b2bbc4d68",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b405cf1b4",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b405cf1b4",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b42d48d61",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b42d48d61",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b6d066a9b",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b6d066a9b",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__b83fb80eb",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__b83fb80eb",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__bc42dbd0a",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__bc42dbd0a",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__bc73930d1",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__bc73930d1",
+   "bytes": 2
+  },
+  {
+   "kind": "other",
+   "file": "bundle/other/o4506948623663104.ingest.us.sentry.io__api__4506948625170432__envelope__index__qb37bfdd0.html__be8cfc1f8",
+   "source": "mirror/o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/index__qb37bfdd0.html__be8cfc1f8",
+   "bytes": 2
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/player.vimeo.com__api__player.js",
+   "source": "mirror/player.vimeo.com/api/player.js",
+   "bytes": 24420
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/privacy.arcads.ai__fc5c98ac-2907-4985-a677-5670679f7ecb__loader__qb186cace.js",
+   "source": "mirror/privacy.arcads.ai/fc5c98ac-2907-4985-a677-5670679f7ecb/loader__qb186cace.js",
+   "bytes": 87743
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__0b30234b8ef077d3d0a4-toggle-check.svg",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/0b30234b8ef077d3d0a4-toggle-check.svg",
+   "bytes": 294
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__178a6780e8762f4b120b-gpc.icon.small.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/178a6780e8762f4b120b-gpc.icon.small.png",
+   "bytes": 4190
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__2059cb26072bf78c2af3-gpc.icon.medium.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/2059cb26072bf78c2af3-gpc.icon.medium.png",
+   "bytes": 4355
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__6d53c29e73450d19e18a-gpc.medium.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/6d53c29e73450d19e18a-gpc.medium.png",
+   "bytes": 9240
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__73e53fb633306e475eef-gpc.small.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/73e53fb633306e475eef-gpc.small.png",
+   "bytes": 7083
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__b76a404a9fedcf3f2c2f-toggle-cross.svg",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/b76a404a9fedcf3f2c2f-toggle-cross.svg",
+   "bytes": 426
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__cb5b80c89a9fda353482-gpc.large.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/cb5b80c89a9fda353482-gpc.large.png",
+   "bytes": 10732
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__images__d8d7828e2df9a281bd96-gpc.icon.large.png",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/images/d8d7828e2df9a281bd96-gpc.icon.large.png",
+   "bytes": 4533
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "bytes": 499262
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/privacy.arcads.ai__sdk__6be5dfc02bbd61b83a465667402bfd77489a7a04__modern__ui-web-en-web.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "source": "mirror/privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/ui-web-en-web.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+   "bytes": 261495
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/px.ads.linkedin.com__collect__index__q32eeb1f2.html",
+   "source": "mirror/px.ads.linkedin.com/collect/index__q32eeb1f2.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/px.ads.linkedin.com__collect__index__qa560edc8.html",
+   "source": "mirror/px.ads.linkedin.com/collect/index__qa560edc8.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/px.ads.linkedin.com__collect__index__qb3352273.html",
+   "source": "mirror/px.ads.linkedin.com/collect/index__qb3352273.html",
+   "bytes": 0
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/r.wdfl.co__rw.js",
+   "source": "mirror/r.wdfl.co/rw.js",
+   "bytes": 11460
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/snap.licdn.com__li.lms-analytics__insight.min.js",
+   "source": "mirror/snap.licdn.com/li.lms-analytics/insight.min.js",
+   "bytes": 62285
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/sr-client-cfg.amplitude.com__config__44e5a6f3152249aae19ed3e4cad65ea__index__q33888bcc.html",
+   "source": "mirror/sr-client-cfg.amplitude.com/config/44e5a6f3152249aae19ed3e4cad65ea/index__q33888bcc.html",
+   "bytes": 99
+  },
+  {
+   "kind": "json",
+   "file": "bundle/json/sr-client-cfg.amplitude.com__config__b2e63b5453c36ec48b28059c3ab6a699__index__q33888bcc.html",
+   "source": "mirror/sr-client-cfg.amplitude.com/config/b2e63b5453c36ec48b28059c3ab6a699/index__q33888bcc.html",
+   "bytes": 99
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__q08e5fcb5.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__q08e5fcb5.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__q1771fb34.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__q1771fb34.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__q5ae2adca.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__q5ae2adca.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__qc5081aab.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__qc5081aab.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__qc7ed7c32.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__qc7ed7c32.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__qdd329464.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__qdd329464.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__qec67bd61.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__qec67bd61.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "img",
+   "file": "bundle/img/track-eu1.hubspot.com____ptq__qf30c743f.gif",
+   "source": "mirror/track-eu1.hubspot.com/__ptq__qf30c743f.gif",
+   "bytes": 45
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai_____service_worker__6al0__sw_iframe__q858dc22b.html",
+   "source": "mirror/tss.arcads.ai/_/service_worker/6al0/sw_iframe__q858dc22b.html",
+   "bytes": 3529
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai_____service_worker__6al0__sw_iframe__q9d2fe3c9.html",
+   "source": "mirror/tss.arcads.ai/_/service_worker/6al0/sw_iframe__q9d2fe3c9.html",
+   "bytes": 3529
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q077d2481.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q077d2481.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q0d76ab9f.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q0d76ab9f.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q17c5a52c.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q17c5a52c.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q29d82b98.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q29d82b98.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q317909f5.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q317909f5.html",
+   "bytes": 534
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q4e54d762.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q4e54d762.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q65a08963.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q65a08963.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q790b00b7.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q790b00b7.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q79fbd85e.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q79fbd85e.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q8ff0f9ad.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q8ff0f9ad.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__q9df8c320.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__q9df8c320.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qa337ce4f.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qa337ce4f.html",
+   "bytes": 1628
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qab1a0e26.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qab1a0e26.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qb063bf77.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qb063bf77.html",
+   "bytes": 65
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qb3165e5a.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qb3165e5a.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qcadb467a.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qcadb467a.html",
+   "bytes": 574
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qcec60eaa.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qcec60eaa.html",
+   "bytes": 2128
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/tss.arcads.ai__cu6vrvqykjig__index__qe63873ec.html",
+   "source": "mirror/tss.arcads.ai/cu6vrvqykjig/index__qe63873ec.html",
+   "bytes": 230
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/widget.intercom.io__widget__t4j1iryr__index.html",
+   "source": "mirror/widget.intercom.io/widget/t4j1iryr/index.html",
+   "bytes": 4214
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.arcads.ai__index.html",
+   "source": "mirror/www.arcads.ai/index.html",
+   "bytes": 230677
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.arcads.ai__privacy__index.html",
+   "source": "mirror/www.arcads.ai/privacy/index.html",
+   "bytes": 87432
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.arcads.ai__terms__index.html",
+   "source": "mirror/www.arcads.ai/terms/index.html",
+   "bytes": 110084
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.facebook.com__tr__index__q03cab23f.html",
+   "source": "mirror/www.facebook.com/tr/index__q03cab23f.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.facebook.com__tr__index__q244a1df8.html",
+   "source": "mirror/www.facebook.com/tr/index__q244a1df8.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.facebook.com__tr__index__q30d314ba.html",
+   "source": "mirror/www.facebook.com/tr/index__q30d314ba.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.facebook.com__tr__index__q33326d04.html",
+   "source": "mirror/www.facebook.com/tr/index__q33326d04.html",
+   "bytes": 0
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.facebook.com__tr__index__qab84528b.html",
+   "source": "mirror/www.facebook.com/tr/index__qab84528b.html",
+   "bytes": 0
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/www.google.com__recaptcha__api__q25233735.js",
+   "source": "mirror/www.google.com/recaptcha/api__q25233735.js",
+   "bytes": 1585
+  },
+  {
+   "kind": "html",
+   "file": "bundle/html/www.googletagmanager.com__a__index__q3def0f84.html",
+   "source": "mirror/www.googletagmanager.com/a/index__q3def0f84.html",
+   "bytes": 0
+  },
+  {
+   "kind": "js",
+   "file": "bundle/js/www.gstatic.com__recaptcha__releases__0lEGiwO4Qwx5R9ArxUy0mBpf__recaptcha__zh_cn.js",
+   "source": "mirror/www.gstatic.com/recaptcha/releases/0lEGiwO4Qwx5R9ArxUy0mBpf/recaptcha__zh_cn.js",
+   "bytes": 862333
+  }
+ ]
+}

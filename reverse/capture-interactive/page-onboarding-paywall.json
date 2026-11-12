@@ -1,0 +1,133 @@
+{
+  "route": {
+    "name": "onboarding-paywall",
+    "url": "https://app.arcads.ai/onboarding/paywall"
+  },
+  "gotoErr": null,
+  "landing": {
+    "href": "https://app.arcads.ai/onboarding",
+    "title": "Arcads",
+    "textLen": 202
+  },
+  "candidates": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Google search"
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "X / Twitter"
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "LinkedIn"
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Instagram creator"
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "TikTok"
+    }
+  ],
+  "clicks": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Google search",
+      "status": "ok",
+      "events": 140,
+      "bodies": 4
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "X / Twitter",
+      "status": "ok",
+      "events": 124,
+      "bodies": 3
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "LinkedIn",
+      "status": "ok",
+      "events": 54,
+      "bodies": 2
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Instagram creator",
+      "status": "ok",
+      "events": 47,
+      "bodies": 2
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "TikTok",
+      "status": "ok",
+      "events": 29,
+      "bodies": 1
+    }
+  ],
+  "flushInfo": {
+    "before": "visible",
+    "dispatched": [
+      "visibilitychange",
+      "pagehide"
+    ],
+    "visibilityState": "hidden"
+  },
+  "phases": [
+    {
+      "phase": "flush:onboarding-intent:settle",
+      "events": 31
+    },
+    {
+      "phase": "goto:onboarding-paywall",
+      "events": 890
+    },
+    {
+      "phase": "click:onboarding-paywall#0",
+      "events": 140
+    },
+    {
+      "phase": "click:onboarding-paywall#1",
+      "events": 124
+    },
+    {
+      "phase": "click:onboarding-paywall#2",
+      "events": 54
+    },
+    {
+      "phase": "click:onboarding-paywall#3",
+      "events": 47
+    },
+    {
+      "phase": "click:onboarding-paywall#4",
+      "events": 29
+    },
+    {
+      "phase": "flush:onboarding-paywall:settle",
+      "events": 33
+    }
+  ]
+}

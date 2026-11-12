@@ -1,0 +1,10 @@
+{
+  "manifest_assets": 1986,
+  "disk_files": 3603,
+  "hash_checked": 600,
+  "hash_mismatches": 0,
+  "query_collisions": 0,
+  "total_bytes": 291342811,
+  "download_errors": 317,
+  "notes": "download_errors=317：316 条 HTTP 404 + 1 条 HTTP 403。315 条来自 www.arcads.ai（页面引用的带哈希 JS/CSS chunk 在抓取时已被新版替换下线，属正常『陈旧哈希 chunk』），1 条 www.societe.com + 1 条 cdn.prod.website-files.com（外部 Webflow CDN，跨站引用）。1 条 403 为外部 CDN 权限拦截。全部为非工作包必需的陈旧/外部引用，由 hash_mismatches=0、query_collisions=0 保证主体完整无冲突，归类为『可忽略的陈旧/外部引用』。"
+}

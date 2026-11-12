@@ -1,0 +1,1 @@
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Arcads blog","url":"https://www.arcads.ai/blog","description":"Guides and comparisons on AI video ads from the Arcads team.","isPartOf":{"@type":"WebSite","name":"Arcads","url":"https://www.arcads.ai"},"publisher":{"@type":"Organization","name":"Arcads","url":"https://www.arcads.ai"}}

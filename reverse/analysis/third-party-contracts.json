@@ -1,0 +1,414 @@
+{
+  "generated_at": "2026-11-12T21:18:52.711253+08:00",
+  "scope": "第三方外链追踪/像素 POST 请求体契约；不属于 Arcads 业务后端接口",
+  "sources": [
+    "capture/network-requests.json",
+    "capture-interactive/requests.json"
+  ],
+  "source_requests": 4314,
+  "contract_count": 13,
+  "total_hits": 274,
+  "contracts": [
+    {
+      "host": "bzr.openai.com",
+      "method": "POST",
+      "path": "/v1/sdk/events",
+      "example_url": "https://bzr.openai.com/v1/sdk/events?pid=63KWrdSGxuziTXF3Coczky&st=oaiq-web&sv=0.1.103&t=1794472389221&ec=2",
+      "hits": 146,
+      "sample_body": "{\"obref\":\"c82d2fb4-eb03-4287-a9e7-1c1799d506b7\",\"events\":[{\"test_session_id\":null,\"type\":\"openai::sdk_init\",\"timestamp_ms\":1794472388219,\"id\":\"b7cdd35c-30df-4b12-8f6c-2b74df1343ca\",\"source_url\":\"https://www.arcads.ai/\",\"data\":{\"type\":\"sdk_lifecycle\"}},{\"test_session_id\":null,\"type\":\"page_viewed\",\"timestamp_ms\":1794472388219,\"id\":\"1794472877711_1794473242550368\",\"source_url\":\"https://www.arcads.ai/\",\"opt_out\":false,\"data\":{\"type\":\"contents\"}}],\"client_hints\":{\"platform\":\"macOS\",\"platform_version\":\"26.2.0\",\"full_version_list\":[{\"brand\":\"Not:A-Brand\",\"version\":\"8.0.0.0\"},{\"brand\":\"Chromium\",\"version\":\"156.0.8078.74\"},{\"brand\":\"Google Chrome\",\"version\":\"156.0.8078.74\"}]}}",
+      "body_variants": [
+        {
+          "sha1": "3a3b4ac8a86c66a88a622e051cc975a32298496b",
+          "len": 676,
+          "body": "{\"obref\":\"c82d2fb4-eb03-4287-a9e7-1c1799d506b7\",\"events\":[{\"test_session_id\":null,\"type\":\"openai::sdk_init\",\"timestamp_ms\":1794472388219,\"id\":\"b7cdd35c-30df-4b12-8f6c-2b74df1343ca\",\"source_url\":\"https://www.arcads.ai/\",\"data\":{\"type\":\"sdk_lifecycle\"}},{\"test_session_id\":null,\"type\":\"page_viewed\",\"timestamp_ms\":1794472388219,\"id\":\"1794472877711_1794473242550368\",\"source_url\":\"https://www.arcads.ai/\",\"opt_out\":false,\"data\":{\"type\":\"contents\"}}],\"client_hints\":{\"platform\":\"macOS\",\"platform_version\":\"26.2.0\",\"full_version_list\":[{\"brand\":\"Not:A-Brand\",\"version\":\"8.0.0.0\"},{\"brand\":\"Chromium\",\"vers"
+        },
+        {
+          "sha1": "34981a62b0800b0c9e27d0213a8924e98e9e414b",
+          "len": 401,
+          "body": "{\"obref\":\"c82d2fb4-eb03-4287-a9e7-1c1799d506b7\",\"events\":[{\"test_session_id\":null,\"type\":\"oai::diagnostic\",\"timestamp_ms\":1794472390324,\"id\":\"9fd5d61c-5709-4c5b-9741-e1774dd19d04\",\"data\":{\"type\":\"diagnostic\",\"schema_version\":1,\"dropped_event_count\":0,\"dropped_event_reason_counts\":{},\"dropped_event_name_counts\":{},\"dropped_event_phase_counts\":{},\"config\":{\"automatic_advanced_matching\":\"enabled\"}}}]}"
+        },
+        {
+          "sha1": "70f3fc91edd4a1e402c9aed317161885715b0f91",
+          "len": 1032,
+          "body": "{\"obref\":\"c82d2fb4-eb03-4287-a9e7-1c1799d506b7\",\"events\":[{\"test_session_id\":null,\"type\":\"openai::sdk_init\",\"timestamp_ms\":1794472403732,\"id\":\"f5ebc871-f3b4-490c-a092-437fcaacdf39\",\"source_url\":\"https://www.arcads.ai/privacy\",\"data\":{\"type\":\"sdk_lifecycle\"}},{\"test_session_id\":null,\"type\":\"page_viewed\",\"timestamp_ms\":1794472403733,\"id\":\"1794473072164_1794472706993377\",\"source_url\":\"https://www.arcads.ai/privacy\",\"opt_out\":false,\"data\":{\"type\":\"contents\"}},{\"test_session_id\":null,\"type\":\"oai::diagnostic\",\"timestamp_ms\":1794472403744,\"id\":\"31bdef0d-0199-44b8-a780-b47e8fe6d5ca\",\"data\":{\"type\":\"di"
+        }
+      ],
+      "types": [
+        "Fetch",
+        "Ping"
+      ],
+      "phases": [
+        "goto:flow-library",
+        "goto:onboarding-attribution",
+        "goto:onboarding-intent",
+        "goto:onboarding-paywall",
+        "goto:public-home",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "o4506948623663104.ingest.us.sentry.io",
+      "method": "POST",
+      "path": "/api/4506948625170432/envelope/",
+      "example_url": "https://o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/?sentry_version=7&sentry_key=cd75d0a167f3bd72e3b9dbcb28fe06cf&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+      "hits": 34,
+      "sample_body": "{\"sent_at\":\"2026-11-12T08:33:42.733Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7be515281e274d1caa5658cea938e4e8\",\"init\":true,\"started\":\"2026-11-12T08:33:42.733Z\",\"timestamp\":\"2026-11-12T08:33:42.733Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"6e67d33c9534f30132f197a461e98464a31e78b8\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"}}",
+      "body_variants": [
+        {
+          "sha1": "835cc4dfdea16cf94411755749ecc8ad62c1bf2f",
+          "len": 498,
+          "body": "{\"sent_at\":\"2026-11-12T08:33:42.733Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7be515281e274d1caa5658cea938e4e8\",\"init\":true,\"started\":\"2026-11-12T08:33:42.733Z\",\"timestamp\":\"2026-11-12T08:33:42.733Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"6e67d33c9534f30132f197a461e98464a31e78b8\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"}}"
+        },
+        {
+          "sha1": "082d6822c78a29522b46a2d19c5ce0cb727a63f4",
+          "len": 498,
+          "body": "{\"sent_at\":\"2026-11-12T13:10:49.014Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1e5a027fe3684c4f93cf3327ed417534\",\"init\":true,\"started\":\"2026-11-12T13:10:49.014Z\",\"timestamp\":\"2026-11-12T13:10:49.014Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"6e67d33c9534f30132f197a461e98464a31e78b8\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"}}"
+        },
+        {
+          "sha1": "1f2a9aece9c35e4da4fbff255936e09aa22d6e61",
+          "len": 503,
+          "body": "{\"sent_at\":\"2026-11-12T13:10:49.881Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"1e5a027fe3684c4f93cf3327ed417534\",\"init\":false,\"started\":\"2026-11-12T13:10:49.014Z\",\"timestamp\":\"2026-11-12T13:10:49.881Z\",\"status\":\"exited\",\"errors\":0,\"attrs\":{\"release\":\"6e67d33c9534f30132f197a461e98464a31e78b8\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"}}"
+        }
+      ],
+      "types": [
+        "Fetch"
+      ],
+      "phases": [
+        "click:onboarding-attribution#0",
+        "click:onboarding-attribution#1",
+        "click:onboarding-attribution#3",
+        "click:onboarding-intent#0",
+        "click:onboarding-intent#1",
+        "click:onboarding-intent#4",
+        "click:onboarding-paywall#0",
+        "click:onboarding-paywall#1"
+      ]
+    },
+    {
+      "host": "px.ads.linkedin.com",
+      "method": "POST",
+      "path": "/wa/",
+      "example_url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+      "hits": 30,
+      "sample_body": "H4sIAAAAAAAAEz1Qy2rjMBT9lXDXUiPbii1pF4ZpMXQxTEI3pQxX1lVyGUfxWAphKP2Xfku/rCQtWR4O5/kKE4cM7tmqpjK6fhGQh5mn8kRz5mMCVymlVGMFFD4QuKqzWnd1Y0xdtQLC8YCcwAHOA4Z8hwwCTvMIDvalTNktlzdmCQLO5DMX2vAu4fib/p0olz6AA135usHWymiqWq5QdZKsaqRWyqyIKtvQCgRMuKPHI4arhmIwwfsoa22s1N5aaVvbykHpodMxhlXbgADO2xlTHrFQABdxzCRg5Hv8SoYLeGBM5QscOA/gXmHKflOwEDip3y4uj5z+UujTeppuNpc+Wy4jgYP1dehCLn7MhIUWZ06J026BIX+8n7nsP97XPQjY0wFcOo2jgHz9Yft/uuh/rR9+/nnqN/32e2ifcsE00LVmHf2AXkep1UDSdnWQyndBhpZM1ZgQOh3h7RNsE1XY0AEAAA==",
+      "body_variants": [
+        {
+          "sha1": "ebc961653e9206135926345620788220c37b9da9",
+          "len": 480,
+          "body": "H4sIAAAAAAAAEz1Qy2rjMBT9lXDXUiPbii1pF4ZpMXQxTEI3pQxX1lVyGUfxWAphKP2Xfku/rCQtWR4O5/kKE4cM7tmqpjK6fhGQh5mn8kRz5mMCVymlVGMFFD4QuKqzWnd1Y0xdtQLC8YCcwAHOA4Z8hwwCTvMIDvalTNktlzdmCQLO5DMX2vAu4fib/p0olz6AA135usHWymiqWq5QdZKsaqRWyqyIKtvQCgRMuKPHI4arhmIwwfsoa22s1N5aaVvbykHpodMxhlXbgADO2xlTHrFQABdxzCRg5Hv8SoYLeGBM5QscOA/gXmHKflOwEDip3y4uj5z+UujTeppuNpc+Wy4jgYP1dehCLn7MhIUWZ06J026BIX+8n7nsP97XPQjY0wFcOo2jgHz9Yft/uuh/rR9+/nnqN/32e2ifcsE00LVmHf2AXkep1UDSdnWQyndBhpZM1ZgQOh3h7RNsE1XY0AEAAA=="
+        },
+        {
+          "sha1": "c01fb93697e86a97405b2539d30ef7d77c1d8212",
+          "len": 464,
+          "body": "H4sIAAAAAAAAE1WQzWojMRCE36XPUizNr6SbD0kYyCHEJpdlWVpSyxEZa5SRTFhC3n0Ze1nYY9FdVf31F+ToC5gfWrRSdc1PBsWtMddXWktcEhgphBCtZlDjmcDIUXed0qJvBqEZ+OWMMYEBzPkOV4e+3GEEBpd1BgNvteZidrv/prsl2QVXH9Nph7Wu0V7qVsXgk2yJlQ7xlHB+oY8LlTp5MCBsI+VIA/cYFBehF7xRwnI/Kt8LDA4bDwwynuhpQX/19NIH67XnOjjFuyBbrqxuuQ9EdlBOjm4ABrEcV0xlxkoeTMC5EIM5PuCtGTbxGDHVmzjH4sB8QS72ULESGN59bylPMb2Tn9I+538x2z3HWGcCA/srPjB4ozOYdJlnBuUKevydt4Xn/eP9r9fpMB3/kkypVEyObh9orZejIx76xnIlteQ2jJb3wQ1OEI6NEvD9B/WenJ/PAQAA"
+        },
+        {
+          "sha1": "ccd963d277efb36212d13516f1371ba63c8466f3",
+          "len": 1236,
+          "body": "H4sIAAAAAAAAE6VVbW/bNhD+L7cvGyDGki0rtr45XlsEy9pi8frFMAJKPMlcKJIjqVhB4f8+kJLtJE2TtINgi0ce7+557kVfQXNmIV/P40kyS8ebCGxpuHZf0FiuJORJHMfxZB6B4w1CnpzP03Q2j6fzeTyNgKmGcgk5UK3PqCkps2eUQwStEZDD1jlt89Ho0elIyUJRw7isR9Q5w4vWeVcR7LCw3OE1ryUVf+G/LVp3ySCHSRbPskkyJVmWJCQbl+ckYemM0CzJxpNxWkxnGUSgaY1XirJwZ5qwqmBzRuZVOSNplUzIrJhPCKsQi2xWJuelv8PtylBpBXXIIK+osBiB4O9p7xm88IFT6Xqh4baE/CtoW1w76hByku69lSsub5FdyoXWRzM+nhV3AiGHRYAPEWyxgVy2QkRgA9DVvfYKy6vL5R/+3GDV+2KqWQz8oPVOUWCD0l1jQ6XjZX+xNzUcfaGifbo32C9a5wLLjtYfqc8lXPy9Wn36CBEUtLytjWolu2xojdemPNjgz8kL4Y6ylGhW2Hl6Vvx2pW7h5LiH3iuWrbHKQA5acenQwH64/K5X9kX4HYRw+efiwzt4A8h+"
+        }
+      ],
+      "types": [
+        "Fetch"
+      ],
+      "phases": [
+        "click:onboarding-attribution#0",
+        "click:onboarding-attribution#1",
+        "click:onboarding-attribution#2",
+        "click:onboarding-attribution#3",
+        "click:onboarding-attribution#4",
+        "click:onboarding-intent#0",
+        "click:onboarding-intent#1",
+        "click:onboarding-intent#2"
+      ]
+    },
+    {
+      "host": "analytics.tiktok.com",
+      "method": "POST",
+      "path": "/api/v2/pixel/act",
+      "example_url": "https://analytics.tiktok.com/api/v2/pixel/act",
+      "hits": 26,
+      "sample_body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794472391531-9963987859645\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:33:11.531Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab\",\"pageview_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b--mbrs.5.0::b0dc10c2-de73-11f1-bea1-08c0eb5e1e1c\",\"variation_id\":\"default\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"index\":5,\"sessions\":[{\"csid\":\"1794467866419::fdV-zPL0shhY8BJXNcdL\",\"page_csid\":\"1794467866420::OAFxVjDe00dJRRZ3VWp9\",\"csct\":1,\"pixel_code\":\"CPI77M3C77U6NIAFM3VG\"}]},\"_inspection\":{\"ppf\":[{\"id\":6,\"d\":1000,\"f\":[{\"id\":25,\"d\":0}]}],\"vids\":\"77390320\",\"inter_id\":\"1.4512337.4524908::710772.10.558.307::567611.1.0\"},\"properties\":{},\"signal_diagnostic_labels\":{\"raw_email\":{\"label\":\"missin",
+      "body_variants": [
+        {
+          "sha1": "4691d5fce9dc1bae8731c872998fdde19b273b7f",
+          "len": 3516,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794472391531-9963987859645\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:33:11.531Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab\",\"pageview_id\":\"278e33cf-de69-11f1-a9ac-7"
+        },
+        {
+          "sha1": "52d9a2e9f7cca11134870a215428d58fbdee4759",
+          "len": 1752,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489054155-5425023734166\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:10:54.155Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/onboarding/attribution\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2f28dfb6-de9a-11f1-bea1-08c0eb5e1e1c::2mGukfl_bb09VpwJKOUl\",\"pageview_id\":\"2f2"
+        },
+        {
+          "sha1": "8c1bdc1de72e6185b6fd22b3deaab0f8a4dff2dd",
+          "len": 2564,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489059988-8469350471766\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:10:59.988Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/on"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "click:onboarding-attribution#0",
+        "click:onboarding-attribution#1",
+        "click:onboarding-attribution#2",
+        "click:onboarding-attribution#3",
+        "click:onboarding-attribution#4",
+        "click:onboarding-intent#0",
+        "click:onboarding-intent#1",
+        "click:onboarding-intent#2"
+      ]
+    },
+    {
+      "host": "analytics.tiktok.com",
+      "method": "POST",
+      "path": "/api/v2/pixel",
+      "example_url": "https://analytics.tiktok.com/api/v2/pixel",
+      "hits": 14,
+      "sample_body": "{\"event\":\"Pageview\",\"event_id\":\"1794472877711_1794473242550368\",\"message_id\":\"messageId-1794472391328-2398244543193-CPI77M3C77U6NIAFM3VG\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:33:11.328Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab-CPI77M3C77U6NIAFM3VG\",\"pageview_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b--mbrs.5.0::b0dc10c2-de73-11f1-bea1-08c0eb5e1e1c-CPI77M3C77U6NIAFM3VG\",\"variation_id\":\"default\",\"csid\":\"1794467866419::fdV-zPL0shhY8BJXNcdL\",\"page_csid\":\"1794467866420::OAFxVjDe00dJRRZ3VWp9\",\"csct\":1,\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"},\"_inspection\":{\"ppf\":[{\"id\":7,\"d\":6500,\"f\":[{\"id\":19,\"d\":100},{\"id\":1,\"d\":100},{\"id\":19,\"d\":0},{\"id\":2,\"d\":1000},{\"id\":18,\"d\":0},{\"id\":15,\"d\":600},{\"id\":6,\"d\":2200},{\"id\":8,\"d\":0},{\"id\":9,\"d\":0},{",
+      "body_variants": [
+        {
+          "sha1": "59938aa46a806b7ec924d7ed6e22389aa3bc69a6",
+          "len": 1899,
+          "body": "{\"event\":\"Pageview\",\"event_id\":\"1794472877711_1794473242550368\",\"message_id\":\"messageId-1794472391328-2398244543193-CPI77M3C77U6NIAFM3VG\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:33:11.328Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab-CP"
+        },
+        {
+          "sha1": "b37e6ab67552bdf25a712139ec77aa21e6c47460",
+          "len": 1901,
+          "body": "{\"event\":\"Pageview\",\"event_id\":\"1794489906031_1794489190490368\",\"message_id\":\"messageId-1794489053951-8216526710033-CPI77M3C77U6NIAFM3VG\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:10:53.951Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://app.arcads.ai/onboarding/attribution\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2f28dfb6-de9a-11f1-bea1-08c0eb5e1e1c::2"
+        },
+        {
+          "sha1": "5ce7668e42c999a1d961c86592763079f628e77a",
+          "len": 2036,
+          "body": "{\"event\":\"EnrichAM\",\"event_id\":\"\",\"message_id\":\"messageId-1794489055960-9893567154726-CPI77M3C77U6NIAFM3VG\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:10:55.960Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://app.arc"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "click:onboarding-intent#0",
+        "click:onboarding-paywall#0",
+        "goto:flow-library",
+        "goto:onboarding-attribution",
+        "goto:onboarding-intent",
+        "goto:onboarding-paywall",
+        "goto:public-home",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "analytics.tiktok.com",
+      "method": "POST",
+      "path": "/api/v2/pixel/inter",
+      "example_url": "https://analytics.tiktok.com/api/v2/pixel/inter",
+      "hits": 9,
+      "sample_body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489063952-1520280396152\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:11:03.952Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/onboarding/attribution\",\"referrer\":\"\",\"load_progress\":\"2\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"2f28dfb6-de9a-11f1-bea1-08c0eb5e1e1c::2mGukfl_bb09VpwJKOUl\",\"pageview_id\":\"2f28dfb6-de9a-11f1-bea1-08c0eb5e1e1c-7H2B4.1.0::7d99d0a1-de9a-11f1-aae0-e6051768006f\",\"variation_id\":\"default\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"index\":1},\"_inspection\":{\"identity_params\":{\"email_is_hashed\":[\"empty_value\"],\"sha256_email\":[\"empty_value\"],\"phone_is_hashed\":[\"empty_value\"],\"sha256_phone\":[\"em",
+      "body_variants": [
+        {
+          "sha1": "c212ae375cfc8a574341e8a1d7e88911a8c234de",
+          "len": 1885,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489063952-1520280396152\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:11:03.952Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/on"
+        },
+        {
+          "sha1": "6507078124755447fe11356caf4e63bc6317312f",
+          "len": 1885,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489073953-2246050525784\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:11:13.953Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/on"
+        },
+        {
+          "sha1": "f3731401f142e22d3ab8c3dbe8d0c061749ce86c",
+          "len": 1917,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794489092530-3987513356659\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:11:32.530Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\",\"eb_email\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"acp\":[{\"type\":1,\"value\":\"d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f\",\"source\":\"aam_ts_raw_em\"}]},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://app.arcads.ai/on"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "click:onboarding-attribution#2",
+        "click:onboarding-intent#3",
+        "click:onboarding-paywall#3",
+        "click:public-home#0",
+        "click:public-home#3",
+        "flush:onboarding-attribution:settle",
+        "flush:onboarding-intent:settle",
+        "flush:onboarding-paywall:settle"
+      ]
+    },
+    {
+      "host": "s1570495.eu-nbg-2.betterstackdata.com",
+      "method": "POST",
+      "path": "/",
+      "example_url": "https://s1570495.eu-nbg-2.betterstackdata.com/",
+      "hits": 5,
+      "sample_body": "[{\"dt\":\"2026-11-12T08:33:15.856Z\",\"level\":\"warn\",\"url\":\"https://www.arcads.ai/\",\"device_pixel_ratio\":2,\"screen_width\":1512,\"screen_height\":982,\"window_width\":1500,\"window_height\":814,\"user_locale\":\"zh-CN\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"environment\":\"production\",\"workspace_id\":\"a2378073-dfcc-4ce0-b9cf-cc4866dac6e2\",\"click_id\":\"9d1144a9-a11c-4f2f-91eb-eb114cc19faf\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"warning\":\"Tracking is disabled for this workspace.\",\"code\":15,\"timestamp\":\"2026-11-12T08:33:15.856Z\",\"message\":\"leadjourney_tracking_warning\"}]",
+      "body_variants": [
+        {
+          "sha1": "47f87b75ba032d5e822fd398267eab9d46773260",
+          "len": 678,
+          "body": "[{\"dt\":\"2026-11-12T08:33:15.856Z\",\"level\":\"warn\",\"url\":\"https://www.arcads.ai/\",\"device_pixel_ratio\":2,\"screen_width\":1512,\"screen_height\":982,\"window_width\":1500,\"window_height\":814,\"user_locale\":\"zh-CN\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"environment\":\"production\",\"workspace_id\":\"a2378073-dfcc-4ce0-b9cf-cc4866dac6e2\",\"click_id\":\"9d1144a9-a11c-4f2f-91eb-eb114cc19faf\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"warning\":\"Tracking is disabled for this workspace.\",\"code\":15,\"ti"
+        },
+        {
+          "sha1": "9743156c6428eeba87dba39fd020da7e86df25b9",
+          "len": 678,
+          "body": "[{\"dt\":\"2026-11-12T13:12:50.248Z\",\"level\":\"warn\",\"url\":\"https://www.arcads.ai/\",\"device_pixel_ratio\":2,\"screen_width\":1512,\"screen_height\":982,\"window_width\":1512,\"window_height\":826,\"user_locale\":\"zh-CN\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"environment\":\"production\",\"workspace_id\":\"a2378073-dfcc-4ce0-b9cf-cc4866dac6e2\",\"click_id\":\"9d1144a9-a11c-4f2f-91eb-eb114cc19faf\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"warning\":\"Tracking is disabled for this workspace.\",\"code\":15,\"ti"
+        }
+      ],
+      "types": [
+        "Fetch"
+      ],
+      "phases": [
+        "click:public-home#1",
+        "click:public-home#2",
+        "click:public-home#3",
+        "goto:public-home",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "comet-serve.com",
+      "method": "POST",
+      "path": "/e/t",
+      "example_url": "https://comet-serve.com/e/t?space_id=3377699767000092",
+      "hits": 3,
+      "sample_body": "{\"fingerprint\":\"41f460455ed9d54babf24dd46f9879b7\",\"comet_token\":\"6116582323085139075220311250237828403294269871873\",\"event\":\"init\",\"json_data\":null,\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"fbp\":\"fb.1.1794467862944.1842103497\",\"axwrt\":\"\",\"device_type\":\"desktop\",\"os\":\"macOS\",\"browser\":\"Google Chrome\",\"language\":\"zh-CN\",\"in_iframe\":false}",
+      "body_variants": [
+        {
+          "sha1": "1b92f4f89d27cc29589ccbb6ee1c6d1970a5a5ea",
+          "len": 342,
+          "body": "{\"fingerprint\":\"41f460455ed9d54babf24dd46f9879b7\",\"comet_token\":\"6116582323085139075220311250237828403294269871873\",\"event\":\"init\",\"json_data\":null,\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"fbp\":\"fb.1.1794467862944.1842103497\",\"axwrt\":\"\",\"device_type\":\"desktop\",\"os\":\"macOS\",\"browser\":\"Google Chrome\",\"language\":\"zh-CN\",\"in_iframe\":false}"
+        },
+        {
+          "sha1": "8f88922c27256f13ff7d1c78ea5c95bd33930f2d",
+          "len": 352,
+          "body": "{\"fingerprint\":\"41f460455ed9d54babf24dd46f9879b7\",\"comet_token\":\"6116582323085139075220311250237828403294269871873\",\"event\":\"custom_event_2\",\"json_data\":null,\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"fbp\":\"fb.1.1794467862944.1842103497\",\"axwrt\":\"\",\"device_type\":\"desktop\",\"os\":\"macOS\",\"browser\":\"Google Chrome\",\"language\":\"zh-CN\",\"in_iframe\":false}"
+        }
+      ],
+      "types": [
+        "Fetch"
+      ],
+      "phases": [
+        "goto:public-home",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "api-iam.intercom.io",
+      "method": "POST",
+      "path": "/messenger/web/page_view_events",
+      "example_url": "https://api-iam.intercom.io/messenger/web/page_view_events",
+      "hits": 2,
+      "sample_body": "app_id=t4j1iryr&v=3&g=dfc1cb2a834b6b8f4688067faac440304db96639&s=d84d0be6-2d60-4003-88d4-5ca3ab8813ab&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=b8b89b9033c5ceb6&internal=&is_intersection_booted=false&page_title=Arcads&user_active_company_id=-1&user_data=%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%7D&referer=https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution&anonymous_session=MjUvVUVOcnpYVHFCMmNxTDBLdHhOcUlXM1hVZ1M0Nm9veHEzZVFkdi92aEtzZnYxQ2sxOUtpcG1ZKzhhSHY4RkFGa2pDOGFiQmZ6ODJncDExeWZsb1cyL2xwU0ljbFJva0t4UzNjdHZrY3BJV2FZcXJLRWU2dHlCd1hCRGgyZWdNd0dZUEVvUHhNR1dVcGNYRmx1ZnNrK3VETmljLzZnM2ZxOVF4QVJYQVJVYlNvdXVLM1RzcWhlVVJWVmd4UFlzTTk4dWYyd3pITEMvcitPYWJKODRZZz09LS1MWXFIdjBSM1Qya1NyeHZacGEzMUlBPT0%3D--93cb81cec58fa8480299571a3623cbfc5d7054e4&device_identifier=2bdbcbf4-a1d0-430e-a241-5ecfe232bbad",
+      "body_variants": [
+        {
+          "sha1": "4710d927930b895a04f7d0cb5ce7d0e7f1eb89fe",
+          "len": 925,
+          "body": "app_id=t4j1iryr&v=3&g=dfc1cb2a834b6b8f4688067faac440304db96639&s=d84d0be6-2d60-4003-88d4-5ca3ab8813ab&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=b8b89b9033c5ceb6&internal=&is_intersection_booted=false&page_title=Arcads&user_active_company_id=-1&user_data=%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%7D&referer=https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution&anonymous_session=MjUvVUVOcnpYVHFCMmNxTDBLdHhOcUlXM1hVZ1M0Nm9veHEzZVFkdi92aEtzZnYxQ2sxOUtpcG1ZKzhhSHY4RkFGa2pDOGFiQm"
+        },
+        {
+          "sha1": "ec449504905b7a54dab5b12e4426a40e09c4b7ab",
+          "len": 878,
+          "body": "app_id=t4j1iryr&v=3&g=e56e003cf3f29bd565e036f20823c4594e56fae0&s=9ec1cab2-83db-4f31-be99-635d1869b663&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=56d7a1e27bcfdadb&internal=&is_intersection_booted=false&page_title=Arcads&user_active_company_id=-1&user_data=%7B%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%7D&referer=https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution&anonymous_session=a3BXMVo5c1FxWTNST2RidEFJR25wbGd2bU16VW0xdUVMQnRWRWNKc3NrU25CeU1iM21acmkrVTN5c094TW5vZVVQcHFlVWc4cTZYZEIrSzEzSzRoSVlQdG9BK2svcjY4QktjbE1RMkZ2UWN6M"
+        }
+      ],
+      "types": [
+        "XHR"
+      ],
+      "phases": [
+        "click:onboarding-paywall#1",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "api-iam.intercom.io",
+      "method": "POST",
+      "path": "/messenger/web/ping",
+      "example_url": "https://api-iam.intercom.io/messenger/web/ping",
+      "hits": 2,
+      "sample_body": "app_id=t4j1iryr&v=3&g=dfc1cb2a834b6b8f4688067faac440304db96639&s=d84d0be6-2d60-4003-88d4-5ca3ab8813ab&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=c4048a8210790145&internal=%7B%7D&is_intersection_booted=false&page_title=Arcads&user_active_company_id=undefined&user_data=%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%2C%22name%22%3A%22%E6%99%AF%E6%99%BA%22%2C%22catalogVariant%22%3A%22Original%20pricing%22%2C%22pricingVariant%22%3A%22Original%20pricing%22%7D&source=apiBoot&sampling=false&referer=https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution&anonymous_session=cUNPcHFVZGZlajdZTDM3U3JQZXlWNE5HYlM3eEFUNkNMb3E5UGpqR2NsTkhacUQzMi81andLS3hkUFBEd0MyRTlIUTBGbVdoSjY2dWp4Zm1QbHBXU2Q5RnBKV2YwUW9Bbm1nc1NMb3pSYnFqbmI1eWJaSUlOS2YwRWxXM1Y4OUtPQ1VtMTdSNGVkZ1BCTTF3STBtT1cxNHgrbkJqTW4xRWkyTU1EdDQ0RmF1V0FVaTRlZU1Jc05hbHVYbmtmQUxRNGpPbzhFUGorR1lBdjE2SUlzVWNUdz09LS05ZzdxYXBlbFJkT0V6YlRrSXZBOXZ3PT0%3D--9efe284375bb7e5af2d1290e7f2501c81876167c&device_identifier=2bdbcbf4-a1d0-430e-a241-5ecfe232bbad",
+      "body_variants": [
+        {
+          "sha1": "88f20618013b389819ea6cd5232b4ea1449f1389",
+          "len": 1108,
+          "body": "app_id=t4j1iryr&v=3&g=dfc1cb2a834b6b8f4688067faac440304db96639&s=d84d0be6-2d60-4003-88d4-5ca3ab8813ab&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=c4048a8210790145&internal=%7B%7D&is_intersection_booted=false&page_title=Arcads&user_active_company_id=undefined&user_data=%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%2C%22name%22%3A%22%E6%99%AF%E6%99%BA%22%2C%22catalogVariant%22%3A%22Original%20pricing%22%2C%22pricingVariant%22%3A%22Original%20pricing%22%7D&source=apiBoot&sampling=fa"
+        },
+        {
+          "sha1": "94e961954f722e0409ede39b9f57680dc335e1be",
+          "len": 909,
+          "body": "app_id=t4j1iryr&v=3&g=e56e003cf3f29bd565e036f20823c4594e56fae0&s=9ec1cab2-83db-4f31-be99-635d1869b663&r=&platform=web&installation_type=js-snippet&installation_version=undefined&Idempotency-Key=a5e9bc0576bcc319&internal=%7B%7D&is_intersection_booted=false&page_title=Arcads&user_active_company_id=undefined&user_data=%7B%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%7D&source=apiUpdate&sampling=false&referer=https%3A%2F%2Fapp.arcads.ai%2Fonboarding&anonymous_session=eXhzOG4zZ21qb0sxOHpHanZZNEFhTG1CVmZWTzg5SEVpREt6VEowdVJXNEw0R2VxNTFhd29aTWl4ZG4rTnVYTlFMbWlRcEN3R0dmMkJmblNKZmZ3c3"
+        }
+      ],
+      "types": [
+        "XHR"
+      ],
+      "phases": [
+        "goto:onboarding-paywall",
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "analytics-ipv6.tiktokw.us",
+      "method": "POST",
+      "path": "/ipv6/enrich_ipv6",
+      "example_url": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
+      "hits": 1,
+      "sample_body": "{\"event\":\"EnrichIpv6\",\"event_id\":\"1794489940741_1794489830174376\",\"message_id\":\"messageId-1794489170262-9128668282475-CPI77M3C77U6NIAFM3VG#source=2\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:12:50.262Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"c05c6ffe-de9a-11f1-9fc4-02001704fe94::beKkF1tKgeDVVKKfRqNa-CPI77M3C77U6NIAFM3VG\",\"pageview_id\":\"c05c6ffe-de9a-11f1-9fc4-02001704fe94-MYBXB.0.0::c05c5a18-de9a-11f1-9fc4-02001704fe94-CPI77M3C77U6NIAFM3VG\",\"variation_id\":\"default\",\"csid\":\"1794488924504::bfkkParXFx7nHPQ_PV_l\",\"page_csid\":\"1794488924504::W_HQH6kITGZ8eXRWuaG_\",\"csct\":2,\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\"},\"_inspection\":{\"ppf\":[{\"id\":7,\"d\":7500,\"f\":[{\"id\":19,\"d\":100},{\"id\":1,\"d\":0},{\"id\":19,\"d\":0},{\"id\":2,\"d\":1700},{\"id\":18,\"d\":0},{\"id\":15,\"d\":900},{\"id\":6,\"d\":2400},{\"id\":8,\"d\":0},{\"id\":9",
+      "body_variants": [
+        {
+          "sha1": "301706572fc49b83dbd583b113c8ec597c177456",
+          "len": 1928,
+          "body": "{\"event\":\"EnrichIpv6\",\"event_id\":\"1794489940741_1794489830174376\",\"message_id\":\"messageId-1794489170262-9128668282475-CPI77M3C77U6NIAFM3VG#source=2\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T13:12:50.262Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\"},\"page\":{\"url\":\"https://www.arcads.ai/\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"c05c6ffe-de9a-11f1-9fc4-02001704fe94::beKkF1tKgeDV"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "goto:public-home"
+      ]
+    },
+    {
+      "host": "analytics.tiktok.com",
+      "method": "POST",
+      "path": "/api/v2/monitor",
+      "example_url": "https://analytics.tiktok.com/api/v2/monitor",
+      "hits": 1,
+      "sample_body": "{\"metric_name\":\"custom_info\",\"pixel_code\":\"CPI77M3C77U6NIAFM3VG\",\"platform\":0,\"app_name\":\"external\",\"net_type\":\"3g\",\"placement\":\"non\",\"lib\":{\"lib_version\":\"2.2.1\",\"ttq_name\":\"ttq\"},\"in_iframe\":1,\"time_to_last_start\":1306,\"time_to_navigation_start\":6288,\"latency\":0,\"page_url\":\"https://app.arcads.ai/onboarding/contact\",\"att_status\":3,\"pageview_id\":\"58d325de-de69-11f1-9edc-cab1f8d72b6e-OMyNI.42.0\",\"session_id\":\"58d325de-de69-11f1-9edc-cab1f8d72b6e::ZMDEE6OYe-ahqMYaEjuZ\",\"variation_id\":\"default\",\"vids\":\"77390320\",\"load_id\":\"2dcbdce5-de75-11f1-9ebb-b83fd240db22\",\"ad_id\":\"undefined\",\"creative_id\":\"undefined\",\"user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"pixel_monitor_version\":\"v2\",\"custom_name\":\"form_funnel\",\"custom_enum\":\"form_visible\",\"partner\":\"non\",\"ext_json\":{\"performance\":[],\"pixel_list\":\"CPI77M3C77U6NIAFM3VG\",\"pixel_api_conflict_flag\":false,\"message\":\"form_1|1.5156741.5162527::710772.10.558.307::567611.1.0|\"}}",
+      "body_variants": [
+        {
+          "sha1": "7c8e1c55377e9a294258c99b7524ba349410f0fb",
+          "len": 1012,
+          "body": "{\"metric_name\":\"custom_info\",\"pixel_code\":\"CPI77M3C77U6NIAFM3VG\",\"platform\":0,\"app_name\":\"external\",\"net_type\":\"3g\",\"placement\":\"non\",\"lib\":{\"lib_version\":\"2.2.1\",\"ttq_name\":\"ttq\"},\"in_iframe\":1,\"time_to_last_start\":1306,\"time_to_navigation_start\":6288,\"latency\":0,\"page_url\":\"https://app.arcads.ai/onboarding/contact\",\"att_status\":3,\"pageview_id\":\"58d325de-de69-11f1-9edc-cab1f8d72b6e-OMyNI.42.0\",\"session_id\":\"58d325de-de69-11f1-9edc-cab1f8d72b6e::ZMDEE6OYe-ahqMYaEjuZ\",\"variation_id\":\"default\",\"vids\":\"77390320\",\"load_id\":\"2dcbdce5-de75-11f1-9ebb-b83fd240db22\",\"ad_id\":\"undefined\",\"creative_id\":\"u"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "legacy:capture"
+      ]
+    },
+    {
+      "host": "analytics.tiktok.com",
+      "method": "POST",
+      "path": "/api/v2/pixel/perf",
+      "example_url": "https://analytics.tiktok.com/api/v2/pixel/perf",
+      "hits": 1,
+      "sample_body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794472499673-9772472474630\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:34:59.673Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://www.arcads.ai/features/ai-ads\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab\",\"pageview_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b-9VUfW.13.0::f216768d-de73-11f1-aa35-02001713b85a\",\"variation_id\":\"default\",\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"index\":13},\"_inspection\":{\"vids\":\"77390320\",\"inter_id\":\"1.4630182.4633250::710772.10.558.307::567611.1.0\"},\"properties\":{},\"signal_diagnostic_labels\":{\"raw_email\":{\"label\":\"missing\"},\"raw_auto_email\":{\"label\":\"missing\"},\"raw_phone\":{\"label\":\"missing\"},\"raw_auto_phone\":{\"label\":\"missing\"},\"hashed_email\":{\"label\":\"missing\"},\"hashed_phone\":{\"label\":\"missing\"},\"raw_e",
+      "body_variants": [
+        {
+          "sha1": "4420f242e162df236d967df9f32ff509001b0d8a",
+          "len": 1545,
+          "body": "{\"event_id\":\"\",\"message_id\":\"messageId-1794472499673-9772472474630\",\"is_onsite\":false,\"timestamp\":\"2026-11-12T08:34:59.673Z\",\"context\":{\"ad\":{\"sdk_env\":\"external\",\"jsb_status\":2},\"device\":{\"platform\":\"pc\"},\"user\":{\"anonymous_id\":\"01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415\"},\"pixel\":{\"code\":\"CPI77M3C77U6NIAFM3VG\",\"runtime\":\"1\",\"codes\":\"CPI77M3C77U6NIAFM3VG\"},\"page\":{\"url\":\"https://www.arcads.ai/features/ai-ads\",\"referrer\":\"\",\"load_progress\":\"1\"},\"library\":{\"name\":\"pixel.js\",\"version\":\"2.2.1\"},\"session_id\":\"278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab\",\"pageview_id\":\"278e33cf-d"
+        }
+      ],
+      "types": [
+        "Ping"
+      ],
+      "phases": [
+        "legacy:capture"
+      ]
+    }
+  ]
+}

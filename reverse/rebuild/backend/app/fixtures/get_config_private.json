@@ -1,0 +1,18 @@
+{
+ "welcomeVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/4c951543-23e8-4621-aa85-f9e954832f33.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+ "paywallVideos": [
+  "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/ee1130d5-c634-44bd-a7f2-9475ca5a2292.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…",
+  "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/1515228c-65cd-4bda-83b2-baf26f4ce7dd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…",
+  "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/70286c09-ae00-4a0c-9d6f-bd44675390f9.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…"
+ ],
+ "defaultVoiceSettings": {
+  "speed": 1.1,
+  "style": 0,
+  "stability": 0.5,
+  "similarityBoost": 0.75,
+  "useSpeakerBoost": true
+ },
+ "requestEditBaseVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/deb3c4cd-0bb7-45f9-bdb2-781e6641835e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+ "requestEditEditedVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/3bfe0813-62e9-4c9f-a416-852b2de06113.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+ "speechTooSpeechMaxDuration": 120
+}

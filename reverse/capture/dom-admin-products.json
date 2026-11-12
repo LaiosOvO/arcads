@@ -1,0 +1,346 @@
+{
+  "href": "https://app.arcads.ai/",
+  "title": "Arcads",
+  "readyState": "complete",
+  "bodyText": "",
+  "scriptsExternal": [
+    "https://analytics.tiktok.com/i18n/pixel/static/identify_9caef9b0.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MTkyOWEyMGMwMQ.js",
+    "https://js-eu1.hs-analytics.net/analytics/1794473700000/143888573.js",
+    "https://js-eu1.hs-banner.com/v2/143888573/banner.js",
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CPI77M3C77U6NIAFM3VG&lib=ttq",
+    "https://load.tss.arcads.ai/cu6vrvqykjig/dkjmj?d348954e=L2d0YWcvanM%2FaWQ9QVctMTY2MDQ1NzEyMzgmY3g9YyZndG09NGU2YmExJngtZ3RtLWFzPTE%3D",
+    "https://load.tss.arcads.ai/cu6vrvqykjig/dkjmj?d348954e=L2d0YWcvanM%2FaWQ9Ry1MS1oySjJUWTRIJmN4PWMmZ3RtPTRlNmJhMSZ4LWd0bS1hcz0y",
+    "https://privacy.arcads.ai/fc5c98ac-2907-4985-a677-5670679f7ecb/loader.js?target_type=notice&target=enAftmR9",
+    "https://load.tss.arcads.ai/cu6vrvqykjig.js?3sp01=Dg1XLC08WzlTXDs7QUMkVBFUWEVIVxIcWggYCBgVBVwGAA%3D%3D",
+    "https://app.arcads.ai/_next/static/chunks/28zq6w00xsp6t.js",
+    "https://app.arcads.ai/_next/static/chunks/2d7z2soyc9g6e.js",
+    "https://app.arcads.ai/_next/static/chunks/2ixnvjih1wvzt.js",
+    "https://app.arcads.ai/_next/static/chunks/0-vs0x9yf1aeh.js",
+    "https://app.arcads.ai/_next/static/chunks/turbopack-0q3hlxfannt-z.js",
+    "https://app.arcads.ai/_next/static/chunks/2_qdbbpf06pb1.js",
+    "https://app.arcads.ai/_next/static/chunks/01qmn641ak4g0.js",
+    "https://app.arcads.ai/_next/static/chunks/3v69xc6po1-v6.js",
+    "https://app.arcads.ai/_next/static/chunks/36uc_rrtepudd.js",
+    "https://app.arcads.ai/_next/static/chunks/2e_l8wsapyxcm.js",
+    "https://app.arcads.ai/_next/static/chunks/3lc32jc4jp23f.js",
+    "https://app.arcads.ai/_next/static/chunks/2jfel8g1ya0_b.js",
+    "https://app.arcads.ai/_next/static/chunks/1jyez9medrhuk.js",
+    "https://app.arcads.ai/_next/static/chunks/18qaa525pft_y.js",
+    "https://app.arcads.ai/_next/static/chunks/03ceqezdhtb5t.js",
+    "https://app.arcads.ai/_next/static/chunks/1jwyr0ras-oe7.js",
+    "https://app.arcads.ai/_next/static/chunks/1x-441jk0auvp.js",
+    "https://app.arcads.ai/_next/static/chunks/40xu--05kqiqm.js",
+    "https://app.arcads.ai/_next/static/chunks/2_6mitb_441ob.js",
+    "https://app.arcads.ai/_next/static/chunks/26__bld7gbyae.js",
+    "https://app.arcads.ai/_next/static/chunks/01u4lhv69a7gd.js",
+    "https://app.arcads.ai/_next/static/chunks/05-zsu3m-iy57.js",
+    "https://app.arcads.ai/_next/static/chunks/129cg5_n5byyg.js",
+    "https://app.arcads.ai/_next/static/chunks/1n8dhm33oklvj.js",
+    "https://app.arcads.ai/_next/static/chunks/10n2m0q8u-ql1.js",
+    "https://app.arcads.ai/_next/static/chunks/26wgme4tditsd.js",
+    "https://app.arcads.ai/_next/static/chunks/1k6mmq3u6qwk8.js",
+    "https://app.arcads.ai/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://app.arcads.ai/_next/static/chunks/3xfrmrftznk-r.js",
+    "https://app.arcads.ai/_next/static/chunks/3e705n8uqfetp.js",
+    "https://app.arcads.ai/_next/static/chunks/0rvas0wpz26hx.js",
+    "https://app.arcads.ai/_next/static/chunks/2m6cm4wqzuqb7.js",
+    "https://app.arcads.ai/_next/static/chunks/02q60z5bztsj3.js",
+    "https://app.arcads.ai/_next/static/chunks/1qgwc5coqnqop.js",
+    "https://app.arcads.ai/_next/static/chunks/26dio4keg7x5l.js",
+    "https://app.arcads.ai/_next/static/chunks/3-6wd9n5d9_qh.js",
+    "https://app.arcads.ai/_next/static/chunks/2jlzajy9j5_i9.js",
+    "https://app.arcads.ai/_next/static/chunks/1rhygfuvko531.js",
+    "https://app.arcads.ai/_next/static/chunks/19ekwenty1wjj.js",
+    "https://app.arcads.ai/_next/static/chunks/04dc9pb600fsl.js",
+    "https://app.arcads.ai/_next/static/chunks/1g1wgh-1l8qz4.js",
+    "https://app.arcads.ai/_next/static/chunks/3qh68bbal-rqj.js",
+    "https://app.arcads.ai/_next/static/chunks/0bi35wm2b7iw3.js",
+    "https://app.arcads.ai/_next/static/chunks/3_zim07jj2jpa.js",
+    "https://app.arcads.ai/_next/static/chunks/35y1a7r6hhmyj.js",
+    "https://app.arcads.ai/_next/static/chunks/3qwsyarphz1_n.js",
+    "https://app.arcads.ai/_next/static/chunks/1amp39bz58-zt.js",
+    "https://app.arcads.ai/_next/static/chunks/21fxxjks_usoz.js",
+    "https://t.arcads.ai/v1/lst/universal-script?ph=b0c51a7031830f1da3e586e484da007405d7575482648f35cfde5c70f7fb5864&tag=!clicked&spa=true&ref_url=https://app.arcads.ai/admin/products",
+    "https://app.arcads.ai/_next/static/chunks/165sesg6ao_e6.js",
+    "https://app.arcads.ai/_next/static/chunks/067c1d-3i828d.js",
+    "https://app.arcads.ai/_next/static/chunks/140t4emd2v7s4.js",
+    "https://privacy.arcads.ai/sdk/6be5dfc02bbd61b83a465667402bfd77489a7a04/modern/sdk.6be5dfc02bbd61b83a465667402bfd77489a7a04.js",
+    "https://app.arcads.ai/_next/static/chunks/2jsz0mpm_94un.js",
+    "https://app.arcads.ai/_next/static/chunks/13nlc7181pf-n.js",
+    "https://app.arcads.ai/_next/static/chunks/0lnnzrynaox35.js",
+    "https://app.arcads.ai/_next/static/chunks/0-2ymy8ig50nu.js",
+    "https://app.arcads.ai/_next/static/chunks/22aoy8cmmxe2j.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/?random=1794473910248&cv=11&fst=1794473910248&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ba1v9203864776za20szb9178795652zd9178795652xecxf3&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118131809~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123329123~123785232~124170883&u_w=1512&u_h=982&url=https%3A%2F%2Fapp.arcads.ai%2Fadmin%2Fproducts&rcb=12&frm=0&tiba=Arcads&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=671518984.1794467852&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16604571238/?random=1794473910255&cv=11&fst=1794473910255&bg=ffffff&guid=ON&async=1&gtm=45be6ba1v9203864776z89178795652za20kzb9178795652zd9178795652xeaxf3&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616986~115938466~115938469~118131809~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121191153~121246026~121246034~123329123~123785232~124170883&u_w=1512&u_h=982&url=https%3A%2F%2Fapp.arcads.ai%2Fadmin%2Fproducts&rcb=12&frm=0&tiba=Arcads&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=671518984.1794467852&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&_tu=CA&data=ads_data_redaction%3Dfalse&ept=9&rfmt=3&fmt=4",
+    "https://js.stripe.com/basil/stripe.js",
+    "https://app.arcads.ai/_next/static/chunks/3sp6u57ae7q22.js",
+    "https://app.arcads.ai/_next/static/chunks/0hhf-o6g7pzva.js",
+    "https://r.wdfl.co/rw.js",
+    "https://js-eu1.hs-scripts.com/143888573.js",
+    "https://lj.arcads.ai/package/latest/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2/",
+    "https://js.jam.dev/recorder.js",
+    "https://js.jam.dev/capture.js"
+  ],
+  "links": [
+    {
+      "rel": "stylesheet",
+      "href": "https://app.arcads.ai/_next/static/chunks/1__jl4_qvu1x8.css",
+      "as": null
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://app.arcads.ai/_next/static/chunks/2_zw2lryz8mwu.css",
+      "as": null
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://app.arcads.ai/_next/static/chunks/0x-g3vn-cmqj2.css",
+      "as": null
+    },
+    {
+      "rel": "stylesheet",
+      "href": "https://app.arcads.ai/_next/static/chunks/3io_l8-g3wt-h.css",
+      "as": "style"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/0hhf-o6g7pzva.js",
+      "as": "script"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://privacy.arcads.ai/",
+      "as": "script"
+    },
+    {
+      "rel": "dns-prefetch",
+      "href": "https://privacy.arcads.ai/",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://r.wdfl.co/rw.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3xfrmrftznk-r.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3e705n8uqfetp.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/0rvas0wpz26hx.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/2m6cm4wqzuqb7.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/02q60z5bztsj3.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/1qgwc5coqnqop.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/26dio4keg7x5l.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3-6wd9n5d9_qh.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/2jlzajy9j5_i9.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/1rhygfuvko531.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/19ekwenty1wjj.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/04dc9pb600fsl.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/1g1wgh-1l8qz4.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3qh68bbal-rqj.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/0bi35wm2b7iw3.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3_zim07jj2jpa.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/35y1a7r6hhmyj.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/3qwsyarphz1_n.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/1amp39bz58-zt.js",
+      "as": "script"
+    },
+    {
+      "rel": "preload",
+      "href": "https://app.arcads.ai/_next/static/chunks/21fxxjks_usoz.js",
+      "as": "script"
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://api.arcads.ai/",
+      "as": null
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://load.tss.arcads.ai/",
+      "as": null
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://tss.arcads.ai/",
+      "as": null
+    },
+    {
+      "rel": "preconnect",
+      "href": "https://privacy.arcads.ai/",
+      "as": null
+    },
+    {
+      "rel": "icon",
+      "href": "https://app.arcads.ai/icon.png?icon.2wn9a-8i38r1d.png",
+      "as": null
+    }
+  ],
+  "modulepreloads": [
+    "https://app.arcads.ai/_next/static/chunks/0hhf-o6g7pzva.js",
+    "https://r.wdfl.co/rw.js",
+    "https://app.arcads.ai/_next/static/chunks/3xfrmrftznk-r.js",
+    "https://app.arcads.ai/_next/static/chunks/3e705n8uqfetp.js",
+    "https://app.arcads.ai/_next/static/chunks/0rvas0wpz26hx.js",
+    "https://app.arcads.ai/_next/static/chunks/2m6cm4wqzuqb7.js",
+    "https://app.arcads.ai/_next/static/chunks/02q60z5bztsj3.js",
+    "https://app.arcads.ai/_next/static/chunks/1qgwc5coqnqop.js",
+    "https://app.arcads.ai/_next/static/chunks/26dio4keg7x5l.js",
+    "https://app.arcads.ai/_next/static/chunks/3-6wd9n5d9_qh.js",
+    "https://app.arcads.ai/_next/static/chunks/2jlzajy9j5_i9.js",
+    "https://app.arcads.ai/_next/static/chunks/1rhygfuvko531.js",
+    "https://app.arcads.ai/_next/static/chunks/19ekwenty1wjj.js",
+    "https://app.arcads.ai/_next/static/chunks/04dc9pb600fsl.js",
+    "https://app.arcads.ai/_next/static/chunks/1g1wgh-1l8qz4.js",
+    "https://app.arcads.ai/_next/static/chunks/3qh68bbal-rqj.js",
+    "https://app.arcads.ai/_next/static/chunks/0bi35wm2b7iw3.js",
+    "https://app.arcads.ai/_next/static/chunks/3_zim07jj2jpa.js",
+    "https://app.arcads.ai/_next/static/chunks/35y1a7r6hhmyj.js",
+    "https://app.arcads.ai/_next/static/chunks/3qwsyarphz1_n.js",
+    "https://app.arcads.ai/_next/static/chunks/1amp39bz58-zt.js",
+    "https://app.arcads.ai/_next/static/chunks/21fxxjks_usoz.js"
+  ],
+  "htmlLen": 36376,
+  "storage": {
+    "localStorageKeys": [
+      "localization",
+      "LAST_USED_FEATURE",
+      "AMP_unsent_44e5a6f315",
+      "SIGNUP_TRACKING_META",
+      "ctCartToken",
+      "_gcl_ls",
+      "_grecaptcha",
+      "LAST_APP_REFRESH_DATE",
+      "lj_tracking_status_persistent",
+      "ampl_dev_id",
+      "didomi_token_cpra",
+      "imageSelectedModel",
+      "intercom.intercom-state-t4j1iryr",
+      "SPEECH_TO_SPEECH_MAX_DURATION",
+      "li_adsId",
+      "AMP_SR_START_44e5a6f315_1794472164318",
+      "REQUEST_EDIT_VIDEO_1",
+      "REQUEST_EDIT_VIDEO_2",
+      "COMETLY_TOKEN",
+      "clickId",
+      "_xsd",
+      "nextauth.message",
+      "LAST_SELECTED_WORKSPACE",
+      "AMP_SR_START_44e5a6f315_1794467860597",
+      "lj_tracking_status_timestamp",
+      "jam:probe:last",
+      "PAYWALL_VIDEOS",
+      "arcads10OfferModalAutoOpened:77a46767-0e96-4b87-b393-267643c7adc2",
+      "TOKEN",
+      "AMP_SR_START_44e5a6f315_1794470283277",
+      "AMP_remote_config_44e5a6f315"
+    ],
+    "sessionStorageKeys": [
+      "lj_tracking_status_persistent",
+      "lj_tracking_status_timestamp",
+      "tt_appInfo",
+      "sentryReplaySession",
+      "oaiq_cs:63KWrdSGxuziTXF3Coczky",
+      "clickId",
+      "tt_sessionId",
+      "tt_pixel_is_enrich_ipv6_triggered_by_enrich_am",
+      "tt_pixel_session_index",
+      "lj_original_referrer"
+    ]
+  },
+  "globals": [
+    "__next_s",
+    "__next_f",
+    "NEXT_DEPLOYMENT_ID",
+    "__webpack_hash__",
+    "__SENTRY__",
+    "__sentry_instrumentation_handlers__",
+    "__defProp",
+    "__getOwnPropSymbols",
+    "__hasOwnProp",
+    "__propIsEnum",
+    "__defNormalProp",
+    "__spreadValues",
+    "__tcfapi",
+    "__hsReferrer",
+    "__hsInitialUrl",
+    "__hsIdentityTrace",
+    "__hsUserToken",
+    "__hsPixelLog"
+  ]
+}

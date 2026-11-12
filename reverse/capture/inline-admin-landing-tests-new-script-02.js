@@ -1,0 +1,1 @@
+(self.__next_s=self.__next_s||[]).push([0,{"data-sentry-element":"Script","data-sentry-source-file":"rewardComponent.tsx","children":"(function(w,r){w._rwq=r;w[r]=w[r]||function(){(w[r].q=w[r].q||[]).push(arguments)}})(window,'rewardful');","id":"rewardful-queue"}])

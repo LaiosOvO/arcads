@@ -1,0 +1,12 @@
+chunks=382 makeEndpoint=1167 parsed=1123 unparsed=44
+distinct contracts=525 withRequestFields=160 withExportNames=465 pathUnresolved=22 notInCapturedSpec=464 byMethod={'GET': 192, 'PATCH': 12, 'POST': 207, 'PUT': 60, 'DELETE': 54}
+  dashboard                          htmlRefs=121 exclusive= 51 bytes=2503603
+  flow                               htmlRefs=119 exclusive= 49 bytes=3071309
+  flow-use                           htmlRefs=119 exclusive= 49 bytes=3071309
+  dashboard-settings                 htmlRefs=106 exclusive= 37 bytes=1614244
+  dashboard-settings-billing         htmlRefs=111 exclusive= 41 bytes=1976361
+  dashboard-settings-public-api      htmlRefs=108 exclusive= 38 bytes=1686518
+  admin                              htmlRefs= 56 exclusive=  2 bytes=34881
+  onboarding-paywall                 htmlRefs= 70 exclusive=  0 bytes=0
+  onboarding-attribution             htmlRefs= 52 exclusive=  0 bytes=0
+wrote analysis/static-endpoint-contracts.json, analysis/paywall-behind-static.json

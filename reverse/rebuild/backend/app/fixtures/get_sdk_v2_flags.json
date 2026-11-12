@@ -1,0 +1,111 @@
+[
+ {
+  "key": "meta-paid-funnel",
+  "metadata": {
+   "blockingEvaluation": true,
+   "deliveryMethod": "web",
+   "deployed": true,
+   "evaluationMode": "local",
+   "experimentKey": "exp-1",
+   "exposureEvent": "$impression",
+   "flagType": "experiment",
+   "flagVersion": 12,
+   "urlMatch": []
+  },
+  "segments": [
+   {
+    "conditions": [
+     [
+      {
+       "op": "is",
+       "selector": [
+        "context",
+        "user",
+        "user_properties",
+        "utm_source"
+       ],
+       "values": [
+        "facebook",
+        "ig",
+        "fb",
+        "instagram",
+        "meta"
+       ]
+      }
+     ]
+    ],
+    "metadata": {
+     "segmentName": "Meta source"
+    },
+    "variant": "off"
+   },
+   {
+    "conditions": [
+     [
+      {
+       "op": "is",
+       "selector": [
+        "context",
+        "user",
+        "user_properties",
+        "utm_medium"
+       ],
+       "values": [
+        "paid"
+       ]
+      }
+     ]
+    ],
+    "metadata": {
+     "segmentName": "Segment 2"
+    },
+    "variant": "off"
+   },
+   {
+    "metadata": {
+     "segmentName": "All Other Users"
+    },
+    "variant": "off"
+   }
+  ],
+  "variants": {
+   "control": {
+    "key": "control",
+    "payload": [
+     {
+      "action": "inject",
+      "data": {
+       "id": "arcadspaidfunnelcontrol",
+       "js": "document.cookie = 'arcads_paid_funnel=control; domain=.arcads.ai; path=/; max-age=2592000; SameSite=Lax; Secure'"
+      }
+     }
+    ],
+    "value": "control"
+   },
+   "off": {
+    "key": "off",
+    "metadata": {
+     "default": true
+    }
+   },
+   "treatment": {
+    "key": "treatment",
+    "payload": [
+     {
+      "action": "inject",
+      "data": {
+       "id": "arcadspaidfunneltreatment",
+       "js": "(function () {\n  if (window.location.hostname !== 'www.arcads.ai') { return; }\n  try {\n    if (sessionStorage.getItem('apf_redirected')) { return; }\n    sessionStorage.setItem('apf_redirected', '1');\n  } catch (e) {}\n  try {\n    var KEY = '44e5a6f3152249aae19ed3e4cad65ea';\n    var name = 'AMP_' + KEY.slice(0, 10) + '=';\n    var parts = document.cookie ? document.cookie.split('; ') : [];\n    var raw = null;\n    for (var i = 0; i < parts.length; i++) {\n      if (parts[i].indexOf(name) === 0) { raw = parts[i].slice(name.length); }\n    }\n    if (raw && navigator.sendBeacon) {\n      var who = JSON.parse(decodeURIComponent(atob(raw)));\n      if (who && who.deviceId) {\n        var event = {\n          device_id: who.deviceId,\n          session_id: who.sessionId,\n          event_type: '$impression',\n          event_properties: { flag_key: 'meta-paid-funnel', variant: 'treatment' },\n          time: Date.now()\n        };\n        if (who.userId) { event.user_id = who.userId; }\n        navigator.sendBeacon('https://api2.amplitude.com/2/httpapi', JSON.stringify({ api_key: KEY, events: [event] }));\n      }\n    }\n  } catch (e) {}\n  window.location.replace('https://app.arcads.ai/go?ab_funnel=test');\n})();",
+       "metadata": {
+        "scope": [
+         "03831791-7c57-4d03-a58a-3f479b0ab509"
+        ]
+       }
+      }
+     }
+    ],
+    "value": "treatment"
+   }
+  }
+ }
+]

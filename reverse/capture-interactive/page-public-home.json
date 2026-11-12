@@ -1,0 +1,133 @@
+{
+  "route": {
+    "name": "public-home",
+    "url": "https://www.arcads.ai/"
+  },
+  "gotoErr": null,
+  "landing": {
+    "href": "https://www.arcads.ai/",
+    "title": "Arcads - Create winning ads with AI",
+    "textLen": 7411
+  },
+  "candidates": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 1"
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 2"
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 3"
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 1"
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 2"
+    }
+  ],
+  "clicks": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 1",
+      "status": "ok",
+      "events": 376,
+      "bodies": 0
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 2",
+      "status": "ok",
+      "events": 40,
+      "bodies": 0
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 3",
+      "status": "ok",
+      "events": 20,
+      "bodies": 0
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 1",
+      "status": "ok",
+      "events": 25,
+      "bodies": 0
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": "button",
+      "text": "Go to slide 2",
+      "status": "ok",
+      "events": 75,
+      "bodies": 0
+    }
+  ],
+  "flushInfo": {
+    "before": "visible",
+    "dispatched": [
+      "visibilitychange",
+      "pagehide"
+    ],
+    "visibilityState": "hidden"
+  },
+  "phases": [
+    {
+      "phase": "flush:flow-library:settle",
+      "events": 772
+    },
+    {
+      "phase": "goto:public-home",
+      "events": 1705
+    },
+    {
+      "phase": "click:public-home#0",
+      "events": 376
+    },
+    {
+      "phase": "click:public-home#1",
+      "events": 40
+    },
+    {
+      "phase": "click:public-home#2",
+      "events": 20
+    },
+    {
+      "phase": "click:public-home#3",
+      "events": 25
+    },
+    {
+      "phase": "click:public-home#4",
+      "events": 75
+    },
+    {
+      "phase": "flush:public-home:settle",
+      "events": 563
+    }
+  ]
+}

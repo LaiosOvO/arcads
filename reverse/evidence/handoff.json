@@ -1,0 +1,101 @@
+{
+  "generatedBy": "handoff_check.py",
+  "checkedAt": "2026-11-12T22:27:12",
+  "root": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse",
+  "gate": "PASS",
+  "capturePages": 137,
+  "summary": {
+    "required": 6,
+    "optional": 6,
+    "pass": 12,
+    "warn": 0,
+    "fail": 0
+  },
+  "rows": [
+    {
+      "path": "manifest.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "资源清单（URL→本地路径+sha256）",
+      "fix": ""
+    },
+    {
+      "path": "docs/api-spec.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "接口契约（rea-rebuild 主输入）",
+      "fix": ""
+    },
+    {
+      "path": "analysis/api-contracts.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "抓包实证 method+path+请求体",
+      "fix": ""
+    },
+    {
+      "path": "analysis/verification.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "hash_mismatches=0 校验报告",
+      "fix": ""
+    },
+    {
+      "path": "analysis/sanitization-report.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "脱敏报告",
+      "fix": ""
+    },
+    {
+      "path": "analysis/rea-evidence.json",
+      "level": "REQUIRED",
+      "state": "PASS",
+      "desc": "REA 静态证据包",
+      "fix": ""
+    },
+    {
+      "path": "bundle",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "分类视图",
+      "fix": ""
+    },
+    {
+      "path": "docs/接口文档.md",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "给人看的接口文档",
+      "fix": ""
+    },
+    {
+      "path": "INDEX.md",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "交付索引",
+      "fix": ""
+    },
+    {
+      "path": "rebuild",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "复刻工程目录",
+      "fix": ""
+    },
+    {
+      "path": "analysis/REA-摘要.md",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "REA 摘要",
+      "fix": ""
+    },
+    {
+      "path": "evidence/evidence-gate.json",
+      "level": "OPTIONAL",
+      "state": "PASS",
+      "desc": "证据准出报告",
+      "fix": ""
+    }
+  ],
+  "boundary": "ego-site-capture 到此为止；报告/骨架/工程由 rea-rebuild 生成"
+}

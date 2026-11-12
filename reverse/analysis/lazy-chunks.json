@@ -1,0 +1,846 @@
+{
+  "generatedAt": "2026-11-12T21:50:31",
+  "method": "public CDN GET of /_next/static/* ; no auth, no paywall bypass, no writes",
+  "why": "Next.js/Turbopack route chunks are build-time static assets; paywall gates SSR rendering only",
+  "seed": {
+    "htmlPages": 137,
+    "htmlStaticRefs": 300,
+    "chunksBefore": 288,
+    "referencedChunkNames": 382
+  },
+  "rounds": 2,
+  "downloaded": [
+    {
+      "name": "0-1xsee2m_by9.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0-1xsee2m_by9.js",
+      "status": 200,
+      "bytes": 17232,
+      "sha256": "8d8b811982fb9d430d1bc964598b132413c2844dcc257f83a7db6b19ef4732fc"
+    },
+    {
+      "name": "0-o851mvv5qyx.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0-o851mvv5qyx.js",
+      "status": 200,
+      "bytes": 22390,
+      "sha256": "d4bafe681731f17bc1ffcc3022c05904ddf89988c78ee3c8eae5c24ad6253578"
+    },
+    {
+      "name": "044ihbby9c6m3.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/044ihbby9c6m3.js",
+      "status": 200,
+      "bytes": 18216,
+      "sha256": "58bf53d03515fc5ae8ff1ea8c2a3a25b57ec4917dc11236fe8f54e8bd5e90346"
+    },
+    {
+      "name": "04p6jxz4wg39f.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/04p6jxz4wg39f.js",
+      "status": 200,
+      "bytes": 14993,
+      "sha256": "e52161a454b7be21993497479a63d50c15178ec8534881868c644e022f332d27"
+    },
+    {
+      "name": "0547r-urxp127.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0547r-urxp127.js",
+      "status": 200,
+      "bytes": 1315,
+      "sha256": "2d4336db014fe7ed128c4588a267ea8e841c5ec39cd149c98e94f21c84406384"
+    },
+    {
+      "name": "06ffjb_swkeyo.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/06ffjb_swkeyo.js",
+      "status": 200,
+      "bytes": 585,
+      "sha256": "845da11080e6b80dfe4bbe6cd83e448427d0c09cde918db1d5ee85d84271aa46"
+    },
+    {
+      "name": "06vtmkum4tf_u.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/06vtmkum4tf_u.js",
+      "status": 200,
+      "bytes": 23146,
+      "sha256": "fe5b0f064bea0116947567328a9ef890bbbf255d55d61db11954017f35b84bed"
+    },
+    {
+      "name": "06wscys02u198.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/06wscys02u198.js",
+      "status": 200,
+      "bytes": 2913,
+      "sha256": "32508dd69eb611519a27e8f364055465abfaf4a4de69cecd4ae2d0cb1ae73095"
+    },
+    {
+      "name": "08xdezvmkbz2q.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/08xdezvmkbz2q.js",
+      "status": 200,
+      "bytes": 179068,
+      "sha256": "b6a726822986c8e734d59a8b2496a3bfa4d83b5aa1a593b4d72f7c730ef9b9ea"
+    },
+    {
+      "name": "0bdnfoylh-u90.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0bdnfoylh-u90.js",
+      "status": 200,
+      "bytes": 23622,
+      "sha256": "842dffcd4759f1145da9b0b89a799395078346914aa5fab4edd9637542f2864c"
+    },
+    {
+      "name": "0bl6hudl2pwaw.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0bl6hudl2pwaw.js",
+      "status": 200,
+      "bytes": 13859,
+      "sha256": "ff54dee1b5b6314552eced30ae835f5c625c8f0b3584215f6c36f8a1e096e022"
+    },
+    {
+      "name": "0cz1d0mv5g_q7.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "status": 200,
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "name": "0d-q2ykrd40m-.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0d-q2ykrd40m-.js",
+      "status": 200,
+      "bytes": 495445,
+      "sha256": "0f5b175f78c6351d06286ed03f8035b3873c37aff1b59dab9015335efc66db18"
+    },
+    {
+      "name": "0e46q17w78idr.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0e46q17w78idr.js",
+      "status": 200,
+      "bytes": 6882,
+      "sha256": "eec11ee092e9f82de19b5554f9c51b6d716e416d76854f9e426bdb418b9fd308"
+    },
+    {
+      "name": "0imm5rayuwhmp.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0imm5rayuwhmp.js",
+      "status": 200,
+      "bytes": 34016,
+      "sha256": "231b8c9576ed2725d33b74a7b1f023d82ac323edb3cc05194bc797308f8ed00b"
+    },
+    {
+      "name": "0kjk8r985ngey.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0kjk8r985ngey.js",
+      "status": 200,
+      "bytes": 585,
+      "sha256": "7d38380d5f2aa379968fd12d7ebc0b386e6709bb08ba486270ed6cff81dbaf2c"
+    },
+    {
+      "name": "0ksao2pc9s4du.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0ksao2pc9s4du.js",
+      "status": 200,
+      "bytes": 23586,
+      "sha256": "907aff41326154b4aefaacff036d978c97e0bc902f7f378fa519eac815c892ec"
+    },
+    {
+      "name": "0nwczfosfmwdz.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0nwczfosfmwdz.js",
+      "status": 200,
+      "bytes": 22072,
+      "sha256": "97e5c40d9d123b2a8f615ca65baa9ce31c1e604e94a28ac2e534292609ed876c"
+    },
+    {
+      "name": "0obni2572xzg9.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0obni2572xzg9.js",
+      "status": 200,
+      "bytes": 20745,
+      "sha256": "3c6601e213d267048cf2623a5403ab733c0b346f374957d5e1b3772282da26ac"
+    },
+    {
+      "name": "0qcuagqw51tnw.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0qcuagqw51tnw.js",
+      "status": 200,
+      "bytes": 9211,
+      "sha256": "977092fa5783babf7a57dac2213a130f027f915cb52a8d3dfc414fc6525d2cee"
+    },
+    {
+      "name": "0r3_s7pg-in-o.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0r3_s7pg-in-o.js",
+      "status": 200,
+      "bytes": 12042,
+      "sha256": "08ec1ac232da8367385ff83543839875e7fb6df0b30e89b6236f588e68083d8b"
+    },
+    {
+      "name": "0ra2634h__buh.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0ra2634h__buh.js",
+      "status": 200,
+      "bytes": 13439,
+      "sha256": "6a09e2e2a9480c3bc2087f65146cd160895b906d9ed4e7a88aa5ae8a00f15849"
+    },
+    {
+      "name": "0so2w87je-71b.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0so2w87je-71b.js",
+      "status": 200,
+      "bytes": 2764,
+      "sha256": "5325d5803024e252d84febddfa9d9f329d551bf797d9cbe1bbad809d71f3a677"
+    },
+    {
+      "name": "0v4i0axciimcz.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0v4i0axciimcz.js",
+      "status": 200,
+      "bytes": 18934,
+      "sha256": "b6f8a6d8694f7e15c1b2cf0ba92eac7daaef29c5bd58720346fc18ad6d4d700a"
+    },
+    {
+      "name": "0v_2eo03_set0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0v_2eo03_set0.js",
+      "status": 200,
+      "bytes": 35749,
+      "sha256": "36bea1769412411f98d8eadf08780c672c2cf84a2fd8ebcd495630df34135ec8"
+    },
+    {
+      "name": "0w66k67fynlk5.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0w66k67fynlk5.js",
+      "status": 200,
+      "bytes": 21387,
+      "sha256": "aa1616529cb3f20956c93b1748bc2506bf551d1a84014c99a52e9eae83a44d4e"
+    },
+    {
+      "name": "0x4eoybkwpoca.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/0x4eoybkwpoca.js",
+      "status": 200,
+      "bytes": 3486,
+      "sha256": "668f6a383f328f56d0263ef172071a67987139b38d9ded7acc57dc39a0128f90"
+    },
+    {
+      "name": "1-7-nw4l-sjw2.js",
+      "round": 2,
+      "url": "https://app.arcads.ai/_next/static/chunks/1-7-nw4l-sjw2.js",
+      "status": 200,
+      "bytes": 23688,
+      "sha256": "915606159792bba70f03ce01c48debe22030aae1b3e118561da26f1e4d3886b8"
+    },
+    {
+      "name": "1-n-vr_w58b67.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1-n-vr_w58b67.js",
+      "status": 200,
+      "bytes": 17559,
+      "sha256": "81961e5ee2f6eb7da874ebc35f8b3b7fc89bfcb32c8364192f06e7a3a8d4b61e"
+    },
+    {
+      "name": "112u93rt0dqu1.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/112u93rt0dqu1.js",
+      "status": 200,
+      "bytes": 18010,
+      "sha256": "e134411e15473dc821e3d1a430536212553b717bbb53583e084c600d35c53981"
+    },
+    {
+      "name": "11o51_drvmwjd.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/11o51_drvmwjd.js",
+      "status": 200,
+      "bytes": 29651,
+      "sha256": "7304b2c59fcd81c8a3a99a56264f393d2c250f11a72fbb7815ba151aa85672e3"
+    },
+    {
+      "name": "13xkcpastm4g0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/13xkcpastm4g0.js",
+      "status": 200,
+      "bytes": 34382,
+      "sha256": "976226e29968a209605f3c48f86b8a3c878a17a4cfaec3d063230bfd54cb4ff4"
+    },
+    {
+      "name": "1aihoi74vq4p8.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1aihoi74vq4p8.js",
+      "status": 200,
+      "bytes": 49423,
+      "sha256": "a4038becb27fc2c421c10a6c100bb6892d7f84b0eb747857f2d7eb81aae651b1"
+    },
+    {
+      "name": "1b0cnzcpgt9hi.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1b0cnzcpgt9hi.js",
+      "status": 200,
+      "bytes": 3589,
+      "sha256": "d4f6bdd58643c7caeac841bb3c42ddce485cd2d2de170cecb8304833196a8256"
+    },
+    {
+      "name": "1cvznumt_gh6h.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1cvznumt_gh6h.js",
+      "status": 200,
+      "bytes": 3008,
+      "sha256": "bbaf487cf09bb52eabf7e4263aafaf72768ce0f062f17792c8da4d978160ad16"
+    },
+    {
+      "name": "1dnwnqmacsgde.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1dnwnqmacsgde.js",
+      "status": 200,
+      "bytes": 92004,
+      "sha256": "5450f1bbc4a2159977bcdfd11bfb3de15e1d0fa059c966d25f930c20763e3c73"
+    },
+    {
+      "name": "1h2jyy4ln1r09.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1h2jyy4ln1r09.js",
+      "status": 200,
+      "bytes": 15025,
+      "sha256": "c069aed976b9cc56585da22206fa537444a043a95abfff03675dde022c63d992"
+    },
+    {
+      "name": "1hdsir9lp-lbc.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1hdsir9lp-lbc.js",
+      "status": 200,
+      "bytes": 34364,
+      "sha256": "22e02e004fc43034c99d5917923789e0c53ce5985840f4f41cd3171dc3538928"
+    },
+    {
+      "name": "1igcwmkj7kul0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1igcwmkj7kul0.js",
+      "status": 200,
+      "bytes": 26701,
+      "sha256": "319f080e75a6faf27085b9ed7168e9804644db8f3cd843155ea1ed4141a8e742"
+    },
+    {
+      "name": "1k4y2xkzz9hwy.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1k4y2xkzz9hwy.js",
+      "status": 200,
+      "bytes": 3185,
+      "sha256": "9f65da2ecb4384804a8b3921ed0770b73d5b19a3663c106f1744f699349760c9"
+    },
+    {
+      "name": "1klzisuj58mzg.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1klzisuj58mzg.js",
+      "status": 200,
+      "bytes": 27921,
+      "sha256": "ae8d130b01afad95ce952bfd5cd4fecbc8db9d247df82b1b1d7aeadb37a9bf80"
+    },
+    {
+      "name": "1m-w0x_4li4re.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1m-w0x_4li4re.js",
+      "status": 200,
+      "bytes": 15826,
+      "sha256": "b9b502ef9fc59d7787def6b6f88ddcacc73e60bce29fe249f528ea375d25d6e0"
+    },
+    {
+      "name": "1mm0s0ylg1ria.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1mm0s0ylg1ria.js",
+      "status": 200,
+      "bytes": 7821,
+      "sha256": "a5615814f62a67ed112499070c6af1fe26d928e63a16d2c8af2b9c66eb9751f6"
+    },
+    {
+      "name": "1qukogtk8bv7p.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1qukogtk8bv7p.js",
+      "status": 200,
+      "bytes": 90997,
+      "sha256": "3c365b2aa6afe88d2f6307a75f0727a5d39d2484042ba4708636e0c13cbabd33"
+    },
+    {
+      "name": "1v4pggqog1ke3.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1v4pggqog1ke3.js",
+      "status": 200,
+      "bytes": 17205,
+      "sha256": "f81058fc41550c70cc0b68206d10bdaca7b53fb09151d6bcebb2083005779fc6"
+    },
+    {
+      "name": "1vluutjrjt3a5.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1vluutjrjt3a5.js",
+      "status": 200,
+      "bytes": 12634,
+      "sha256": "b19e9f9ac3568f9f9f166aacd074a626de00f5e573375acb943d4ff69fd2bcf1"
+    },
+    {
+      "name": "1x2ix5l9nfk0n.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1x2ix5l9nfk0n.js",
+      "status": 200,
+      "bytes": 22371,
+      "sha256": "29faf1091a653acc9f2ac515f2e06fe22390977b6fa6a19437132d42836193ef"
+    },
+    {
+      "name": "1x5lw1u632fe0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1x5lw1u632fe0.js",
+      "status": 200,
+      "bytes": 16159,
+      "sha256": "604eb4cf5b63fd21c3da8ee34d58f2b03e66b43a5763f5617fa9397fd7a36936"
+    },
+    {
+      "name": "1xnbr70t1jyir.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1xnbr70t1jyir.js",
+      "status": 200,
+      "bytes": 58396,
+      "sha256": "15b83e2d00e169de25d933a19bcfbd31f8535c3afdc1f97aa96b16f9e15b8d5f"
+    },
+    {
+      "name": "1zx-lj1zfv0os.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/1zx-lj1zfv0os.js",
+      "status": 200,
+      "bytes": 7868,
+      "sha256": "b5cb2e0ddf6831b8fc7c040470dee42fde0c84edabad98cec5fc8c9ec87eccd7"
+    },
+    {
+      "name": "2-epms_3zdb8j.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2-epms_3zdb8j.js",
+      "status": 200,
+      "bytes": 21566,
+      "sha256": "1756943ab355c7a7fd1fb46e81ffb461ec69f96df4e95c0ffd975f059468e5a9"
+    },
+    {
+      "name": "229xzl0-y5ei2.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/229xzl0-y5ei2.js",
+      "status": 200,
+      "bytes": 2828,
+      "sha256": "c58a495dc27a479ae6c2233ae068bd276410175067930f4901f111d7f37ff34c"
+    },
+    {
+      "name": "22sduxt8lxs8w.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/22sduxt8lxs8w.js",
+      "status": 200,
+      "bytes": 2899,
+      "sha256": "94f6d05c6cd4b8fdbf90e325652504a2fb3a2623705d58c9bdeb7489a662a67f"
+    },
+    {
+      "name": "237k2w3s6bdr9.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/237k2w3s6bdr9.js",
+      "status": 200,
+      "bytes": 122707,
+      "sha256": "937fdd7b414ce07c486ffcf68c75d978d1f66534d54a699dcc077f64f22055cb"
+    },
+    {
+      "name": "256fow4n4r9lg.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/256fow4n4r9lg.js",
+      "status": 200,
+      "bytes": 8988,
+      "sha256": "52476dc6bf04aac2b1caa6aad9f8e0557f5b3f9c67282973bd8ebe337f5de0e3"
+    },
+    {
+      "name": "26ybwzw3yncs3.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/26ybwzw3yncs3.js",
+      "status": 200,
+      "bytes": 3162,
+      "sha256": "3ffc17967820038720dfe983d37014b34cfdfc49c33abf82a046d5b36d6633c9"
+    },
+    {
+      "name": "2_rj07dt2qgj0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2_rj07dt2qgj0.js",
+      "status": 200,
+      "bytes": 485,
+      "sha256": "4c311f6b0c2b2bf57d5ba0d1903534778a2b26915f719903dda6833e372eddb6"
+    },
+    {
+      "name": "2azmkpwh1f59-.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2azmkpwh1f59-.js",
+      "status": 200,
+      "bytes": 5309,
+      "sha256": "b8bb6f7ae09480702ca3798705987fc5578ef69b2701ad38bc4f7599728fe651"
+    },
+    {
+      "name": "2bdj9du7lmkvm.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2bdj9du7lmkvm.js",
+      "status": 200,
+      "bytes": 31845,
+      "sha256": "bb68da98ece0e0415a044e6ccdc6b6e8abdc19dd534024cb572f4bd7b06da69a"
+    },
+    {
+      "name": "2drowvzmym_cz.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2drowvzmym_cz.js",
+      "status": 200,
+      "bytes": 19853,
+      "sha256": "026a3423c5a3e95466935beb10ac3de57e72d889d5cddc85083e9dd1de0e49f6"
+    },
+    {
+      "name": "2ed9_-j-too84.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2ed9_-j-too84.js",
+      "status": 200,
+      "bytes": 32063,
+      "sha256": "564d1f1f16f2095ceffcc9481ffc6853fce66fa759d53eeeaadba6427ced7057"
+    },
+    {
+      "name": "2exy2dxxnkmd_.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2exy2dxxnkmd_.js",
+      "status": 200,
+      "bytes": 21469,
+      "sha256": "bfc24b75c40e17b8a6823a70d1a1528d87557805a47dc663163d9128a099523b"
+    },
+    {
+      "name": "2ge7-24wy5et6.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2ge7-24wy5et6.js",
+      "status": 200,
+      "bytes": 13276,
+      "sha256": "4fe2a824f38910c76c1182f008e895601ff7a16bcd20d0b923a36b36f63c5124"
+    },
+    {
+      "name": "2gzr0jesvjqqo.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2gzr0jesvjqqo.js",
+      "status": 200,
+      "bytes": 8823,
+      "sha256": "8c2240b6ba1812219631bbaa0fe2f806ca506d66b2f3dcac79ccc7b49546e879"
+    },
+    {
+      "name": "2iqrlce0euzf5.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2iqrlce0euzf5.js",
+      "status": 200,
+      "bytes": 21826,
+      "sha256": "495c2d7f9e8385c249c62f09a3b3d465d6267b2c497c40fef3241dfed5484044"
+    },
+    {
+      "name": "2k0jlvzxpj_or.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2k0jlvzxpj_or.js",
+      "status": 200,
+      "bytes": 14492,
+      "sha256": "5247175846e8c4613e91d14ccb8eb488dc028b3c65b5fa37fb5bedc5e571a4c9"
+    },
+    {
+      "name": "2kxdsbonkp3fd.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2kxdsbonkp3fd.js",
+      "status": 200,
+      "bytes": 26225,
+      "sha256": "f07ce8af82aa563c3094024bcad22963b79c4a5bcc2e648b47aff44850bf3617"
+    },
+    {
+      "name": "2ltlko2xcss4z.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2ltlko2xcss4z.js",
+      "status": 200,
+      "bytes": 732,
+      "sha256": "08f9e0a4f2f21972cd1c2e11ee429ff9051dd9b3006ee7ebcb1cc447c4a0a9e4"
+    },
+    {
+      "name": "2r92brv9gza7j.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2r92brv9gza7j.js",
+      "status": 200,
+      "bytes": 53825,
+      "sha256": "7df1f5a3534d011b8247226d083fd030b6d725be0b63e3de1bde09172ff210d4"
+    },
+    {
+      "name": "2v-uxtfudcl2k.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2v-uxtfudcl2k.js",
+      "status": 200,
+      "bytes": 32188,
+      "sha256": "5a5d83381cf9ebc2a87a734caf32fa4a4ebaacb749dcd2467dcab6d4b11a6d7b"
+    },
+    {
+      "name": "2ygriqijpaoko.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2ygriqijpaoko.js",
+      "status": 200,
+      "bytes": 20753,
+      "sha256": "ed406b66f38e2bb9b4f591e1fe5803dddb275068285164cec54eecf811619157"
+    },
+    {
+      "name": "2ynpzy8rq10b0.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/2ynpzy8rq10b0.js",
+      "status": 200,
+      "bytes": 2615,
+      "sha256": "6ebe6f0f59a08365d50d2ca9e459aaf65feccf60273c78ea9e472a2b1eed522b"
+    },
+    {
+      "name": "30wlkmuqi4gdf.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/30wlkmuqi4gdf.js",
+      "status": 200,
+      "bytes": 36901,
+      "sha256": "b4447a2c70514182a864e90eaedbeaabafe2e527482cf7c812cfd431971aee0e"
+    },
+    {
+      "name": "31pva0ii_eku1.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/31pva0ii_eku1.js",
+      "status": 200,
+      "bytes": 48618,
+      "sha256": "67fdd744d6d6e07455bf40a3e92462d063a404a2f8dc9ccc2e1cb3f679aa4715"
+    },
+    {
+      "name": "33cicrcn8r0ma.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/33cicrcn8r0ma.js",
+      "status": 200,
+      "bytes": 7180,
+      "sha256": "33736fff1e723b6b484d0cb097c22b30c1a50de5455fc08fad6120ce0da74e0e"
+    },
+    {
+      "name": "354dlenp5p-p2.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/354dlenp5p-p2.js",
+      "status": 200,
+      "bytes": 7299,
+      "sha256": "7756f2e69ad90d853480251e57b958b4367326f5e1f6278d099c950b922c9d4d"
+    },
+    {
+      "name": "37kft-tgsqq4n.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/37kft-tgsqq4n.js",
+      "status": 200,
+      "bytes": 14539,
+      "sha256": "26a44dda71d43cdf95dcbd0c702eea9ea36a278ae9abc213487bf49a226af28f"
+    },
+    {
+      "name": "37n-7i2d909f-.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/37n-7i2d909f-.js",
+      "status": 200,
+      "bytes": 43254,
+      "sha256": "db690555698ce344dbc6eafb72afafebe049bdbf566258f6448ee8253c03a8e9"
+    },
+    {
+      "name": "3_886_j2z0k15.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3_886_j2z0k15.js",
+      "status": 200,
+      "bytes": 14071,
+      "sha256": "9dd9b03ed6f48eb325979d0c76302558cbedae5fed8ed79c6bc0f85ccf2b692b"
+    },
+    {
+      "name": "3d0yjhu_li1gv.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3d0yjhu_li1gv.js",
+      "status": 200,
+      "bytes": 24427,
+      "sha256": "8cb6d54004be2730a031ba3ceddd97c797fef182e67ad4ee81f64696ac4efb7c"
+    },
+    {
+      "name": "3dxj7s_1pcj3j.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3dxj7s_1pcj3j.js",
+      "status": 200,
+      "bytes": 11889,
+      "sha256": "808d7d33a7c21e15a146221a1631b76a92ce4af16b0fdf2fb2fd673aa7bfbec3"
+    },
+    {
+      "name": "3errlpn2-41fp.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3errlpn2-41fp.js",
+      "status": 200,
+      "bytes": 23198,
+      "sha256": "50402cf60fe26ad4c5ef0d7dced3cd6f0a0b05c2eb4f8fe5896c2a651a185ac2"
+    },
+    {
+      "name": "3hg2tn4u5n213.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3hg2tn4u5n213.js",
+      "status": 200,
+      "bytes": 4386,
+      "sha256": "31d675039bdc3e11215d8b182518125ae7fc863e4627b369b1985a4b89be6b3e"
+    },
+    {
+      "name": "3iqyo2ycd-9ka.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3iqyo2ycd-9ka.js",
+      "status": 200,
+      "bytes": 2982,
+      "sha256": "e78a2a4587f5576eb984b3e40063b55cd8bdc05efc872712a80a9e16d5af69eb"
+    },
+    {
+      "name": "3k_c8qm_tw751.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3k_c8qm_tw751.js",
+      "status": 200,
+      "bytes": 20582,
+      "sha256": "53b6d219b86384cea34fc7a3707c4e132471588dae0a7b7a0cf045c1e118372c"
+    },
+    {
+      "name": "3mwizcwy7k06v.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3mwizcwy7k06v.js",
+      "status": 200,
+      "bytes": 12807,
+      "sha256": "001bf12183643404400f511dd95c588dd92e7ca22e975533d5949664883baa61"
+    },
+    {
+      "name": "3qkuabvmhxf9b.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3qkuabvmhxf9b.js",
+      "status": 200,
+      "bytes": 4284,
+      "sha256": "e967cf8f0fb3078f1702659e8a0aa6717c9d02fb9a9e34b959c3184c092bc7bb"
+    },
+    {
+      "name": "3rxqyrn6b2bys.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3rxqyrn6b2bys.js",
+      "status": 200,
+      "bytes": 30118,
+      "sha256": "12c0f68b1320e7ca01d18f8e832121193d81ba07de958419bc70728dd8d08aeb"
+    },
+    {
+      "name": "3t-asucadmm1p.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3t-asucadmm1p.js",
+      "status": 200,
+      "bytes": 16951,
+      "sha256": "ddd0d67ddb5c1e85ed741d3b4c8bab4abfa1e768ff55a4d2cf34fbeefb734f52"
+    },
+    {
+      "name": "3vdtf3en-cmw7.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3vdtf3en-cmw7.js",
+      "status": 200,
+      "bytes": 24006,
+      "sha256": "0ab85653a48288d245eaefb4e68cecc50616b055a687eae365208dfe48f26002"
+    },
+    {
+      "name": "3y69irr4ti4nx.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3y69irr4ti4nx.js",
+      "status": 200,
+      "bytes": 2918,
+      "sha256": "20e7c443d3862083b16debf7120aea93ab30e74af6e0dadb6beb9e7dd63f6b68"
+    },
+    {
+      "name": "3z-u2i6r8-iyy.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3z-u2i6r8-iyy.js",
+      "status": 200,
+      "bytes": 18929,
+      "sha256": "91e9e5c32157d2fcd8637b3d7b671e6a283265341122dd9276dcb36dc5b67b06"
+    },
+    {
+      "name": "3z6to9lr0p4mt.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/3z6to9lr0p4mt.js",
+      "status": 200,
+      "bytes": 585,
+      "sha256": "efd0df1b495060e9b6ff04e6640430facbab7493cdaace0a19e9061cdeebbeea"
+    },
+    {
+      "name": "40_au0uhf5hvo.js",
+      "round": 1,
+      "url": "https://app.arcads.ai/_next/static/chunks/40_au0uhf5hvo.js",
+      "status": 200,
+      "bytes": 3033,
+      "sha256": "0e8e2cc60a8cedd1c6526311e7bcc1b013bf1b2069ee0e17237cb77487ecd970"
+    }
+  ],
+  "downloadedCount": 94,
+  "downloadedBytes": 2618949,
+  "failed": [],
+  "notAChunk": [
+    {
+      "name": "redux-toolkit.js",
+      "status": 403
+    }
+  ],
+  "bareCandidates": [
+    {
+      "name": "redux-toolkit.js",
+      "status": 403
+    }
+  ],
+  "css": [
+    {
+      "path": "/_next/static/chunks/08wo6s_e2f_ag.css",
+      "status": "already",
+      "bytes": 5494
+    },
+    {
+      "path": "/_next/static/chunks/09t2akiy_k81q.css",
+      "status": "already",
+      "bytes": 6328
+    },
+    {
+      "path": "/_next/static/chunks/0b16wfbx1reaj.css",
+      "status": "already",
+      "bytes": 1193
+    },
+    {
+      "path": "/_next/static/chunks/0x-g3vn-cmqj2.css",
+      "status": "already",
+      "bytes": 8978
+    },
+    {
+      "path": "/_next/static/chunks/18j1g60-lh7dn.css",
+      "status": "already",
+      "bytes": 869
+    },
+    {
+      "path": "/_next/static/chunks/1__jl4_qvu1x8.css",
+      "status": "already",
+      "bytes": 244025
+    },
+    {
+      "path": "/_next/static/chunks/1c31gjewb2res.css",
+      "status": "already",
+      "bytes": 1015
+    },
+    {
+      "path": "/_next/static/chunks/26yb23tdytkbt.css",
+      "status": "already",
+      "bytes": 734
+    },
+    {
+      "path": "/_next/static/chunks/2_zw2lryz8mwu.css",
+      "status": "already",
+      "bytes": 1574
+    },
+    {
+      "path": "/_next/static/chunks/2su4hfodme3rn.css",
+      "status": "already",
+      "bytes": 15394
+    },
+    {
+      "path": "/_next/static/chunks/37ng7hgq0-i5y.css",
+      "status": "already",
+      "bytes": 1501
+    },
+    {
+      "path": "/_next/static/chunks/3io_l8-g3wt-h.css",
+      "status": "already",
+      "bytes": 744
+    }
+  ],
+  "extraStaticJs": [],
+  "chunksAfter": 382,
+  "note": "403 的裸 token 是第三方脚本名或不存在；静态资源返回 200 不代表业务接口可调用"
+}

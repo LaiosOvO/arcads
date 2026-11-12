@@ -1,0 +1,5 @@
+{
+ "message": "workflowId must be a valid UUID",
+ "error": "Bad Request",
+ "statusCode": 400
+}

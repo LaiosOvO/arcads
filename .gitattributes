@@ -1,0 +1,5 @@
+*.dmg filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.part filter=lfs diff=lfs merge=lfs -text
+network-events.json filter=lfs diff=lfs merge=lfs -text

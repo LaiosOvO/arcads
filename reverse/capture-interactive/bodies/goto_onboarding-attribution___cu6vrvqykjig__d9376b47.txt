@@ -1,0 +1,18 @@
+event: message
+data: {"send_pixel":["https://analytics.google.com/g/s/collect?dma=0&npa=0&gcs=G111&gcd=13v3v3v3v5l1&gtm=45j91e6ba1v9224737220z89178795652z99200458750za20kzb9178795652zd9178795652xf3&tag_exp=115616985~115938465~115938468~117215454~117215454~117215456~117215456~118897920~118897930~120213116~120385423~120412526~120420416~120469145~120469153~121246026~121246034~121410726~121410726~123329125~124025273~124170881&_is_sw=0&_tu=DA&gap.sstd=5&_gsid=LKZ2J2TY4Hn2RfHrwZ1uj7a3L5vUrmwA"],"options":{}}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=fxsVGxmxIq6bdm9Akwjet%2BIjupvDymndHJEuJryfoekGhrJJyZ45lUM4MtVwjiOyVzxn3DORA5dthDI6KIgaLDiGgUVb0zEUoPql6JyYAfL1kw1PTLRVpgfDcL63ijl0oSnEZi%2BcyWtyQdyqekxxdaD65G7LBYNocyauAweAIQ3GilEtWmwdfNGRx9HUJPmSEddn2Lifvr0MZX5JV2jW&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=eVNkNBd6WPzT9mHwSBjpnrJr7iFb41RtFb6vadyUulcjE0gP6SUNNcAIcoGsJVS%2F0yDE8w15zg1JTAq1sf%2BOmLZfkjjIAnswXcCe6sM4%2BjpMBHKdD0laEsbwpzQ%2FdHRPB7xUY7ZWcH8J0uw7cXAm1KWzFaZBY8IGfDcVM7LrO92r7US4DubvGtqZZgl6Ip0iIi4fBxL%2BLj8KsznkCV9XVB4pcw7aba3ZOJFz6UXrQiJs%2BKLO7SPTc9SZ9HaRz0aGqgMtMX02GrvmcYJQG%2FvGKi%2BFEo7YNHbPMzv1UVRngvYhUqu%2FFAaSwZ5l%2FYZ6CEcxJPIbqMcVykTxVRc05S8UaDpGeMBupl9FSbwgIeVALjWL2EykMwJ0f7vnrON1clKTnuTd44x7H856suOg0V3CZYSFmAnGvSklTIcOB2nggNZ26vrE4VeClO9toPMsWvIb1lEjbqGSg%2B2PvHLcF0NxlnJFuyHETchrly0qygMa7tJplRAbWWNO8Ic3Jjix56uSfUmS80QBosKZBI84W2SsqFoMaVIZCr43hgK6aisZY%2FoedkGvHOMYZg0xdgklIKZaXa4O4lYzKkxBhCq4ewA8t8gyK1gwj%2FiZ83DhTYM8zWhDvE8t%2F6BqI66cIoFcx7StMGFJ%2FbMouKPoY9skpprJrMgT4KLvzr%2BLytt1fximFN%2FPrMQ%3D&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["${transport_url}/_/set_cookie?val=OhfUegw1uLpOA1rdV7MOEqr%2Be7Tb7Js8RaHzi%2BoN1m6vfzD%2BQ6u5lQzdupRVTkiI9epBVg5mt9prSwlTFVdZqQelKLePHLm%2FZ97w4VATEHp4vt1a0HAcEgz4rZJT0f0WuKNH4K5tL6SOMPcI%2FQnXqB8jfivwS0eiikjT%2BygEoyhbOG%2FBK0Ll0tEXcWhq&path=${encoded_path}"]}
+
+event: message
+data: {"send_pixel":["https://www.facebook.com/tr/?ev=PageView&id=1398006371104010&eid=1794489056288.1475522314&fbp=fb.1.1794467862944.1842103497&cd[em]=d0ed995a464fabd16cd5e786dba4b2a26d49c71f0e2b74b8e2505057caccc87f"]}
+
+event: message
+data: {"response":{"status_code":200,"body":""}}
+

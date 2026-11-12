@@ -1,0 +1,22 @@
+{
+ "connectors": [
+  {
+   "id": "meta-ads",
+   "status": "live",
+   "configured": true
+  },
+  {
+   "id": "tiktok-ads",
+   "status": "live",
+   "configured": true
+  },
+  {
+   "id": "shopify",
+   "status": "live",
+   "configured": false
+  }
+ ],
+ "features": {
+  "customerBase": false
+ }
+}

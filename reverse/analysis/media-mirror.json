@@ -1,0 +1,535 @@
+{
+  "generatedBy": "mirror_media.py",
+  "generatedAt": "2026-11-12T18:17:22",
+  "root": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse",
+  "mirrorDir": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/mirror",
+  "targets": 519,
+  "ok": 0,
+  "cached": 417,
+  "failed": 102,
+  "okBytes": 0,
+  "failedByClass": {
+    "http_403": 9,
+    "tls": 3,
+    "http_400_presigned_expired": 90
+  },
+  "failedByHost": {
+    "argoseyes.s3-accelerate.amazonaws.com": 90,
+    "cdn.prod.website-files.com": 8,
+    "t.arcads.ai": 3,
+    "player.vimeo.com": 1
+  },
+  "failedItems": [
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0dca00b4-9fcf-482c-81bd-049713de373e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0dca00b4-9fcf-482c-81bd-049713de373e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=f719436f45ed09be925b64a25f0d4512184d6a6b54989854f5718b2838390b76&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0dca00b4-9fcf-482c-81bd-049713de373e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0dca00b4-9fcf-482c-81bd-049713de373e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=1af45bfcd7b0da7f85de7a9d9000631c5dc182a4a3102d1eb7df754a079b8668&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0dca00b4-9fcf-482c-81bd-049713de373e_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0e3fa987-1611-4386-b225-ed489993e364.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0e3fa987-1611-4386-b225-ed489993e364.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=02c6001a911c5537023fdefbd3fee1e4e5f631b8e5b22a34aaca0332d512211b&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0e3fa987-1611-4386-b225-ed489993e364.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0e3fa987-1611-4386-b225-ed489993e364.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=d428b3767c195f796e614e7805e8ee976a8c7d4d4e80e2c6c770ff1adfd7dd27&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/0e3fa987-1611-4386-b225-ed489993e364_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/20a5092a-b3b0-47c8-99de-a607a40d2a23.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/20a5092a-b3b0-47c8-99de-a607a40d2a23.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=257df85669b89b69b5aab3dce5ddf572702dfc6090f320b01b69506f292bdc53&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/20a5092a-b3b0-47c8-99de-a607a40d2a23.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/20a5092a-b3b0-47c8-99de-a607a40d2a23.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=d064c87c8253943140be1ffc236f4ab9dbc550a14f34f0f6178595ac28dd4410&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/20a5092a-b3b0-47c8-99de-a607a40d2a23_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/2fa84089-5fc0-4c47-9f41-c112872426a3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/2fa84089-5fc0-4c47-9f41-c112872426a3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=4c613ce50b2b14d4de5d04f0ed394e5e512937a0beee27405e91b59bcf480178&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/2fa84089-5fc0-4c47-9f41-c112872426a3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/2fa84089-5fc0-4c47-9f41-c112872426a3.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=8b11c5a8480f87b39226ab8dae05c9f04a8ba86518a4802b3c41fd944da4bd1d&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/2fa84089-5fc0-4c47-9f41-c112872426a3_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/364c2fdc-ebf9-4dcc-b213-26290c83c36a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/364c2fdc-ebf9-4dcc-b213-26290c83c36a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=0790d07372c170514f49ca83069c3ff7f4c5238e5cce5ae80d2a687a6c7d0bbf&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/364c2fdc-ebf9-4dcc-b213-26290c83c36a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/364c2fdc-ebf9-4dcc-b213-26290c83c36a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=958f68454b57e07acc22597199041e6f9c828662c8ecf567911566a0c9728908&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/364c2fdc-ebf9-4dcc-b213-26290c83c36a_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/4529cc1f-b98d-4f2a-b44b-913ab31e8add.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/4529cc1f-b98d-4f2a-b44b-913ab31e8add.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=6d6efee905190964c3dab7bbde46382a61fcef1ddb1772540df3812aafc6d0c1&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/4529cc1f-b98d-4f2a-b44b-913ab31e8add.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/4529cc1f-b98d-4f2a-b44b-913ab31e8add.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=2597c34f715a0fd6493651cde9626b8a56b71fcc04fdeb9c6fda1759ab4ac7c6&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/4529cc1f-b98d-4f2a-b44b-913ab31e8add_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/687a7800-325b-4de6-a3d7-fc9bb00d5d13.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/687a7800-325b-4de6-a3d7-fc9bb00d5d13.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=d62f89635febb4f199431438b8f39c68cf5892ae9bd0a8fe0b302a3d2d098d7a&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/687a7800-325b-4de6-a3d7-fc9bb00d5d13.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/687a7800-325b-4de6-a3d7-fc9bb00d5d13.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=9a13efc2d7186304000ec656a66ff091fca4d6f539348408d68adb0bd7fb533f&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/687a7800-325b-4de6-a3d7-fc9bb00d5d13_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/7707de55-0d9a-4e46-9166-0a23a564c32e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/7707de55-0d9a-4e46-9166-0a23a564c32e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=c835500eb30dac4e6a2fc357965a0e727888f1f166111e9842c8ce7a1deba15e&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/7707de55-0d9a-4e46-9166-0a23a564c32e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/7707de55-0d9a-4e46-9166-0a23a564c32e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=5e27e94183bd7db5988599359f5b2ff14d046d23a9b1ce13103dc79da38afb93&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/7707de55-0d9a-4e46-9166-0a23a564c32e_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/802f9727-6e98-4743-b503-7201b5585f43.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/802f9727-6e98-4743-b503-7201b5585f43.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=9f6c39650900f340d85ecdb2ecc10351287090ceffdd305e6484c03279aa2256&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/802f9727-6e98-4743-b503-7201b5585f43.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/802f9727-6e98-4743-b503-7201b5585f43.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=27325b0a1b53ddc79a5dee48246d357f7ce87326cbd797b7117bc241e34a10a8&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/802f9727-6e98-4743-b503-7201b5585f43_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/ad661faf-dd67-45f5-956f-114644516088.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/ad661faf-dd67-45f5-956f-114644516088.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=19cfa571992d9bbb1ab2be5da9713157b21cc7a7f7177523e52b74b30bae4d2a&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/ad661faf-dd67-45f5-956f-114644516088.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/ad661faf-dd67-45f5-956f-114644516088.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=9b8ffa478f7108c609fc230d1a610532f42e0d44706b884e4b01333790bd36db&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/ad661faf-dd67-45f5-956f-114644516088_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/c1a1a08c-3e55-4e15-8b0c-d6f40eb4f0fe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/c1a1a08c-3e55-4e15-8b0c-d6f40eb4f0fe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=9957a295e67a0bf4eb721bfa84c66df2b8505124503a089222310970911b7128&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/c1a1a08c-3e55-4e15-8b0c-d6f40eb4f0fe.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/c1a1a08c-3e55-4e15-8b0c-d6f40eb4f0fe.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=250ca825587051b428fd04247c93de2c9c6af657c64e47e4c8701c2cc45f8509&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/c1a1a08c-3e55-4e15-8b0c-d6f40eb4f0fe_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/d708aa2a-e66a-40ca-804c-e02630049bbd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/d708aa2a-e66a-40ca-804c-e02630049bbd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=224f279cf5acf4b3707e20ecc8d5af8e68180770c9e14a244cbb5ed2efe79683&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/d708aa2a-e66a-40ca-804c-e02630049bbd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/d708aa2a-e66a-40ca-804c-e02630049bbd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=355667f066c9563c4a2c7be2017330c77dea0ff256bfb66bdeaafdfbea978e9f&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/d708aa2a-e66a-40ca-804c-e02630049bbd_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/db52b9a8-29c8-44be-8ed9-571dba4b5cb6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/db52b9a8-29c8-44be-8ed9-571dba4b5cb6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=ab444cf4739f5b0f430dec59db165cb8067dcab49f3cfc649b438cc1b5bdc00a&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/db52b9a8-29c8-44be-8ed9-571dba4b5cb6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/db52b9a8-29c8-44be-8ed9-571dba4b5cb6.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=4bf7be7d07eb56874fdd7cc99941f167ba78a5df42033ca05fc45071a9c3f2fd&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/db52b9a8-29c8-44be-8ed9-571dba4b5cb6_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/e8ed9d2d-b8ee-42e3-be0b-f108ff48bb4c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/e8ed9d2d-b8ee-42e3-be0b-f108ff48bb4c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=5ae3393ebaf85395a5f5e3b3e0247e1ef289340eaf6d4e76bfe933b7a2bf7514&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/e8ed9d2d-b8ee-42e3-be0b-f108ff48bb4c.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/e8ed9d2d-b8ee-42e3-be0b-f108ff48bb4c.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=585aa26301630ed49ba2ec17efd7beeb51573eb03687ae83c1ba71e9c35d7926&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/e8ed9d2d-b8ee-42e3-be0b-f108ff48bb4c_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1355e30-b551-491d-964e-030f25e88357.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1355e30-b551-491d-964e-030f25e88357.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=c167e9999739f282c65ead8a0c612dc7d173d5178e6e052d3e915dce4beaa19b&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1355e30-b551-491d-964e-030f25e88357.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1355e30-b551-491d-964e-030f25e88357.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=f6a49321dbc95c13c519295216b5deb8320372f293cd68c5f140c9025e95341f&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1355e30-b551-491d-964e-030f25e88357_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1da5e17-e274-4f83-92c6-4d074490d0f0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1da5e17-e274-4f83-92c6-4d074490d0f0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=2177b5a2cd011d563d577f3e8da49bcb6351631c7592f801c8f5a2fb3398c726&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1da5e17-e274-4f83-92c6-4d074490d0f0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1da5e17-e274-4f83-92c6-4d074490d0f0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=5dc3fdb51c9772234639703a1f7005889ba2cfad9eed3c84cc5e7187aadc2460&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f1da5e17-e274-4f83-92c6-4d074490d0f0_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f415c2ba-5254-48fc-83f1-cc575e06325b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f415c2ba-5254-48fc-83f1-cc575e06325b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=f836bdfc25aee532e1b4dec671b4accffe3f580b0a365ff4c8df5266f98b02f6&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f415c2ba-5254-48fc-83f1-cc575e06325b.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f415c2ba-5254-48fc-83f1-cc575e06325b.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=9ad6d7d840405829196a252a23361b6d3b6402289f65551c9c50dc6d14791369&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/f415c2ba-5254-48fc-83f1-cc575e06325b_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/fbb874ad-9326-4096-9a2c-92c6613e1580.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/fbb874ad-9326-4096-9a2c-92c6613e1580.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T060000Z&amp;X-Amz-Expires=64800&amp;X-Amz-Signature=f17ff4109f440e4d7c2c6d66b44582279d84f6bf332843412b59e39f7941fea6&amp;X-Amz-SignedHeaders=host&amp;response-cache-control=private%2C%20max-age%3D43200&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/fbb874ad-9326-4096-9a2c-92c6613e1580.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/fbb874ad-9326-4096-9a2c-92c6613e1580.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=AKIAS5Z5FDA4BQBRWQOT%2F20261112%2Feu-west-3%2Fs3%2Faws4_request&amp;X-Amz-Date=20261112T084523Z&amp;X-Amz-Expires=43200&amp;X-Amz-Signature=7376f8c355ca8ee51645b1b28e7031a33590eb3098fda38f96ce171028ce1bc6&amp;X-Amz-SignedHeaders=host&amp;response-content-type=video%2Fmp4&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://argoseyes.s3-accelerate.amazonaws.com/production/videoassets/fbb874ad-9326-4096-9a2c-92c6613e1580_sd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256",
+      "reason": "HTTP Error 400: Bad Request",
+      "class": "http_400_presigned_expired"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_mp4.mp4,https://cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_webm.webm",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f%2F6a79ef4ae89500338c823f62_Seedance%202.5%20-%20V3B%2030MB_poster.0000000.jpg&quot;",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfc71f37f8ab3620fe4_videoframe_0%20",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfd117bb751fd375e56_videoframe_0%20",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda7a0ef978dc65545_videoframe_0%20",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfda9eb08d6b048a16e_videoframe_0%20",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68c7dcfdc97089a5a04d02bb_videoframe_0%20",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+      "reason": "HTTP Error 403: Forbidden",
+      "class": "http_403"
+    },
+    {
+      "url": "https://player.vimeo.com/video/1199693188?muted=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;background=1&amp;quality=auto",
+      "reason": "HTTP Error 401: Unauthorized",
+      "class": "http_403"
+    },
+    {
+      "url": "https://t.arcads.ai/v1/lst/universal-script?ph=b0c51a7031830f1da3e586e484da007405d7575482648f35cfde5c70f7fb5864&amp;tag=!clicked&amp;spa=true&amp;ref_url=https://app.arcads.ai/admin/video-templates",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+      "class": "tls"
+    },
+    {
+      "url": "https://t.arcads.ai/v1/lst/universal-script?ph=b0c51a7031830f1da3e586e484da007405d7575482648f35cfde5c70f7fb5864&amp;tag=!clicked&amp;spa=true&amp;ref_url=https://app.arcads.ai/admin/video-templates/categories",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+      "class": "tls"
+    },
+    {
+      "url": "https://t.arcads.ai/v1/lst/universal-script?ph=b0c51a7031830f1da3e586e484da007405d7575482648f35cfde5c70f7fb5864&amp;tag=!clicked&amp;spa=true&amp;ref_url=https://app.arcads.ai/admin/video-templates/new",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f",
+      "class": "tls"
+    }
+  ],
+  "note": "failed 明细仅保留前 500 条（按 URL 排序），计数为全量。class 判定：http_404=http 404；http_403=防盗链/权限；timeout=读超时；dns=域名解析失败；tls=证书失败；conn=连接被拒/重置；other=其他。"
+}

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-11-12T21:18:52.747468+08:00",
+  "endpoint": "/api/relay/e",
+  "verdict": "unknown",
+  "verdict_reason": "静态实证存在，两轮真实抓包（含 flush 触发）均未捕获该端点的任何请求/响应；不得伪造响应体。",
+  "classification": {
+    "is_streaming": false,
+    "kind": "Amplitude Analytics SDK HTTP 事件上报中继（非 SSE / 非 WebSocket 流式通道）",
+    "correction": "TASKS.md 旧记「流式/事件通道，需长连接抓包」有误，本轮据静态代码更正为普通 HTTP POST 中继。",
+    "sdk": "amplitude analytics-browser 2.42.4 + plugin-session-replay-browser 1.32.1",
+    "api_keys": [
+      "44e5a6f3152249aae19ed3e4cad65ea（业务 SDK）",
+      "b2e63b5453c36ec48b28059c3ab6a699（GTM 脚本实例）"
+    ],
+    "transport": "默认 fetch；document.visibilityState === 'hidden' 时 setTransport('beacon') + flush()",
+    "gate": "hasToLog(){return!0} 恒真，非 A/B 门控",
+    "static_evidence_file": "mirror/app.arcads.ai/_next/static/chunks/36uc_rrtepudd.js",
+    "static_evidence_excerpt": ",r.logError)(e)}}let _=new class{nonce;ready;markReady=()=>void 0;sdkConfig;sdkState={ready:!1,online:!0,tracked:0,delivered:0};constructor(){this.nonce=function(){if(\"u\">typeof document){let e=document.cookie.match(/(^| )nonce=([^;]+)/);return e?e[2]:\"\"}return\"\"}(),this.ready=new Promise(e=>{this.markReady=e})}init(t,n){this.hasToLog()?(i.init(\"44e5a6f3152249aae19ed3e4cad65ea\",void 0,{logLevel:o.Types.LogLevel.Warn,serverUrl:\"/api/relay/e\",defaultTracking:{sessions:!0},deviceId:n??void 0}).promise.then(async()=>{this.sdkState.ready=!0,await i.add({name:\"sdk-state\",type:\"before\",setup:async e=>{this.sdkConfig=e},execute:async e=>e}).promise}).finally(()=>{e.A(747423).then(({sessionReplayPlugin:e})=>{i.add(e({sampleRate:.045}))}).catch(r.logError),this.markReady()}).catch(r.logError),docume",
+    "hasToLog_definition_found": true
+  },
+  "dynamic_evidence": {
+    "legacy_132_route_capture": {
+      "requests": 3317,
+      "responses": 3134,
+      "text_records": 2514,
+      "relay_hits": 0
+    },
+    "interactive_capture": {
+      "events": 7995,
+      "requests": 997,
+      "responses": 940,
+      "requests_with_post_data": 128,
+      "relay_hits": 0,
+      "routes": [
+        "onboarding-attribution",
+        "onboarding-intent",
+        "onboarding-paywall",
+        "flow-library",
+        "public-home"
+      ],
+      "readonly_clicks": 21,
+      "flush_trigger": "Object.defineProperty(document,'visibilityState',{get:()=>'hidden'}) + dispatchEvent(visibilitychange) + pagehide；每页 settle 9000ms"
+    },
+    "relay_requests_in_both_captures": 0
+  },
+  "root_cause_evidence": {
+    "browser_opt_out_requests": 4,
+    "browser_opt_out_bodies": [
+      "{\"browserOptOut\":true}"
+    ],
+    "browser_opt_out_response_status": [
+      201
+    ],
+    "browser_opt_out_response_bodies": [
+      "{\"success\":true}",
+      "{\"success\":true}",
+      "{\"success\":true}"
+    ],
+    "amplitude_event_upload_requests": 0,
+    "amplitude_config_or_script_only": true,
+    "consent_token_present": true,
+    "do_not_track": null,
+    "global_privacy_control": null,
+    "amp_unsent": "[]",
+    "privacy_state_file": "capture-interactive/privacy-state.json",
+    "conclusion": "会话处于浏览器追踪 opt-out（Didomi CPRA 同意态 + 站点每页上报 browserOptOut:true）：Amplitude 只拉取 script/config/session-replay 起点，未发出任何事件上报，故 /api/relay/e 不可达。"
+  },
+  "privacy_boundary": {
+    "action_taken": "none",
+    "explanation": "解除 opt-out 等于改变用户的隐私同意选择，超出「只看不动手」红线，本 Agent 未修改任何 cookie / localStorage / 同意设置 / 账号设置。"
+  },
+  "unblock_conditions": [
+    "需用户明确授权，在一个未 opt-out 的新浏览器会话中（或在 Didomi 同意面板主动授予分析类同意）重新登录 Arcads。",
+    "重跑 tools/run-capture-interactive.mjs，保留 Ping/beacon 类型收集（原 runner 的 type 白名单会漏掉 beacon）。",
+    "或由用户提供该端点已存在的 HAR / 后端日志 / OpenAPI 定义。"
+  ]
+}

@@ -1,0 +1,1146 @@
+{
+ "generatedBy": "fetch_static_chunks.py",
+ "generatedAt": "2026-11-12T22:49:27",
+ "root": "/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse",
+ "host": "app.arcads.ai",
+ "baseUrl": "https://app.arcads.ai",
+ "seed": {
+  "chunksBefore": 394,
+  "bareRefs": 408,
+  "fullPathRefs": 300
+ },
+ "rounds": [
+  {
+   "round": 1,
+   "attempted": 14,
+   "ok": 0,
+   "failed": 14,
+   "newRefs": 0
+  },
+  {
+   "round": 2,
+   "attempted": 0,
+   "ok": 0,
+   "newRefs": 0,
+   "note": "converged"
+  }
+ ],
+ "downloadedCount": 0,
+ "downloadedBytes": 0,
+ "chunksAfter": 394,
+ "downloaded": [],
+ "failedCount": 14,
+ "failedByStatus": {
+  "403": 14
+ },
+ "failed": [
+  {
+   "name": "143888573.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/143888573.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "36b8fb49256177c8.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/36b8fb49256177c8.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "95dac5d23f59313a.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/95dac5d23f59313a.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "agent-sw.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/agent-sw.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "cb3856d7cc3b7d3a.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/cb3856d7cc3b7d3a.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "cmsfilter.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/cmsfilter.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "cu6vrvqykjig.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/cu6vrvqykjig.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "dc5e7f18c8.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/dc5e7f18c8.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "ebfb28336c25fb57.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/ebfb28336c25fb57.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "f1b753c58f7e8dc5.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/f1b753c58f7e8dc5.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "identify_9caef9b0.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/identify_9caef9b0.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "next-auth.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/next-auth.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "recorder.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/recorder.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  },
+  {
+   "name": "redux-toolkit.js",
+   "url": "https://app.arcads.ai/_next/static/chunks/redux-toolkit.js",
+   "status": 403,
+   "err": null,
+   "round": 1
+  }
+ ],
+ "publicProbe": {
+  "skipped": false,
+  "sampleUrl": "https://app.arcads.ai/_next/static/chunks/0-1xsee2m_by9.js",
+  "realStatus": 200,
+  "fakeStatus": 403,
+  "publicWithoutAuth": true,
+  "note": "真实 chunk 无凭据可 200 取回、伪造名非 200 → 静态资源由 CDN 公开提供"
+ },
+ "routeChunkDiff": [
+  {
+   "route": "admin-global-featured-models",
+   "refs": 89,
+   "exclusive": 17,
+   "exclusiveSample": [
+    "/_next/static/chunks/03btymop2y6ww.js",
+    "/_next/static/chunks/07x9ugedtq_gd.js",
+    "/_next/static/chunks/0adb18fkqv4m6.js",
+    "/_next/static/chunks/0gaw_nbtlfkp7.js",
+    "/_next/static/chunks/0lc9qonxslc_l.js",
+    "/_next/static/chunks/1311dg_l91cep.js",
+    "/_next/static/chunks/2blnzoe1w366_.js",
+    "/_next/static/chunks/2co967gropf_4.js",
+    "/_next/static/chunks/2fyi48sjy6h_u.js",
+    "/_next/static/chunks/2ifkg4tx_ih4p.js",
+    "/_next/static/chunks/2jtek00u2dqnc.js",
+    "/_next/static/chunks/2v7znkycnbpdb.js"
+   ]
+  },
+  {
+   "route": "admin-voices-new",
+   "refs": 67,
+   "exclusive": 6,
+   "exclusiveSample": [
+    "/_next/static/chunks/04xb6nu8om9wy.js",
+    "/_next/static/chunks/15gim-sy3oy1j.js",
+    "/_next/static/chunks/3cq0ha21tqgzi.js",
+    "/_next/static/chunks/3g-5xm_f06ud-.js",
+    "/_next/static/chunks/3ode2lmw_8pv3.js",
+    "/_next/static/chunks/411wsem15lx4d.js"
+   ]
+  },
+  {
+   "route": "dashboard",
+   "refs": 129,
+   "exclusive": 6,
+   "exclusiveSample": [
+    "/_next/static/chunks/1jnguzs_en9wg.js",
+    "/_next/static/chunks/1k45wt271ad_h.js",
+    "/_next/static/chunks/1rmij5hjnmqo_.js",
+    "/_next/static/chunks/1u35u7hr9skam.js",
+    "/_next/static/chunks/1vn77bcy6rk5u.js",
+    "/_next/static/chunks/44-p-jse2ktxh.js"
+   ]
+  },
+  {
+   "route": "admin-agent-skills",
+   "refs": 66,
+   "exclusive": 5,
+   "exclusiveSample": [
+    "/_next/static/chunks/0fceq-m9g0i5a.js",
+    "/_next/static/chunks/1637c7ltjuh7q.js",
+    "/_next/static/chunks/2j960e-u86-ue.js",
+    "/_next/static/chunks/36bheo01a9c8w.js",
+    "/_next/static/chunks/3tul9hz604lc8.js"
+   ]
+  },
+  {
+   "route": "admin-video-templates",
+   "refs": 67,
+   "exclusive": 5,
+   "exclusiveSample": [
+    "/_next/static/chunks/0vwqxwfte4kq5.js",
+    "/_next/static/chunks/22huofnadhfn5.js",
+    "/_next/static/chunks/35x-3re-d8w-v.js",
+    "/_next/static/chunks/3f6qb3lumpbhz.js",
+    "/_next/static/chunks/412ahcxen1jm1.js"
+   ]
+  },
+  {
+   "route": "admin-agent-animation-studio",
+   "refs": 64,
+   "exclusive": 4,
+   "exclusiveSample": [
+    "/_next/static/chunks/0b_led725v9fm.js",
+    "/_next/static/chunks/0p6s7wv4zt8aa.js",
+    "/_next/static/chunks/3edbuv5paz8hn.js",
+    "/_next/static/chunks/417223mv9ye-6.js"
+   ]
+  },
+  {
+   "route": "admin-pricing-catalogs-active",
+   "refs": 71,
+   "exclusive": 4,
+   "exclusiveSample": [
+    "/_next/static/chunks/066rc1kadsp9q.js",
+    "/_next/static/chunks/2sgnl__t9ggh-.js",
+    "/_next/static/chunks/33aagglnpy5gk.js",
+    "/_next/static/chunks/42c54xh98ujkz.js"
+   ]
+  },
+  {
+   "route": "admin-releases-whats-new",
+   "refs": 65,
+   "exclusive": 4,
+   "exclusiveSample": [
+    "/_next/static/chunks/0sscua5eivy4z.js",
+    "/_next/static/chunks/2cp510a303ncv.js",
+    "/_next/static/chunks/2ef99-0lcm9r0.js",
+    "/_next/static/chunks/30r1kb70f5528.js"
+   ]
+  },
+  {
+   "route": "admin-video-templates-categories",
+   "refs": 65,
+   "exclusive": 4,
+   "exclusiveSample": [
+    "/_next/static/chunks/0qorer973vbnc.js",
+    "/_next/static/chunks/2ob7cb24c9eb4.js",
+    "/_next/static/chunks/2qyurg8jph0xg.js",
+    "/_next/static/chunks/3zm5cn2ju1rtz.js"
+   ]
+  },
+  {
+   "route": "admin-actors-new",
+   "refs": 65,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/110d2-amcg4qi.js",
+    "/_next/static/chunks/23zxklic56mbu.js",
+    "/_next/static/chunks/3_x9wbr_pnumg.js"
+   ]
+  },
+  {
+   "route": "admin-personalActors-stats",
+   "refs": 67,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/0gu13wl7a672j.js",
+    "/_next/static/chunks/2xmjj3-0l3cw2.js",
+    "/_next/static/chunks/30qrweztyzb29.js"
+   ]
+  },
+  {
+   "route": "admin-video-templates-new",
+   "refs": 64,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/1mikzv2059-qs.js",
+    "/_next/static/chunks/2bt4xigtzomln.js",
+    "/_next/static/chunks/3_hywpqrwgjng.js"
+   ]
+  },
+  {
+   "route": "admin-workflows-library",
+   "refs": 61,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/020979nz_91s2.js",
+    "/_next/static/chunks/0x0xizph36ofy.js",
+    "/_next/static/chunks/42yiomtevhemd.js"
+   ]
+  },
+  {
+   "route": "admin-workflows-top",
+   "refs": 62,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/17awe5ssn7jfg.js",
+    "/_next/static/chunks/1ofimu_05kys8.js",
+    "/_next/static/chunks/3rodgtqmpbcue.js"
+   ]
+  },
+  {
+   "route": "login",
+   "refs": 61,
+   "exclusive": 3,
+   "exclusiveSample": [
+    "/_next/static/chunks/26blki17oi8do.js",
+    "/_next/static/chunks/3joc1yl7us7f6.js",
+    "/_next/static/chunks/3pkkkio9y67ig.js"
+   ]
+  },
+  {
+   "route": "admin-actors",
+   "refs": 61,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/03_943ulhsjr_.js",
+    "/_next/static/chunks/07f9eqq0com1k.js"
+   ]
+  },
+  {
+   "route": "admin-agent-motion-templates",
+   "refs": 63,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/20jp1ok-twboc.js",
+    "/_next/static/chunks/3t9hip5bnvh7v.js"
+   ]
+  },
+  {
+   "route": "admin-asset-swipe",
+   "refs": 62,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/07s9mvxlt0rjc.js",
+    "/_next/static/chunks/1likslympegpn.js"
+   ]
+  },
+  {
+   "route": "admin-contents",
+   "refs": 64,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/29xe_o3sxsu0s.js",
+    "/_next/static/chunks/32p1s2ysbeob5.js"
+   ]
+  },
+  {
+   "route": "admin-events",
+   "refs": 64,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/0wah9_i9lpkne.js",
+    "/_next/static/chunks/2_5kac5as0q0j.js"
+   ]
+  },
+  {
+   "route": "admin-first-generations",
+   "refs": 65,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/049dgc7a9xaqg.js",
+    "/_next/static/chunks/1d6lzejfhgh9z.js"
+   ]
+  },
+  {
+   "route": "admin-pricing-margin-simulator",
+   "refs": 61,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/3d9zce27t7upm.js",
+    "/_next/static/chunks/3j9hlw6si04hg.js"
+   ]
+  },
+  {
+   "route": "admin-products-create",
+   "refs": 62,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/0xhg_wpm_azy4.js",
+    "/_next/static/chunks/2w6pbe3f-olra.js"
+   ]
+  },
+  {
+   "route": "admin-products",
+   "refs": 62,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/05-zsu3m-iy57.js",
+    "/_next/static/chunks/1n8dhm33oklvj.js"
+   ]
+  },
+  {
+   "route": "admin-voices",
+   "refs": 63,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/2qkku4my4y4g7.js",
+    "/_next/static/chunks/3hshc6tzdiahm.js"
+   ]
+  },
+  {
+   "route": "admin-workflows",
+   "refs": 60,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/1v5j3jz5gs763.js",
+    "/_next/static/chunks/3imbi6cuqx_6c.js"
+   ]
+  },
+  {
+   "route": "flow-library",
+   "refs": 56,
+   "exclusive": 2,
+   "exclusiveSample": [
+    "/_next/static/chunks/1bcuu5wzp_mkx.js",
+    "/_next/static/chunks/2q0oio268wp-q.js"
+   ]
+  },
+  {
+   "route": "admin-actors-checkVoices",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1o7_15wheodac.js"
+   ]
+  },
+  {
+   "route": "admin-actors-stats",
+   "refs": 66,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2f7q_vp8cuef5.js"
+   ]
+  },
+  {
+   "route": "admin-actors-validationProcess",
+   "refs": 68,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1_ho3tb-wmdc3.js"
+   ]
+  },
+  {
+   "route": "admin-camera-movement",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/3hx-9lf0790fy.js"
+   ]
+  },
+  {
+   "route": "admin-creator-codes",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/30cn0pfuywld3.js"
+   ]
+  },
+  {
+   "route": "admin-credit-codes",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/3bwzo_0hbu8_y.js"
+   ]
+  },
+  {
+   "route": "admin-editingRequests",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/0pg0hs7ehav_0.js"
+   ]
+  },
+  {
+   "route": "admin-global",
+   "refs": 59,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/04_muapaopp-d.js"
+   ]
+  },
+  {
+   "route": "admin-landing-tests-new",
+   "refs": 59,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1jl8aykebxl1c.js"
+   ]
+  },
+  {
+   "route": "admin-landing-tests",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1e8-lq4_dpvcu.js"
+   ]
+  },
+  {
+   "route": "admin-personalActors",
+   "refs": 68,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2f3xbb3gjuqwb.js"
+   ]
+  },
+  {
+   "route": "admin-pricing-ab-tests-new",
+   "refs": 59,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1lm-xjbaapgf7.js"
+   ]
+  },
+  {
+   "route": "admin-pricing-ab-tests",
+   "refs": 61,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2lwc-qi786rsm.js"
+   ]
+  },
+  {
+   "route": "admin-pricing-catalogs",
+   "refs": 59,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/41t7-nu0u9239.js"
+   ]
+  },
+  {
+   "route": "admin-scripts-all",
+   "refs": 61,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2v6th72i3afp3.js"
+   ]
+  },
+  {
+   "route": "admin-scripts-moderated",
+   "refs": 62,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1qp411nr56svc.js"
+   ]
+  },
+  {
+   "route": "admin-voices-stats",
+   "refs": 67,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1wl_qfb5zthv9.js"
+   ]
+  },
+  {
+   "route": "admin",
+   "refs": 60,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/0qrj-8dclwaon.js"
+   ]
+  },
+  {
+   "route": "dashboard-addProduct",
+   "refs": 100,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/3huhy_1wiszyi.js"
+   ]
+  },
+  {
+   "route": "dashboard-paywall",
+   "refs": 100,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/1z2vcxw_oipwr.js"
+   ]
+  },
+  {
+   "route": "dashboard-settings-account",
+   "refs": 113,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/3e46utj2n5dct.js"
+   ]
+  },
+  {
+   "route": "dashboard-settings-members",
+   "refs": 113,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/33t8qvpucw7mj.js"
+   ]
+  },
+  {
+   "route": "onboarding-ad-spend",
+   "refs": 57,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2goadg1txlkav.js"
+   ]
+  },
+  {
+   "route": "onboarding-business-type",
+   "refs": 56,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/3_4pyczmxuvhv.js"
+   ]
+  },
+  {
+   "route": "onboarding-contact",
+   "refs": 58,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/36hly0nk0m3p8.js"
+   ]
+  },
+  {
+   "route": "onboarding-intent",
+   "refs": 59,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2bszo13wi4a30.js"
+   ]
+  },
+  {
+   "route": "onboarding-success",
+   "refs": 56,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2up0szgw6105r.js"
+   ]
+  },
+  {
+   "route": "onboarding-team-size",
+   "refs": 56,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2wbkaoqpi02r5.js"
+   ]
+  },
+  {
+   "route": "onboarding-website",
+   "refs": 56,
+   "exclusive": 1,
+   "exclusiveSample": [
+    "/_next/static/chunks/2zipului5lxbc.js"
+   ]
+  },
+  {
+   "route": "admin-agent-skills-import",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-asset-swipe-next",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-asset-swipe-votes",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-camera-movement-situations",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-credit-codes-batches",
+   "refs": 61,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-credit-codes-cost-rate",
+   "refs": 60,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-featured-models-reorder",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-featured-models",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-lipsync-actors",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-moderation",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-pricing-plans",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-pricing-stripe-products",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-scripts",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-situations-data",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-situations-gestures-create",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-situations",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-workflows-library-order",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-workflows-library-settings",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "admin-workspaces-arcads10-offer-links",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "blog",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "consents-users",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-folder",
+   "refs": 99,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-product",
+   "refs": 99,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-project",
+   "refs": 99,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-script",
+   "refs": 99,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings-billing",
+   "refs": 118,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings-general",
+   "refs": 112,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings-integrations",
+   "refs": 115,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings-mcp",
+   "refs": 113,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings-public-api",
+   "refs": 115,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "dashboard-settings",
+   "refs": 113,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-actors",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-ads",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-avatars",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-content-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-for-affiliate",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-lipsync",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-product-video-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-shorts-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-tik-tok-ads-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-ugc-video",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-video-api",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-ai-video-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-facebook-ai-ads-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-talking-avatar-ai",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "features-text-to-speech",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "flow-try",
+   "refs": 106,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "flow-use",
+   "refs": 131,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "flow",
+   "refs": 131,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "home",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-e-commerce",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-insurance",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-law-firms",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-lead-gen",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-marketing-agencies",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-mobile-apps",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-real-estate-agencies",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "industries-saas",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "integrations-catalog",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "onboarding-attribution",
+   "refs": 56,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "onboarding-payment",
+   "refs": 54,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "onboarding-paywall",
+   "refs": 74,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "onboarding",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "payment_success",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "privacy",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "product",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "project",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "settings-billing",
+   "refs": 90,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "settings-integrations",
+   "refs": 115,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "settings-mcp",
+   "refs": 86,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "settings-public-api",
+   "refs": 115,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "settings",
+   "refs": 114,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "terms",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "tracking-payment-success",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "use-cases-ad-creative-testing",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "use-cases-ai-facebook-video-ad-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "use-cases-ai-tik-tok-video-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "use-cases-ai-youtube-video-generator",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "usecases",
+   "refs": 0,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "users-me",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  },
+  {
+   "route": "users",
+   "refs": 58,
+   "exclusive": 0,
+   "exclusiveSample": []
+  }
+ ],
+ "note": "补下来的是构建产物（含大量 vendor 库），字节级可复核；它证明「墙后代码在手」，不等于「墙后页面渲染态已抓」。"
+}

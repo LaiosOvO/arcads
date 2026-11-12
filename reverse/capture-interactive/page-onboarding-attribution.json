@@ -1,0 +1,129 @@
+{
+  "route": {
+    "name": "onboarding-attribution",
+    "url": "https://app.arcads.ai/onboarding/attribution"
+  },
+  "gotoErr": null,
+  "landing": {
+    "href": "https://app.arcads.ai/onboarding/attribution",
+    "title": "Arcads",
+    "textLen": 257
+  },
+  "candidates": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "TikTok"
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Google ad"
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Facebook ad"
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "AI (ChatGPT/Claude/etc)"
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Friend or colleague"
+    }
+  ],
+  "clicks": [
+    {
+      "idx": 0,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "TikTok",
+      "status": "ok",
+      "events": 49,
+      "bodies": 1
+    },
+    {
+      "idx": 1,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Google ad",
+      "status": "ok",
+      "events": 76,
+      "bodies": 3
+    },
+    {
+      "idx": 2,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Facebook ad",
+      "status": "ok",
+      "events": 47,
+      "bodies": 1
+    },
+    {
+      "idx": 3,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "AI (ChatGPT/Claude/etc)",
+      "status": "ok",
+      "events": 44,
+      "bodies": 2
+    },
+    {
+      "idx": 4,
+      "tag": "BUTTON",
+      "role": null,
+      "text": "Friend or colleague",
+      "status": "ok",
+      "events": 26,
+      "bodies": 1
+    }
+  ],
+  "flushInfo": {
+    "before": "visible",
+    "dispatched": [
+      "visibilitychange",
+      "pagehide"
+    ],
+    "visibilityState": "hidden"
+  },
+  "phases": [
+    {
+      "phase": "goto:onboarding-attribution",
+      "events": 796
+    },
+    {
+      "phase": "click:onboarding-attribution#0",
+      "events": 49
+    },
+    {
+      "phase": "click:onboarding-attribution#1",
+      "events": 76
+    },
+    {
+      "phase": "click:onboarding-attribution#2",
+      "events": 47
+    },
+    {
+      "phase": "click:onboarding-attribution#3",
+      "events": 44
+    },
+    {
+      "phase": "click:onboarding-attribution#4",
+      "events": 26
+    },
+    {
+      "phase": "flush:onboarding-attribution:settle",
+      "events": 33
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+
+--- STDERR ---
+arcads: LOGGED_IN_OR_PUBLIC https://app.arcads.ai/onboarding/attribution
+login-probe: 1/1 ready -> /Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/evidence/login-probe.json
+

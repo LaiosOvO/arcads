@@ -1,0 +1,194 @@
+{
+ "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+ "channel": "stripe",
+ "version": 1,
+ "pricingVersion": null,
+ "dashboardPaywallVersion": null,
+ "onboardingPaywallVersion": null,
+ "onboardingFormVersion": null,
+ "cardCaptureVersion": null,
+ "trialSidebarVersion": null,
+ "trialRunOutPaywallVersion": null,
+ "trialReminderEmailVersion": null,
+ "freeTrial": {
+  "freeTrialEnabled": true,
+  "freeTrialDays": 3,
+  "freeTrialMode": "fixedPlan",
+  "freeTrialCredits": 1000,
+  "freeTrialPlanPeriodId": "d6cf70f2-6712-4e94-af3b-78d4d13d8214",
+  "freeTrialAutoChargeDiscount": true
+ },
+ "cohort": {
+  "abTestKey": "ARCADS_FREE_TRIAL_V2",
+  "variantKey": "A"
+ },
+ "pricesUnavailable": false,
+ "entries": [
+  {
+   "id": "fe849783-21f1-4269-ab96-01bdb5460e8d",
+   "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+   "planPeriodId": "d6cf70f2-6712-4e94-af3b-78d4d13d8214",
+   "planId": "1f83e107-3b7e-4bcf-905f-fd3d6126d16e",
+   "planKey": "STARTER",
+   "planDisplayName": "Starter",
+   "interval": "month",
+   "intervalCount": 1,
+   "priceLookupKey": "STARTER_1month_1",
+   "price": {
+    "active": true,
+    "amount": 110,
+    "amounts": {
+     "aud": 170,
+     "cad": 150,
+     "chf": 100,
+     "eur": 100,
+     "gbp": 85,
+     "usd": 110
+    },
+    "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+    "currency": "usd",
+    "interval": "month",
+    "lookupKey": "STARTER_1month_1",
+    "intervalCount": 1
+   },
+   "tierRank": 1,
+   "creditAllowance": 8000,
+   "overageEnabled": false,
+   "overageUnitRate": 0,
+   "overagePriceLookupKey": null,
+   "topupTiers": [],
+   "rolloverPolicy": {
+    "enabled": false
+   },
+   "entitlements": {
+    "proActors": false,
+    "customActorLimit": 1,
+    "freeVoiceCloning": false,
+    "freeImageUpscale": false,
+    "apiAccess": false,
+    "teamSeatLimit": null,
+    "runWorkflow": false,
+    "elevenLabsIntegration": false
+   },
+   "position": 1,
+   "coupon": {
+    "percentOff": 30,
+    "amountsOff": {
+     "aud": 51,
+     "cad": 45,
+     "chf": 30,
+     "eur": 30,
+     "gbp": 25,
+     "usd": 33
+    },
+    "duration": "once",
+    "durationInMonths": null
+   },
+   "isCurrent": false,
+   "isLegacy": false
+  },
+  {
+   "id": "e9717e18-544d-470c-8774-f2a5d4f00da2",
+   "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+   "planPeriodId": "46926744-cdf8-47aa-929a-5c5d55e30545",
+   "planId": "1f83e107-3b7e-4bcf-905f-fd3d6126d16e",
+   "planKey": "STARTER",
+   "planDisplayName": "Starter",
+   "interval": "year",
+   "intervalCount": 1,
+   "priceLookupKey": "STARTER_1year_1",
+   "price": {
+    "active": true,
+    "amount": 1056,
+    "amounts": {
+     "aud": 1632,
+     "cad": 1440,
+     "chf": 960,
+     "eur": 960,
+     "gbp": 816,
+     "usd": 1056
+    },
+    "priceId": "price_1SNbPjCMHn5TcSkDJch1sfDG",
+    "currency": "usd",
+    "interval": "year",
+    "lookupKey": "STARTER_1year_1",
+    "intervalCount": 1
+   },
+   "tierRank": 2,
+   "creditAllowance": 96000,
+   "overageEnabled": false,
+   "overageUnitRate": 0,
+   "overagePriceLookupKey": null,
+   "topupTiers": [],
+   "rolloverPolicy": {
+    "enabled": false
+   },
+   "entitlements": {
+    "proActors": false,
+    "customActorLimit": 1,
+    "freeVoiceCloning": false,
+    "freeImageUpscale": false,
+    "apiAccess": false,
+    "teamSeatLimit": null,
+    "runWorkflow": false,
+    "elevenLabsIntegration": false
+   },
+   "position": 1,
+   "coupon": null,
+   "isCurrent": false,
+   "isLegacy": false
+  },
+  {
+   "id": "10188a67-e056-4cfa-aeb3-cf48076691c4",
+   "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+   "planPeriodId": "4f834743-c8d6-4d4e-a35c-85362770cf1a",
+   "planId": "75887ced-3c73-4db6-b392-964539188265",
+   "planKey": "BASIC",
+   "planDisplayName": "Creator",
+   "interval": "year",
+   "intervalCount": 1,
+   "priceLookupKey": "BASIC_1year_1",
+   "price": {
+    "active": true,
+    "amount": 2112,
+    "amounts": {
+     "aud": 3264,
+     "cad": 2880,
+     "chf": 1920,
+     "eur": 1920,
+     "gbp": 1632,
+     "usd": 2112
+    },
+    "priceId": "price_1SNbSaCMHn5TcSkDxjCG3xJy",
+    "currency": "usd",
+    "interval": "year",
+    "lookupKey": "BASIC_1year_1",
+    "intervalCount": 1
+   },
+   "tierRank": 4,
+   "creditAllowance": 192000,
+   "overageEnabled": false,
+   "overageUnitRate": 0,
+   "overagePriceLookupKey": null,
+   "topupTiers": [],
+   "rolloverPolicy": {
+    "enabled": false
+   },
+   "entitlements": {
+    "proActors": false,
+    "customActorLimit": 1,
+    "freeVoiceCloning": false,
+    "freeImageUpscale": false,
+    "apiAccess": false,
+    "teamSeatLimit": null,
+    "runWorkflow": true,
+    "elevenLabsIntegration": false,
+    "mostPopular": true
+   },
+   "position": 2,
+   "coupon": null,
+   "isCurrent": false,
+   "isLegacy": false
+  }
+ ]
+}

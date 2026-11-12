@@ -1,0 +1,72 @@
+{
+ "plans": [
+  {
+   "name": "STARTER",
+   "isPro": false,
+   "prices": [
+    {
+     "period": "month",
+     "credits": 8000,
+     "amount": 110,
+     "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+     "discountedAmount": 77
+    },
+    {
+     "period": "year",
+     "credits": 96000,
+     "amount": 1056,
+     "priceId": "price_1SNbPjCMHn5TcSkDJch1sfDG",
+     "discountedAmount": 1056
+    }
+   ]
+  },
+  {
+   "name": "BASIC",
+   "isPro": false,
+   "prices": [
+    {
+     "period": "month",
+     "credits": 16000,
+     "amount": 220,
+     "priceId": "price_1QUkI5CMHn5TcSkDLXjMketd",
+     "discountedAmount": 154
+    },
+    {
+     "period": "year",
+     "credits": 192000,
+     "amount": 2112,
+     "priceId": "price_1SNbSaCMHn5TcSkDxjCG3xJy",
+     "discountedAmount": 2112
+    }
+   ]
+  },
+  {
+   "name": "Pro",
+   "isPro": true,
+   "prices": [
+    {
+     "period": "month",
+     "credits": 48000,
+     "amount": 550,
+     "priceId": "price_1QUkOJCMHn5TcSkDukIHbyC1",
+     "discountedAmount": 385
+    },
+    {
+     "period": "year",
+     "credits": 576000,
+     "amount": 5280,
+     "priceId": "price_1S5xNWCMHn5TcSkDqkafnU3W",
+     "discountedAmount": 5280
+    }
+   ]
+  }
+ ],
+ "edit": {
+  "amount": 88,
+  "priceId": "price_1QUkUvCMHn5TcSkDk87AmgLg"
+ },
+ "discount": {
+  "name": "FIRST_MONTH_DISCOUNT",
+  "amount": 30
+ }
+}

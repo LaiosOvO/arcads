@@ -1,0 +1,96 @@
+
+
+/* --- TABLE COMPONENT --- */
+.table_component {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  color: #222;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* --- HEAD --- */
+.table_head {
+  background-color: #f5f5f5;
+}
+
+.table_header {
+  text-align: left;
+  font-weight: 600;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  white-space: nowrap;
+}
+
+/* --- BODY --- */
+.table_body .table_row:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.table_cell {
+  padding: 1rem;
+  vertical-align: top;
+  border-bottom: 1px solid #eee;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .table_component {
+    background-color: transparent;
+    border: none;
+  }
+
+  .table_component thead {
+    display: none;
+  }
+
+  .table_component,
+  .table_component tbody,
+  .table_component tr,
+  .table_component td {
+    display: block;
+    width: 100%;
+  }
+
+  .table_row {
+    margin-bottom: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+
+  .table_cell {
+    padding: 0.75rem 1rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table_cell::before {
+    content: attr(data-label);
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.3rem;
+  }
+}
+
+/* --- OPTIONAL (for mobile readability) --- */
+.table_component td:nth-child(1)::before {
+  content: "Objectives";
+}
+.table_component td:nth-child(2)::before {
+  content: "Legal basis";
+}
+.table_component td:nth-child(3)::before {
+  content: "Data retention period";
+}
+
+

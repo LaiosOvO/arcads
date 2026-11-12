@@ -1,0 +1,56 @@
+{
+  "route": {
+    "name": "flow-library",
+    "url": "https://app.arcads.ai/flow/library"
+  },
+  "gotoErr": null,
+  "landing": {
+    "href": "https://app.arcads.ai/flow/library",
+    "title": "Workflow Library | Arcads",
+    "textLen": 905
+  },
+  "candidates": [],
+  "clicks": [],
+  "flushInfo": {
+    "before": "visible",
+    "dispatched": [
+      "visibilitychange",
+      "pagehide"
+    ],
+    "visibilityState": "hidden"
+  },
+  "phases": [
+    {
+      "phase": "click:onboarding-paywall#0",
+      "events": 140
+    },
+    {
+      "phase": "click:onboarding-paywall#1",
+      "events": 124
+    },
+    {
+      "phase": "click:onboarding-paywall#2",
+      "events": 54
+    },
+    {
+      "phase": "click:onboarding-paywall#3",
+      "events": 47
+    },
+    {
+      "phase": "click:onboarding-paywall#4",
+      "events": 29
+    },
+    {
+      "phase": "flush:onboarding-paywall:settle",
+      "events": 33
+    },
+    {
+      "phase": "goto:flow-library",
+      "events": 894
+    },
+    {
+      "phase": "flush:flow-library:settle",
+      "events": 772
+    }
+  ]
+}

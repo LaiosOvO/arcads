@@ -1,0 +1,12 @@
+HTML 页面 137 份，静态路径引用 300 条
+镜像已有 chunk 288 个
+引用到的 chunk 名 381 个，待下载 93 个
+--- round 1: 93 个 ---
+    ok=93 new_refs=5 next_round=1
+--- round 2: 1 个 ---
+    ok=1 new_refs=0 next_round=0
+裸 token 候选 1 个，逐个探测
+
+完成：新增 94 个 chunk / 2.50 MiB；chunk 总数 288 -> 382
+CSS 12 条；额外静态 JS 0 条；失败 0 条；非 chunk 1 条
+清单：/Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/lazy-chunks.json

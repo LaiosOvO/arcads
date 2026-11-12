@@ -1,0 +1,7696 @@
+{
+ "project": "Arcads",
+ "generated_at": "2026-11-12T17:17:29",
+ "endpoint_count": 188,
+ "families": {
+  "_/set_cookie": 1,
+  "ab-tests/features": 2,
+  "admin/actors": 5,
+  "admin/agent": 4,
+  "admin/asset-swipe": 3,
+  "admin/camera-movement": 2,
+  "admin/contents": 1,
+  "admin/creator-codes": 1,
+  "admin/credit-codes": 3,
+  "admin/editingRequests": 1,
+  "admin/events": 1,
+  "admin/featured-models": 2,
+  "admin/first-generations": 1,
+  "admin/global": 2,
+  "admin/landing-tests": 2,
+  "admin/lipsync": 1,
+  "admin/moderation": 1,
+  "admin/personalActors": 2,
+  "admin/pricing": 7,
+  "admin/products": 2,
+  "admin/releases": 1,
+  "admin/scripts": 3,
+  "admin/situations": 3,
+  "admin/video-templates": 3,
+  "admin/voices": 3,
+  "admin/workflows": 5,
+  "admin/workspaces": 1,
+  "api/4506948625170432": 1,
+  "api/auth": 1,
+  "api/v1": 2,
+  "api/v2": 4,
+  "auth/renew-token": 2,
+  "ccm/collect": 1,
+  "cdn-cgi/challenge-platform": 2,
+  "config/44e5a6f3152249aae19ed3e4cad65ea": 1,
+  "config/b2e63b5453c36ec48b28059c3ab6a699": 1,
+  "config/private": 2,
+  "consents/users": 1,
+  "credit-codes/creator": 1,
+  "credit-codes/me": 1,
+  "cu6vrvqykjig/dkjmj": 1,
+  "dashboard/addProduct": 1,
+  "dashboard/folder": 1,
+  "dashboard/paywall": 1,
+  "dashboard/product": 1,
+  "dashboard/project": 1,
+  "dashboard/script": 1,
+  "dashboard/settings": 8,
+  "dropbox/connection-status": 1,
+  "e/t": 2,
+  "features/ai-actors": 1,
+  "features/ai-ads": 1,
+  "features/ai-avatars": 1,
+  "features/ai-content-generator": 1,
+  "features/ai-for-affiliate": 1,
+  "features/ai-lipsync": 1,
+  "features/ai-product-video-generator": 1,
+  "features/ai-shorts-generator": 1,
+  "features/ai-tik-tok-ads-generator": 1,
+  "features/ai-ugc-video": 1,
+  "features/ai-video-api": 1,
+  "features/ai-video-generator": 1,
+  "features/facebook-ai-ads-generator": 1,
+  "features/talking-avatar-ai": 1,
+  "features/text-to-speech": 1,
+  "flow/library": 1,
+  "flow/try": 1,
+  "flow/use": 1,
+  "g/s": 2,
+  "google-drive/connection-status": 1,
+  "industries/e-commerce": 1,
+  "industries/insurance": 1,
+  "industries/law-firms": 1,
+  "industries/lead-gen": 1,
+  "industries/marketing-agencies": 1,
+  "industries/mobile-apps": 1,
+  "industries/real-estate-agencies": 1,
+  "industries/saas": 1,
+  "integrations/catalog": 1,
+  "libs/analytics-browser-2.42.4-min.js.gz": 1,
+  "libs/plugin-session-replay-browser-1.32.1-min.js.gz": 1,
+  "media/cloudfront-cookies": 1,
+  "messenger/web": 3,
+  "meta-ads/connection-status": 1,
+  "notion/connection-status": 1,
+  "offers/arcads10": 1,
+  "onboarding/ad-spend": 1,
+  "onboarding/attribution": 1,
+  "onboarding/business-type": 1,
+  "onboarding/contact": 1,
+  "onboarding/intent": 1,
+  "onboarding/payment": 1,
+  "onboarding/paywall": 1,
+  "onboarding/success": 1,
+  "onboarding/team-size": 1,
+  "onboarding/website": 1,
+  "package/latest": 1,
+  "pagead/1p-user-list": 1,
+  "payment/free-trial": 1,
+  "payment/local": 1,
+  "pixel-config/v1": 1,
+  "pricing/catalog": 1,
+  "pricing/catalog-version": 1,
+  "rmkt/collect": 1,
+  "sdk/v2": 2,
+  "slack/connection-status": 1,
+  "tiktok-ads/connection-status": 1,
+  "tiktok/connection-status": 1,
+  "tr": 2,
+  "tracking/browser-opt-out": 1,
+  "tracking/payment-success": 1,
+  "use-cases/ad-creative-testing": 1,
+  "use-cases/ai-facebook-video-ad-generator": 1,
+  "use-cases/ai-tik-tok-video-generator": 1,
+  "use-cases/ai-youtube-video-generator": 1,
+  "users/me": 1,
+  "v1/lst": 1,
+  "v1/sdk": 1,
+  "video/1199693188": 2,
+  "wa": 1,
+  "widget/t4j1iryr": 1,
+  "workflows/use": 2,
+  "workspaces/77a46767-0e96-4b87-b393-267643c7adc2": 2,
+  "workspaces/api-credentials": 1,
+  "workspaces/credit-consumption-history": 2,
+  "workspaces/members": 2,
+  "x-twitter/connection-status": 1
+ },
+ "endpoints": [
+  {
+   "method": "GET",
+   "path": "/_/set_cookie",
+   "calls": 70,
+   "status_codes": {},
+   "query_keys": [
+    "path",
+    "val",
+    "x-gtm-as"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://tss.arcads.ai/_/set_cookie?val=ESogHvT6BwgsR4C1deXTGqHs0BpIJjik7jI2kiQxozsApIdMfQiffgpexUheKl%2FdMkgXPIJ1MsSp9l1WtFKw5ejnO%2BUALb9edXDUzqwmbS%2FOOz2B%2FLsXh6CQgEsENsbvoWFUi05F%2FJMWnhegyI8sIaNWZ5VGBeLq0MPkGkWEq0SnkS6k7wEZnIvtCampr9zWSmFo2%2FK27F%2B9fawsEzz9&path=%2F",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/ab-tests/features",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 453,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "[].feature",
+     "type": "str",
+     "sample": "ARCADS_10_OFFER_NEW"
+    },
+    {
+     "field": "[].cohort",
+     "type": "str",
+     "sample": "B"
+    },
+    {
+     "field": "[].source",
+     "type": "str",
+     "sample": "assigned"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/ab-tests/features?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": [
+    {
+     "feature": "ARCADS_10_OFFER_NEW",
+     "cohort": "B",
+     "source": "assigned"
+    },
+    {
+     "feature": "GPT_IMAGE_2_DEFAULT",
+     "cohort": "B",
+     "source": "assigned"
+    },
+    {
+     "feature": "ARCADS_TIER_DIFFERENTIATION_V2",
+     "cohort": "B",
+     "source": "rollout-default"
+    }
+   ]
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/ab-tests/features",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/ab-tests/features?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/actors",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25714,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/actors",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/actors/checkVoices",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25982,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/actors/checkVoices",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/actors/new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 28569,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/actors/new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/actors/stats",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27621,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/actors/stats",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/actors/validationProcess",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 29348,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/actors/validationProcess",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/agent/animation-studio",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27170,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/agent/animation-studio",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/agent/motion-templates",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27209,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/agent/motion-templates",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/agent/skills",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27909,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/agent/skills",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/agent/skills/import",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21667,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/agent/skills/import",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/asset-swipe",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25960,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/asset-swipe",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/asset-swipe/next",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21659,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/asset-swipe/next",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/asset-swipe/votes",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21660,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/asset-swipe/votes",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/camera-movement",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25496,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/camera-movement",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/camera-movement/situations",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21670,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/camera-movement/situations",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/contents",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26938,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/contents",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/creator-codes",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25729,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/creator-codes",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/credit-codes",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25726,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/credit-codes",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/credit-codes/batches",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26258,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/credit-codes/batches",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/credit-codes/cost-rate",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26263,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/credit-codes/cost-rate",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/editingRequests",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25495,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/editingRequests",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/events",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 28858,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/events",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/featured-models",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21654,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/featured-models",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/featured-models/reorder",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21665,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/featured-models/reorder",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/first-generations",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26955,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/first-generations",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/global",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25478,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/global",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/global/featured-models",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 34523,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/global/featured-models",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/landing-tests",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25727,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/landing-tests",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/landing-tests/new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25707,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/landing-tests/new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/lipsync/actors",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21657,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/lipsync/actors",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/moderation",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21650,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/moderation",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/personalActors",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 28822,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/personalActors",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/personalActors/stats",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 28177,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/personalActors/stats",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/ab-tests",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26213,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/ab-tests",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/ab-tests/new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26182,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/ab-tests/new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/catalogs",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25977,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/catalogs",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/catalogs/active",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 30651,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/catalogs/active",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/margin-simulator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26505,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/margin-simulator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/plans",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21656,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/plans",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/pricing/stripe-products",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21667,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/pricing/stripe-products",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/products",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26190,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/products",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/products/create",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26683,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/products/create",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/releases/whats-new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27397,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/releases/whats-new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/scripts",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21646,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/scripts",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/scripts/all",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26439,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/scripts/all",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/scripts/moderated",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26451,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/scripts/moderated",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/situations",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21649,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/situations",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/situations/data",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21657,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/situations/data",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/situations/gestures/create",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21673,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/situations/gestures/create",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/video-templates",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27338,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/video-templates",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/video-templates/categories",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27550,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/video-templates/categories",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/video-templates/new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27163,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/video-templates/new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/voices",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27306,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/voices",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/voices/new",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 29069,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/voices/new",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/voices/stats",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27621,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/voices/stats",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workflows",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26134,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workflows",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workflows/library",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 26864,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workflows/library",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workflows/library/order",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21670,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workflows/library/order",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workflows/library/settings",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21674,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workflows/library/settings",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workflows/top",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 27093,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workflows/top",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/admin/workspaces/arcads10-offer/links",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21718,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/admin/workspaces/arcads10-offer/links",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/api/4506948625170432/envelope/",
+   "calls": 1,
+   "status_codes": {
+    "200": 714
+   },
+   "query_keys": [
+    "sentry_client",
+    "sentry_key",
+    "sentry_version"
+   ],
+   "request_bodies": [
+    {
+     "_raw": "{\"sent_at\":\"2026-11-12T08:33:42.733Z\",\"sdk\":{\"name\":\"sentry.javascript.nextjs\",\"version\":\"10.48.0\"}}\n{\"type\":\"session\"}\n{\"sid\":\"7be515281e274d1caa5658cea938e4e8\",\"init\":true,\"started\":\"2026-11-12T08:33:42.733Z\",\"timestamp\":\"2026-11-12T08:33:42.733Z\",\"status\":\"ok\",\"errors\":0,\"attrs\":{\"release\":\"6e67d33c9534f30132f197a461e98464a31e78b8\",\"environment\":\"production\",\"user_agent\":\"Mozilla/5.0 (Macintosh"
+    }
+   ],
+   "response_bytes": 41,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "id",
+     "type": "str",
+     "sample": "adb2ed3d1e894ababdbf511f54faaf16"
+    }
+   ],
+   "example_url": "https://o4506948623663104.ingest.us.sentry.io/api/4506948625170432/envelope/?sentry_version=7&sentry_key=cd75d0a167f3bd72e3b9dbcb28fe06cf&sentry_client=sentry.javascript.nextjs%2F10.48.0",
+   "response_sample": {
+    "id": "adb2ed3d1e894ababdbf511f54faaf16"
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/api/auth/session",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 1387,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "user",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "user.name",
+     "type": "str",
+     "sample": "路景智"
+    },
+    {
+     "field": "user.email",
+     "type": "str",
+     "sample": "1691517500qq@gmail.com"
+    },
+    {
+     "field": "user.image",
+     "type": "str",
+     "sample": "https://lh3.googleusercontent.com/a/ACg8ocIsSOBAgksUvHh0VaIZ"
+    },
+    {
+     "field": "expires",
+     "type": "str",
+     "sample": "2026-12-12T08:33:43.472Z"
+    },
+    {
+     "field": "access_token",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "provider",
+     "type": "str",
+     "sample": "google"
+    }
+   ],
+   "example_url": "https://app.arcads.ai/api/auth/session",
+   "response_sample": {
+    "user": {
+     "name": "路景智",
+     "email": "1691517500qq@gmail.com",
+     "image": "https://lh3.googleusercontent.com/a/ACg8ocIsSOBAgksUvHh0VaIZgw2Lm9N2pCaQaFi6UbJ2hyQL8Ah6_D0=s96-c"
+    },
+    "expires": "2026-12-12T08:33:43.472Z",
+    "access_token": "«redacted»",
+    "provider": "google"
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://lj.arcads.ai/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+   "calls": 2,
+   "status_codes": {
+    "200": 2
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "datetime": "2026-11-12T08:33:13.490Z",
+     "os": "MacOS",
+     "os_type": "MacIntel",
+     "os_version": "10.15",
+     "client_user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+     "device_brand": "Apple",
+     "device_model": "Mac",
+     "device_type": "Desktop",
+     "browser": "Chrome",
+     "browser_version": "156.0",
+     "language": "zh-CN",
+     "entry_page": "/",
+     "entry_full_url": "https://www.arcads.ai/",
+     "referrer_domain": null,
+     "screen_resolution": "1512x982",
+     "timezone": "Asia/Shanghai",
+     "bot_signals": {
+      "is_crawler": false,
+      "webdriver": false,
+      "automation_globals": false,
+      "languages_count": 2,
+      "plugins_count": 5,
+      "chrome_object_missing": false,
+      "outer_width": 1512,
+      "outer_height": 903,
+      "hardware_concurrency": 10,
+      "device_memory": 32,
+      "visibility_state": "visible",
+      "webgl_renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)",
+      "flags": []
+     },
+     "click_id": "9d1144a9-a11c-4f2f-91eb-eb114cc19faf",
+     "fbp": "fb.1.1794467862944.1842103497"
+    }
+   ],
+   "response_bytes": 88,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "success",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "data",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "data.warning",
+     "type": "str",
+     "sample": "Tracking is disabled for this workspace."
+    },
+    {
+     "field": "data.code",
+     "type": "int",
+     "sample": "15"
+    }
+   ],
+   "example_url": "https://lj.arcads.ai/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+   "response_sample": {
+    "success": true,
+    "data": {
+     "warning": "Tracking is disabled for this workspace.",
+     "code": 15
+    }
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/api/v2/monitor",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "metric_name": "custom_info",
+     "pixel_code": "CPI77M3C77U6NIAFM3VG",
+     "platform": 0,
+     "app_name": "external",
+     "net_type": "3g",
+     "placement": "non",
+     "lib": {
+      "lib_version": "2.2.1",
+      "ttq_name": "ttq"
+     },
+     "in_iframe": 1,
+     "time_to_last_start": 1306,
+     "time_to_navigation_start": 6288,
+     "latency": 0,
+     "page_url": "https://app.arcads.ai/onboarding/contact",
+     "att_status": 3,
+     "pageview_id": "58d325de-de69-11f1-9edc-cab1f8d72b6e-OMyNI.42.0",
+     "session_id": "58d325de-de69-11f1-9edc-cab1f8d72b6e::ZMDEE6OYe-ahqMYaEjuZ",
+     "variation_id": "default",
+     "vids": "77390320",
+     "load_id": "2dcbdce5-de75-11f1-9ebb-b83fd240db22",
+     "ad_id": "undefined",
+     "creative_id": "undefined",
+     "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+     "pixel_monitor_version": "v2",
+     "custom_name": "form_funnel",
+     "custom_enum": "form_visible",
+     "partner": "non",
+     "ext_json": {
+      "performance": [],
+      "pixel_list": "CPI77M3C77U6NIAFM3VG",
+      "pixel_api_conflict_flag": false,
+      "message": "form_1|1.5156741.5162527::710772.10.558.307::567611.1.0|"
+     }
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://analytics.tiktok.com/api/v2/monitor",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/api/v2/pixel",
+   "calls": 1,
+   "status_codes": {
+    "200": 222
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "event": "Pageview",
+     "event_id": "1794472877711_1794473242550368",
+     "message_id": "messageId-1794472391328-2398244543193-CPI77M3C77U6NIAFM3VG",
+     "is_onsite": false,
+     "timestamp": "2026-11-12T08:33:11.328Z",
+     "context": {
+      "ad": {
+       "sdk_env": "external",
+       "jsb_status": 2
+      },
+      "device": {
+       "platform": "pc"
+      },
+      "user": {
+       "anonymous_id": "01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415"
+      },
+      "pixel": {
+       "code": "CPI77M3C77U6NIAFM3VG",
+       "runtime": "1"
+      },
+      "page": {
+       "url": "https://www.arcads.ai/",
+       "referrer": "",
+       "load_progress": "1"
+      },
+      "library": {
+       "name": "pixel.js",
+       "version": "2.2.1"
+      },
+      "session_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab-CPI77M3C77U6NIAFM3VG",
+      "pageview_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b--mbrs.5.0::b0dc10c2-de73-11f1-bea1-08c0eb5e1e1c-CPI77M3C77U6NIAFM3VG",
+      "variation_id": "default",
+      "csid": "1794467866419::fdV-zPL0shhY8BJXNcdL",
+      "page_csid": "1794467866420::OAFxVjDe00dJRRZ3VWp9",
+      "csct": 1,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+     },
+     "_inspection": {
+      "ppf": [
+       {
+        "id": 7,
+        "d": 6500,
+        "f": [
+         {
+          "id": 19,
+          "d": 100
+         },
+         {
+          "id": 1,
+          "d": 100
+         },
+         {
+          "id": 19,
+          "d": 0
+         },
+         {
+          "id": 2,
+          "d": 1000
+         },
+         {
+          "id": 18,
+          "d": 0
+         },
+         {
+          "id": 15,
+          "d": 600
+         },
+         {
+          "id": 6,
+          "d": 2200
+         },
+         {
+          "id": 8,
+          "d": 0
+         },
+         {
+          "id": 9,
+          "d": 0
+         },
+         {
+          "id": 11,
+          "d": 100
+         },
+         {
+          "id": 4,
+          "d": 2900
+         },
+         {
+          "id": 23,
+          "d": 700
+         },
+         {
+          "id": 22,
+          "d": 700
+         },
+         {
+          "id": 3,
+          "d": 3700
+         },
+         {
+          "id": 19,
+          "d": 0
+         },
+         {
+          "id": 16,
+          "d": 0
+         },
+         {
+          "id": 17,
+          "d": 0
+         }
+        ]
+       }
+      ],
+      "vids": "77390320",
+      "inter_id": "1.4512337.4524908::710772.10.558.307::567611.1.0"
+     },
+     "properties": {
+      "gtm_version": "stape_gtm_1_2_0",
+      "event_trigger_source": "GoogleTagManagerClient"
+     },
+     "signal_diagnostic_labels": {
+      "raw_email": {
+       "label": "missing"
+      },
+      "raw_auto_email": {
+       "label": "missing"
+      },
+      "raw_phone": {
+       "label": "missing"
+      },
+      "raw_auto_phone": {
+       "label": "missing"
+      },
+      "hashed_email": {
+       "label": "missing"
+      },
+      "hashed_phone": {
+       "label": "missing"
+      },
+      "raw_eb_email": {
+       "label": "missing"
+      },
+      "raw_eb_phone": {
+       "label": "missing"
+      },
+      "hashed_eb_email": {
+       "label": "missing"
+      },
+      "hashed_eb_phone": {
+       "label": "missing"
+      }
+     }
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://analytics.tiktok.com/api/v2/pixel",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/api/v2/pixel/act",
+   "calls": 1,
+   "status_codes": {
+    "200": 133
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "event_id": "",
+     "message_id": "messageId-1794472391531-9963987859645",
+     "is_onsite": false,
+     "timestamp": "2026-11-12T08:33:11.531Z",
+     "context": {
+      "ad": {
+       "sdk_env": "external",
+       "jsb_status": 2
+      },
+      "device": {
+       "platform": "pc"
+      },
+      "user": {
+       "anonymous_id": "01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415"
+      },
+      "pixel": {
+       "code": "CPI77M3C77U6NIAFM3VG",
+       "runtime": "1",
+       "codes": "CPI77M3C77U6NIAFM3VG"
+      },
+      "page": {
+       "url": "https://www.arcads.ai/",
+       "referrer": "",
+       "load_progress": "1"
+      },
+      "library": {
+       "name": "pixel.js",
+       "version": "2.2.1"
+      },
+      "session_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab",
+      "pageview_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b--mbrs.5.0::b0dc10c2-de73-11f1-bea1-08c0eb5e1e1c",
+      "variation_id": "default",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "index": 5,
+      "sessions": [
+       {
+        "csid": "1794467866419::fdV-zPL0shhY8BJXNcdL",
+        "page_csid": "1794467866420::OAFxVjDe00dJRRZ3VWp9",
+        "csct": 1,
+        "pixel_code": "CPI77M3C77U6NIAFM3VG"
+       }
+      ]
+     },
+     "_inspection": {
+      "ppf": [
+       {
+        "id": 6,
+        "d": 1000,
+        "f": [
+         {
+          "id": 25,
+          "d": 0
+         }
+        ]
+       }
+      ],
+      "vids": "77390320",
+      "inter_id": "1.4512337.4524908::710772.10.558.307::567611.1.0"
+     },
+     "properties": {},
+     "signal_diagnostic_labels": {
+      "raw_email": {
+       "label": "missing"
+      },
+      "raw_auto_email": {
+       "label": "missing"
+      },
+      "raw_phone": {
+       "label": "missing"
+      },
+      "raw_auto_phone": {
+       "label": "missing"
+      },
+      "hashed_email": {
+       "label": "missing"
+      },
+      "hashed_phone": {
+       "label": "missing"
+      },
+      "raw_eb_email": {
+       "label": "missing"
+      },
+      "raw_eb_phone": {
+       "label": "missing"
+      },
+      "hashed_eb_email": {
+       "label": "missing"
+      },
+      "hashed_eb_phone": {
+       "label": "missing"
+      }
+     },
+     "action": "Metadata",
+     "auto_collected_properties": {
+      "page_trigger": "PageView",
+      "content_data": {
+       "open_graph": "{\"og:title\":\"Arcads - Create winning ads with AI\",\"og:description\":\"Generate AI UGC videos and images to win attention. Arcads is the #1 gen AI platform for marketing teams.\",\"og:image\":\"https://cdn.prod.website-files.com/685001cf708232477ed43d3f/690d3cf1d1d846c515a2c5fd_OG.png\",\"twitter:title\":\"Arcads - Create winning ads with AI\",\"twitter:description\":\"Generate AI UGC videos and images to win attention. Arcads is the #1 gen AI platform for marketing teams.\",\"twitter:image\":\"https://cdn.prod.website-files.com/685001cf708232477ed43d3f/690d3cf1d1d846c515a2c5fd_OG.png\",\"og:type\":\"website\",\"twitter:card\":\"summary_large_image\"}",
+       "microdata": "[]",
+       "json_ld": "[{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://www.arcads.ai/#organization\",\"name\":\"Arcads\",\"url\":\"https://www.arcads.ai/\",\"logo\":\"https://cdn.prod.website-files.com/685001cf708232477ed43d3f/68efa8160baa4b79fde9574d_webclip.jpg\",\"sameAs\":[\"https://www.youtube.com/@arcadsai\"]},{\"@type\":\"WebSite\",\"@id\":\"https://www.arcads.ai/#website\",\"url\":\"https://www.arcads.ai/\",\"name\":\"Arcads\",\"publisher\":{\"@id\":\"https://www.arcads.ai/#organization\"}},{\"@type\":\"SoftwareApplication\",\"@id\":\"https://www.arcads.ai/#software\",\"name\":\"Arcads\",\"url\":\"https://www.arcads.ai/\",\"applicationCategory\":\"BusinessApplication\",\"operatingSystem\":\"Web\",\"description\":\"Arcads is an AI ad platform. It generates video ads, talking actor videos, product images and B-roll from a script, a product image or a prompt, with no studio or crew.\",\"publisher\":{\"@id\":\"https://www.arcads.ai/#organization\"}}]}]",
+       "meta": "{\"title\":\"Arcads - Create winning ads with AI\",\"meta:description\":\"Generate AI UGC videos and images to win attention. Arcads is the #1 gen AI platform for marketing teams.\"}"
+      }
+     }
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://analytics.tiktok.com/api/v2/pixel/act",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/api/v2/pixel/perf",
+   "calls": 1,
+   "status_codes": {
+    "200": 6
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "event_id": "",
+     "message_id": "messageId-1794472499673-9772472474630",
+     "is_onsite": false,
+     "timestamp": "2026-11-12T08:34:59.673Z",
+     "context": {
+      "ad": {
+       "sdk_env": "external",
+       "jsb_status": 2
+      },
+      "device": {
+       "platform": "pc"
+      },
+      "user": {
+       "anonymous_id": "01M779X9SFZXRSWQMQWE89H0M6_.tt.1.1794467866415"
+      },
+      "pixel": {
+       "code": "CPI77M3C77U6NIAFM3VG",
+       "runtime": "1",
+       "codes": "CPI77M3C77U6NIAFM3VG"
+      },
+      "page": {
+       "url": "https://www.arcads.ai/features/ai-ads",
+       "referrer": "",
+       "load_progress": "1"
+      },
+      "library": {
+       "name": "pixel.js",
+       "version": "2.2.1"
+      },
+      "session_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b::g6hU1-8GExSbjEknmRab",
+      "pageview_id": "278e33cf-de69-11f1-a9ac-7a7b7e66802b-9VUfW.13.0::f216768d-de73-11f1-aa35-02001713b85a",
+      "variation_id": "default",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+      "index": 13
+     },
+     "_inspection": {
+      "vids": "77390320",
+      "inter_id": "1.4630182.4633250::710772.10.558.307::567611.1.0"
+     },
+     "properties": {},
+     "signal_diagnostic_labels": {
+      "raw_email": {
+       "label": "missing"
+      },
+      "raw_auto_email": {
+       "label": "missing"
+      },
+      "raw_phone": {
+       "label": "missing"
+      },
+      "raw_auto_phone": {
+       "label": "missing"
+      },
+      "hashed_email": {
+       "label": "missing"
+      },
+      "hashed_phone": {
+       "label": "missing"
+      },
+      "raw_eb_email": {
+       "label": "missing"
+      },
+      "raw_eb_phone": {
+       "label": "missing"
+      },
+      "hashed_eb_email": {
+       "label": "missing"
+      },
+      "hashed_eb_phone": {
+       "label": "missing"
+      }
+     },
+     "action": "Pf",
+     "auto_collected_properties": {
+      "action_event": "fcp",
+      "perf": {
+       "ttns": 1496,
+       "cls": -1,
+       "idx": 13,
+       "pep": 0.087
+      },
+      "page_perf": {
+       "metrics_type": "fcp|cls|idx|pep",
+       "cls": -1,
+       "idx": 13,
+       "pep": 0.087,
+       "fcp": 1496
+      }
+     }
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "application/json",
+   "response_fields": [],
+   "example_url": "https://analytics.tiktok.com/api/v2/pixel/perf",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/auth/renew-token",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 416,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "token",
+     "type": "str",
+     "sample": "«redacted»"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/auth/renew-token",
+   "response_sample": {
+    "token": "«redacted»"
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/auth/renew-token",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/auth/renew-token",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/ccm/collect",
+   "calls": 492,
+   "status_codes": {
+    "200": 492
+   },
+   "query_keys": [
+    "_tu",
+    "ae",
+    "apvc",
+    "auid",
+    "dl",
+    "dma",
+    "dt",
+    "en",
+    "ep.ads_data_redaction",
+    "fmt",
+    "frm",
+    "ga_uid",
+    "gcd",
+    "gcs",
+    "gtm",
+    "navt",
+    "npa",
+    "rcb",
+    "rnd",
+    "scrsrc",
+    "tag_exp",
+    "tcfd",
+    "tfd",
+    "tft",
+    "tid",
+    "tids"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=1&ae=g&auid=671518984.1794467852&dt=Arcads%20-%20Create%20winning%20ads%C2%A0with%C2%A0AI&en=page_view&dl=https%3A%2F%2Fwww.arcads.ai%2F&scrsrc=load.tss.arcads.ai&rnd=913632302.1794472385&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He6ba1v9178795652za204zd9178795652xeaxf3&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938466~115938469~118131809~118897920~118897930~119860442~120385422~120412526~120420416~120469145~120469153~121049589~121191153~121246026~121246034~123329123~124170883&tft=1794472384885&tfd=6128&fmt=8",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/fc3ic/0x4AAAAAAAQTptj2So4dx43e/auto/fbE/new/normal",
+   "calls": 1,
+   "status_codes": {},
+   "query_keys": [
+    "lang"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/fc3ic/0x4AAAAAAAQTptj2So4dx43e/auto/fbE/new/normal?lang=auto",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/cdn-cgi/challenge-platform/h/g/turnstile/f/av0/rch/fc3ic/0x4AAAAAAAQTptj2So4dx43e/auto/fbE/new/normal",
+   "calls": 0,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/config/44e5a6f3152249aae19ed3e4cad65ea",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "config_group"
+   ],
+   "request_bodies": [],
+   "response_bytes": 99,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "configs",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics.browserSDK",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics.browserSDK.sampleRate",
+     "type": "float",
+     "sample": "0.02"
+    },
+    {
+     "field": "configs.sessionReplay",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "configs.analyticsSDK",
+     "type": "object",
+     "sample": ""
+    }
+   ],
+   "example_url": "https://sr-client-cfg.amplitude.com/config/44e5a6f3152249aae19ed3e4cad65ea?config_group=browser",
+   "response_sample": {
+    "configs": {
+     "diagnostics": {
+      "browserSDK": {
+       "sampleRate": 0.02
+      }
+     },
+     "sessionReplay": "«redacted»",
+     "analyticsSDK": {}
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/config/b2e63b5453c36ec48b28059c3ab6a699",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "config_group"
+   ],
+   "request_bodies": [],
+   "response_bytes": 99,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "configs",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics.browserSDK",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "configs.diagnostics.browserSDK.sampleRate",
+     "type": "float",
+     "sample": "0.02"
+    },
+    {
+     "field": "configs.sessionReplay",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "configs.analyticsSDK",
+     "type": "object",
+     "sample": ""
+    }
+   ],
+   "example_url": "https://sr-client-cfg.amplitude.com/config/b2e63b5453c36ec48b28059c3ab6a699?config_group=browser",
+   "response_sample": {
+    "configs": {
+     "diagnostics": {
+      "browserSDK": {
+       "sampleRate": 0.02
+      }
+     },
+     "sessionReplay": "«redacted»",
+     "analyticsSDK": {}
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/config/private",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 6542,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "welcomeVideo",
+     "type": "str",
+     "sample": "https://argoseyes.s3-accelerate.amazonaws.com/public/4c95154"
+    },
+    {
+     "field": "paywallVideos",
+     "type": "array<str>",
+     "sample": "len=3"
+    },
+    {
+     "field": "defaultVoiceSettings",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "defaultVoiceSettings.speed",
+     "type": "float",
+     "sample": "1.1"
+    },
+    {
+     "field": "defaultVoiceSettings.style",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "defaultVoiceSettings.stability",
+     "type": "float",
+     "sample": "0.5"
+    },
+    {
+     "field": "defaultVoiceSettings.similarityBoost",
+     "type": "float",
+     "sample": "0.75"
+    },
+    {
+     "field": "defaultVoiceSettings.useSpeakerBoost",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "requestEditBaseVideo",
+     "type": "str",
+     "sample": "https://argoseyes.s3-accelerate.amazonaws.com/public/deb3c4c"
+    },
+    {
+     "field": "requestEditEditedVideo",
+     "type": "str",
+     "sample": "https://argoseyes.s3-accelerate.amazonaws.com/public/3bfe081"
+    },
+    {
+     "field": "speechTooSpeechMaxDuration",
+     "type": "int",
+     "sample": "120"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/config/private",
+   "response_sample": {
+    "welcomeVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/4c951543-23e8-4621-aa85-f9e954832f33.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+    "paywallVideos": [
+     "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/ee1130d5-c634-44bd-a7f2-9475ca5a2292.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…",
+     "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/1515228c-65cd-4bda-83b2-baf26f4ce7dd.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…",
+     "https://argoseyes.s3-accelerate.amazonaws.com/public/paywall/70286c09-ae00-4a0c-9d6f-bd44675390f9.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FD…"
+    ],
+    "defaultVoiceSettings": {
+     "speed": 1.1,
+     "style": 0,
+     "stability": 0.5,
+     "similarityBoost": 0.75,
+     "useSpeakerBoost": true
+    },
+    "requestEditBaseVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/deb3c4cd-0bb7-45f9-bdb2-781e6641835e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+    "requestEditEditedVideo": "https://argoseyes.s3-accelerate.amazonaws.com/public/3bfe0813-62e9-4c9f-a416-852b2de06113.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAS5Z5FDA4BQBRWQ…",
+    "speechTooSpeechMaxDuration": 120
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/config/private",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/config/private",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/consents/users",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21647,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/consents/users",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/credit-codes/creator",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 16,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "applied",
+     "type": "NoneType",
+     "sample": "None"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/credit-codes/creator?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "applied": null
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/credit-codes/me",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/credit-codes/me?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/cu6vrvqykjig/dkjmj",
+   "calls": 20,
+   "status_codes": {
+    "200": 6
+   },
+   "query_keys": [
+    "d348954e"
+   ],
+   "request_bodies": [],
+   "response_bytes": 493565,
+   "content_type": "application/javascript",
+   "response_fields": [],
+   "example_url": "https://load.tss.arcads.ai/cu6vrvqykjig/dkjmj?d348954e=L2d0YWcvanM%2FaWQ9Ry1MS1oySjJUWTRIJmN4PWMmZ3RtPTRlNmJhMQ%3D%3D",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/addProduct",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 40165,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/addProduct",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/folder",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 37835,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/folder",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/paywall",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 40160,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/paywall",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/product",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 37837,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/product",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/project",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 37837,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/project",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/script",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 37835,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/script",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 42449,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/account",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 42984,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/account",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/billing",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 44163,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/billing",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/general",
+   "calls": 3,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "_rsc"
+   ],
+   "request_bodies": [],
+   "response_bytes": 43122,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/general?_rsc=bXQEYcssFI85msPn",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/integrations",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 43701,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/integrations",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/mcp",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 43211,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/mcp",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/members",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 42984,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/members",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dashboard/settings/public-api",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 43697,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/dashboard/settings/public-api",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/dropbox/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 19,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/dropbox/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/e/t",
+   "calls": 1,
+   "status_codes": {},
+   "query_keys": [
+    "space_id"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://comet-serve.com/e/t?space_id=3377699767000092",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/e/t",
+   "calls": 1,
+   "status_codes": {
+    "204": 68,
+    "200": 68
+   },
+   "query_keys": [
+    "space_id"
+   ],
+   "request_bodies": [
+    {
+     "fingerprint": "41f460455ed9d54babf24dd46f9879b7",
+     "comet_token": "6116582323085139075220311250237828403294269871873",
+     "event": "init",
+     "json_data": null,
+     "url": "https://www.arcads.ai/",
+     "referrer": "",
+     "fbp": "fb.1.1794467862944.1842103497",
+     "axwrt": "",
+     "device_type": "desktop",
+     "os": "macOS",
+     "browser": "Google Chrome",
+     "language": "zh-CN",
+     "in_iframe": false
+    }
+   ],
+   "response_bytes": 48,
+   "content_type": "text/html",
+   "response_fields": [
+    {
+     "field": "status",
+     "type": "str",
+     "sample": "success"
+    },
+    {
+     "field": "fingerprint",
+     "type": "str",
+     "sample": "fingerprint"
+    }
+   ],
+   "example_url": "https://comet-serve.com/e/t?space_id=3377699767000092",
+   "response_sample": {
+    "status": "success",
+    "fingerprint": "fingerprint"
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-actors",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161519,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-actors",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-ads",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161546,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-ads",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-avatars",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161483,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-avatars",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-content-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161740,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-content-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-for-affiliate",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161628,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-for-affiliate",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-lipsync",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161548,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-lipsync",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-product-video-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161686,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-product-video-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-shorts-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161698,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-shorts-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-tik-tok-ads-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161674,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-tik-tok-ads-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-ugc-video",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161695,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-ugc-video",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-video-api",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161535,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-video-api",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/ai-video-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 211527,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/ai-video-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/facebook-ai-ads-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161723,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/facebook-ai-ads-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/talking-avatar-ai",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161558,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/talking-avatar-ai",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/features/text-to-speech",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161598,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/features/text-to-speech",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/flow/library",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 179802,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/flow/library",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/flow/try",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 37404,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/flow/try",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/flow/use",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 42385,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/flow/use",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/g/s/collect",
+   "calls": 71,
+   "status_codes": {
+    "204": 11
+   },
+   "query_keys": [
+    "_gsid",
+    "_is_sw",
+    "_tu",
+    "dma",
+    "gap.sstd",
+    "gcd",
+    "gcs",
+    "gtm",
+    "npa",
+    "tag_exp"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://analytics.google.com/g/s/collect?dma=0&npa=0&gcs=G111&gcd=13v3v3v3v5l1&gtm=45j91e6ba1v9224737220z89178795652z99200458750za20kzb9178795652zd9178795652xf3&tag_exp=115938466~115938468~117215456~117215456~117215458~117215458~118897920~118897930~119860442~120213116~120385422~120412528~120420416~120469145~120469153~121246026~121246034~121410726~121410726~123329123~124170883&_is_sw=f15s0t2&_tu=DA&gap.sstd=5&_gsid=LKZ2J2TY4HGpd-Lwv0MKLNFp3q8BVJmA",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/g/s/collect",
+   "calls": 0,
+   "status_codes": {
+    "204": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/google-drive/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 19,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/google-drive/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/industries/e-commerce",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161588,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/e-commerce",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/insurance",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161532,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/insurance",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/law-firms",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161486,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/law-firms",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/lead-gen",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161583,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/lead-gen",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/marketing-agencies",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161704,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/marketing-agencies",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/mobile-apps",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161618,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/mobile-apps",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/real-estate-agencies",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161694,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/real-estate-agencies",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/industries/saas",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161473,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/industries/saas",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/integrations/catalog",
+   "calls": 3,
+   "status_codes": {
+    "200": 1,
+    "404": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 517,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connectors",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "connectors[].id",
+     "type": "str",
+     "sample": "meta-ads"
+    },
+    {
+     "field": "connectors[].status",
+     "type": "str",
+     "sample": "live"
+    },
+    {
+     "field": "connectors[].configured",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "features",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "features.customerBase",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/integrations/catalog?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connectors": [
+     {
+      "id": "meta-ads",
+      "status": "live",
+      "configured": true
+     },
+     {
+      "id": "tiktok-ads",
+      "status": "live",
+      "configured": true
+     },
+     {
+      "id": "shopify",
+      "status": "live",
+      "configured": false
+     }
+    ],
+    "features": {
+     "customerBase": false
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/libs/analytics-browser-2.42.4-min.js.gz",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 223343,
+   "content_type": "application/javascript",
+   "response_fields": [],
+   "example_url": "https://cdn.amplitude.com/libs/analytics-browser-2.42.4-min.js.gz",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/libs/plugin-session-replay-browser-1.32.1-min.js.gz",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 480513,
+   "content_type": "application/javascript",
+   "response_fields": [],
+   "example_url": "https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.32.1-min.js.gz",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/media/cloudfront-cookies",
+   "calls": 2,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 88,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "message",
+     "type": "str",
+     "sample": "CloudFront cookie auth is not enabled"
+    },
+    {
+     "field": "error",
+     "type": "str",
+     "sample": "Not Found"
+    },
+    {
+     "field": "statusCode",
+     "type": "int",
+     "sample": "404"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/media/cloudfront-cookies",
+   "response_sample": {
+    "message": "CloudFront cookie auth is not enabled",
+    "error": "Not Found",
+    "statusCode": 404
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/messenger/web/metrics",
+   "calls": 1,
+   "status_codes": {
+    "200": 17
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://api-iam.intercom.io/messenger/web/metrics",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/messenger/web/page_view_events",
+   "calls": 1,
+   "status_codes": {
+    "204": 18
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "app_id": "t4j1iryr",
+     "v": "3",
+     "g": "dfc1cb2a834b6b8f4688067faac440304db96639",
+     "s": "d84d0be6-2d60-4003-88d4-5ca3ab8813ab",
+     "r": "",
+     "platform": "web",
+     "installation_type": "js-snippet",
+     "installation_version": "undefined",
+     "Idempotency-Key": "b8b89b9033c5ceb6",
+     "internal": "",
+     "is_intersection_booted": "false",
+     "page_title": "Arcads",
+     "user_active_company_id": "-1",
+     "user_data": "%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%7D",
+     "referer": "https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution",
+     "anonymous_session": "MjUvVUVOcnpYVHFCMmNxTDBLdHhOcUlXM1hVZ1M0Nm9veHEzZVFkdi92aEtzZnYxQ2sxOUtpcG1ZKzhhSHY4RkFGa2pDOGFiQmZ6ODJncDExeWZsb1cyL2xwU0ljbFJva0t4UzNjdHZrY3BJV2FZcXJLRWU2dHlCd1hCRGgyZWdNd0dZUEVvUHhNR1dVcGNYRmx1ZnNrK3VETmljLzZnM2ZxOVF4QVJYQVJVYlNvdXVLM1RzcWhlVVJWVmd4UFlzTTk4dWYyd3pITEMvcitPYWJKODRZZz09LS1MWXFIdjBSM1Qya1NyeHZacGEzMUlBPT0%3D--93cb81cec58fa8480299571a3623cbfc5d7054e4",
+     "device_identifier": "2bdbcbf4-a1d0-430e-a241-5ecfe232bbad"
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://api-iam.intercom.io/messenger/web/page_view_events",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/messenger/web/ping",
+   "calls": 1,
+   "status_codes": {
+    "200": 24
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "app_id": "t4j1iryr",
+     "v": "3",
+     "g": "dfc1cb2a834b6b8f4688067faac440304db96639",
+     "s": "d84d0be6-2d60-4003-88d4-5ca3ab8813ab",
+     "r": "",
+     "platform": "web",
+     "installation_type": "js-snippet",
+     "installation_version": "undefined",
+     "Idempotency-Key": "c4048a8210790145",
+     "internal": "%7B%7D",
+     "is_intersection_booted": "false",
+     "page_title": "Arcads",
+     "user_active_company_id": "undefined",
+     "user_data": "%7B%22email%22%3A%221691517500qq%40gmail.com%22%2C%22anonymous_id%22%3A%22a0d3e1ed-6974-4cd4-8068-3ac8b98f01c7%22%2C%22name%22%3A%22%E6%99%AF%E6%99%BA%22%2C%22catalogVariant%22%3A%22Original%20pricing%22%2C%22pricingVariant%22%3A%22Original%20pricing%22%7D",
+     "source": "apiBoot",
+     "sampling": "false",
+     "referer": "https%3A%2F%2Fapp.arcads.ai%2Fonboarding%2Fattribution",
+     "anonymous_session": "cUNPcHFVZGZlajdZTDM3U3JQZXlWNE5HYlM3eEFUNkNMb3E5UGpqR2NsTkhacUQzMi81andLS3hkUFBEd0MyRTlIUTBGbVdoSjY2dWp4Zm1QbHBXU2Q5RnBKV2YwUW9Bbm1nc1NMb3pSYnFqbmI1eWJaSUlOS2YwRWxXM1Y4OUtPQ1VtMTdSNGVkZ1BCTTF3STBtT1cxNHgrbkJqTW4xRWkyTU1EdDQ0RmF1V0FVaTRlZU1Jc05hbHVYbmtmQUxRNGpPbzhFUGorR1lBdjE2SUlzVWNUdz09LS05ZzdxYXBlbFJkT0V6YlRrSXZBOXZ3PT0%3D--9efe284375bb7e5af2d1290e7f2501c81876167c",
+     "device_identifier": "2bdbcbf4-a1d0-430e-a241-5ecfe232bbad"
+    }
+   ],
+   "response_bytes": 11504,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "app",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "app.name",
+     "type": "str",
+     "sample": "arcads"
+    },
+    {
+     "field": "app.audio_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "app.show_powered_by",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.team_intro",
+     "type": "str",
+     "sample": "Ask us anything, or share your feedback."
+    },
+    {
+     "field": "app.team_greeting",
+     "type": "str",
+     "sample": "Hi 景智 👋"
+    },
+    {
+     "field": "app.expected_response_delay_translation_key",
+     "type": "str",
+     "sample": "a_few_hours"
+    },
+    {
+     "field": "app.launcher_expected_response_delay_translation_key",
+     "type": "str",
+     "sample": "the_team_typically_replies_in_hours"
+    },
+    {
+     "field": "app.sms_notifications_enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.email_follow_ups_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "app.inbound_conversations_disabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.office_hours_response",
+     "type": "str",
+     "sample": "In 2 hours"
+    },
+    {
+     "field": "app.help_center_site_url",
+     "type": "str",
+     "sample": "https://help.arcads.ai"
+    },
+    {
+     "field": "app.messenger_logo_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "app.user_conversation_gifs_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "app.user_conversation_emojis_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "app.user_conversation_voice_notes_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "app.developer_workspace",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.upfront_email_collection_setting",
+     "type": "str",
+     "sample": "never"
+    },
+    {
+     "field": "app.temporary_expectations_message",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "app.localized_expected_response_delay_short_text",
+     "type": "str",
+     "sample": "Back in 2 hours"
+    },
+    {
+     "field": "app.localized_expected_response_delay_long_text",
+     "type": "str",
+     "sample": "We'll be back online in 2 hours"
+    },
+    {
+     "field": "app.help_center_id",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "app.article_auto_reaction_enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.conversation_history_ttl_days",
+     "type": "int",
+     "sample": "14"
+    },
+    {
+     "field": "app.ticket_terminology",
+     "type": "str",
+     "sample": "ticket"
+    },
+    {
+     "field": "app.hide_read_receipts",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "app.use_cache_for",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "user",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "user.id",
+     "type": "str",
+     "sample": "6af568985fd0d076d108f886"
+    },
+    {
+     "field": "user.role",
+     "type": "str",
+     "sample": "user_role"
+    },
+    {
+     "field": "user.locale",
+     "type": "str",
+     "sample": "en"
+    },
+    {
+     "field": "user.has_conversations",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "user.country_code",
+     "type": "str",
+     "sample": "us"
+    },
+    {
+     "field": "user.new_session",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "user.help_center_require_search",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "user.requires_cookie_consent",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "user.prevent_multiple_inbound_conversation",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "user.user_assignments",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "client_matches",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "client_matches[].user_id",
+     "type": "str",
+     "sample": "6af568985fd0d076d108f886"
+    },
+    {
+     "field": "client_matches[].company_id",
+     "type": "str",
+     "sample": "-1"
+    },
+    {
+     "field": "client_matches[].predicates",
+     "type": "array<dict>",
+     "sample": "len=2"
+    },
+    {
+     "field": "client_matches[].predicates[].attribute",
+     "type": "str",
+     "sample": "client_attributes.last_visited_url"
+    },
+    {
+     "field": "client_matches[].predicates[].type",
+     "type": "str",
+     "sample": "string"
+    },
+    {
+     "field": "client_matches[].predicates[].comparison",
+     "type": "str",
+     "sample": "contains"
+    },
+    {
+     "field": "client_matches[].predicates[].value",
+     "type": "str",
+     "sample": "//app.arcads.ai/onboarding/paywall"
+    },
+    {
+     "field": "client_matches[].ruleset_id",
+     "type": "int",
+     "sample": "55170379"
+    },
+    {
+     "field": "client_matches[].ruleset_match_behavior",
+     "type": "str",
+     "sample": "transient_match"
+    },
+    {
+     "field": "client_matches[].ruleset_link_id",
+     "type": "int",
+     "sample": "55449880"
+    },
+    {
+     "field": "client_matches[].ruleset_link_object_type",
+     "type": "str",
+     "sample": "button_custom_bot"
+    },
+    {
+     "field": "client_matches[].serialized_object",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "client_matches[].serialized_object.id",
+     "type": "str",
+     "sample": "1741082"
+    },
+    {
+     "field": "client_matches[].serialized_object.messenger_pre_action",
+     "type": "str",
+     "sample": "open-messenger-loading-view"
+    },
+    {
+     "field": "client_matches[].serialized_object.event",
+     "type": "str",
+     "sample": "click"
+    },
+    {
+     "field": "client_matches[].serialized_object.selector",
+     "type": "str",
+     "sample": "#talk-to-sales"
+    },
+    {
+     "field": "client_matches[].checkpoint_id",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "client_matches[].notification_record_id",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "client_matches[].matching_locations",
+     "type": "array<int>",
+     "sample": "len=2"
+    },
+    {
+     "field": "client_matches[].extra_context",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "client_matches[].contains_lca_predicate",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "launcher_settings",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "launcher_settings.alignment",
+     "type": "str",
+     "sample": "left"
+    },
+    {
+     "field": "launcher_settings.color",
+     "type": "str",
+     "sample": "#000000"
+    },
+    {
+     "field": "launcher_settings.color_dark",
+     "type": "str",
+     "sample": "#9c9c9c"
+    },
+    {
+     "field": "launcher_settings.has_required_features",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "launcher_settings.horizontal_padding",
+     "type": "int",
+     "sample": "24"
+    },
+    {
+     "field": "launcher_settings.instant_boot_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "launcher_settings.launcher_logo_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "launcher_settings.launcher_logo_dark_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "launcher_settings.messenger_layout",
+     "type": "str",
+     "sample": "widget"
+    },
+    {
+     "field": "launcher_settings.messenger_mode_switcher_enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "launcher_settings.secondary_color",
+     "type": "str",
+     "sample": "#212529"
+    },
+    {
+     "field": "launcher_settings.secondary_color_dark",
+     "type": "str",
+     "sample": "#212529"
+    },
+    {
+     "field": "launcher_settings.show_launcher",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "launcher_settings.theme_mode",
+     "type": "str",
+     "sample": "light"
+    },
+    {
+     "field": "launcher_settings.updated_at",
+     "type": "int",
+     "sample": "1794431595"
+    },
+    {
+     "field": "launcher_settings.vertical_padding",
+     "type": "int",
+     "sample": "24"
+    },
+    {
+     "field": "modules",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.messages",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.messages.google_analytics_tracking_id",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.rtm",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.rtm.endpoints",
+     "type": "array<str>",
+     "sample": "len=1"
+    },
+    {
+     "field": "modules.rtm.options",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.rtm.options.PING_TIMEOUT",
+     "type": "int",
+     "sample": "45000"
+    },
+    {
+     "field": "modules.rtm.options.PONG_TIMEOUT",
+     "type": "int",
+     "sample": "10000"
+    },
+    {
+     "field": "modules.metrics",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.metrics.enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.error_reporting",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.error_reporting.disabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.customization",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.customization.brand_name",
+     "type": "str",
+     "sample": "arcads"
+    },
+    {
+     "field": "modules.customization.messenger_logo_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.customization.messenger_wallpaper",
+     "type": "str",
+     "sample": "background-1"
+    },
+    {
+     "field": "modules.customization.action",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.customization.action.background_color",
+     "type": "str",
+     "sample": "#000000"
+    },
+    {
+     "field": "modules.customization.action.foreground_color",
+     "type": "str",
+     "sample": "#ffffff"
+    },
+    {
+     "field": "modules.customization.action.foreground_color_low_contrast",
+     "type": "str",
+     "sample": "#ffffff"
+    },
+    {
+     "field": "modules.customization.action.background_color_dark",
+     "type": "str",
+     "sample": "#9c9c9c"
+    },
+    {
+     "field": "modules.customization.action.foreground_color_dark",
+     "type": "str",
+     "sample": "#14161a"
+    },
+    {
+     "field": "modules.customization.action.foreground_color_low_contrast_dark",
+     "type": "str",
+     "sample": "#14161a"
+    },
+    {
+     "field": "modules.customization.action_contrast_white",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.customization.action_contrast_dark",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.customization.header",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.customization.header.background_color",
+     "type": "str",
+     "sample": "#ffffff"
+    },
+    {
+     "field": "modules.customization.header.foreground_color",
+     "type": "str",
+     "sample": "#222222"
+    },
+    {
+     "field": "modules.customization.header.background_color_dark",
+     "type": "str",
+     "sample": "#14161a"
+    },
+    {
+     "field": "modules.customization.header.foreground_color_dark",
+     "type": "str",
+     "sample": "#f7f7f7"
+    },
+    {
+     "field": "modules.customization.theme_mode",
+     "type": "str",
+     "sample": "light"
+    },
+    {
+     "field": "modules.customization.launcher_logo_dark_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.customization.messenger_logo_dark_url",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.customization.custom_font",
+     "type": "str",
+     "sample": "default"
+    },
+    {
+     "field": "modules.home",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.home.header",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.home.header.background",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.home.header.content",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.home.header.header_expanded",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.home.header.identity",
+     "type": "str",
+     "sample": "ai_agent"
+    },
+    {
+     "field": "modules.home.open_config",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.features",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "modules.features.checklists",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.checklists_reminders",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.inbound_messages",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.inbound_lead_messaging",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.inbound_lead_messaging_docs_site",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.launcher_discovery_mode",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.marketo_enrichment_installed",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.hubspot_installed",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.google_analytics",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.single_page_app_rate_limiting",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.cross_site_cookies",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "modules.features.cookie_secure_flag",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "modules.features.ticket_creation",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.google_analytics_4_integration",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.view_in_help_center_button",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.customer_privacy_policy",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.eprivacy_cookie_compliance_required",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "modules.features.persist_client_id_for_conversation_parts",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.composer_is_not_hiding",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.unified_reply_expectations",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.disable_fin_image_reading",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.delay_tour_render",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.disable_tickets_after_conversation_end",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.new_mobile_notifications_enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.nexus_ably",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.disable_ticket_email_notification",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.url_based_client_matching",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.mercury_ui_changes",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.enable_custom_emojis",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.asana_limit_uploads_to_5mb",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.user_images_aspect_ratio",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.new_privacy_policy_layout",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_launcher_discovery_mode",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.ai_titles",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.client_side_actions",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.messenger_optimistic_fin_thinking",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.fin_ecommerce_sync_cart",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_ecommerce_sync_b2c_cart",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_ecommerce_b2c_site_id",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "modules.features.fin_ecommerce_cart_card",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.team_workflows_new_conversation_inbound_matching",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.messenger_rich_text_code",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.smart_suggestion_impressions_enabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.improve_code_block_rendering",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.improve_spotlight_code_block_rendering",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.full_page_conversations_card",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.full_page_hide_context_hub",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.full_page_show_ticket_pill",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.messenger_m7",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.success_plan_rename",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.bubble_seen_indicator",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.messenger_user_not_found_retry",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_sdr_calendar_lazy_availability",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_sdr_availability_result",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.page_journey_matching",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.full_page_non_destructive_retarget",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.messenger_embedded_composer",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_success_agent",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.messenger_error_callbacks",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.spotlight_right_align",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.start_conversation_skips_inbound_suggestions",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.carousel_product_view",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.carousel_product_variants",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.carousel_product_insight",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_latency_messenger_header_revamp_enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.fin_only_click_outside",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.carousel_grid_layout",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "modules.features.fin_send_current_page_data",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.features.hide_page_url",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "modules.plugins",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "unread_conversation_ids",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "unread_dismissed_conversation_ids",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "unread_news_items_count",
+     "type": "int",
+     "sample": "15"
+    },
+    {
+     "field": "anonymous_session",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "identity_verification_ready",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "origin_cookie_domain",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "cdas_breaching_limit",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "checklists",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "newsfeed_id",
+     "type": "int",
+     "sample": "71623"
+    },
+    {
+     "field": "last_unread_news_item_id",
+     "type": "int",
+     "sample": "156781"
+    },
+    {
+     "field": "open_config",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "open_config.form",
+     "type": "str",
+     "sample": "default"
+    },
+    {
+     "field": "open_config.open_to",
+     "type": "str",
+     "sample": "home"
+    },
+    {
+     "field": "open_config.spaces",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "open_config.spaces[].type",
+     "type": "str",
+     "sample": "home"
+    },
+    {
+     "field": "open_config.spaces[].label",
+     "type": "str",
+     "sample": "Home"
+    },
+    {
+     "field": "open_config.spaces[].navigation_label",
+     "type": "str",
+     "sample": "Home"
+    },
+    {
+     "field": "open_config.spaces[].badge",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "open_config.user_has_tickets",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "open_config.user_has_received_checklists",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "open_config.user_has_live_newsfeed",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "open_config.unified_style",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "session_expiry",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "jwt_expired",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "messenger_security_enabled",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api-iam.intercom.io/messenger/web/ping",
+   "response_sample": {
+    "app": {
+     "name": "arcads",
+     "audio_enabled": true,
+     "show_powered_by": false,
+     "team_intro": "Ask us anything, or share your feedback.",
+     "team_greeting": "Hi 景智 👋",
+     "expected_response_delay_translation_key": "a_few_hours",
+     "launcher_expected_response_delay_translation_key": "the_team_typically_replies_in_hours",
+     "sms_notifications_enabled": false,
+     "email_follow_ups_enabled": true,
+     "inbound_conversations_disabled": false,
+     "office_hours_response": "In 2 hours",
+     "help_center_site_url": "https://help.arcads.ai",
+     "messenger_logo_url": null,
+     "user_conversation_gifs_enabled": true,
+     "user_conversation_emojis_enabled": true,
+     "user_conversation_voice_notes_enabled": true,
+     "developer_workspace": false,
+     "upfront_email_collection_setting": "never",
+     "temporary_expectations_message": null,
+     "localized_expected_response_delay_short_text": "Back in 2 hours",
+     "localized_expected_response_delay_long_text": "We'll be back online in 2 hours",
+     "help_center_id": null,
+     "article_auto_reaction_enabled": false,
+     "conversation_history_ttl_days": 14,
+     "ticket_terminology": "ticket",
+     "hide_read_receipts": false,
+     "use_cache_for": []
+    },
+    "user": {
+     "id": "6af568985fd0d076d108f886",
+     "role": "user_role",
+     "locale": "en",
+     "has_conversations": false,
+     "country_code": "us",
+     "new_session": "«redacted»",
+     "help_center_require_search": false,
+     "requires_cookie_consent": "«redacted»",
+     "prevent_multiple_inbound_conversation": false,
+     "user_assignments": "«redacted»"
+    },
+    "client_matches": [
+     {
+      "user_id": "6af568985fd0d076d108f886",
+      "company_id": "-1",
+      "predicates": [
+       {
+        "attribute": "client_attributes.last_visited_url",
+        "type": "string",
+        "comparison": "contains",
+        "value": "//app.arcads.ai/onboarding/paywall"
+       },
+       {
+        "attribute": "client_attributes.pointer_selector",
+        "type": "css_selector",
+        "comparison": "eq",
+        "value": "#talk-to-sales"
+       }
+      ],
+      "ruleset_id": 55170379,
+      "ruleset_match_behavior": "transient_match",
+      "ruleset_link_id": 55449880,
+      "ruleset_link_object_type": "button_custom_bot",
+      "serialized_object": {
+       "id": "1741082",
+       "messenger_pre_action": "open-messenger-loading-view",
+       "event": "click",
+       "selector": "#talk-to-sales"
+      },
+      "checkpoint_id": null,
+      "notification_record_id": null,
+      "matching_locations": [
+       0,
+       25
+      ],
+      "extra_context": {},
+      "contains_lca_predicate": false
+     },
+     {
+      "user_id": "6af568985fd0d076d108f886",
+      "company_id": "-1",
+      "predicates": [
+       {
+        "attribute": "client_attributes.last_visited_url",
+        "type": "string",
+        "comparison": "contains",
+        "value": "//app.arcads.ai/dashboard/settings/billing"
+       },
+       {
+        "attribute": "client_attributes.pointer_selector",
+        "type": "css_selector",
+        "comparison": "eq",
+        "value": ".text-brand"
+       }
+      ],
+      "ruleset_id": 55141923,
+      "ruleset_match_behavior": "transient_match",
+      "ruleset_link_id": 55421376,
+      "ruleset_link_object_type": "button_custom_bot",
+      "serialized_object": {
+       "id": "1739958",
+       "messenger_pre_action": "open-messenger-loading-view",
+       "event": "click",
+       "selector": ".text-brand"
+      },
+      "checkpoint_id": null,
+      "notification_record_id": null,
+      "matching_locations": [
+       0,
+       25
+      ],
+      "extra_context": {},
+      "contains_lca_predicate": false
+     },
+     {
+      "user_id": "6af568985fd0d076d108f886",
+      "company_id": "-1",
+      "predicates": [
+       {
+        "attribute": "client_attributes.last_visited_url",
+        "type": "string",
+        "comparison": "contains",
+        "value": "//app.arcads.ai/dashboard/settings/billing"
+       },
+       {
+        "attribute": "client_attributes.pointer_selector",
+        "type": "css_selector",
+        "comparison": "eq",
+        "value": "#manage-plan"
+       }
+      ],
+      "ruleset_id": 61322709,
+      "ruleset_match_behavior": "transient_match",
+      "ruleset_link_id": 61611039,
+      "ruleset_link_object_type": "button_custom_bot",
+      "serialized_object": {
+       "id": "1960473",
+       "messenger_pre_action": "open-messenger-loading-view",
+       "event": "click",
+       "selector": "#manage-plan"
+      },
+      "checkpoint_id": null,
+      "notification_record_id": null,
+      "matching_locations": [
+       0,
+       25
+      ],
+      "extra_context": {},
+      "contains_lca_predicate": false
+     }
+    ],
+    "launcher_settings": {
+     "alignment": "left",
+     "color": "#000000",
+     "color_dark": "#9c9c9c",
+     "has_required_features": true,
+     "horizontal_padding": 24,
+     "instant_boot_enabled": true,
+     "launcher_logo_url": null,
+     "launcher_logo_dark_url": null,
+     "messenger_layout": "widget",
+     "messenger_mode_switcher_enabled": false,
+     "secondary_color": "#212529",
+     "secondary_color_dark": "#212529",
+     "show_launcher": true,
+     "theme_mode": "light",
+     "updated_at": 1794431595,
+     "vertical_padding": 24
+    },
+    "modules": {
+     "messages": {
+      "google_analytics_tracking_id": null
+     },
+     "rtm": {
+      "endpoints": [
+       "https://nexus-websocket-a.intercom.io/pubsub/5-_z-7XsLwoGnQBek5JYb6-Vu0AZ6vqdUsPpaSgzCjdH9vn2aDWYFRUkedhWHAWkymX1TCBGLxe2o6Bbpg46yQl2v4x71O6vv15hYU"
+      ],
+      "options": {
+       "PING_TIMEOUT": 45000,
+       "PONG_TIMEOUT": 10000
+      }
+     },
+     "metrics": {
+      "enabled": false
+     },
+     "error_reporting": {
+      "disabled": false
+     },
+     "customization": {
+      "brand_name": "arcads",
+      "messenger_logo_url": null,
+      "messenger_wallpaper": "background-1",
+      "action": {
+       "background_color": "#000000",
+       "foreground_color": "#ffffff",
+       "foreground_color_low_contrast": "#ffffff",
+       "background_color_dark": "#9c9c9c",
+       "foreground_color_dark": "#14161a",
+       "foreground_color_low_contrast_dark": "#14161a"
+      },
+      "action_contrast_white": null,
+      "action_contrast_dark": null,
+      "header": {
+       "background_color": "#ffffff",
+       "foreground_color": "#222222",
+       "background_color_dark": "#14161a",
+       "foreground_color_dark": "#f7f7f7"
+      },
+      "theme_mode": "light",
+      "launcher_logo_dark_url": null,
+      "messenger_logo_dark_url": null,
+      "custom_font": "default"
+     },
+     "home": {
+      "header": {
+       "background": {
+        "enabled": false,
+        "animated": false,
+        "type": "solid",
+        "type_dark": "solid",
+        "color": "#212529",
+        "color_dark": "#212529",
+        "fade_to_white": true,
+        "fade_to_dark": false,
+        "gradient": [
+         "#212529",
+         "#000000"
+        ],
+        "gradient_dark": null,
+        "image_url": null,
+        "image_dark_url": null
+       },
+       "content": {
+        "greeting": {
+         "content": "Hi 景智 👋",
+         "text_color": "#d5d9dd",
+         "text_color_dark": "#ffffff",
+         "opacity": 1.0
+        },
+        "introduction": {
+         "content": "How can we help?",
+         "text_color": "#ffffff",
+         "text_color_dark": "#ffffff",
+         "opacity": 1.0
+        },
+        "close_button": {
+         "foreground_color": "#ffffff",
+         "background_color": "#000000",
+         "background_opacity": 0.5
+        },
+        "show_avatars": true,
+        "text_color_type": "light",
+        "text_color_type_dark": "light",
+        "logo_url": null,
+        "logo_dark_url": null
+       },
+       "header_expanded": true,
+       "identity": "ai_agent"
+      },
+      "open_config": null
+     },
+     "features": {
+      "checklists": true,
+      "checklists_reminders": true,
+      "inbound_messages": true,
+      "inbound_lead_messaging": true,
+      "inbound_lead_messaging_docs_site": true,
+      "launcher_discovery_mode": true,
+      "marketo_enrichment_installed": false,
+      "hubspot_installed": false,
+      "google_analytics": false,
+      "single_page_app_rate_limiting": false,
+      "cross_site_cookies": "«redacted»",
+      "cookie_secure_flag": "«redacted»",
+      "ticket_creation": false,
+      "google_analytics_4_integration": true,
+      "view_in_help_center_button": true,
+      "customer_privacy_policy": false,
+      "eprivacy_cookie_compliance_required": "«redacted»",
+      "persist_client_id_for_conversation_parts": true,
+      "composer_is_not_hiding": true,
+      "unified_reply_expectations": true,
+      "disable_fin_image_reading": false,
+      "delay_tour_render": false,
+      "disable_tickets_after_conversation_end": false,
+      "new_mobile_notifications_enabled": false,
+      "nexus_ably": true,
+      "disable_ticket_email_notification": false,
+      "url_based_client_matching": false,
+      "mercury_ui_changes": false,
+      "enable_custom_emojis": false,
+      "asana_limit_uploads_to_5mb": false,
+      "user_images_aspect_ratio": true,
+      "new_privacy_policy_layout": false,
+      "fin_launcher_discovery_mode": false,
+      "ai_titles": true,
+      "client_side_actions": false,
+      "messenger_optimistic_fin_thinking": true,
+      "fin_ecommerce_sync_cart": false,
+      "fin_ecommerce_sync_b2c_cart": false,
+      "fin_ecommerce_b2c_site_id": null,
+      "fin_ecommerce_cart_card": true,
+      "team_workflows_new_conversation_inbound_matching": true,
+      "messenger_rich_text_code": false,
+      "smart_suggestion_impressions_enabled": true,
+      "improve_code_block_rendering": true,
+      "improve_spotlight_code_block_rendering": true,
+      "full_page_conversations_card": false,
+      "full_page_hide_context_hub": false,
+      "full_page_show_ticket_pill": false,
+      "messenger_m7": false,
+      "success_plan_rename": false,
+      "bubble_seen_indicator": true,
+      "messenger_user_not_found_retry": false,
+      "fin_sdr_calendar_lazy_availability": false,
+      "fin_sdr_availability_result": false,
+      "page_journey_matching": false,
+      "full_page_non_destructive_retarget": true,
+      "messenger_embedded_composer": false,
+      "fin_success_agent": false,
+      "messenger_error_callbacks": false,
+      "spotlight_right_align": false,
+      "start_conversation_skips_inbound_suggestions": false,
+      "carousel_product_view": false,
+      "carousel_product_variants": false,
+      "carousel_product_insight": false,
+      "fin_latency_messenger_header_revamp_enabled": false,
+      "fin_only_click_outside": false,
+      "carousel_grid_layout": true,
+      "fin_send_current_page_data": false,
+      "hide_page_url": false
+     },
+     "plugins": []
+    },
+    "unread_conversation_ids": [],
+    "unread_dismissed_conversation_ids": [],
+    "unread_news_items_count": 15,
+    "anonymous_session": "«redacted»",
+    "identity_verification_ready": false,
+    "origin_cookie_domain": "«redacted»",
+    "cdas_breaching_limit": [],
+    "checklists": [],
+    "newsfeed_id": 71623,
+    "last_unread_news_item_id": 156781,
+    "open_config": {
+     "form": "default",
+     "open_to": "home",
+     "spaces": [
+      {
+       "type": "home",
+       "label": "Home",
+       "navigation_label": "Home",
+       "badge": null
+      },
+      {
+       "type": "messages",
+       "label": "Messages",
+       "navigation_label": "Messages",
+       "badge": null
+      },
+      {
+       "type": "help",
+       "label": "Help",
+       "navigation_label": "Help",
+       "badge": null
+      }
+     ],
+     "user_has_tickets": false,
+     "user_has_received_checklists": false,
+     "user_has_live_newsfeed": true,
+     "unified_style": true
+    },
+    "session_expiry": "«redacted»",
+    "jwt_expired": false,
+    "messenger_security_enabled": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/meta-ads/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 19,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/meta-ads/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/notion/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 19,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/notion/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/offers/arcads10",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 307,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "inOffer",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "test",
+     "type": "str",
+     "sample": "new"
+    },
+    {
+     "field": "offerAvailable",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "offerSeenAt",
+     "type": "str",
+     "sample": "2026-11-12T08:05:32.241Z"
+    },
+    {
+     "field": "offerEndsAt",
+     "type": "str",
+     "sample": "2026-11-15T08:05:32.241Z"
+    },
+    {
+     "field": "customPots",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "potCredits",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "usedCredits",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "remainingCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "expiresAt",
+     "type": "str",
+     "sample": "2026-11-30T23:59:00.000Z"
+    },
+    {
+     "field": "forfeited",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "exhaustedAt",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "catalogVersion",
+     "type": "NoneType",
+     "sample": "None"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/offers/arcads10?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "inOffer": true,
+    "test": "new",
+    "offerAvailable": true,
+    "offerSeenAt": "2026-11-12T08:05:32.241Z",
+    "offerEndsAt": "2026-11-15T08:05:32.241Z",
+    "customPots": null,
+    "potCredits": null,
+    "usedCredits": null,
+    "remainingCredits": 0,
+    "expiresAt": "2026-11-30T23:59:00.000Z",
+    "forfeited": false,
+    "exhaustedAt": null,
+    "catalogVersion": null
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/ad-spend",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25453,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/ad-spend",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/attribution",
+   "calls": 4,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "_rsc"
+   ],
+   "request_bodies": [],
+   "response_bytes": 25459,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/attribution?_rsc=OKaDsovDyp9s6Vqf",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/business-type",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25519,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/business-type",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/contact",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25785,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/contact",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/intent",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25448,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/intent",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/payment",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 21712,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/payment",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/paywall",
+   "calls": 14,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "_rsc"
+   ],
+   "request_bodies": [],
+   "response_bytes": 30281,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/paywall?_rsc=uRYPb_GKPkqeS7QM",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/success",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25314,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/success",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/team-size",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25507,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/team-size",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/onboarding/website",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 25451,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://app.arcads.ai/onboarding/website",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/package/latest/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2/",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 162955,
+   "content_type": "application/javascript",
+   "response_fields": [],
+   "example_url": "https://lj.arcads.ai/package/latest/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2/",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/pagead/1p-user-list/16604571238/",
+   "calls": 262,
+   "status_codes": {},
+   "query_keys": [
+    "_tu",
+    "async",
+    "auid",
+    "bg",
+    "cid",
+    "cv",
+    "data",
+    "dma",
+    "en",
+    "ept",
+    "fmt",
+    "frm",
+    "fst",
+    "ga_uid",
+    "gcd",
+    "gtm",
+    "guid",
+    "hn",
+    "ipr",
+    "is_vtc",
+    "npa",
+    "pscdl",
+    "random",
+    "rcb",
+    "rfmt",
+    "rmt_tld",
+    "tag_exp",
+    "tcfd",
+    "tiba",
+    "u_h",
+    "u_w",
+    "uaa",
+    "uab",
+    "uafvl",
+    "uam",
+    "uamb",
+    "uap",
+    "uapv",
+    "uaw",
+    "url"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://www.google.com/pagead/1p-user-list/16604571238/?random=1794472390207&cv=11&fst=1794470400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ba1v9203864776za20szb9178795652zd9178795652xecxf3&gcd=13v3v3v3v5l1&dma=0&tcfd=10000&tag_exp=115616985~115938466~115938468~118131809~118897920~118897930~119860442~120213116~120385423~120412526~120420414~120469145~120469153~121191153~121246026~121246034~123329123~123785233~124170881&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.arcads.ai%2F&rcb=17&frm=0&tiba=Arcads%20-%20Create%20winning%20ads%C2%A0with%C2%A0AI&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=671518984.1794467852&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4gEAogo4dcVFUjKYx9DyNRyY8XW7Xum_PsWbKm_0TfCvfsz5O1cxuVmmKOQuHIiulQWTfCE_0rP0u02HRroAc73z58XLrV4kqVaSkebJekNYMIz3_0JwGWTyyDALOgKp0PuxATYMYKbVAccSzTRW1neOsDNO0fJYsjI-Hbo5orMOZksni23FPZNx93hQxLFfv2MBvdFPH4rWC3mQGT89g8gO0PGZ89tbcgrs2q7F_ccp37xVWcd8Vmc8CAjIdv8L_WeGTJS2me0etRxSbV9203-fX1CUU1S9DSxUp_fBu4pvcMve&random=2458521913&rmt_tld=0&ipr=y",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/payment/free-trial",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 640,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "eligible",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "ineligibleReason",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trial",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "offer",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.days",
+     "type": "int",
+     "sample": "3"
+    },
+    {
+     "field": "offer.credits",
+     "type": "int",
+     "sample": "1000"
+    },
+    {
+     "field": "offer.mode",
+     "type": "str",
+     "sample": "fixedPlan"
+    },
+    {
+     "field": "offer.autoChargeDiscount",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "offer.autoCharge",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.autoCharge.catalogEntryId",
+     "type": "str",
+     "sample": "fe849783-21f1-4269-ab96-01bdb5460e8d"
+    },
+    {
+     "field": "offer.autoCharge.planKey",
+     "type": "str",
+     "sample": "STARTER"
+    },
+    {
+     "field": "offer.autoCharge.planDisplayName",
+     "type": "str",
+     "sample": "Starter"
+    },
+    {
+     "field": "offer.autoCharge.price",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.autoCharge.price.active",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "offer.autoCharge.price.amount",
+     "type": "int",
+     "sample": "110"
+    },
+    {
+     "field": "offer.autoCharge.price.amounts",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.autoCharge.price.priceId",
+     "type": "str",
+     "sample": "price_1QUXVlCMHn5TcSkDKjJ9mZrd"
+    },
+    {
+     "field": "offer.autoCharge.price.currency",
+     "type": "str",
+     "sample": "usd"
+    },
+    {
+     "field": "offer.autoCharge.price.interval",
+     "type": "str",
+     "sample": "month"
+    },
+    {
+     "field": "offer.autoCharge.price.lookupKey",
+     "type": "str",
+     "sample": "STARTER_1month_1"
+    },
+    {
+     "field": "offer.autoCharge.price.intervalCount",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "offer.autoCharge.coupon",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.autoCharge.coupon.percentOff",
+     "type": "int",
+     "sample": "30"
+    },
+    {
+     "field": "offer.autoCharge.coupon.amountsOff",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "offer.autoCharge.coupon.duration",
+     "type": "str",
+     "sample": "once"
+    },
+    {
+     "field": "offer.autoCharge.coupon.durationInMonths",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "offer.variant",
+     "type": "str",
+     "sample": "A"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/payment/free-trial?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "eligible": true,
+    "ineligibleReason": null,
+    "trial": null,
+    "offer": {
+     "days": 3,
+     "credits": 1000,
+     "mode": "fixedPlan",
+     "autoChargeDiscount": true,
+     "autoCharge": {
+      "catalogEntryId": "fe849783-21f1-4269-ab96-01bdb5460e8d",
+      "planKey": "STARTER",
+      "planDisplayName": "Starter",
+      "price": {
+       "active": true,
+       "amount": 110,
+       "amounts": {
+        "aud": 170,
+        "cad": 150,
+        "chf": 100,
+        "eur": 100,
+        "gbp": 85,
+        "usd": 110
+       },
+       "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+       "currency": "usd",
+       "interval": "month",
+       "lookupKey": "STARTER_1month_1",
+       "intervalCount": 1
+      },
+      "coupon": {
+       "percentOff": 30,
+       "amountsOff": {
+        "aud": 51,
+        "cad": 45,
+        "chf": 30,
+        "eur": 30,
+        "gbp": 25,
+        "usd": 33
+       },
+       "duration": "once",
+       "durationInMonths": null
+      }
+     },
+     "variant": "A"
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/payment/local/USD",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 1497,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "plans",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "plans[].name",
+     "type": "str",
+     "sample": "STARTER"
+    },
+    {
+     "field": "plans[].isPro",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "plans[].prices",
+     "type": "array<dict>",
+     "sample": "len=2"
+    },
+    {
+     "field": "plans[].prices[].period",
+     "type": "str",
+     "sample": "month"
+    },
+    {
+     "field": "plans[].prices[].credits",
+     "type": "int",
+     "sample": "8000"
+    },
+    {
+     "field": "plans[].prices[].amount",
+     "type": "int",
+     "sample": "110"
+    },
+    {
+     "field": "plans[].prices[].priceId",
+     "type": "str",
+     "sample": "price_1QUXVlCMHn5TcSkDKjJ9mZrd"
+    },
+    {
+     "field": "plans[].prices[].discountedAmount",
+     "type": "int",
+     "sample": "77"
+    },
+    {
+     "field": "edit",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "edit.amount",
+     "type": "int",
+     "sample": "88"
+    },
+    {
+     "field": "edit.priceId",
+     "type": "str",
+     "sample": "price_1QUkUvCMHn5TcSkDk87AmgLg"
+    },
+    {
+     "field": "discount",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "discount.name",
+     "type": "str",
+     "sample": "FIRST_MONTH_DISCOUNT"
+    },
+    {
+     "field": "discount.amount",
+     "type": "int",
+     "sample": "30"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/payment/local/USD?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "plans": [
+     {
+      "name": "STARTER",
+      "isPro": false,
+      "prices": [
+       {
+        "period": "month",
+        "credits": 8000,
+        "amount": 110,
+        "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+        "discountedAmount": 77
+       },
+       {
+        "period": "year",
+        "credits": 96000,
+        "amount": 1056,
+        "priceId": "price_1SNbPjCMHn5TcSkDJch1sfDG",
+        "discountedAmount": 1056
+       }
+      ]
+     },
+     {
+      "name": "BASIC",
+      "isPro": false,
+      "prices": [
+       {
+        "period": "month",
+        "credits": 16000,
+        "amount": 220,
+        "priceId": "price_1QUkI5CMHn5TcSkDLXjMketd",
+        "discountedAmount": 154
+       },
+       {
+        "period": "year",
+        "credits": 192000,
+        "amount": 2112,
+        "priceId": "price_1SNbSaCMHn5TcSkDxjCG3xJy",
+        "discountedAmount": 2112
+       }
+      ]
+     },
+     {
+      "name": "Pro",
+      "isPro": true,
+      "prices": [
+       {
+        "period": "month",
+        "credits": 48000,
+        "amount": 550,
+        "priceId": "price_1QUkOJCMHn5TcSkDukIHbyC1",
+        "discountedAmount": 385
+       },
+       {
+        "period": "year",
+        "credits": 576000,
+        "amount": 5280,
+        "priceId": "price_1S5xNWCMHn5TcSkDqkafnU3W",
+        "discountedAmount": 5280
+       }
+      ]
+     }
+    ],
+    "edit": {
+     "amount": 88,
+     "priceId": "price_1QUkUvCMHn5TcSkDk87AmgLg"
+    },
+    "discount": {
+     "name": "FIRST_MONTH_DISCOUNT",
+     "amount": 30
+    }
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/pixel-config/v1/63KWrdSGxuziTXF3Coczky.json",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 44,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "automatic_advanced_matching_enabled",
+     "type": "bool",
+     "sample": "True"
+    }
+   ],
+   "example_url": "https://bzrcdn.openai.com/pixel-config/v1/63KWrdSGxuziTXF3Coczky.json",
+   "response_sample": {
+    "automatic_advanced_matching_enabled": true
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/pricing/catalog",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "surface",
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 11389,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "catalogId",
+     "type": "str",
+     "sample": "58a0bde1-5cc3-462d-8774-eaf7cf69a099"
+    },
+    {
+     "field": "channel",
+     "type": "str",
+     "sample": "stripe"
+    },
+    {
+     "field": "version",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "pricingVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "dashboardPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "onboardingPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "onboardingFormVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "cardCaptureVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialSidebarVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialRunOutPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialReminderEmailVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "freeTrial",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "freeTrial.freeTrialEnabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "freeTrial.freeTrialDays",
+     "type": "int",
+     "sample": "3"
+    },
+    {
+     "field": "freeTrial.freeTrialMode",
+     "type": "str",
+     "sample": "fixedPlan"
+    },
+    {
+     "field": "freeTrial.freeTrialCredits",
+     "type": "int",
+     "sample": "1000"
+    },
+    {
+     "field": "freeTrial.freeTrialPlanPeriodId",
+     "type": "str",
+     "sample": "d6cf70f2-6712-4e94-af3b-78d4d13d8214"
+    },
+    {
+     "field": "freeTrial.freeTrialAutoChargeDiscount",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "cohort",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "cohort.abTestKey",
+     "type": "str",
+     "sample": "ARCADS_FREE_TRIAL_V2"
+    },
+    {
+     "field": "cohort.variantKey",
+     "type": "str",
+     "sample": "A"
+    },
+    {
+     "field": "pricesUnavailable",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "entries[].id",
+     "type": "str",
+     "sample": "fe849783-21f1-4269-ab96-01bdb5460e8d"
+    },
+    {
+     "field": "entries[].catalogId",
+     "type": "str",
+     "sample": "58a0bde1-5cc3-462d-8774-eaf7cf69a099"
+    },
+    {
+     "field": "entries[].planPeriodId",
+     "type": "str",
+     "sample": "d6cf70f2-6712-4e94-af3b-78d4d13d8214"
+    },
+    {
+     "field": "entries[].planId",
+     "type": "str",
+     "sample": "1f83e107-3b7e-4bcf-905f-fd3d6126d16e"
+    },
+    {
+     "field": "entries[].planKey",
+     "type": "str",
+     "sample": "STARTER"
+    },
+    {
+     "field": "entries[].planDisplayName",
+     "type": "str",
+     "sample": "Starter"
+    },
+    {
+     "field": "entries[].interval",
+     "type": "str",
+     "sample": "month"
+    },
+    {
+     "field": "entries[].intervalCount",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "entries[].priceLookupKey",
+     "type": "str",
+     "sample": "STARTER_1month_1"
+    },
+    {
+     "field": "entries[].price",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].price.active",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "entries[].price.amount",
+     "type": "int",
+     "sample": "110"
+    },
+    {
+     "field": "entries[].price.amounts",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].price.amounts.aud",
+     "type": "int",
+     "sample": "170"
+    },
+    {
+     "field": "entries[].price.amounts.cad",
+     "type": "int",
+     "sample": "150"
+    },
+    {
+     "field": "entries[].price.amounts.chf",
+     "type": "int",
+     "sample": "100"
+    },
+    {
+     "field": "entries[].price.amounts.eur",
+     "type": "int",
+     "sample": "100"
+    },
+    {
+     "field": "entries[].price.amounts.gbp",
+     "type": "int",
+     "sample": "85"
+    },
+    {
+     "field": "entries[].price.amounts.usd",
+     "type": "int",
+     "sample": "110"
+    },
+    {
+     "field": "entries[].price.priceId",
+     "type": "str",
+     "sample": "price_1QUXVlCMHn5TcSkDKjJ9mZrd"
+    },
+    {
+     "field": "entries[].price.currency",
+     "type": "str",
+     "sample": "usd"
+    },
+    {
+     "field": "entries[].price.interval",
+     "type": "str",
+     "sample": "month"
+    },
+    {
+     "field": "entries[].price.lookupKey",
+     "type": "str",
+     "sample": "STARTER_1month_1"
+    },
+    {
+     "field": "entries[].price.intervalCount",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "entries[].tierRank",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "entries[].creditAllowance",
+     "type": "int",
+     "sample": "8000"
+    },
+    {
+     "field": "entries[].overageEnabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].overageUnitRate",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "entries[].overagePriceLookupKey",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "entries[].topupTiers",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "entries[].rolloverPolicy",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].rolloverPolicy.enabled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].entitlements.proActors",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements.customActorLimit",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "entries[].entitlements.freeVoiceCloning",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements.freeImageUpscale",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements.apiAccess",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements.teamSeatLimit",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "entries[].entitlements.runWorkflow",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].entitlements.elevenLabsIntegration",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].position",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "entries[].coupon",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].coupon.percentOff",
+     "type": "int",
+     "sample": "30"
+    },
+    {
+     "field": "entries[].coupon.amountsOff",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entries[].coupon.amountsOff.aud",
+     "type": "int",
+     "sample": "51"
+    },
+    {
+     "field": "entries[].coupon.amountsOff.cad",
+     "type": "int",
+     "sample": "45"
+    },
+    {
+     "field": "entries[].coupon.amountsOff.chf",
+     "type": "int",
+     "sample": "30"
+    },
+    {
+     "field": "entries[].coupon.amountsOff.eur",
+     "type": "int",
+     "sample": "30"
+    },
+    {
+     "field": "entries[].coupon.amountsOff.gbp",
+     "type": "int",
+     "sample": "25"
+    },
+    {
+     "field": "entries[].coupon.amountsOff.usd",
+     "type": "int",
+     "sample": "33"
+    },
+    {
+     "field": "entries[].coupon.duration",
+     "type": "str",
+     "sample": "once"
+    },
+    {
+     "field": "entries[].coupon.durationInMonths",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "entries[].isCurrent",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "entries[].isLegacy",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/pricing/catalog?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&surface=dashboard",
+   "response_sample": {
+    "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+    "channel": "stripe",
+    "version": 1,
+    "pricingVersion": null,
+    "dashboardPaywallVersion": null,
+    "onboardingPaywallVersion": null,
+    "onboardingFormVersion": null,
+    "cardCaptureVersion": null,
+    "trialSidebarVersion": null,
+    "trialRunOutPaywallVersion": null,
+    "trialReminderEmailVersion": null,
+    "freeTrial": {
+     "freeTrialEnabled": true,
+     "freeTrialDays": 3,
+     "freeTrialMode": "fixedPlan",
+     "freeTrialCredits": 1000,
+     "freeTrialPlanPeriodId": "d6cf70f2-6712-4e94-af3b-78d4d13d8214",
+     "freeTrialAutoChargeDiscount": true
+    },
+    "cohort": {
+     "abTestKey": "ARCADS_FREE_TRIAL_V2",
+     "variantKey": "A"
+    },
+    "pricesUnavailable": false,
+    "entries": [
+     {
+      "id": "fe849783-21f1-4269-ab96-01bdb5460e8d",
+      "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+      "planPeriodId": "d6cf70f2-6712-4e94-af3b-78d4d13d8214",
+      "planId": "1f83e107-3b7e-4bcf-905f-fd3d6126d16e",
+      "planKey": "STARTER",
+      "planDisplayName": "Starter",
+      "interval": "month",
+      "intervalCount": 1,
+      "priceLookupKey": "STARTER_1month_1",
+      "price": {
+       "active": true,
+       "amount": 110,
+       "amounts": {
+        "aud": 170,
+        "cad": 150,
+        "chf": 100,
+        "eur": 100,
+        "gbp": 85,
+        "usd": 110
+       },
+       "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+       "currency": "usd",
+       "interval": "month",
+       "lookupKey": "STARTER_1month_1",
+       "intervalCount": 1
+      },
+      "tierRank": 1,
+      "creditAllowance": 8000,
+      "overageEnabled": false,
+      "overageUnitRate": 0,
+      "overagePriceLookupKey": null,
+      "topupTiers": [],
+      "rolloverPolicy": {
+       "enabled": false
+      },
+      "entitlements": {
+       "proActors": false,
+       "customActorLimit": 1,
+       "freeVoiceCloning": false,
+       "freeImageUpscale": false,
+       "apiAccess": false,
+       "teamSeatLimit": null,
+       "runWorkflow": false,
+       "elevenLabsIntegration": false
+      },
+      "position": 1,
+      "coupon": {
+       "percentOff": 30,
+       "amountsOff": {
+        "aud": 51,
+        "cad": 45,
+        "chf": 30,
+        "eur": 30,
+        "gbp": 25,
+        "usd": 33
+       },
+       "duration": "once",
+       "durationInMonths": null
+      },
+      "isCurrent": false,
+      "isLegacy": false
+     },
+     {
+      "id": "e9717e18-544d-470c-8774-f2a5d4f00da2",
+      "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+      "planPeriodId": "46926744-cdf8-47aa-929a-5c5d55e30545",
+      "planId": "1f83e107-3b7e-4bcf-905f-fd3d6126d16e",
+      "planKey": "STARTER",
+      "planDisplayName": "Starter",
+      "interval": "year",
+      "intervalCount": 1,
+      "priceLookupKey": "STARTER_1year_1",
+      "price": {
+       "active": true,
+       "amount": 1056,
+       "amounts": {
+        "aud": 1632,
+        "cad": 1440,
+        "chf": 960,
+        "eur": 960,
+        "gbp": 816,
+        "usd": 1056
+       },
+       "priceId": "price_1SNbPjCMHn5TcSkDJch1sfDG",
+       "currency": "usd",
+       "interval": "year",
+       "lookupKey": "STARTER_1year_1",
+       "intervalCount": 1
+      },
+      "tierRank": 2,
+      "creditAllowance": 96000,
+      "overageEnabled": false,
+      "overageUnitRate": 0,
+      "overagePriceLookupKey": null,
+      "topupTiers": [],
+      "rolloverPolicy": {
+       "enabled": false
+      },
+      "entitlements": {
+       "proActors": false,
+       "customActorLimit": 1,
+       "freeVoiceCloning": false,
+       "freeImageUpscale": false,
+       "apiAccess": false,
+       "teamSeatLimit": null,
+       "runWorkflow": false,
+       "elevenLabsIntegration": false
+      },
+      "position": 1,
+      "coupon": null,
+      "isCurrent": false,
+      "isLegacy": false
+     },
+     {
+      "id": "10188a67-e056-4cfa-aeb3-cf48076691c4",
+      "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+      "planPeriodId": "4f834743-c8d6-4d4e-a35c-85362770cf1a",
+      "planId": "75887ced-3c73-4db6-b392-964539188265",
+      "planKey": "BASIC",
+      "planDisplayName": "Creator",
+      "interval": "year",
+      "intervalCount": 1,
+      "priceLookupKey": "BASIC_1year_1",
+      "price": {
+       "active": true,
+       "amount": 2112,
+       "amounts": {
+        "aud": 3264,
+        "cad": 2880,
+        "chf": 1920,
+        "eur": 1920,
+        "gbp": 1632,
+        "usd": 2112
+       },
+       "priceId": "price_1SNbSaCMHn5TcSkDxjCG3xJy",
+       "currency": "usd",
+       "interval": "year",
+       "lookupKey": "BASIC_1year_1",
+       "intervalCount": 1
+      },
+      "tierRank": 4,
+      "creditAllowance": 192000,
+      "overageEnabled": false,
+      "overageUnitRate": 0,
+      "overagePriceLookupKey": null,
+      "topupTiers": [],
+      "rolloverPolicy": {
+       "enabled": false
+      },
+      "entitlements": {
+       "proActors": false,
+       "customActorLimit": 1,
+       "freeVoiceCloning": false,
+       "freeImageUpscale": false,
+       "apiAccess": false,
+       "teamSeatLimit": null,
+       "runWorkflow": true,
+       "elevenLabsIntegration": false,
+       "mostPopular": true
+      },
+      "position": 2,
+      "coupon": null,
+      "isCurrent": false,
+      "isLegacy": false
+     }
+    ]
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/pricing/catalog-version",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 332,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "catalogId",
+     "type": "str",
+     "sample": "58a0bde1-5cc3-462d-8774-eaf7cf69a099"
+    },
+    {
+     "field": "variant",
+     "type": "str",
+     "sample": "A"
+    },
+    {
+     "field": "pricingVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "dashboardPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "onboardingPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "onboardingFormVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "cardCaptureVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialSidebarVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialRunOutPaywallVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "trialReminderEmailVersion",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "catalogName",
+     "type": "str",
+     "sample": "Original pricing"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/pricing/catalog-version?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "catalogId": "58a0bde1-5cc3-462d-8774-eaf7cf69a099",
+    "variant": "A",
+    "pricingVersion": null,
+    "dashboardPaywallVersion": null,
+    "onboardingPaywallVersion": null,
+    "onboardingFormVersion": null,
+    "cardCaptureVersion": null,
+    "trialSidebarVersion": null,
+    "trialRunOutPaywallVersion": null,
+    "trialReminderEmailVersion": null,
+    "catalogName": "Original pricing"
+   }
+  },
+  {
+   "method": "POST",
+   "path": "/rmkt/collect/16604571238/",
+   "calls": 264,
+   "status_codes": {
+    "200": 264
+   },
+   "query_keys": [
+    "_tu",
+    "async",
+    "auid",
+    "bg",
+    "cv",
+    "data",
+    "dma",
+    "en",
+    "ept",
+    "fmt",
+    "frm",
+    "fst",
+    "ga_uid",
+    "gcd",
+    "gcp",
+    "gtm",
+    "guid",
+    "hn",
+    "npa",
+    "pscdl",
+    "random",
+    "rcb",
+    "tag_exp",
+    "tcfd",
+    "tiba",
+    "u_h",
+    "u_w",
+    "uaa",
+    "uab",
+    "uafvl",
+    "uam",
+    "uamb",
+    "uap",
+    "uapv",
+    "uaw",
+    "url"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.google.com/rmkt/collect/16604571238/?random=1794472390207&cv=11&fst=1794472390207&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6ba1v9203864776za20szb9178795652zd9178795652xecxf3&gcd=13v3v3v3v5l1&dma=0&tcfd=10000&tag_exp=115616985~115938466~115938468~118131809~118897920~118897930~119860442~120213116~120385423~120412526~120420414~120469145~120469153~121191153~121246026~121246034~123329123~123785233~124170881&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.arcads.ai%2F&rcb=17&frm=0&tiba=Arcads%20-%20Create%20winning%20ads%C2%A0with%C2%A0AI&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=671518984.1794467852&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0.8078.74%7CGoogle%2520Chrome%3B156.0.8078.74&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=68&gcp=5",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/sdk/v2/flags",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "delivery_method"
+   ],
+   "request_bodies": [],
+   "response_bytes": 2413,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "[].key",
+     "type": "str",
+     "sample": "meta-paid-funnel"
+    },
+    {
+     "field": "[].metadata",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].metadata.blockingEvaluation",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "[].metadata.deliveryMethod",
+     "type": "str",
+     "sample": "web"
+    },
+    {
+     "field": "[].metadata.deployed",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "[].metadata.evaluationMode",
+     "type": "str",
+     "sample": "local"
+    },
+    {
+     "field": "[].metadata.experimentKey",
+     "type": "str",
+     "sample": "exp-1"
+    },
+    {
+     "field": "[].metadata.exposureEvent",
+     "type": "str",
+     "sample": "$impression"
+    },
+    {
+     "field": "[].metadata.flagType",
+     "type": "str",
+     "sample": "experiment"
+    },
+    {
+     "field": "[].metadata.flagVersion",
+     "type": "int",
+     "sample": "12"
+    },
+    {
+     "field": "[].metadata.urlMatch",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "[].segments",
+     "type": "array<dict>",
+     "sample": "len=3"
+    },
+    {
+     "field": "[].segments[].conditions",
+     "type": "array<list>",
+     "sample": "len=1"
+    },
+    {
+     "field": "[].segments[].metadata",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].segments[].metadata.segmentName",
+     "type": "str",
+     "sample": "Meta source"
+    },
+    {
+     "field": "[].segments[].variant",
+     "type": "str",
+     "sample": "off"
+    },
+    {
+     "field": "[].variants",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].variants.control",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].variants.control.key",
+     "type": "str",
+     "sample": "control"
+    },
+    {
+     "field": "[].variants.control.payload",
+     "type": "array<dict>",
+     "sample": "len=1"
+    },
+    {
+     "field": "[].variants.control.value",
+     "type": "str",
+     "sample": "control"
+    },
+    {
+     "field": "[].variants.off",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].variants.off.key",
+     "type": "str",
+     "sample": "off"
+    },
+    {
+     "field": "[].variants.off.metadata",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].variants.treatment",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "[].variants.treatment.key",
+     "type": "str",
+     "sample": "treatment"
+    },
+    {
+     "field": "[].variants.treatment.payload",
+     "type": "array<dict>",
+     "sample": "len=1"
+    },
+    {
+     "field": "[].variants.treatment.value",
+     "type": "str",
+     "sample": "treatment"
+    }
+   ],
+   "example_url": "https://flag.lab.amplitude.com/sdk/v2/flags?delivery_method=web",
+   "response_sample": [
+    {
+     "key": "meta-paid-funnel",
+     "metadata": {
+      "blockingEvaluation": true,
+      "deliveryMethod": "web",
+      "deployed": true,
+      "evaluationMode": "local",
+      "experimentKey": "exp-1",
+      "exposureEvent": "$impression",
+      "flagType": "experiment",
+      "flagVersion": 12,
+      "urlMatch": []
+     },
+     "segments": [
+      {
+       "conditions": [
+        [
+         {
+          "op": "is",
+          "selector": [
+           "context",
+           "user",
+           "user_properties",
+           "utm_source"
+          ],
+          "values": [
+           "facebook",
+           "ig",
+           "fb",
+           "instagram",
+           "meta"
+          ]
+         }
+        ]
+       ],
+       "metadata": {
+        "segmentName": "Meta source"
+       },
+       "variant": "off"
+      },
+      {
+       "conditions": [
+        [
+         {
+          "op": "is",
+          "selector": [
+           "context",
+           "user",
+           "user_properties",
+           "utm_medium"
+          ],
+          "values": [
+           "paid"
+          ]
+         }
+        ]
+       ],
+       "metadata": {
+        "segmentName": "Segment 2"
+       },
+       "variant": "off"
+      },
+      {
+       "metadata": {
+        "segmentName": "All Other Users"
+       },
+       "variant": "off"
+      }
+     ],
+     "variants": {
+      "control": {
+       "key": "control",
+       "payload": [
+        {
+         "action": "inject",
+         "data": {
+          "id": "arcadspaidfunnelcontrol",
+          "js": "document.cookie = 'arcads_paid_funnel=control; domain=.arcads.ai; path=/; max-age=2592000; SameSite=Lax; Secure'"
+         }
+        }
+       ],
+       "value": "control"
+      },
+      "off": {
+       "key": "off",
+       "metadata": {
+        "default": true
+       }
+      },
+      "treatment": {
+       "key": "treatment",
+       "payload": [
+        {
+         "action": "inject",
+         "data": {
+          "id": "arcadspaidfunneltreatment",
+          "js": "(function () {\n  if (window.location.hostname !== 'www.arcads.ai') { return; }\n  try {\n    if (sessionStorage.getItem('apf_redirected')) { return; }\n    sessionStorage.setItem('apf_redirected', '1');\n  } catch (e) {}\n  try {\n    var KEY = '44e5a6f3152249aae19ed3e4cad65ea';\n    var name = 'AMP_' + KEY.slice(0, 10) + '=';\n    var parts = document.cookie ? document.cookie.split('; ') : [];\n    var raw = null;\n    for (var i = 0; i < parts.length; i++) {\n      if (parts[i].indexOf(name) === 0) { raw = parts[i].slice(name.length); }\n    }\n    if (raw && navigator.sendBeacon) {\n      var who = JSON.parse(decodeURIComponent(atob(raw)));\n      if (who && who.deviceId) {\n        var event = {\n          device_id: who.deviceId,\n          session_id: who.sessionId,\n          event_type: '$impression',\n          event_properties: { flag_key: 'meta-paid-funnel', variant: 'treatment' },\n          time: Date.now()\n        };\n        if (who.userId) { event.user_id = who.userId; }\n        navigator.sendBeacon('https://api2.amplitude.com/2/httpapi', JSON.stringify({ api_key: KEY, events: [event] }));\n      }\n    }\n  } catch (e) {}\n  window.location.replace('https://app.arcads.ai/go?ab_funnel=test');\n})();",
+          "metadata": {
+           "scope": [
+            "03831791-7c57-4d03-a58a-3f479b0ab509"
+           ]
+          }
+         }
+        }
+       ],
+       "value": "treatment"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/sdk/v2/flags",
+   "calls": 1,
+   "status_codes": {},
+   "query_keys": [
+    "delivery_method"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://flag.lab.amplitude.com/sdk/v2/flags?delivery_method=web",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/slack/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 139,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "syncedProductsCount",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "requiresReconnect",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "agentDeepLink",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "slackAgentMode",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "productSyncStatus",
+     "type": "str",
+     "sample": "idle"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/slack/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false,
+    "syncedProductsCount": 0,
+    "requiresReconnect": false,
+    "agentDeepLink": null,
+    "slackAgentMode": true,
+    "productSyncStatus": "idle"
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/tiktok-ads/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 62,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "needsReconnect",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "advertiserCount",
+     "type": "int",
+     "sample": "0"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/tiktok-ads/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false,
+    "needsReconnect": false,
+    "advertiserCount": 0
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/tiktok/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 60,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "account",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "requiresReconnect",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/tiktok/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false,
+    "account": null,
+    "requiresReconnect": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/tr/",
+   "calls": 120,
+   "status_codes": {
+    "200": 55
+   },
+   "query_keys": [
+    "cd[em]",
+    "eid",
+    "ev",
+    "fbp",
+    "id"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "https://www.facebook.com/tr/?ev=PageView&id=1398006371104010&eid=1794472391217.1228764322&fbp=fb.1.1794467862944.1842103497",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/tr/",
+   "calls": 0,
+   "status_codes": {
+    "200": 64
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/plain",
+   "response_fields": [],
+   "example_url": "",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/tracking/browser-opt-out",
+   "calls": 2,
+   "status_codes": {
+    "201": 1
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "browserOptOut": true
+    }
+   ],
+   "response_bytes": 16,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "success",
+     "type": "bool",
+     "sample": "True"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/tracking/browser-opt-out",
+   "response_sample": {
+    "success": true
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/tracking/payment-success",
+   "calls": 1,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 19103,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/tracking/payment-success",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/use-cases/ad-creative-testing",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161687,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/use-cases/ad-creative-testing",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/use-cases/ai-facebook-video-ad-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161803,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/use-cases/ai-facebook-video-ad-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/use-cases/ai-tik-tok-video-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161721,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/use-cases/ai-tik-tok-video-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/use-cases/ai-youtube-video-generator",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 161676,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "https://www.arcads.ai/use-cases/ai-youtube-video-generator",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/users/me",
+   "calls": 3,
+   "status_codes": {
+    "200": 1,
+    "404": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 818,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "id",
+     "type": "str",
+     "sample": "408f28c3-3075-4b61-a522-03ff1800eb43"
+    },
+    {
+     "field": "firstName",
+     "type": "str",
+     "sample": "景智"
+    },
+    {
+     "field": "lastName",
+     "type": "str",
+     "sample": "路"
+    },
+    {
+     "field": "email",
+     "type": "str",
+     "sample": "1691517500qq@gmail.com"
+    },
+    {
+     "field": "inscriptionData",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "inscriptionData.companyName",
+     "type": "str",
+     "sample": "laios"
+    },
+    {
+     "field": "inscriptionData.monthlySpend",
+     "type": "str",
+     "sample": "< 20K"
+    },
+    {
+     "field": "inscriptionData.intent",
+     "type": "array<str>",
+     "sample": "len=1"
+    },
+    {
+     "field": "inscriptionData.completedAt",
+     "type": "str",
+     "sample": "2026-11-12T07:27:13.973Z"
+    },
+    {
+     "field": "isActive",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "generationWarningDismissed",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "isAdmin",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "trafficWarning",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "blocked",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "signupMethod",
+     "type": "str",
+     "sample": "«redacted»"
+    },
+    {
+     "field": "colorScheme",
+     "type": "str",
+     "sample": "dark"
+    },
+    {
+     "field": "verifiedAt",
+     "type": "str",
+     "sample": "2026-11-12T07:19:46.051Z"
+    },
+    {
+     "field": "tracking",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "tracking.ip",
+     "type": "str",
+     "sample": "66.135.24.200"
+    },
+    {
+     "field": "tracking._fbp",
+     "type": "str",
+     "sample": "fb.1.1794467862944.1842103497"
+    },
+    {
+     "field": "tracking.user_agent",
+     "type": "str",
+     "sample": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/"
+    },
+    {
+     "field": "tracking.amplitude_device_id",
+     "type": "str",
+     "sample": "7bb047d9-ea02-4689-b4c2-1b6113f208b2"
+    },
+    {
+     "field": "createdAt",
+     "type": "str",
+     "sample": "2026-11-12T07:19:45.546Z"
+    },
+    {
+     "field": "updatedAt",
+     "type": "str",
+     "sample": "2026-11-12T07:29:40.293Z"
+    },
+    {
+     "field": "hasGeneratedVideos",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/users/me",
+   "response_sample": {
+    "id": "408f28c3-3075-4b61-a522-03ff1800eb43",
+    "firstName": "景智",
+    "lastName": "路",
+    "email": "1691517500qq@gmail.com",
+    "inscriptionData": {
+     "companyName": "laios",
+     "monthlySpend": "< 20K",
+     "intent": [
+      "Product or e-commerce ads"
+     ],
+     "completedAt": "2026-11-12T07:27:13.973Z"
+    },
+    "isActive": false,
+    "generationWarningDismissed": false,
+    "isAdmin": false,
+    "trafficWarning": true,
+    "blocked": false,
+    "signupMethod": "«redacted»",
+    "colorScheme": "dark",
+    "verifiedAt": "2026-11-12T07:19:46.051Z",
+    "tracking": {
+     "ip": "66.135.24.200",
+     "_fbp": "fb.1.1794467862944.1842103497",
+     "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+     "amplitude_device_id": "7bb047d9-ea02-4689-b4c2-1b6113f208b2"
+    },
+    "createdAt": "2026-11-12T07:19:45.546Z",
+    "updatedAt": "2026-11-12T07:29:40.293Z",
+    "hasGeneratedVideos": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/v1/lst/universal-script",
+   "calls": 98,
+   "status_codes": {},
+   "query_keys": [
+    "ph",
+    "ref_url",
+    "spa",
+    "tag"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://t.arcads.ai/v1/lst/universal-script?ph=b0c51a7031830f1da3e586e484da007405d7575482648f35cfde5c70f7fb5864&tag=!clicked&spa=true&ref_url=https://app.arcads.ai/login",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/v1/sdk/events",
+   "calls": 140,
+   "status_codes": {
+    "202": 137
+   },
+   "query_keys": [
+    "ec",
+    "pid",
+    "st",
+    "sv",
+    "t"
+   ],
+   "request_bodies": [
+    {
+     "obref": "c82d2fb4-eb03-4287-a9e7-1c1799d506b7",
+     "events": [
+      {
+       "test_session_id": null,
+       "type": "openai::sdk_init",
+       "timestamp_ms": 1794472388219,
+       "id": "b7cdd35c-30df-4b12-8f6c-2b74df1343ca",
+       "source_url": "https://www.arcads.ai/",
+       "data": {
+        "type": "sdk_lifecycle"
+       }
+      },
+      {
+       "test_session_id": null,
+       "type": "page_viewed",
+       "timestamp_ms": 1794472388219,
+       "id": "1794472877711_1794473242550368",
+       "source_url": "https://www.arcads.ai/",
+       "opt_out": false,
+       "data": {
+        "type": "contents"
+       }
+      }
+     ],
+     "client_hints": {
+      "platform": "macOS",
+      "platform_version": "26.2.0",
+      "full_version_list": [
+       {
+        "brand": "Not:A-Brand",
+        "version": "8.0.0.0"
+       },
+       {
+        "brand": "Chromium",
+        "version": "156.0.8078.74"
+       },
+       {
+        "brand": "Google Chrome",
+        "version": "156.0.8078.74"
+       }
+      ]
+     }
+    },
+    {
+     "obref": "c82d2fb4-eb03-4287-a9e7-1c1799d506b7",
+     "events": [
+      {
+       "test_session_id": null,
+       "type": "oai::diagnostic",
+       "timestamp_ms": 1794472390324,
+       "id": "9fd5d61c-5709-4c5b-9741-e1774dd19d04",
+       "data": {
+        "type": "diagnostic",
+        "schema_version": 1,
+        "dropped_event_count": 0,
+        "dropped_event_reason_counts": {},
+        "dropped_event_name_counts": {},
+        "dropped_event_phase_counts": {},
+        "config": {
+         "automatic_advanced_matching": "enabled"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "obref": "c82d2fb4-eb03-4287-a9e7-1c1799d506b7",
+     "events": [
+      {
+       "test_session_id": null,
+       "type": "openai::sdk_init",
+       "timestamp_ms": 1794472403732,
+       "id": "f5ebc871-f3b4-490c-a092-437fcaacdf39",
+       "source_url": "https://www.arcads.ai/privacy",
+       "data": {
+        "type": "sdk_lifecycle"
+       }
+      },
+      {
+       "test_session_id": null,
+       "type": "page_viewed",
+       "timestamp_ms": 1794472403733,
+       "id": "1794473072164_1794472706993377",
+       "source_url": "https://www.arcads.ai/privacy",
+       "opt_out": false,
+       "data": {
+        "type": "contents"
+       }
+      },
+      {
+       "test_session_id": null,
+       "type": "oai::diagnostic",
+       "timestamp_ms": 1794472403744,
+       "id": "31bdef0d-0199-44b8-a780-b47e8fe6d5ca",
+       "data": {
+        "type": "diagnostic",
+        "schema_version": 1,
+        "dropped_event_count": 0,
+        "dropped_event_reason_counts": {},
+        "dropped_event_name_counts": {},
+        "dropped_event_phase_counts": {},
+        "config": {
+         "automatic_advanced_matching": "enabled"
+        }
+       }
+      }
+     ],
+     "client_hints": {
+      "platform": "macOS",
+      "platform_version": "26.2.0",
+      "full_version_list": [
+       {
+        "brand": "Not:A-Brand",
+        "version": "8.0.0.0"
+       },
+       {
+        "brand": "Chromium",
+        "version": "156.0.8078.74"
+       },
+       {
+        "brand": "Google Chrome",
+        "version": "156.0.8078.74"
+       }
+      ]
+     }
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "application/json",
+   "response_fields": [],
+   "example_url": "https://bzr.openai.com/v1/sdk/events?pid=63KWrdSGxuziTXF3Coczky&st=oaiq-web&sv=0.1.103&t=1794472389221&ec=2",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/video/1199693188",
+   "calls": 1,
+   "status_codes": {},
+   "query_keys": [
+    "autopause",
+    "background",
+    "controls",
+    "loop",
+    "muted",
+    "quality"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://player.vimeo.com/video/1199693188?muted=1&autopause=0&controls=0&loop=1&background=1&quality=auto",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/video/1199693188",
+   "calls": 0,
+   "status_codes": {
+    "200": 27
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "text/html",
+   "response_fields": [],
+   "example_url": "",
+   "response_sample": null
+  },
+  {
+   "method": "POST",
+   "path": "/wa/",
+   "calls": 1,
+   "status_codes": {},
+   "query_keys": [
+    "fmt",
+    "medium"
+   ],
+   "request_bodies": [
+    {
+     "_raw": "H4sIAAAAAAAAEz1Qy2rjMBT9lXDXUiPbii1pF4ZpMXQxTEI3pQxX1lVyGUfxWAphKP2Xfku/rCQtWR4O5/kKE4cM7tmqpjK6fhGQh5mn8kRz5mMCVymlVGMFFD4QuKqzWnd1Y0xdtQLC8YCcwAHOA4Z8hwwCTvMIDvalTNktlzdmCQLO5DMX2vAu4fib/p0olz6AA135usHWymiqWq5QdZKsaqRWyqyIKtvQCgRMuKPHI4arhmIwwfsoa22s1N5aaVvbykHpodMxhlXbgADO2xlTHrFQABdxzCRg5Hv8SoYLeGBM5QscOA/gXmHKflOwEDip3y4uj5z+UujTeppuNpc+Wy4jgYP1dehCLn7MhIUWZ06J026BIX+8n7nsP97XPQjY0wFcOo2jgHz9"
+    }
+   ],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://px.ads.linkedin.com/wa/?medium=fetch&fmt=g",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/widget/t4j1iryr",
+   "calls": 1,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 4214,
+   "content_type": "application/javascript",
+   "response_fields": [],
+   "example_url": "https://widget.intercom.io/widget/t4j1iryr",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/workflows/use/editor-state",
+   "calls": 2,
+   "status_codes": {
+    "400": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 84,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "message",
+     "type": "str",
+     "sample": "workflowId must be a valid UUID"
+    },
+    {
+     "field": "error",
+     "type": "str",
+     "sample": "Bad Request"
+    },
+    {
+     "field": "statusCode",
+     "type": "int",
+     "sample": "400"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/workflows/use/editor-state?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "message": "workflowId must be a valid UUID",
+    "error": "Bad Request",
+    "statusCode": 400
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/workflows/use/editor-state",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/workflows/use/editor-state?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": null
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": null
+  },
+  {
+   "method": "PUT",
+   "path": "/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [],
+   "request_bodies": [
+    {
+     "_raw": "------WebKitFormBoundary2AMX3dnQQyPjMoiS\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\n景智 路's workspace\r\n------WebKitFormBoundary2AMX3dnQQyPjMoiS--"
+    }
+   ],
+   "response_bytes": 1527,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "id",
+     "type": "str",
+     "sample": "77a46767-0e96-4b87-b393-267643c7adc2"
+    },
+    {
+     "field": "name",
+     "type": "str",
+     "sample": "景智 路's workspace"
+    },
+    {
+     "field": "userId",
+     "type": "str",
+     "sample": "408f28c3-3075-4b61-a522-03ff1800eb43"
+    },
+    {
+     "field": "pictureId",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "totalCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "usedCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "topUpCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "rolloverCredits",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "codeCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "codeCreditsExpiresAt",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "plan",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "catalogId",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "catalogEntryId",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "skipFreeTrial",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "catalogEntitlements.apiAccess",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements.proActors",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements.runWorkflow",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements.teamSeatLimit",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "catalogEntitlements.customActorLimit",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "catalogEntitlements.freeImageUpscale",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements.freeVoiceCloning",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "catalogEntitlements.elevenLabsIntegration",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "subscriptionId",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "billingShopifyStoreId",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "subscriptionPaused",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "stripeStartPausePeriod",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "stripeEndPausePeriod",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "stripeEndCurrentPeriod",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "subscriptionCanceled",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "subscriptionCanceledReasons",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "subscriptionCanceledCustomReason",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "subscriptionDowngraded",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "pastDue",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "blocked",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "autoblockingNumber",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "isTopUser",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "isBlackFridayPlan",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "additionalCreditsEnabled",
+     "type": "bool",
+     "sample": "True"
+    },
+    {
+     "field": "meteredOverageCredits",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "moderationThresholdOverrides",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "spendingLimitCredits",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "spendingLimitPeriod",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "createdAt",
+     "type": "str",
+     "sample": "2026-11-12T07:19:46.009Z"
+    },
+    {
+     "field": "updatedAt",
+     "type": "str",
+     "sample": "2026-11-12T08:42:26.299Z"
+    },
+    {
+     "field": "memberNumbers",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "productNumbers",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "entitlements",
+     "type": "array<dict>",
+     "sample": "len=1"
+    },
+    {
+     "field": "entitlements[].feature",
+     "type": "str",
+     "sample": "arcads10_bonus"
+    },
+    {
+     "field": "entitlements[].expiresAt",
+     "type": "str",
+     "sample": "2026-11-30T23:59:00.000Z"
+    },
+    {
+     "field": "entitlements[].metadata",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entitlements[].metadata.arcads10Offer",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "entitlements[].metadata.arcads10Offer.test",
+     "type": "str",
+     "sample": "new"
+    },
+    {
+     "field": "entitlements[].metadata.arcads10Offer.offerEndsAt",
+     "type": "str",
+     "sample": "2026-11-15T08:05:32.241Z"
+    },
+    {
+     "field": "entitlements[].metadata.arcads10Offer.offerSeenAt",
+     "type": "str",
+     "sample": "2026-11-12T08:05:32.241Z"
+    },
+    {
+     "field": "freeTrial",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "additionalCreditsAvailable",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "additionalCreditsRate",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "planCredits",
+     "type": "NoneType",
+     "sample": "None"
+    },
+    {
+     "field": "topUpPacksAvailable",
+     "type": "bool",
+     "sample": "False"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/workspaces/77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "id": "77a46767-0e96-4b87-b393-267643c7adc2",
+    "name": "景智 路's workspace",
+    "userId": "408f28c3-3075-4b61-a522-03ff1800eb43",
+    "pictureId": null,
+    "totalCredits": 0,
+    "usedCredits": 0,
+    "topUpCredits": 0,
+    "rolloverCredits": [],
+    "codeCredits": 0,
+    "codeCreditsExpiresAt": null,
+    "plan": null,
+    "catalogId": null,
+    "catalogEntryId": null,
+    "skipFreeTrial": false,
+    "catalogEntitlements": {
+     "apiAccess": false,
+     "proActors": false,
+     "runWorkflow": false,
+     "teamSeatLimit": null,
+     "customActorLimit": 1,
+     "freeImageUpscale": false,
+     "freeVoiceCloning": false,
+     "elevenLabsIntegration": false
+    },
+    "subscriptionId": null,
+    "billingShopifyStoreId": null,
+    "subscriptionPaused": false,
+    "stripeStartPausePeriod": null,
+    "stripeEndPausePeriod": null,
+    "stripeEndCurrentPeriod": null,
+    "subscriptionCanceled": false,
+    "subscriptionCanceledReasons": null,
+    "subscriptionCanceledCustomReason": null,
+    "subscriptionDowngraded": false,
+    "pastDue": false,
+    "blocked": false,
+    "autoblockingNumber": 0,
+    "isTopUser": false,
+    "isBlackFridayPlan": false,
+    "additionalCreditsEnabled": true,
+    "meteredOverageCredits": 0,
+    "moderationThresholdOverrides": {},
+    "spendingLimitCredits": null,
+    "spendingLimitPeriod": null,
+    "createdAt": "2026-11-12T07:19:46.009Z",
+    "updatedAt": "2026-11-12T08:42:26.299Z",
+    "memberNumbers": 1,
+    "productNumbers": 0,
+    "entitlements": [
+     {
+      "feature": "arcads10_bonus",
+      "expiresAt": "2026-11-30T23:59:00.000Z",
+      "metadata": {
+       "arcads10Offer": {
+        "test": "new",
+        "offerEndsAt": "2026-11-15T08:05:32.241Z",
+        "offerSeenAt": "2026-11-12T08:05:32.241Z"
+       }
+      }
+     }
+    ],
+    "freeTrial": null,
+    "additionalCreditsAvailable": false,
+    "additionalCreditsRate": null,
+    "planCredits": null,
+    "topUpPacksAvailable": false
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/workspaces/api-credentials",
+   "calls": 2,
+   "status_codes": {
+    "404": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 40,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "message",
+     "type": "str",
+     "sample": "Not Found"
+    },
+    {
+     "field": "statusCode",
+     "type": "int",
+     "sample": "404"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/workspaces/api-credentials?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "message": "Not Found",
+    "statusCode": 404
+   }
+  },
+  {
+   "method": "GET",
+   "path": "/workspaces/credit-consumption-history",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "page",
+    "pageSize",
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 93,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "items",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "count",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "totalCreditsConsumed",
+     "type": "int",
+     "sample": "0"
+    },
+    {
+     "field": "filterOptions",
+     "type": "object",
+     "sample": ""
+    },
+    {
+     "field": "filterOptions.products",
+     "type": "array<any>",
+     "sample": "len=0"
+    },
+    {
+     "field": "filterOptions.projects",
+     "type": "array<any>",
+     "sample": "len=0"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/workspaces/credit-consumption-history?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=20&page=1",
+   "response_sample": {
+    "items": [],
+    "count": 0,
+    "totalCreditsConsumed": 0,
+    "filterOptions": {
+     "products": [],
+     "projects": []
+    }
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/workspaces/credit-consumption-history",
+   "calls": 2,
+   "status_codes": {},
+   "query_keys": [
+    "page",
+    "pageSize",
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/workspaces/credit-consumption-history?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=20&page=1",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/workspaces/members",
+   "calls": 3,
+   "status_codes": {
+    "200": 2
+   },
+   "query_keys": [
+    "page",
+    "pageSize",
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 132,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "count",
+     "type": "int",
+     "sample": "1"
+    },
+    {
+     "field": "items",
+     "type": "array<dict>",
+     "sample": "len=1"
+    },
+    {
+     "field": "items[].id",
+     "type": "str",
+     "sample": "408f28c3-3075-4b61-a522-03ff1800eb43"
+    },
+    {
+     "field": "items[].firstName",
+     "type": "str",
+     "sample": "景智"
+    },
+    {
+     "field": "items[].lastName",
+     "type": "str",
+     "sample": "路"
+    },
+    {
+     "field": "items[].email",
+     "type": "str",
+     "sample": "1691517500qq@gmail.com"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/workspaces/members?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=50&page=1",
+   "response_sample": {
+    "count": 1,
+    "items": [
+     {
+      "id": "408f28c3-3075-4b61-a522-03ff1800eb43",
+      "firstName": "景智",
+      "lastName": "路",
+      "email": "1691517500qq@gmail.com"
+     }
+    ]
+   }
+  },
+  {
+   "method": "OPTIONS",
+   "path": "/workspaces/members",
+   "calls": 3,
+   "status_codes": {},
+   "query_keys": [
+    "page",
+    "pageSize",
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 0,
+   "content_type": "",
+   "response_fields": [],
+   "example_url": "https://api.arcads.ai/workspaces/members?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2&pageSize=50&page=1",
+   "response_sample": null
+  },
+  {
+   "method": "GET",
+   "path": "/x-twitter/connection-status",
+   "calls": 2,
+   "status_codes": {
+    "200": 1
+   },
+   "query_keys": [
+    "workspaceId"
+   ],
+   "request_bodies": [],
+   "response_bytes": 33,
+   "content_type": "application/json",
+   "response_fields": [
+    {
+     "field": "connected",
+     "type": "bool",
+     "sample": "False"
+    },
+    {
+     "field": "accounts",
+     "type": "array<any>",
+     "sample": "len=0"
+    }
+   ],
+   "example_url": "https://api.arcads.ai/x-twitter/connection-status?workspaceId=77a46767-0e96-4b87-b393-267643c7adc2",
+   "response_sample": {
+    "connected": false,
+    "accounts": []
+   }
+  }
+ ]
+}

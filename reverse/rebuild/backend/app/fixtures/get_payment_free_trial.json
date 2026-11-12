@@ -1,0 +1,47 @@
+{
+ "eligible": true,
+ "ineligibleReason": null,
+ "trial": null,
+ "offer": {
+  "days": 3,
+  "credits": 1000,
+  "mode": "fixedPlan",
+  "autoChargeDiscount": true,
+  "autoCharge": {
+   "catalogEntryId": "fe849783-21f1-4269-ab96-01bdb5460e8d",
+   "planKey": "STARTER",
+   "planDisplayName": "Starter",
+   "price": {
+    "active": true,
+    "amount": 110,
+    "amounts": {
+     "aud": 170,
+     "cad": 150,
+     "chf": 100,
+     "eur": 100,
+     "gbp": 85,
+     "usd": 110
+    },
+    "priceId": "price_1QUXVlCMHn5TcSkDKjJ9mZrd",
+    "currency": "usd",
+    "interval": "month",
+    "lookupKey": "STARTER_1month_1",
+    "intervalCount": 1
+   },
+   "coupon": {
+    "percentOff": 30,
+    "amountsOff": {
+     "aud": 51,
+     "cad": 45,
+     "chf": 30,
+     "eur": 30,
+     "gbp": 25,
+     "usd": 33
+    },
+    "duration": "once",
+    "durationInMonths": null
+   }
+  },
+  "variant": "A"
+ }
+}

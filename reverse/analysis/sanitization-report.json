@@ -1,0 +1,11 @@
+{
+  "scope": "capture/ (JSON + HTML/JS text evidence)",
+  "replacements": {
+    "bearer": 0,
+    "jwt": 0,
+    "clerk_id": 0,
+    "email": 0,
+    "sensitive_key": 129829
+  },
+  "note": "mirror/ 为站点公开静态产物原文，未改动；业务 UUID 保留以便核查。"
+}

@@ -1,0 +1,179 @@
+# 33aagglnpy5gk.js
+- budget=400s heap=4096MiB
+```
+summary:
+  evidence_id: ev_79d240844074d21fc13bf4b43356acc2ac0e5edb98b42b3fe7f2ffd7b4afa539
+  subject:
+    name: rea-one-d3eq2pqz
+    digest:
+      sha256: b0f08b58a78676d627327b1a50542874cbf02c8e75362d5fc9afa82db16ce259
+    local_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-d3eq2pqz
+    format: directory
+    architecture: null
+  provider:
+    id: rea-analysis-view
+    name: REA analysis view projection
+    version: "1"
+  analysis_profile: null
+  predicate_type: rea.analysis-view
+  operation: inspect_analysis_view
+  parameters:
+    parent_evidence_id: ev_841d9d348b279280737b20546061319e588d3a1e0359091a7d7e4638ebf28d42
+    view:
+      kind: summary
+  raw_result: null
+  normalized_result:
+    kind: summary
+    view:
+      kind: summary
+    parent_evidence_id: ev_841d9d348b279280737b20546061319e588d3a1e0359091a7d7e4638ebf28d42
+    parent_operation: analyze_javascript_application
+    parent_digest: 841d9d348b279280737b20546061319e588d3a1e0359091a7d7e4638ebf28d42
+    view_digest: 2feb30ba2c95c0944dc8bd1f7906fb81ba53a99fe11d9aa126bb3da7a5a986e2
+    artifact:
+      path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-d3eq2pqz
+      sha256: b0f08b58a78676d627327b1a50542874cbf02c8e75362d5fc9afa82db16ce259
+    coverage:
+      status: complete-within-view
+      examined: 11
+      total: 11
+      next_offset: null
+      exhausted: true
+    limitations[18]: Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.,"Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,"Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.","Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.,"Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.","Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.,"Semantic node retention reached max_semantic_nodes_per_file is 1200 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.","Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.,"Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+    unknowns[21]: 1649 semantic graph unknowns remain in the parent Evidence.,Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.,"Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,"Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.","Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.,"Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.","Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.,"Semantic node retention reached max_semantic_nodes_per_file is 1200 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.","Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.,"Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.,graph.coverage.status is partial,semantic_graph.coverage.status is partial
+    summary:
+      input_path: /private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-d3eq2pqz
+      format: directory
+      root_artifact_sha256: b0f08b58a78676d627327b1a50542874cbf02c8e75362d5fc9afa82db16ce259
+      statistics:
+        relevant_files: 1
+        nested_asar_containers: 0
+        text_bytes_read: 28764
+        invalid_utf8_files: 0
+        parsed_javascript_files: 1
+        skipped_javascript_files: 0
+        visited_ast_nodes: 7172
+        findings: 13
+        modules: 0
+        parse_failures: 0
+      electron:
+        browser_windows: 0
+        explicit_web_preferences: 0
+        preload_entrypoints: 0
+        context_bridge_apis: 0
+        exposed_api_members: 0
+        ipc:
+          operations: 0
+          literal_channels: 0
+          dynamic_channel_operations: 0
+          renderer_transmissions: 0
+          renderer_listeners: 0
+          main_handlers: 0
+          paired_renderer_transmissions: 0
+          ambiguous_renderer_transmissions: 0
+          unpaired_literal_renderer_transmissions: 0
+        sender_validation_observations: 0
+        utility_processes: 0
+        resolved_utility_entrypoints: 0
+        native_addon_bindings: 0
+        resolved_native_addon_bindings: 0
+      coverage:
+        static_sources:
+          sources: 1
+          unmeasured_sources: 0
+          syntax:
+            complete: 1
+            recovered: 0
+            failed: 0
+            "not-examined": 0
+          semantics:
+            unknown_sources: 1
+            unexamined_sources: 0
+          examination:
+            complete: 1
+            limited: 0
+            "not-examined": 0
+          electron_applicability:
+            observed: 0
+            unknown: 1
+        application:
+          status: partial
+          truncated: false
+          omitted_count: null
+          limits: []
+        semantic:
+          status: partial
+          truncated: true
+          omitted_nodes: null
+          omitted_relations: null
+          limits[4]{name,value,unit}:
+            max_semantic_nodes,8000,items
+            max_semantic_nodes_per_file,1200,items
+            semantic_graph_file_node_ceiling,1200,items
+            semantic_graph_node_ceiling,8000,items
+          families[12]{family,status,retained_relations,omitted_relations,unknown_count}:
+            boundary,partial,0,null,0
+            call-flow,partial,82,null,605
+            child-process,partial,0,null,0
+            closure,partial,190,null,0
+            configuration,partial,0,null,0
+            data-flow,partial,105,null,346
+            event,partial,0,null,0
+            object-flow,partial,0,null,695
+            promise-ownership,partial,0,null,0
+            request,partial,0,null,0
+            resource-lifecycle,partial,0,null,0
+            timer,partial,0,null,3
+        application_unknowns: 0
+        semantic_unknowns: 1649
+      limitation_count: 18
+  confidence: derived
+  authority: shipped-artifact
+  environment: null
+  limitations[18]: Boundary extraction covers unshadowed JSON/global coercions plus parse and validation method candidates.,"Child-process extraction covers asynchronous node:child_process creation, literal argv/env/stdio options, exit/error listeners, and kill signals.",CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.,"Configuration extraction covers process.env, process.argv, node:fs reads, and direct logical defaults.","Event extraction covers EventEmitter-style literal registrations, removals, and dispatch candidates; dynamic names remain unknown.",Function fingerprints are static candidates; equal digests can remain ambiguous and do not prove behavioral equivalence.,Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.,JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.,Local data flow does not claim control-flow-sensitive reaching definitions or arbitrary dynamic property resolution.,"Promise ownership covers explicit unshadowed Promise construction, static factories, aggregation, chaining, and await syntax only.","Request extraction covers fetch, WebSocket, node:http/node:https construction, direct option fields, and exact local response consumers.",Resource extraction covers built-in filesystem/network acquisition and exact local close/destroy/end handles.,"Semantic node retention reached max_semantic_nodes_per_file is 1200 (default 20000; an integer from 1 to 1000000). Set max_semantic_nodes_per_file on the next analyze_javascript_application call (CLI: --max-semantic-nodes-per-file). The change applies to that next analysis and does not restart the worker or the REA server. Raising it does not raise max_semantic_unknowns, max_heap_mb, transfer ceilings, or the parent result budget. Coverage reports the same effective values as semantic_graph_node_ceiling and semantic_graph_file_node_ceiling.","Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.,The semantic graph contains static syntax observations and conservative relationship candidates; it does not claim runtime execution.,"Timer extraction covers global or node:timers scheduling and exact local-handle cancellation.",Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code.
+  relationship_coverage: null
+  locations[1]{kind,path}:
+    artifact-path,/private/var/folders/ky/jm76nfgj4js_yjwfjn7fn88h0000gn/T/rea-one-d3eq2pqz
+  evidence_links[1]: ev_841d9d348b279280737b20546061319e588d3a1e0359091a7d7e4638ebf28d42
+evidence_bundle:
+  path: /Users/admin/Desktop/data/fde/marketing/product/arcads/reverse/analysis/rea-evidence/33aagglnpy5gk.js.json
+  bytes: 2584283
+file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2598
+				return new ProviderCleanupError(PROVIDER, cleanupResources, {
+				       ^
+
+ProviderCleanupError: Provider javascript-static-analysis adapter failed during analyze_javascript_application
+    at #cleanupError (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2598:12)
+    at JavaScriptAnalysisWorker.close (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2233:39)
+    ... 3 lines matching cause stack trace ...
+    at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7 {
+  limit: undefined,
+  diagnostics: {
+    reason: 'process table could not be inspected: spawn EPERM',
+    worker_pid: 41812
+  },
+  capturedOutput: undefined,
+  cleanup: undefined,
+  cleanupIncomplete: true,
+  userMessage: 'Provider cleanup could not be fully confirmed. Review the reported local resources before opening another target.',
+  userCategory: undefined,
+  executionFailure: undefined,
+  partialObservation: undefined,
+  cleanupReport: undefined,
+  providerId: 'javascript-static-analysis',
+  operation: 'analyze_javascript_application',
+  _tag: 'ProviderAdapterError',
+  remediationAction: undefined,
+  [cause]: Error: process table could not be inspected: spawn EPERM
+      at #cleanupError (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2613:13)
+      at JavaScriptAnalysisWorker.close (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2233:39)
+      at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/application__javascript__JavaScriptApplicationService-BV_coz3_.js:2699:5
+      at async #runCloseHooks (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:123:7)
+      at async #finishClose (file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/dist/cli-runtime/ArtifactResourceScope-BLhM2W5p.js:134:19)
+      at async file:///Users/admin/.workbuddy/binaries/node/versions/22.22.2-6/lib/node_modules/rea-agents/scripts/rea.mjs:208:7
+}
+
+Node.js v22.22.2
+```
+REA_EXIT=1
+DURATION_S=11.1

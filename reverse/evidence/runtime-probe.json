@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-11-12T15:20:19+08:00",
+  "egoBrowserPath": "/Users/admin/.local/bin/ego-browser",
+  "egoBrowserVersion": "2.2.0",
+  "pythonVersion": "3.13.5",
+  "nodeVersion": "22.22.0",
+  "status": "HEALTHY",
+  "taskSpaceSupported": true,
+  "cdpSupported": true
+}

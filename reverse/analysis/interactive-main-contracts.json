@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-12T21:18:52.720651+08:00",
+  "scope": "本轮受控只读交互抓到的主域请求体契约（增量，未并入 api-contracts.json）",
+  "source": "capture-interactive/requests.json",
+  "contract_count": 2,
+  "contracts": [
+    {
+      "host": "api.arcads.ai",
+      "method": "POST",
+      "path": "/tracking/browser-opt-out",
+      "example_url": "https://api.arcads.ai/tracking/browser-opt-out",
+      "hits": 3,
+      "sample_body": "{\"browserOptOut\":true}",
+      "body_variants": [
+        {
+          "sha1": "31428aff5c4a7c4efa06e0195a9fb79066087084",
+          "len": 22,
+          "body": "{\"browserOptOut\":true}"
+        }
+      ],
+      "types": [
+        "Fetch"
+      ],
+      "phases": [
+        "goto:onboarding-attribution",
+        "goto:onboarding-intent",
+        "goto:onboarding-paywall"
+      ]
+    },
+    {
+      "host": "lj.arcads.ai",
+      "method": "POST",
+      "path": "/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+      "example_url": "https://lj.arcads.ai/api/v1/check/a2378073-dfcc-4ce0-b9cf-cc4866dac6e2",
+      "hits": 1,
+      "sample_body": "{\"datetime\":\"2026-11-12T13:12:48.111Z\",\"os\":\"MacOS\",\"os_type\":\"MacIntel\",\"os_version\":\"10.15\",\"client_user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"device_brand\":\"Apple\",\"device_model\":\"Mac\",\"device_type\":\"Desktop\",\"browser\":\"Chrome\",\"browser_version\":\"156.0\",\"language\":\"zh-CN\",\"entry_page\":\"/\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"screen_resolution\":\"1512x982\",\"timezone\":\"Asia/Shanghai\",\"bot_signals\":{\"is_crawler\":false,\"webdriver\":false,\"automation_globals\":false,\"languages_count\":2,\"plugins_count\":5,\"chrome_object_missing\":false,\"outer_width\":1512,\"outer_height\":903,\"hardware_concurrency\":10,\"device_memory\":32,\"visibility_state\":\"visible\",\"webgl_renderer\":\"ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)\",\"flags\":[]},\"click_id\":\"9d1144a9-a11c-4f2f-91eb-eb114cc19faf\",\"fbp\":\"fb.1.1794467862944.1842103497\"}",
+      "body_variants": [
+        {
+          "sha1": "7e99df623f67133920695f9bfb0c860cf40604d3",
+          "len": 955,
+          "body": "{\"datetime\":\"2026-11-12T13:12:48.111Z\",\"os\":\"MacOS\",\"os_type\":\"MacIntel\",\"os_version\":\"10.15\",\"client_user_agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"device_brand\":\"Apple\",\"device_model\":\"Mac\",\"device_type\":\"Desktop\",\"browser\":\"Chrome\",\"browser_version\":\"156.0\",\"language\":\"zh-CN\",\"entry_page\":\"/\",\"entry_full_url\":\"https://www.arcads.ai/\",\"referrer_domain\":null,\"screen_resolution\":\"1512x982\",\"timezone\":\"Asia/Shanghai\",\"bot_signals\":{\"is_crawler\":false,\"webdriver\":false,\"automation_globals\":false,\"languages_coun"
+        }
+      ],
+      "types": [
+        "XHR"
+      ],
+      "phases": [
+        "goto:public-home"
+      ]
+    }
+  ],
+  "note": "只读交互未触发任何业务写请求；主域带 body 请求仅为 tracking/browser-opt-out 与 lj.arcads.ai 设备校验。"
+}
